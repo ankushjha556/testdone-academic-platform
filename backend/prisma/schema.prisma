@@ -1,0 +1,551 @@
+// Prisma Schema for TestDone EdTech Platform
+// Database: PostgreSQL
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ============== USER MANAGEMENT ==============
+
+model User {
+  id               String    @id @default(uuid())
+  email            String    @unique
+  mobile           String?   @unique
+  passwordHash     String?
+  firstName        String
+  lastName         String?
+  avatarUrl        String?
+  education        String?
+  state            String?
+  city             String?
+  role             UserRole  @default(FREE_USER)
+  isEmailVerified  Boolean   @default(false)
+  isMobileVerified Boolean   @default(false)
+  oauthProvider    String?
+  oauthId          String?
+  lastLoginAt      DateTime?
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+
+  // Relations
+  targetExam        Exam?          @relation(fields: [targetExamId], references: [id])
+  targetExamId      String?
+  attempts          TestAttempt[]
+  bookmarks         Bookmark[]
+  subscriptions     Subscription[]
+  payments          Payment[]
+  createdQuestions  Question[]     @relation("CreatedBy")
+  approvedQuestions Question[]     @relation("ApprovedBy")
+  createdTests      MockTest[]     @relation("TestCreatedBy")
+  blogs             Blog[]
+  downloadTickets   DownloadTicket[]
+
+  @@index([email])
+  @@index([mobile])
+  @@index([targetExamId])
+}
+
+enum UserRole {
+  SUPER_ADMIN
+  ADMIN
+  CONTENT_MANAGER
+  MODERATOR
+  PREMIUM_USER
+  FREE_USER
+}
+
+model RefreshToken {
+  id        String   @id @default(uuid())
+  userId    String
+  token     String   @unique
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+
+  @@index([userId])
+  @@index([token])
+}
+
+model OTP {
+  id        String   @id @default(uuid())
+  mobile    String
+  code      String
+  purpose   String
+  expiresAt DateTime
+  verified  Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  @@index([mobile, code])
+}
+
+// ============== EXAM MANAGEMENT ==============
+
+model ExamCategory {
+  id          String   @id @default(uuid())
+  name        String
+  slug        String   @unique
+  description String?
+  icon        String?
+  color       String?
+  order       Int      @default(0)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  exams Exam[]
+
+  @@index([slug])
+}
+
+model Exam {
+  id              String        @id @default(uuid())
+  name            String
+  slug            String        @unique
+  fullName        String?
+  description     String?       @db.Text
+  eligibility     String?       @db.Text
+  syllabus        Json?
+  examPattern     Json?
+  conductingBody  String?
+  frequency       String?
+  vacancies       String?
+  salaryRange     String?
+  iconUrl         String?
+  color           String?
+  isFeatured      Boolean       @default(false)
+  status          ContentStatus @default(DRAFT)
+  metaTitle       String?
+  metaDescription String?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  // Relations
+  category      ExamCategory   @relation(fields: [categoryId], references: [id])
+  categoryId    String
+  users         User[]
+  mockTests     MockTest[]
+  questionExams QuestionExam[]
+  sections      Section[]
+
+  @@index([slug])
+  @@index([categoryId])
+  @@index([status])
+}
+
+model Section {
+  id          String     @id @default(uuid())
+  name        String     // e.g., "Quantitative Aptitude"
+  slug        String
+  description String?
+  order       Int        @default(0)
+  examId      String
+  exam        Exam       @relation(fields: [examId], references: [id], onDelete: Cascade)
+  questions   Question[]
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+
+  @@unique([examId, slug])
+  @@index([examId])
+}
+
+// ============== CONTENT MANAGEMENT ==============
+
+model Subject {
+  id          String   @id @default(uuid())
+  name        String
+  slug        String   @unique
+  description String?
+  icon        String?
+  color       String?
+  order       Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  topics    Topic[]
+  questions Question[]
+  books     Book[]
+
+  @@index([slug])
+}
+
+model Topic {
+  id          String   @id @default(uuid())
+  name        String
+  slug        String
+  description String?
+  order       Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relations
+  subject   Subject    @relation(fields: [subjectId], references: [id])
+  subjectId String
+  questions Question[]
+
+  @@unique([subjectId, slug])
+  @@index([subjectId])
+}
+
+model Question {
+  id            String         @id @default(uuid())
+  questionText  String         @db.Text
+  questionType  QuestionType   @default(MCQ_SINGLE)
+  options       Json // [{id: "A", text: "...", isCorrect: true}]
+  correctAnswer String?
+  solution      String?        @db.Text
+  conceptNote   String?        @db.Text
+  difficulty    Difficulty     @default(MEDIUM)
+  year          String?
+  source        QuestionSource @default(ORIGINAL)
+  tags          String[]
+  status        ContentStatus  @default(DRAFT)
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+
+  // Relations
+  subject        Subject         @relation(fields: [subjectId], references: [id])
+  subjectId      String
+  topic          Topic?          @relation(fields: [topicId], references: [id])
+  topicId        String?
+  section        Section?        @relation(fields: [sectionId], references: [id])
+  sectionId      String?
+  createdBy      User            @relation("CreatedBy", fields: [createdById], references: [id])
+  createdById    String
+  approvedBy     User?           @relation("ApprovedBy", fields: [approvedById], references: [id])
+  approvedById   String?
+  questionExams  QuestionExam[]
+  testQuestions  TestQuestion[]
+  attemptAnswers AttemptAnswer[]
+  bookmarks      Bookmark[]
+
+  @@index([subjectId])
+  @@index([topicId])
+  @@index([sectionId])
+  @@index([difficulty])
+  @@index([status])
+}
+
+model QuestionExam {
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  questionId String
+  exam       Exam     @relation(fields: [examId], references: [id], onDelete: Cascade)
+  examId     String
+
+  @@id([questionId, examId])
+}
+
+enum QuestionType {
+  MCQ_SINGLE
+  MCQ_MULTIPLE
+  FILL_BLANK
+  TRUE_FALSE
+}
+
+enum Difficulty {
+  EASY
+  MEDIUM
+  HARD
+}
+
+enum QuestionSource {
+  ORIGINAL
+  PREVIOUS_YEAR
+  MEMORY_BASED
+}
+
+enum ContentStatus {
+  DRAFT
+  PENDING_REVIEW
+  APPROVED
+  PUBLISHED
+  REJECTED
+  ARCHIVED
+}
+
+// ============== MOCK TESTS ==============
+
+model MockTest {
+  id              String        @id @default(uuid())
+  name            String
+  slug            String        @unique
+  description     String?       @db.Text
+  testType        TestType      @default(FULL_LENGTH)
+  totalQuestions  Int
+  totalMarks      Decimal       @db.Decimal(6, 2)
+  durationMinutes Int
+  sectionalTiming Boolean       @default(false)
+  sections        Json? // [{name, duration, questionsCount}]
+  negativeMarking Decimal       @default(0.25) @db.Decimal(4, 2)
+  passingPercent  Int           @default(40)
+  accessType      AccessType    @default(FREE)
+  isAllIndia      Boolean       @default(false)
+  instructions    String?       @db.Text
+  status          ContentStatus @default(DRAFT)
+  publishedAt     DateTime?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  // Relations
+  exam          Exam           @relation(fields: [examId], references: [id])
+  examId        String
+  createdBy     User           @relation("TestCreatedBy", fields: [createdById], references: [id])
+  createdById   String
+  testQuestions TestQuestion[]
+  attempts      TestAttempt[]
+
+  @@index([slug])
+  @@index([examId])
+  @@index([status])
+  @@index([accessType])
+}
+
+model TestQuestion {
+  id            String  @id @default(uuid())
+  sectionIndex  Int     @default(0)
+  questionOrder Int
+  marks         Decimal @default(1.00) @db.Decimal(4, 2)
+
+  // Relations
+  test       MockTest @relation(fields: [testId], references: [id], onDelete: Cascade)
+  testId     String
+  question   Question @relation(fields: [questionId], references: [id])
+  questionId String
+
+  @@unique([testId, questionId])
+  @@index([testId])
+}
+
+enum TestType {
+  FULL_LENGTH
+  SECTIONAL
+  TOPIC
+  PREVIOUS_YEAR
+  CHAPTER
+}
+
+enum AccessType {
+  FREE
+  PREMIUM
+  SCHEDULED_FREE
+}
+
+// ============== TEST ATTEMPTS ==============
+
+model TestAttempt {
+  id               String        @id @default(uuid())
+  startedAt        DateTime      @default(now())
+  completedAt      DateTime?
+  timeTakenSeconds Int?
+  status           AttemptStatus @default(IN_PROGRESS)
+  totalScore       Decimal?      @db.Decimal(6, 2)
+  correctCount     Int?
+  incorrectCount   Int?
+  unattemptedCount Int?
+  allIndiaRank     Int?
+  percentile       Decimal?      @db.Decimal(5, 2)
+  sectionScores    Json?
+
+  // Relations
+  user    User            @relation(fields: [userId], references: [id])
+  userId  String
+  test    MockTest        @relation(fields: [testId], references: [id])
+  testId  String
+  answers AttemptAnswer[]
+
+  @@index([userId])
+  @@index([testId])
+  @@index([status])
+  @@index([completedAt])
+}
+
+model AttemptAnswer {
+  id               String    @id @default(uuid())
+  selectedOption   String?
+  isCorrect        Boolean?
+  marksObtained    Decimal?  @db.Decimal(4, 2)
+  timeSpentSeconds Int?
+  isMarkedReview   Boolean   @default(false)
+  answeredAt       DateTime?
+
+  // Relations
+  attempt    TestAttempt @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  attemptId  String
+  question   Question    @relation(fields: [questionId], references: [id])
+  questionId String
+
+  @@unique([attemptId, questionId])
+  @@index([attemptId])
+}
+
+enum AttemptStatus {
+  IN_PROGRESS
+  COMPLETED
+  ABANDONED
+}
+
+// ============== SUBSCRIPTIONS ==============
+
+model SubscriptionPlan {
+  id             String   @id @default(uuid())
+  name           String
+  slug           String   @unique
+  description    String?
+  priceMonthly   Decimal  @db.Decimal(10, 2)
+  priceQuarterly Decimal? @db.Decimal(10, 2)
+  priceAnnual    Decimal? @db.Decimal(10, 2)
+  features       Json? // ["feature1", "feature2"]
+  isActive       Boolean  @default(true)
+  order          Int      @default(0)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  subscriptions Subscription[]
+}
+
+model Subscription {
+  id         String             @id @default(uuid())
+  startDate  DateTime           @default(now())
+  endDate    DateTime
+  status     SubscriptionStatus @default(ACTIVE)
+  planType   String // monthly, quarterly, annual
+  amountPaid Decimal            @db.Decimal(10, 2)
+  createdAt  DateTime           @default(now())
+  updatedAt  DateTime           @updatedAt
+
+  // Relations
+  user     User             @relation(fields: [userId], references: [id])
+  userId   String
+  plan     SubscriptionPlan @relation(fields: [planId], references: [id])
+  planId   String
+  payments Payment[]
+
+  @@index([userId])
+  @@index([status])
+  @@index([endDate])
+}
+
+model Payment {
+  id                String        @id @default(uuid())
+  amount            Decimal       @db.Decimal(10, 2)
+  currency          String        @default("INR")
+  status            PaymentStatus @default(PENDING)
+  paymentMethod     String?
+  razorpayOrderId   String?
+  razorpayPaymentId String?
+  receiptUrl        String?
+  failureReason     String?
+  createdAt         DateTime      @default(now())
+  updatedAt         DateTime      @updatedAt
+
+  // Relations
+  user           User          @relation(fields: [userId], references: [id])
+  userId         String
+  subscription   Subscription? @relation(fields: [subscriptionId], references: [id])
+  subscriptionId String?
+
+  @@index([userId])
+  @@index([status])
+  @@index([razorpayOrderId])
+}
+
+enum SubscriptionStatus {
+  ACTIVE
+  EXPIRED
+  CANCELLED
+  PAUSED
+}
+
+enum PaymentStatus {
+  PENDING
+  COMPLETED
+  FAILED
+  REFUNDED
+}
+
+// ============== CONTENT ==============
+
+model Book {
+  id             String        @id @default(uuid())
+  title          String
+  author         String?
+  description    String?       @db.Text
+  coverUrl       String?
+  pdfUrl         String?
+  pages          Int?
+  sizeMb         Decimal?      @db.Decimal(6, 2)
+  category       String?
+  accessType     AccessType    @default(FREE)
+  downloadsCount Int           @default(0)
+  rating         Decimal?      @db.Decimal(2, 1)
+  status         ContentStatus @default(DRAFT)
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  // Relations
+  subject         Subject?         @relation(fields: [subjectId], references: [id])
+  subjectId       String?
+  downloadTickets DownloadTicket[]
+
+  @@index([category])
+  @@index([status])
+  @@index([accessType])
+}
+
+model Blog {
+  id              String        @id @default(uuid())
+  title           String
+  slug            String        @unique
+  content         String        @db.Text
+  excerpt         String?
+  featuredImage   String?
+  category        String?
+  tags            String[]
+  viewsCount      Int           @default(0)
+  status          ContentStatus @default(DRAFT)
+  publishedAt     DateTime?
+  metaTitle       String?
+  metaDescription String?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  // Relations
+  author   User   @relation(fields: [authorId], references: [id])
+  authorId String
+
+  @@index([slug])
+  @@index([category])
+  @@index([status])
+}
+
+model Bookmark {
+  id        String   @id @default(uuid())
+  createdAt DateTime @default(now())
+
+  // Relations
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId     String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  questionId String
+
+  @@unique([userId, questionId])
+  @@index([userId])
+}
+
+model DownloadTicket {
+  id        String   @id @default(uuid())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  book      Book     @relation(fields: [bookId], references: [id])
+  bookId    String
+  token     String   @unique
+  expiresAt DateTime
+  used      Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  @@index([token])
+  @@index([userId, bookId])
+}
