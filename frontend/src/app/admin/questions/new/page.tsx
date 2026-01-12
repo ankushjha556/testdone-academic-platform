@@ -27,8 +27,9 @@ interface QuestionForm {
     negativeMarks: number;
     subjectId: string;
     topicId: string;
-    examId: string;
     sectionId: string;
+    examIds: string[];
+    // examId: string; // Deprecated in frontend state, but kept for type compat if needed
     status: string;
     options: { id: string; text: string; isCorrect: boolean }[];
     solution: string;
@@ -54,7 +55,7 @@ export default function NewQuestionPage() {
         negativeMarks: 0.25,
         subjectId: '',
         topicId: '',
-        examId: '',
+        examIds: [],
         sectionId: '',
         status: 'DRAFT',
         options: [
@@ -80,14 +81,15 @@ export default function NewQuestionPage() {
         }
     }, [formData.subjectId]);
 
-    // Load sections when exam changes
+    // Load sections when any exam changes (Simplified: show sections for ALL selected exams or just disable for simplicity initially)
+    // For now, if multiple exams are selected, we might want to disable section linking or allow it if only 1 is selected.
     useEffect(() => {
-        if (formData.examId) {
-            loadSections(formData.examId);
+        if (formData.examIds.length === 1) {
+            loadSections(formData.examIds[0]);
         } else {
             setSections([]);
         }
-    }, [formData.examId]);
+    }, [formData.examIds]);
 
     const loadInitialData = async () => {
         try {
@@ -153,7 +155,7 @@ export default function NewQuestionPage() {
 
             const payload = {
                 ...formData,
-                questionExams: formData.examId ? [{ examId: formData.examId }] : [],
+                examIds: formData.examIds,
                 correctAnswer: correctOption.id, // Or text, depending on backend expectation. Typically ID/Key.
             };
 
@@ -298,15 +300,19 @@ export default function NewQuestionPage() {
                         <h2 className="text-lg font-semibold text-white mb-4">Exam Association</h2>
                         <div className="space-y-4">
                             <div>
-                                <label className="block text-sm font-medium text-gray-300 mb-2">Exam</label>
+                                <label className="block text-sm font-medium text-gray-300 mb-2">Exams (Hold Ctrl/Cmd to select multiple)</label>
                                 <select
-                                    value={formData.examId}
-                                    onChange={e => setFormData({ ...formData, examId: e.target.value })}
-                                    className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
+                                    multiple
+                                    value={formData.examIds}
+                                    onChange={e => {
+                                        const selectedOptions = Array.from(e.target.selectedOptions, option => option.value);
+                                        setFormData({ ...formData, examIds: selectedOptions });
+                                    }}
+                                    className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500 h-32"
                                 >
-                                    <option value="">Select Exam</option>
                                     {exams.map(e => <option key={e.id} value={e.id}>{e.name}</option>)}
                                 </select>
+                                <p className="text-xs text-gray-500 mt-1">Select at least one exam.</p>
                             </div>
                             <div>
                                 <label className="block text-sm font-medium text-gray-300 mb-2">Section</label>
@@ -314,7 +320,7 @@ export default function NewQuestionPage() {
                                     value={formData.sectionId}
                                     onChange={e => setFormData({ ...formData, sectionId: e.target.value })}
                                     className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
-                                    disabled={!formData.examId}
+                                    disabled={formData.examIds.length !== 1}
                                 >
                                     <option value="">Select Section</option>
                                     {sections.map(s => <option key={s.id} value={s.id}>{s.name}</option>)}

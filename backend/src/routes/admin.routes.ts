@@ -378,7 +378,7 @@ router.post('/questions', validate(createQuestionSchema), async (req: AuthReques
             sectionId,
             explanation,
             // Phantom fields excluded by Schema, but destructure safely
-            examId // examId is handled separately for relation creation
+            examIds // examIds (Array) is handled separately for relation creation
         } = body;
 
         const data: any = {
@@ -404,12 +404,22 @@ router.post('/questions', validate(createQuestionSchema), async (req: AuthReques
 
         const question = await prisma.question.create({ data });
 
-        // If examId provided, create the relation separately
-        if (examId) {
+        // If examIds provided, create the relations separately
+        if (examIds && Array.isArray(examIds)) {
+            if (examIds.length > 0) {
+                await prisma.questionExam.createMany({
+                    data: examIds.map((id: string) => ({
+                        questionId: question.id,
+                        examId: id,
+                    })),
+                });
+            }
+        } else if (body.examId) {
+            // Fallback for backward compatibility
             await prisma.questionExam.create({
                 data: {
                     questionId: question.id,
-                    examId: examId,
+                    examId: body.examId,
                 }
             });
         }
@@ -446,7 +456,8 @@ router.put('/questions/:id', async (req: AuthRequest, res, next) => {
             topicId,
             sectionId,
             explanation,
-            examId
+            examIds,
+            examId // Keep for backward compat destructuring
         } = body;
 
         const data: any = {
@@ -475,10 +486,18 @@ router.put('/questions/:id', async (req: AuthRequest, res, next) => {
                 data
             });
 
-            if (examId !== undefined) {
+            if (examIds !== undefined || examId !== undefined) {
                 // Update Exam Relation: Clear existing and set new
                 await tx.questionExam.deleteMany({ where: { questionId: id } });
-                if (examId) {
+
+                if (examIds && Array.isArray(examIds) && examIds.length > 0) {
+                    await tx.questionExam.createMany({
+                        data: examIds.map((eid: string) => ({
+                            questionId: id,
+                            examId: eid,
+                        })),
+                    });
+                } else if (examId) {
                     await tx.questionExam.create({
                         data: {
                             questionId: id,
