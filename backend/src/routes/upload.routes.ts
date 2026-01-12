@@ -9,7 +9,7 @@ const router = Router();
 const upload = multer({
     storage: multer.memoryStorage(),
     limits: {
-        fileSize: 10 * 1024 * 1024, // 10MB limit
+        fileSize: 50 * 1024 * 1024, // 50MB limit for larger PDFs
     },
     fileFilter: (req, file, cb) => {
         const allowedTypes = ['image/jpeg', 'image/png', 'image/webp', 'image/gif', 'application/pdf'];
@@ -107,6 +107,29 @@ router.delete('/', authenticate, authorize('SUPER_ADMIN', 'ADMIN'), async (req: 
     } catch (error) {
         next(error);
     }
+});
+
+// Multer error handler for file size and type errors
+router.use((err: any, req: any, res: any, next: any) => {
+    if (err && err.name === 'MulterError') {
+        if (err.code === 'LIMIT_FILE_SIZE') {
+            return res.status(413).json({
+                success: false,
+                error: { message: 'File too large. Maximum size is 50MB for PDFs and 10MB for images.' }
+            });
+        }
+        return res.status(400).json({
+            success: false,
+            error: { message: `Upload error: ${err.message}` }
+        });
+    }
+    if (err) {
+        return res.status(400).json({
+            success: false,
+            error: { message: err.message || 'Invalid file upload' }
+        });
+    }
+    next();
 });
 
 export default router;

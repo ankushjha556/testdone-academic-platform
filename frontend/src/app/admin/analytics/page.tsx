@@ -40,10 +40,9 @@ export default function AnalyticsPage() {
 
     const loadStats = async () => {
         try {
-            const res = await api.get<any>('/admin/stats');
-            if (res.success) {
-                // Backend returns stats directly, not in data wrapper
-                setStats(res.stats || res.data);
+            const res = await api.get<{ stats: Stats }>('/admin/stats');
+            if (res.success && res.data?.stats) {
+                setStats(res.data.stats);
             }
         } catch (error) {
             console.error('Failed to load stats:', error);

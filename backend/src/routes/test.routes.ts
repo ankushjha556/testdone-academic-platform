@@ -511,6 +511,13 @@ router.get('/results/:attemptId', authenticate, async (req: AuthRequest, res, ne
                         exam: {
                             select: { id: true, name: true, slug: true },
                         },
+                        // Include testQuestions to get order
+                        testQuestions: {
+                            select: {
+                                questionId: true,
+                                questionOrder: true,
+                            }
+                        }
                     },
                 },
                 answers: {
@@ -539,9 +546,23 @@ router.get('/results/:attemptId', authenticate, async (req: AuthRequest, res, ne
             });
         }
 
+        // Sort answers by questionOrder
+        const orderMap = new Map<string, number>();
+        // @ts-ignore - testQuestions is included but type inference implies select might limit it, but prisma result has it
+        if (attempt.test.testQuestions) {
+            // @ts-ignore
+            attempt.test.testQuestions.forEach((tq: any) => orderMap.set(tq.questionId, tq.questionOrder));
+        }
+
+        const sortedAnswers = [...attempt.answers].sort((a, b) => {
+            const orderA = orderMap.get(a.questionId) ?? 9999;
+            const orderB = orderMap.get(b.questionId) ?? 9999;
+            return orderA - orderB;
+        });
+
         // Calculate topic-wise analysis
         const topicAnalysis: Record<string, { correct: number; total: number }> = {};
-        for (const answer of attempt.answers) {
+        for (const answer of sortedAnswers) {
             const topicName = answer.question.topic?.name || 'General';
             if (!topicAnalysis[topicName]) {
                 topicAnalysis[topicName] = { correct: 0, total: 0 };
@@ -556,7 +577,10 @@ router.get('/results/:attemptId', authenticate, async (req: AuthRequest, res, ne
             success: true,
             data: {
                 attemptId: attempt.id,
-                test: attempt.test,
+                test: {
+                    ...attempt.test,
+                    testQuestions: undefined // Remove from response to keep it clean
+                },
                 score: attempt.totalScore,
                 maxScore: attempt.test.totalMarks,
                 correctCount: attempt.correctCount,
@@ -572,7 +596,7 @@ router.get('/results/:attemptId', authenticate, async (req: AuthRequest, res, ne
                     total: data.total,
                     accuracy: (data.correct / data.total) * 100,
                 })),
-                answers: attempt.answers.map(a => ({
+                answers: sortedAnswers.map(a => ({
                     questionId: a.questionId,
                     questionText: a.question.questionText,
                     options: a.question.options,

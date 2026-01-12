@@ -136,10 +136,10 @@ export default function BooksListPage() {
                 {filteredBooks.map((book) => (
                     <div
                         key={book.id}
-                        className="bg-gray-900 border border-gray-800 rounded-xl overflow-hidden hover:border-gray-700 transition-colors"
+                        className="bg-gray-900 border border-gray-800 rounded-xl hover:border-gray-700 transition-colors"
                     >
                         {/* Cover */}
-                        <div className="relative h-40 bg-gray-800">
+                        <div className="relative h-40 bg-gray-800 rounded-t-xl overflow-hidden">
                             {book.coverUrl ? (
                                 <img src={book.coverUrl} alt={book.title} className="w-full h-full object-cover" />
                             ) : (

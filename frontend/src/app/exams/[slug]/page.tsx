@@ -114,12 +114,20 @@ export default function ExamDetailPage() {
             >
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex flex-col lg:flex-row gap-8 items-start">
-                        <div
-                            className="w-20 h-20 rounded-2xl flex items-center justify-center text-white font-bold text-3xl shadow-lg"
-                            style={{ backgroundColor: exam.color }}
-                        >
-                            {exam.name.charAt(0)}
-                        </div>
+                        {exam.iconUrl ? (
+                            <img
+                                src={exam.iconUrl}
+                                alt={exam.name}
+                                className="w-20 h-20 rounded-2xl object-cover shadow-lg bg-white"
+                            />
+                        ) : (
+                            <div
+                                className="w-20 h-20 rounded-2xl flex items-center justify-center text-white font-bold text-3xl shadow-lg"
+                                style={{ backgroundColor: exam.color }}
+                            >
+                                {exam.name.charAt(0)}
+                            </div>
+                        )}
 
                         <div className="flex-1">
                             <h1 className="text-3xl sm:text-4xl font-bold font-heading text-gray-900 dark:text-white mb-2">
@@ -134,10 +142,7 @@ export default function ExamDetailPage() {
                                     <BookOpen className="w-5 h-5" />
                                     <span>{exam.testsCount} Mock Tests</span>
                                 </div>
-                                <div className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
-                                    <FileText className="w-5 h-5" />
-                                    <span>{exam.questionsCount.toLocaleString()} Questions</span>
-                                </div>
+
                                 <div className="flex items-center gap-2 text-gray-700 dark:text-gray-300">
                                     <Calendar className="w-5 h-5" />
                                     <span>{exam.frequency}</span>
@@ -155,9 +160,15 @@ export default function ExamDetailPage() {
                                     <Play className="w-5 h-5" />
                                     Start Free Mock Test
                                 </Link>
-                                <Link href={`/exams/${slug}/syllabus`} className="btn btn-secondary btn-lg">
+                                <button
+                                    onClick={() => {
+                                        setActiveTab('syllabus');
+                                        document.getElementById('exam-tabs')?.scrollIntoView({ behavior: 'smooth' });
+                                    }}
+                                    className="btn btn-secondary btn-lg"
+                                >
                                     View Syllabus
-                                </Link>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -165,16 +176,16 @@ export default function ExamDetailPage() {
             </section>
 
             {/* Tabs */}
-            <div className="border-b border-gray-200 dark:border-gray-800 sticky top-16 bg-white dark:bg-gray-900 z-10">
+            <div id="exam-tabs" className="border-b border-gray-200 dark:border-gray-800 sticky top-16 bg-white dark:bg-gray-900 z-10">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <nav className="flex gap-8 overflow-x-auto">
-                        {['overview', 'syllabus', 'mock-tests', 'questions'].map((tab) => (
+                        {['overview', 'syllabus', 'mock-tests'].map((tab) => (
                             <button
                                 key={tab}
                                 onClick={() => setActiveTab(tab)}
                                 className={`py-4 text-sm font-medium border-b-2 whitespace-nowrap transition-colors ${activeTab === tab
-                                        ? 'border-primary-600 text-primary-600'
-                                        : 'border-transparent text-gray-500 hover:text-gray-700 dark:hover:text-gray-300'
+                                    ? 'border-primary-600 text-primary-600'
+                                    : 'border-transparent text-gray-500 hover:text-gray-700 dark:hover:text-gray-300'
                                     }`}
                             >
                                 {tab.charAt(0).toUpperCase() + tab.slice(1).replace('-', ' ')}
@@ -221,13 +232,16 @@ export default function ExamDetailPage() {
                                         <h2 className="text-xl font-bold text-gray-900 dark:text-white">
                                             Free Mock Tests
                                         </h2>
-                                        <Link
-                                            href={`/exams/${slug}/tests`}
+                                        <button
+                                            onClick={() => {
+                                                setActiveTab('mock-tests');
+                                                document.getElementById('exam-tabs')?.scrollIntoView({ behavior: 'smooth' });
+                                            }}
                                             className="text-primary-600 hover:text-primary-700 text-sm font-medium flex items-center gap-1"
                                         >
                                             View All
                                             <ChevronRight className="w-4 h-4" />
-                                        </Link>
+                                        </button>
                                     </div>
 
                                     <div className="space-y-3">
@@ -294,10 +308,47 @@ export default function ExamDetailPage() {
                                 ))}
                             </div>
                         )}
-                    </div>
 
+                        {activeTab === 'mock-tests' && (
+                            <div className="card p-6">
+                                <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-6">
+                                    Available Mock Tests
+                                </h2>
+                                <div className="space-y-3">
+                                    {tests.length > 0 ? tests.map((test) => (
+                                        <Link
+                                            key={test.id}
+                                            href={`/tests/${test.slug}`}
+                                            className="flex items-center justify-between p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-primary-500 transition-colors group"
+                                        >
+                                            <div className="flex items-center gap-4">
+                                                <div className="w-10 h-10 bg-primary-100 dark:bg-primary-900/30 rounded-lg flex items-center justify-center">
+                                                    <BookOpen className="w-5 h-5 text-primary-600" />
+                                                </div>
+                                                <div>
+                                                    <h4 className="font-medium text-gray-900 dark:text-white">{test.name}</h4>
+                                                    <p className="text-sm text-gray-500">
+                                                        {test.totalQuestions} Qs • {test.durationMinutes} mins
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div className="flex items-center gap-3">
+                                                <span className={`badge ${test.accessType === 'FREE' ? 'badge-success' : 'badge-warning'}`}>
+                                                    {test.accessType}
+                                                </span>
+                                                <ChevronRight className="w-5 h-5 text-gray-400 group-hover:text-primary-600" />
+                                            </div>
+                                        </Link>
+                                    )) : (
+                                        <p className="text-gray-500 text-center py-8">No mock tests available yet.</p>
+                                    )}
+                                </div>
+                            </div>
+                        )}
+
+                    </div>
                     {/* Sidebar */}
-                    <div className="space-y-6">
+                    <div className="lg:col-span-1 space-y-6">
                         {/* Quick Stats */}
                         <div className="card p-6">
                             <h3 className="font-semibold text-gray-900 dark:text-white mb-4">Quick Info</h3>

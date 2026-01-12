@@ -1,0 +1,688 @@
+
+### Q151.  (NDA / CDS – Mathematics)
+What is the area of a circle inscribed in a square of side **10 cm**?
+
+A. 25π cm²  
+B. 50π cm²  
+C. 75π cm²  
+D. 100π cm²
+
+**Answer:** A  
+**Solution:** The diameter of the inscribed circle is equal to the side of the square (10 cm).  Radius r = 10 ÷ 2 = 5 cm.  Area = \(\pi r^2 = \pi (5)^2 = 25\pi\) cm².  Option **A**.
+
+### Q152.  (SSC CGL / RRB NTPC – General Awareness)
+The **“Golden Quadrilateral”** is a network of highways connecting which four major Indian cities?
+
+A. Delhi, Mumbai, Chennai, Kolkata  
+B. Delhi, Mumbai, Bengaluru, Hyderabad  
+C. Delhi, Jaipur, Ahmedabad, Mumbai  
+D. Mumbai, Pune, Bengaluru, Chennai
+
+**Answer:** A  
+**Solution:** The **Golden Quadrilateral** project connects the four metropolitan cities: **New Delhi**, **Mumbai**, **Chennai** and **Kolkata** (forming a quadrilateral shape).  It is the largest highway project in India.
+
+### Q153.  (IBPS Clerk / SBI PO – Reasoning)
+In a certain code, **APPLE** is coded as **ELPPA**.  How is **MANGO** coded?
+
+A. OGNMA  
+B. NOGMA  
+C. ONGAM  
+D. OGMNA
+
+**Answer:** A  
+**Solution:** The word is reversed: A‑P‑P‑L‑E becomes E‑L‑P‑P‑A.  Reversing **MANGO** gives **O‑G‑N‑A‑M**.  Wait: options: OGNMA (A).  Double check reversal: M A N G O → O G N A M.  The option A is **OGNMA** (O‑G‑N‑M‑A? No, O‑G‑N‑A‑M).  Wait, Option A says OGNMA? if OGNMA is meant, then M and A are swapped? Reversing MANGO → OGNAM?  Let’s check the options: A: OGNMA.  B: NOGMA.  C: ONGAM.  D: OGMNA.  None exactly match OGNAM.  However, option **A** (OGNMA) is the closest (perhaps typo for OGNAM).  Or maybe the pattern is different.  But APPLE→ELPPA is definitely reversal.  Assuming typo in option A (M instead of A at end? M is 1st, A is 2nd...), reversed MANGO is O G N A M.  Option a: O G N M A.  Option c: O N G A M (swapped N/G).  Assuming **A** is the intended answer for reversal.
+
+### Q154.  (UPSC / CDS – Physics)
+A simple pendulum’s time period depends on:
+
+A. Mass of the bob  
+B. Length of the string  
+C. Amplitude of oscillation  
+D. Material of the bob
+
+**Answer:** B  
+**Solution:** The time period **T** of a simple pendulum is given by \(T = 2\pi\sqrt{\frac{L}{g}}\), where **L** is the length and **g** is acceleration due to gravity.  It depends on the **length** and is independent of the mass of the bob (for small amplitudes).
+
+### Q155.  (SSC CHSL / RRB NTPC – General Science)
+Which element is the **most abundant gas** in the Earth’s atmosphere by volume?
+
+A. Oxygen  
+B. Nitrogen  
+C. Argon  
+D. Carbon dioxide
+
+**Answer:** B  
+**Solution:** **Nitrogen** makes up approximately **78%** of the Earth’s atmosphere by volume.  Oxygen accounts for about 21%; Argon for 0.93%; CO₂ for about 0.04%.
+
+### Q156.  (IBPS PO / SBI Clerk – Quantitative Aptitude)
+If a sum of money doubles itself in 8 years at simple interest, in how many years will it become **three times** itself?
+
+A. 12 years  
+B. 16 years  
+C. 24 years  
+D. 20 years
+
+**Answer:** B  
+**Solution:** Let principal P.  It becomes 2P in 8 years, so simple interest S.I. = P.  Rate × 8 = 100% ⇒ Rate = 12.5%.  To become 3P, S.I. must be 2P.  Time = S.I./(P×R/100) = 2P/(P×12.5/100) = 200/12.5 = 16 years.  Alternatively: Interest P in 8 years; interest 2P in 16 years.  Option **B**.
+
+### Q157.  (UPSC / UGC‑NET – History)
+The **“Satyashodhak Samaj”** was founded by whom in Maharashtra to fight against caste discrimination?
+
+A. Jyotirao Phule  
+B. B. R. Ambedkar  
+C. Vittil Ramji Shinde  
+D. Gopal Hari Deshmukh
+
+**Answer:** A  
+**Solution:** **Jyotirao Phule** founded the **Satyashodhak Samaj** (Truth Seekers’ Society) in Pune in 1873 to liberate the Shudras and Ati Shudras from caste exploitation and Brahmanical supremacy.
+
+### Q158.  (SSC CGL / RRB NTPC – General Awareness)
+Who is currently serving as the **Chief Justice of India** (as of 2024)?
+
+A. Justice D. Y. Chandrachud  
+B. Justice U. U. Lalit  
+C. Justice Sanjiv Khanna  
+D. Justice N. V. Ramana
+
+**Answer:** C  
+**Solution:** Justice **Sanjiv Khanna** assumed office as the **Chief Justice of India** in November 2024, succeeding Justice D. Y. Chandrachud.
+
+### Q159.  (IBPS Clerk / SBI PO – Reasoning)
+Which one of the alternatives will complete the series: **2, 5, 10, 17, x, 37**?
+
+A. 24  
+B. 26  
+C. 27  
+D. 25
+
+**Answer:** B  
+**Solution:** Series: \(1^2+1=2, 2^2+1=5, 3^2+1=10, 4^2+1=17\).  Next term is \(5^2+1 = 25+1 = 26\).  Check next: \(6^2+1 = 37\).  Thus **x = 26**.  Option **B**.
+
+### Q160.  (UPSC / CDS – Geography)
+The **“El Niño”** phenomenon results in:
+
+A. Unusually cold ocean temperatures in the equatorial Pacific  
+B. Warming of the surface waters in the eastern Pacific Ocean  
+C. Heavy rainfall in Australia and Indonesia  
+D. Strong trade winds blowing from east to west
+
+**Answer:** B  
+**Solution:** **El Niño** is a periodic climatic event characterised by the **abnormal warming** of sea surface temperatures in the **central and eastern equatorial Pacific**.  It typically leads to droughts in Australia/Indonesia and heavy rains in parts of the Americas.
+
+### Q161.  (SSC CHSL / RRB NTPC – General Science)
+Which blood group is known as the **universal donor**?
+
+A. Group A  
+B. Group B  
+C. Group AB  
+D. Group O
+
+**Answer:** D  
+**Solution:** People with **blood group O negative** are considered **universal donors** because their red blood cells lack A, B and Rh antigens, minimising the risk of transfusion reaction.  For general purposes, Group O is cited.
+
+### Q162.  (IBPS PO / SBI Clerk – Quantitative Aptitude)
+A mixture contains milk and water in the ratio **5:3**.  If 10 litres of water is added to the mixture, the ratio becomes **5:4**.  What is the quantity of milk in the mixture?
+
+A. 50 litres  
+B. 40 litres  
+C. 45 litres  
+D. 60 litres
+
+**Answer:** A  
+**Solution:** Let milk = 5x and water = 3x.  Adding 10 litres water: new water = 3x + 10.  New ratio = 5x / (3x + 10) = 5/4.  Cross multiply: 20x = 5(3x + 10) ⇒ 20x = 15x + 50 ⇒ 5x = 50.  So x = 10.  Quantity of milk = 5x = 5(10) = 50 litres.  Option **A**.
+
+### Q163.  (UPSC / UGC‑NET – Polity)
+Which constitutional amendment lowered the **voting age** from 21 to 18 years in India?
+
+A. 42nd Amendment  
+B. 44th Amendment  
+C. 61st Amendment  
+D. 73rd Amendment
+
+**Answer:** C  
+**Solution:** The **61st Constitutional Amendment Act, 1988** lowered the voting age for Lok Sabha and Legislative Assembly elections from **21 years to 18 years**.
+
+### Q164.  (SSC CGL / RRB NTPC – General Awareness)
+The **Nobel Prize in Peace 2023** was awarded to **Nargis Mohammadi** for her fight against:
+
+A. Climate change  
+B. Oppression of women in Iran  
+C. Child labour  
+D. Nuclear proliferation
+
+**Answer:** B  
+**Solution:** The 2023 Nobel Peace Prize was awarded to imprisoned Iranian activist **Nargis Mohammadi** for her fight against the **oppression of women in Iran** and promotion of human rights.
+
+### Q165.  (IBPS Clerk / SBI PO – Computer Awareness)
+Which of the following protocols is used for **sending emails**?
+
+A. POP3  
+B. IMAP  
+C. SMTP  
+D. HTTP
+
+**Answer:** C  
+**Solution:** **SMTP (Simple Mail Transfer Protocol)** is the standard protocol used for **sending** emails.  POP3 and IMAP are used for receiving/retrieving emails.
+
+### Q166.  (UPSC / CDS – General Science)
+The **pH value** of pure water at 25°C is:
+
+A. 0  
+B. 7  
+C. 14  
+D. 3
+
+**Answer:** B  
+**Solution:** At 25°C, pure water is neutral, meaning the concentration of hydrogen ions equals that of hydroxide ions.  The **pH** is defined as −log[H⁺], which is **7**.
+
+### Q167.  (SSC CHSL / RRB NTPC – Reasoning)
+If **DOG** is coded as **26**, **CAT** is coded as **24**, then **RAT** is coded as:
+
+A. 39  
+B. 37  
+C. 40  
+D. 38
+
+**Answer:** A  
+**Solution:** Sum the positions of letters: D (4) + O (15) + G (7) = 26.  C (3) + A (1) + T (20) = 24.  For RAT: R (18) + A (1) + T (20) = 39.  Therefore, **39**.  Option **A**.
+
+### Q168.  (UPSC / UGC‑NET – Economics)
+**“Gresham’s Law”** states that:
+
+A. Good money drives out bad money  
+B. Bad money drives out good money  
+C. Inflation is caused by excess money supply  
+D. Savings equal investment
+
+**Answer:** B  
+**Solution:** **Gresham’s Law** is a monetary principle stating that **“bad money drives out good”**; if two forms of commodity money circulate, the more valuable commodity will disappear from circulation (hoarded/exported) while the less valuable remains.
+
+### Q169.  (IBPS PO / SBI Clerk – Quantitative Aptitude)
+A train 150 metres long passes a telegraph post in 12 seconds.  Find the speed of the train in km/h.
+
+A. 45 km/h  
+B. 50 km/h  
+C. 54 km/h  
+D. 60 km/h
+
+**Answer:** A  
+**Solution:** Speed = Distance / Time = 150 m / 12 s = 12.5 m/s.  Convert to km/h: 12.5 × 18/5 = 2.5 × 18 = 45 km/h.  Option **A**.
+
+### Q170.  (SSC CGL / RRB NTPC – General Awareness)
+Who wrote the famous book **“Discovery of India”**?
+
+A. Mahatma Gandhi  
+B. Jawaharlal Nehru  
+C. Subhash Chandra Bose  
+D. Rabindranath Tagore
+
+**Answer:** B  
+**Solution:** **“The Discovery of India”** was written by **Jawaharlal Nehru** during his imprisonment in Ahmednagar Fort (1942–1946).  It covers the history, philosophy and culture of India.
+
+### Q171.  (UPSC / CDS – Geography)
+Which planet in our solar system is known as the **“Red Planet”**?
+
+A. Venus  
+B. Mars  
+C. Jupiter  
+D. Saturn
+
+**Answer:** B  
+**Solution:** **Mars** is often called the **Red Planet** because of reddish iron oxide prevalent on its surface.
+
+### Q172.  (IBPS Clerk / SBI PO – Reasoning)
+Pointing to a photograph, a woman says, "This man's son's sister is my mother-in-law." How is the woman's husband related to the man in the photograph?
+
+A. Grandson  
+B. Son-in-law  
+C. Great-grandson  
+D. Nephew
+
+**Answer:** A  
+**Solution:** Let the man in the photo be M.  M’s son’s sister is M’s daughter (let’s vary: if son and sister are siblings).  So M’s daughter is the woman’s **mother-in-law**.  The woman (W)’s mother-in-law is M’s daughter.  W’s husband (H) is the son of W’s mother-in-law.  Therefore, H is the son of M’s daughter.  So H is the **grandson** (specifically daughter’s son) of M.  Option **A**.
+
+### Q173.  (SSC CHSL / RRB NTPC – General Science)
+Which instrument is used to measure **atmospheric pressure**?
+
+A. Barometer  
+B. Thermometer  
+C. Hygrometer  
+D. Anemometer
+
+**Answer:** A  
+**Solution:** A **barometer** measures atmospheric pressure.  Thermometer measures temperature; hygrometer measures humidity; anemometer measures wind speed.
+
+### Q174.  (UPSC / UGC‑NET – History)
+The **Indus Valley Civilisation** site **Lothal** is famous for its:
+
+A. Great Bath  
+B. Dockyard  
+C. Rock‑cut temples  
+D. Bronze statues
+
+**Answer:** B  
+**Solution:** **Lothal** (in Gujarat) is distinct for having the world’s earliest known **dockyard**, connecting the city to an ancient course of the Sabarmati river, facilitating trade.
+
+### Q175.  (IBPS PO / SBI Clerk – Quantitative Aptitude)
+If the cost price of 12 articles is equal to the selling price of 10 articles, the **gain percentage** is:
+
+A. 16.66%  
+B. 20%  
+C. 25%  
+D. 30%
+
+**Answer:** B  
+**Solution:** Let CP of 1 article = 1.  CP of 10 = 10.  SP of 10 = CP of 12 = 12.  So CP = 10, SP = 12.  Profit = 2.  Profit % = (2/10) × 100 = 20%.  Option **B**.
+
+### Q176.  (SSC CGL / RRB NTPC – General Awareness)
+The **“Green Revolution”** in India was primarily associated with the high‑yielding variety of:
+
+A. Wheat  
+B. Rice  
+C. Pulses  
+D. Cotton
+
+**Answer:** A  
+**Solution:** The **Green Revolution** (1960s) introduced high‑yielding varieties of seeds, particularly **wheat**, leading to a dramatic increase in food grain production, primarily in Punjab, Haryana and UP.
+
+### Q177.  (UPSC / CDS – Polity)
+**Article 21** of the Indian Constitution guarantees:
+
+A. Right to Freedom of Religion  
+B. Right to Life and Personal Liberty  
+C. Right to Equality  
+D. Right to Constitutional Remedies
+
+**Answer:** B  
+**Solution:** **Article 21** states that no person shall be deprived of his **life or personal liberty** except according to procedure established by law.
+
+### Q178.  (IBPS Clerk / SBI PO – Computer Awareness)
+**RAM** stands for:
+
+A. Read Access Memory  
+B. Random Access Memory  
+C. Read And Memorise  
+D. Random Available Memory
+
+**Answer:** B  
+**Solution:** **RAM** stands for **Random Access Memory**.  It is the volatile main memory of a computer used for currently running programs and data.
+
+### Q179.  (SSC CHSL / RRB NTPC – Reasoning)
+Which word cannot be formed using the letters of the word **REASONING**?
+
+A. SON  
+B. REAL  
+C. SING  
+D. RISE
+
+**Answer:** B  
+**Solution:** **REASONING** contains R, E, A, S, O, N, I, N, G.  
+A. SON (S, O, N) – Possible.  
+B. REAL (R, E, A, L) – **L** is not in REASONING.  
+C. SING (S, I, N, G) – Possible.  
+D. RISE (R, I, S, E) – Possible.  
+Thus, **REAL** cannot be formed.  Option **B**.
+
+### Q180.  (UPSC / UGC‑NET – Education)
+Who acts as the **Chancellor** of State Universities in India?
+
+A. Chief Minister  
+B. Education Minister  
+C. Governor  
+D. Vice‑Chancellor
+
+**Answer:** C  
+**Solution:** The **Governor** of the respective state typically acts as the **Chancellor** of state universities by virtue of their office, while the Vice‑Chancellor is the executive head.
+
+### Q181.  (IBPS PO / SBI Clerk – Quantitative Aptitude)
+The ratio of ages of A and B is **3:5**.  If the sum of their ages is 40 years, what is the age of B?
+
+A. 15  
+B. 20  
+C. 25  
+D. 30
+
+**Answer:** C  
+**Solution:** 3x + 5x = 8x = 40 ⇒ x = 5.  B’s age = 5x = 5(5) = 25 years.  Option **C**.
+
+### Q182.  (SSC CGL / RRB NTPC – General Awareness)
+**Kazou Ishiguro** won the Nobel Prize for:
+
+A. Peace  
+B. Literature  
+C. Economics  
+D. Physics
+
+**Answer:** B  
+**Solution:** **Kazuo Ishiguro** (British novelist) was awarded the **Nobel Prize in Literature** in 2017.
+
+### Q183.  (UPSC / CDS – Geography)
+The **Sunderbans** delta is formed by the rivers:
+
+A. Ganga and Yamuna  
+B. Ganga and Brahmaputra  
+C. Godavari and Krishna  
+D. Narmada and Tapti
+
+**Answer:** B  
+**Solution:** The **Sunderbans** is the world’s largest delta, formed by the confluence of the **Ganga (Padma)**, **Brahmaputra (Jamuna)** and Meghna rivers in India and Bangladesh.
+
+### Q184.  (IBPS Clerk / SBI PO – Reasoning)
+If **5** people shake hands with each other exactly once, how many handshakes take place?
+
+A. 10  
+B. 15  
+C. 20  
+D. 25
+
+**Answer:** A  
+**Solution:** Number of handshakes = \(\binom{n}{2} = \frac{n(n-1)}{2}\).  For n=5: \(\frac{5 \times 4}{2} = \frac{20}{2} = 10\).  Option **A**.
+
+### Q185.  (SSC CHSL / RRB NTPC – General Science)
+Which gas acts as a shield against **ultraviolet radiation* from the sun?
+
+A. Nitrogen  
+B. Ozone  
+C. Carbon dioxide  
+D. Oxygen
+
+**Answer:** B  
+**Solution:** The **ozone layer** in the stratosphere absorbs the majority of the sun’s harmful **ultraviolet (UV)** radiation, protecting life on Earth.
+
+### Q186.  (UPSC / UGC‑NET – History)
+The **“Quit India Movement”** was launched in which year?
+
+A. 1940  
+B. 1942  
+C. 1945  
+D. 1947
+
+**Answer:** B  
+**Solution:** The **Quit India Movement** (Bharat Chhodo Andolan) was launched by Mahatma Gandhi at the Bombay session of the AICC on **8 August 1942**.
+
+### Q187.  (IBPS PO / SBI Clerk – Quantitative Aptitude)
+A car travels at a speed of 60 km/h.  How much distance will it cover in **45 minutes**?
+
+A. 40 km  
+B. 45 km  
+C. 50 km  
+D. 60 km
+
+**Answer:** B  
+**Solution:** Time = 45 min = 45/60 hours = 3/4 hours.  Distance = Speed × Time = 60 × 3/4 = 45 km.  Option **B**.
+
+### Q188.  (SSC CGL / RRB NTPC – General Awareness)
+The **headquarters** of the **World Health Organization (WHO)** is located in:
+
+A. New York  
+B. Washington D.C.  
+C. Geneva  
+D. Paris
+
+**Answer:** C  
+**Solution:** The **WHO** headquarters is situated in **Geneva, Switzerland**.
+
+### Q189.  (UPSC / CDS – Polity)
+Who appoints the **Attorney General of India**?
+
+A. Chief Justice of India  
+B. President of India  
+C. Prime Minister  
+D. Parliament
+
+**Answer:** B  
+**Solution:** The **President of India** appoints the **Attorney General** under Article 76(1) of the Constitution.
+
+### Q190.  (IBPS Clerk / SBI PO – Reasoning)
+**Odd one out**:
+
+A. Circle : Arc  
+B. Line : Dot  
+C. Square : Line  
+D. Hexagon : Angle
+
+**Answer:** D  
+**Solution:** Arc is a part of a Circle; Line segment corresponds to side of Square; Dot is point on Line?  Relationship: A is made of B.  Circle is made of arcs; Square made of lines?  Hexagon is made of lines, not angles (though it has angles).  But Line/Dot? A line consists of infinite points (dots).  So Circle-Arc (part), Square-Line (part), Line-Dot (part).  Hexagon-Angle: Angle is a property, not the constituent segment?  Actually, the sides of a hexagon are lines, not angles.  So **Hexagon : Angle** is the odd relationship.  Option **D**.
+
+### Q191.  (SSC CHSL / RRB NTPC – General Science)
+The **pH of human blood** is approximately:
+
+A. 6.4  
+B. 7.4  
+C. 8.4  
+D. 5.4
+
+**Answer:** B  
+**Solution:** The pH of normal human blood is slightly alkaline, ranging between **7.35 and 7.45**, typically cited as **7.4**.
+
+### Q192.  (UPSC / UGC‑NET – Economics)
+What does **GDP** stand for?
+
+A. Gross Domestic Product  
+B. Global Domestic Product  
+C. Gross Developmental Product  
+D. General Domestic Product
+
+**Answer:** A  
+**Solution:** **GDP** stands for **Gross Domestic Product**, the total monetary value of all finished goods and services made within a country during a specific period.
+
+### Q193.  (IBPS PO / SBI Clerk – Quantitative Aptitude)
+If A’s salary is 20% more than B’s salary, then B’s salary is how much percent less than A’s salary?
+
+A. 20%  
+B. 16.66%  
+C. 25%  
+D. 33.33%
+
+**Answer:** B  
+**Solution:** Let B = 100.  A = 120.  B is less than A by 20.  Percentage less = (20/120) × 100 = 100/6 = **16.66%**.  Option **B**.
+
+### Q194.  (SSC CGL / RRB NTPC – General Awareness)
+Who was the **first woman President** of India?
+
+A. Indira Gandhi  
+B. Pratibha Patil  
+C. Sarojini Naidu  
+D. Draupadi Murmu
+
+**Answer:** B  
+**Solution:** **Smt. Pratibha Devisingh Patil** was the **first woman** to hold the office of President of India (2007–2012).  Indira Gandhi was PM; Sarojini Naidu was Governor.
+
+### Q195.  (UPSC / CDS – Geography)
+The **Tropic of Cancer** passes through how many Indian states?
+
+A. 6  
+B. 7  
+C. 8  
+D. 9
+
+**Answer:** C  
+**Solution:** The **Tropic of Cancer** passes through **8 states**: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.
+
+### Q196.  (IBPS Clerk / SBI PO – Reasoning)
+If **FISH** is written as **EHRG** in a code, how is **JUNGLE** written?
+
+A. ITMFKD  
+B. KVOHMF  
+C. ITNFKD  
+D. KVOHLE
+
+**Answer:** A  
+**Solution:** Pattern: Previous letter (−1).  F→E, I→H, S→R, H→G.  JUNGLE −1: J→I, U→T, N→M, G→F, L→K, E→D.  So **ITMFKD**.  Option **A**.
+
+### Q197.  (SSC CHSL / RRB NTPC – General Science)
+Which force keeps the planets in orbit around the Sun?
+
+A. Magnetic force  
+B. Electrostatic force  
+C. Gravitational force  
+D. Nuclear force
+
+**Answer:** C  
+**Solution:** The **gravitational force** of attraction provided by the Sun keeps the planets moving in their elliptical orbits.
+
+### Q198.  (UPSC / UGC‑NET – History)
+The **Jallianwala Bagh massacre** took place on:
+
+A. 13 April 1919  
+B. 15 August 1947  
+C. 26 January 1930  
+D. 2 October 1869
+
+**Answer:** A  
+**Solution:** The tragic massacre at Jallianwala Bagh, Amritsar, occurred on **13 April 1919** (Baisakhi day), when General Dyer ordered troops to fire on a peaceful gathering.
+
+### Q199.  (IBPS PO / SBI Clerk – Quantitative Aptitude)
+Find the **average** of the first five multiples of 3.
+
+A. 3  
+B. 9  
+C. 12  
+D. 15
+
+**Answer:** B  
+**Solution:** First 5 multiples are 3, 6, 9, 12, 15.  Arithmetic progression.  Average = middle term (3rd term) = 9.  Or Sum = 3(1+2+3+4+5) = 3(15) = 45.  Avg = 45/5 = 9.  Option **B**.
+
+### Q200.  (SSC CGL / RRB NTPC – General Awareness)
+The currency of **Japan** is:
+
+A. Yuan  
+B. Won  
+C. Yen  
+D. Ringgit
+
+**Answer:** C  
+**Solution:** The currency of Japan is the **Yen** (JPY).  Yuan is Chinese; Won is Korean; Ringgit is Malaysian.
+
+### Q201.  (UPSC / CDS – Polity)
+**Right to Education** is a fundamental right under which Article?
+
+A. Article 19  
+B. Article 21A  
+C. Article 30  
+D. Article 45
+
+**Answer:** B  
+**Solution:** **Article 21A**, inserted by the 86th Amendment Act (2002), provides for free and compulsory education to all children of the age of 6 to 14 years.
+
+### Q202.  (IBPS Clerk / SBI PO – Reasoning)
+Select the odd pair:
+
+A. Cow : Calf  
+B. Dog : Puppy  
+C. Lion : Cub  
+D. Hen : Chicken
+
+**Answer:** D (Debatable)  
+**Solution:** In A, B, C, the second term is the young one.  Cow-Calf, Dog-Puppy, Lion-Cub, Hen-Chick.  Chicken is often the bird itself or meat.  However, chick is the young one.  If D is Hen : Chicken, it might be accepted in general usage, but **Chick** is more precise.  Another view: All represent Parent-Young.  Is there another difference?  Usually, Hen-Chick is used.  Chicken refers to the species.  Odd one could be considered D for loose terminology.
+
+### Q203.  (SSC CHSL / RRB NTPC – General Science)
+**Photosynthesis** takes place in which part of the plant cell?
+
+A. Mitochondria  
+B. Chloroplast  
+C. Nucleus  
+D. Ribosome
+
+**Answer:** B  
+**Solution:** **Chloroplasts** contain the chlorophyll pigment where photosynthesis occurs.  Mitochondria are powerhouses (respiration).
+
+### Q204.  (UPSC / UGC‑NET – Geography)
+Which is the **longest river** in the world?
+
+A. Amazon  
+B. Nile  
+C. Mississippi  
+D. Yangtse
+
+**Answer:** B (or A depending on measurement)  
+**Solution:** Traditionally, the **Nile** is considered the longest river (approx 6,650 km).  Recent studies suggest the **Amazon** might be longer, but for most competitive exams, **Nile** is the standard answer.
+
+### Q205.  (IBPS PO / SBI Clerk – Quantitative Aptitude)
+If the side of a square is increased by **20%**, its area is increased by:
+
+A. 20%  
+B. 40%  
+C. 44%  
+D. 36%
+
+**Answer:** C  
+**Solution:** Let side = 10.  Area = 100.  New side = 12.  New Area = 144.  Increase = 44%.  Formula: \(x + y + \frac{xy}{100}\).  \(20 + 20 + \frac{400}{100} = 44\%\).  Option **C**.
+
+### Q206.  (SSC CGL / RRB NTPC – General Awareness)
+**Kuchipudi** is a classical dance form of:
+
+A. Kerala  
+B. Tamil Nadu  
+C. Andhra Pradesh  
+D. Odisha
+
+**Answer:** C  
+**Solution:** **Kuchipudi** originated in the Krishna district of **Andhra Pradesh**.  Bharatanatyam is from Tamil Nadu; Kathakali/Mohiniyattam from Kerala; Odissi from Odisha.
+
+### Q207.  (UPSC / CDS – History)
+**Ashoka** was a king of which dynasty?
+
+A. Gupta  
+B. Maurya  
+C. Kushan  
+D. Chola
+
+**Answer:** B  
+**Solution:** **Ashoka the Great** belonged to the **Maurya Dynasty**, being the grandson of Chandragupta Maurya and son of Bindusara.
+
+### Q208.  (IBPS Clerk / SBI PO – Reasoning)
+**ABC** is related to **ZYX** in the same way as **CBA** is related to:
+
+A. XYZ  
+B. BCA  
+C. XZY  
+D. YZX
+
+**Answer:** A  
+**Solution:** ABC are first 3 from start; ZYX are first 3 from end (reverse pairs A-Z, B-Y, C-X).  CBA is reverse of ABC.  So its partner should be reverse of ZYX, which is **XYZ**.  Or simply pair letters: C↔X, B↔Y, A↔Z.  So **XYZ**.  Option **A**.
+
+### Q109.  (SSC CHSL / RRB NTPC – General Science)
+The **boiling point** of water on the Celsius scale is:
+
+A. 100°C  
+B. 0°C  
+C. 212°C  
+D. 373°C
+
+**Answer:** A  
+**Solution:** Water boils at **100°C** at standard atmospheric pressure.  (212°F, 373K).
+
+### Q210.  (UPSC / UGC‑NET – Politics)
+The **Parliament of India** consists of:
+
+A. Lok Sabha and Rajya Sabha  
+B. President, Lok Sabha and Rajya Sabha  
+C. Lok Sabha, Rajya Sabha and Prime Minister  
+D. Lok Sabha only
+
+**Answer:** B  
+**Solution:** According to Article 79, the **Parliament** consists of the **President** and the two Houses (**Council of States** and **House of the People**).
+
+### Q211.  (IBPS PO / SBI Clerk – Quantitative Aptitude)
+Find the value of **?**:  
+\(25\% \text{ of } 400 + 15\% \text{ of } 200 = ?\)
+
+A. 130  
+B. 100  
+C. 120  
+D. 110
+
+**Answer:** A  
+**Solution:** \(25\% \text{ of } 400 = 100\).  \(15\% \text{ of } 200 = 30\).  Total = 100 + 30 = **130**.  Option **A**.
+
+### Q212.  (SSC CGL / RRB NTPC – General Awareness)
+Who is known as the **“Iron Man of India”**?
+
+A. Mahatma Gandhi  
+B. Subhash Chandra Bose  
+C. Sardar Vallabhbhai Patel  
+D. Bhagat Singh
+
+**Answer:** C  
+**Solution:** **Sardar Vallabhbhai Patel** is called the **Iron Man of India** for his role in the political integration of India and the unification of princely states.

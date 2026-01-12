@@ -1,8 +1,8 @@
 # PowerShell script to upload TestDone to VPS
 # Run from: testdone-app directory
 
-$VPS_USER = "ankushmulla"
-$VPS_HOST = "72.62.145.63"
+$VPS_USER = "root"
+$VPS_HOST = "72.62.76.73"
 $VPS_PATH = "/var/www/testdone"
 
 Write-Host "📦 Uploading TestDone to VPS..." -ForegroundColor Cyan
@@ -27,7 +27,7 @@ New-Item -ItemType Directory -Path $tempDir | Out-Null
 # Copy files excluding node_modules
 Write-Host "Preparing files..." -ForegroundColor Yellow
 $source = Get-Location
-Get-ChildItem -Path $source -Exclude "node_modules",".next","dist",".git" | Copy-Item -Destination $tempDir -Recurse
+Get-ChildItem -Path $source -Exclude "node_modules", ".next", "dist", ".git" | Copy-Item -Destination $tempDir -Recurse
 
 Write-Host ""
 Write-Host "Files prepared at: $tempDir" -ForegroundColor Green

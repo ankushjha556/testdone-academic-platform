@@ -133,8 +133,8 @@ export default function EditQuestionPage() {
 
     const loadSections = async (examId: string) => {
         try {
-            const res = await api.get<{ data: DropdownItem[] }>(`/admin/exams/${examId}/sections`);
-            if (res.success && res.data) setSections(res.data);
+            const res = await api.get<{ sections: DropdownItem[] }>(`/admin/exams/${examId}/sections`);
+            if (res.success && res.data?.sections) setSections(res.data.sections);
         } catch (error) {
             console.error('Failed to load sections:', error);
         }
@@ -228,8 +228,8 @@ export default function EditQuestionPage() {
                                         type="button"
                                         onClick={() => handleOptionChange(idx, 'isCorrect', !option.isCorrect)}
                                         className={`p-2 rounded-lg border ${option.isCorrect
-                                                ? 'bg-green-500/20 border-green-500 text-green-500'
-                                                : 'border-gray-700 text-gray-500 hover:border-gray-500'
+                                            ? 'bg-green-500/20 border-green-500 text-green-500'
+                                            : 'border-gray-700 text-gray-500 hover:border-gray-500'
                                             }`}
                                     >
                                         <Check className="w-5 h-5" />

@@ -22,19 +22,29 @@ export default function NewTestPage() {
     const [exams, setExams] = useState<DropdownItem[]>([]);
 
     const [formData, setFormData] = useState({
-        title: '',
+        name: '',
         slug: '',
         description: '',
         examId: '',
+        testType: 'FULL_LENGTH' as const,
         durationMinutes: 60,
         totalMarks: 100,
-        passingMarks: 35,
+        totalQuestions: 50,
+        passingPercent: 35,
         status: 'DRAFT',
     });
 
     useEffect(() => {
         loadExams();
     }, []);
+
+    // Auto-generate slug from name
+    useEffect(() => {
+        if (formData.name && !formData.slug) {
+            const slug = formData.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '');
+            setFormData(prev => ({ ...prev, slug }));
+        }
+    }, [formData.name]);
 
     const loadExams = async () => {
         try {
@@ -54,6 +64,12 @@ export default function NewTestPage() {
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
+
+        if (!formData.examId) {
+            alert('Please select an exam category');
+            return;
+        }
+
         setSaving(true);
         try {
             const res = await api.post('/admin/tests', formData);
@@ -87,17 +103,17 @@ export default function NewTestPage() {
                     <div className="bg-gray-900 border border-gray-800 rounded-xl p-6">
                         <div className="space-y-4">
                             <div>
-                                <label className="block text-sm font-medium text-gray-300 mb-2">Title *</label>
+                                <label className="block text-sm font-medium text-gray-300 mb-2">Name *</label>
                                 <input
                                     type="text"
-                                    value={formData.title}
-                                    onChange={(e) => setFormData({ ...formData, title: e.target.value })}
+                                    value={formData.name}
+                                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                                     className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
                                     required
                                 />
                             </div>
                             <div>
-                                <label className="block text-sm font-medium text-gray-300 mb-2">Slug</label>
+                                <label className="block text-sm font-medium text-gray-300 mb-2">Slug (auto-generated)</label>
                                 <input
                                     type="text"
                                     value={formData.slug}
@@ -135,31 +151,61 @@ export default function NewTestPage() {
                                 </select>
                             </div>
                             <div>
-                                <label className="block text-sm font-medium text-gray-300 mb-2">Duration (Minutes)</label>
-                                <input
-                                    type="number"
-                                    value={formData.durationMinutes}
-                                    onChange={(e) => setFormData({ ...formData, durationMinutes: parseInt(e.target.value) })}
+                                <label className="block text-sm font-medium text-gray-300 mb-2">Test Type *</label>
+                                <select
+                                    value={formData.testType}
+                                    onChange={(e) => setFormData({ ...formData, testType: e.target.value as any })}
                                     className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
-                                />
+                                    required
+                                >
+                                    <option value="FULL_LENGTH">Full Length</option>
+                                    <option value="SECTIONAL">Sectional</option>
+                                    <option value="TOPIC">Topic-wise</option>
+                                    <option value="PREVIOUS_YEAR">Previous Year</option>
+                                    <option value="CHAPTER">Chapter-wise</option>
+                                </select>
                             </div>
-                            <div>
-                                <label className="block text-sm font-medium text-gray-300 mb-2">Total Marks</label>
-                                <input
-                                    type="number"
-                                    value={formData.totalMarks}
-                                    onChange={(e) => setFormData({ ...formData, totalMarks: parseInt(e.target.value) })}
-                                    className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
-                                />
+                            <div className="grid grid-cols-2 gap-4">
+                                <div>
+                                    <label className="block text-sm font-medium text-gray-300 mb-2">Total Questions</label>
+                                    <input
+                                        type="number"
+                                        value={formData.totalQuestions}
+                                        onChange={(e) => setFormData({ ...formData, totalQuestions: parseInt(e.target.value) })}
+                                        className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
+                                    />
+                                </div>
+                                <div>
+                                    <label className="block text-sm font-medium text-gray-300 mb-2">Total Marks</label>
+                                    <input
+                                        type="number"
+                                        value={formData.totalMarks}
+                                        onChange={(e) => setFormData({ ...formData, totalMarks: parseInt(e.target.value) })}
+                                        className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
+                                    />
+                                </div>
                             </div>
-                            <div>
-                                <label className="block text-sm font-medium text-gray-300 mb-2">Passing Marks</label>
-                                <input
-                                    type="number"
-                                    value={formData.passingMarks}
-                                    onChange={(e) => setFormData({ ...formData, passingMarks: parseInt(e.target.value) })}
-                                    className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
-                                />
+                            <div className="grid grid-cols-2 gap-4">
+                                <div>
+                                    <label className="block text-sm font-medium text-gray-300 mb-2">Duration (Minutes)</label>
+                                    <input
+                                        type="number"
+                                        value={formData.durationMinutes}
+                                        onChange={(e) => setFormData({ ...formData, durationMinutes: parseInt(e.target.value) })}
+                                        className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
+                                    />
+                                </div>
+                                <div>
+                                    <label className="block text-sm font-medium text-gray-300 mb-2">Passing % (1-100)</label>
+                                    <input
+                                        type="number"
+                                        value={formData.passingPercent}
+                                        onChange={(e) => setFormData({ ...formData, passingPercent: parseInt(e.target.value) })}
+                                        className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
+                                        min={1}
+                                        max={100}
+                                    />
+                                </div>
                             </div>
                             <div>
                                 <label className="block text-sm font-medium text-gray-300 mb-2">Status</label>

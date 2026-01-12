@@ -24,6 +24,12 @@ interface Subject {
     topicsCount: number;
 }
 
+interface Exam {
+    id: string;
+    name: string;
+    slug: string;
+}
+
 interface Question {
     id: string;
     questionText: string;
@@ -32,15 +38,18 @@ interface Question {
     difficulty: string;
     subject: { name: string; slug: string };
     topic: { name: string; slug: string } | null;
+    exams?: Exam[];
     userAttempt: { isCorrect: boolean } | null;
 }
 
 export default function QuestionsPage() {
     const { user, isLoading: authLoading } = useAuth();
     const [subjects, setSubjects] = useState<Subject[]>([]);
+    const [exams, setExams] = useState<Exam[]>([]);
     const [questions, setQuestions] = useState<Question[]>([]);
     const [isLoading, setIsLoading] = useState(true);
     const [filters, setFilters] = useState({
+        exam: '',
         subject: '',
         difficulty: '',
         search: '',
@@ -53,13 +62,14 @@ export default function QuestionsPage() {
 
     useEffect(() => {
         loadSubjects();
+        loadExams();
     }, []);
 
     useEffect(() => {
         if (user) {
             loadQuestions();
         }
-    }, [user, filters.subject, filters.difficulty]);
+    }, [user, filters.subject, filters.difficulty, filters.exam]);
 
     const loadSubjects = async () => {
         try {
@@ -72,10 +82,22 @@ export default function QuestionsPage() {
         }
     };
 
+    const loadExams = async () => {
+        try {
+            const response = await api.get<{ exams: Exam[] }>('/exams?limit=100');
+            if (response.success) {
+                setExams(response.data?.exams || []);
+            }
+        } catch (error) {
+            console.error('Failed to load exams:', error);
+        }
+    };
+
     const loadQuestions = async () => {
         setIsLoading(true);
         try {
             const params = new URLSearchParams();
+            if (filters.exam) params.append('exam', filters.exam);
             if (filters.subject) params.append('subject', filters.subject);
             if (filters.difficulty) params.append('difficulty', filters.difficulty);
 
@@ -172,6 +194,16 @@ export default function QuestionsPage() {
                         />
                     </div>
                     <select
+                        value={filters.exam}
+                        onChange={(e) => setFilters({ ...filters, exam: e.target.value })}
+                        className="input w-full sm:w-48"
+                    >
+                        <option value="">All Exams</option>
+                        {exams.map((exam) => (
+                            <option key={exam.id} value={exam.slug}>{exam.name}</option>
+                        ))}
+                    </select>
+                    <select
                         value={filters.subject}
                         onChange={(e) => setFilters({ ...filters, subject: e.target.value })}
                         className="input w-full sm:w-48"
@@ -213,11 +245,16 @@ export default function QuestionsPage() {
                                             <span className="w-8 h-8 bg-primary-100 dark:bg-primary-900/30 rounded-lg flex items-center justify-center text-sm font-bold text-primary-600">
                                                 {idx + 1}
                                             </span>
-                                            <div className="flex gap-2">
+                                            <div className="flex gap-2 flex-wrap">
+                                                {question.exams && question.exams.length > 0 && (
+                                                    <span className="badge badge-primary bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300 border-blue-200 dark:border-blue-800">
+                                                        {question.exams[0].name}
+                                                    </span>
+                                                )}
                                                 <span className="badge badge-primary">{question.subject.name}</span>
                                                 <span className={`badge ${question.difficulty === 'EASY' ? 'badge-success' :
-                                                        question.difficulty === 'MEDIUM' ? 'badge-warning' :
-                                                            'badge-error'
+                                                    question.difficulty === 'MEDIUM' ? 'badge-warning' :
+                                                        'badge-error'
                                                     }`}>
                                                     {question.difficulty}
                                                 </span>
@@ -255,26 +292,26 @@ export default function QuestionsPage() {
                                                     onClick={() => !showResult && handleAnswerSelect(question.id, option.id)}
                                                     disabled={showResult}
                                                     className={`w-full text-left p-3 rounded-lg border-2 transition-all ${showResult
-                                                            ? isCorrect
-                                                                ? 'border-green-500 bg-green-50 dark:bg-green-900/20'
-                                                                : isSelected
-                                                                    ? 'border-red-500 bg-red-50 dark:bg-red-900/20'
-                                                                    : 'border-gray-200 dark:border-gray-700'
+                                                        ? isCorrect
+                                                            ? 'border-green-500 bg-green-50 dark:bg-green-900/20'
                                                             : isSelected
-                                                                ? 'border-primary-500 bg-primary-50 dark:bg-primary-900/20'
-                                                                : 'border-gray-200 dark:border-gray-700 hover:border-gray-300'
+                                                                ? 'border-red-500 bg-red-50 dark:bg-red-900/20'
+                                                                : 'border-gray-200 dark:border-gray-700'
+                                                        : isSelected
+                                                            ? 'border-primary-500 bg-primary-50 dark:bg-primary-900/20'
+                                                            : 'border-gray-200 dark:border-gray-700 hover:border-gray-300'
                                                         }`}
                                                 >
                                                     <div className="flex items-center gap-3">
                                                         <span className={`w-7 h-7 rounded-lg flex items-center justify-center text-sm font-bold ${showResult
-                                                                ? isCorrect
-                                                                    ? 'bg-green-500 text-white'
-                                                                    : isSelected
-                                                                        ? 'bg-red-500 text-white'
-                                                                        : 'bg-gray-100 dark:bg-gray-800 text-gray-600'
+                                                            ? isCorrect
+                                                                ? 'bg-green-500 text-white'
                                                                 : isSelected
-                                                                    ? 'bg-primary-600 text-white'
+                                                                    ? 'bg-red-500 text-white'
                                                                     : 'bg-gray-100 dark:bg-gray-800 text-gray-600'
+                                                            : isSelected
+                                                                ? 'bg-primary-600 text-white'
+                                                                : 'bg-gray-100 dark:bg-gray-800 text-gray-600'
                                                             }`}>
                                                             {option.id}
                                                         </span>

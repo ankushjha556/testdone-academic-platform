@@ -152,7 +152,7 @@ export default function ExamsListPage() {
             </div>
 
             {/* Exams Table */}
-            <div className="bg-gray-900 border border-gray-800 rounded-xl overflow-hidden">
+            <div className="bg-gray-900 border border-gray-800 rounded-xl">
                 <table className="w-full">
                     <thead className="bg-gray-800/50">
                         <tr>

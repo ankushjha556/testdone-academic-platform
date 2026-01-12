@@ -68,7 +68,7 @@ const faqs = [
     },
     {
         q: 'Is there a refund policy?',
-        a: 'Yes, we offer a 7-day money-back guarantee. If you\'re not satisfied, contact us for a full refund.',
+        a: 'No, all purchases are final. We do not offer refunds once a subscription is purchased. We recommend trying our free mock tests before upgrading.',
     },
     {
         q: 'Can I switch between plans?',
@@ -100,8 +100,8 @@ export default function PricingPage() {
                         <div
                             key={plan.name}
                             className={`card relative overflow-hidden ${plan.popular
-                                    ? 'ring-2 ring-primary-500 shadow-lg scale-105'
-                                    : ''
+                                ? 'ring-2 ring-primary-500 shadow-lg scale-105'
+                                : ''
                                 }`}
                         >
                             {plan.popular && (
@@ -160,22 +160,7 @@ export default function PricingPage() {
                     ))}
                 </div>
 
-                {/* Guarantee */}
-                <div className="text-center mb-20">
-                    <div className="inline-flex items-center gap-4 p-6 bg-green-50 dark:bg-green-900/20 rounded-2xl">
-                        <div className="w-16 h-16 bg-green-100 dark:bg-green-900/30 rounded-full flex items-center justify-center">
-                            <Star className="w-8 h-8 text-green-600" />
-                        </div>
-                        <div className="text-left">
-                            <h3 className="text-lg font-bold text-gray-900 dark:text-white">
-                                7-Day Money-Back Guarantee
-                            </h3>
-                            <p className="text-gray-600 dark:text-gray-400">
-                                Try risk-free. Not satisfied? Get a full refund, no questions asked.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+
 
                 {/* FAQs */}
                 <div className="max-w-3xl mx-auto">

@@ -135,7 +135,7 @@ export default function UsersListPage() {
             </div>
 
             {/* Users Table */}
-            <div className="bg-gray-900 border border-gray-800 rounded-xl overflow-hidden">
+            <div className="bg-gray-900 border border-gray-800 rounded-xl">
                 <table className="w-full">
                     <thead className="bg-gray-800/50">
                         <tr>
@@ -212,9 +212,11 @@ export default function UsersListPage() {
                                         onClick={async () => {
                                             if (confirm('Are you sure you want to delete this user?')) {
                                                 try {
-                                                    const res = await api.delete(`/admin/users/${user.id}`);
+                                                    const res = await api.delete<any>(`/admin/users/${user.id}`);
                                                     if (res.success) {
                                                         setUsers(users.filter(u => u.id !== user.id));
+                                                    } else {
+                                                        alert(res.error?.message || (res as any).message || 'Failed to delete user');
                                                     }
                                                 } catch (err) {
                                                     alert('Failed to delete user');

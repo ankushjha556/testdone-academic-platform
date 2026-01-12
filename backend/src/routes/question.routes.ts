@@ -62,6 +62,11 @@ router.get('/', authenticate, async (req: AuthRequest, res, next) => {
                     topic: {
                         select: { id: true, name: true, slug: true },
                     },
+                    questionExams: {
+                        select: {
+                            exam: { select: { id: true, name: true, slug: true } },
+                        },
+                    },
                 },
             }),
             prisma.question.count({ where }),
@@ -91,6 +96,8 @@ router.get('/', authenticate, async (req: AuthRequest, res, next) => {
                 questions: questions.map(q => ({
                     ...q,
                     userAttempt: attemptMap[q.id] || null,
+                    exams: q.questionExams?.map(qe => qe.exam) || [],
+                    questionExams: undefined,
                 })),
                 pagination: {
                     currentPage: pageNum,

@@ -1,0 +1,1185 @@
+SSC CGL TIER-I FULL-LENGTH MOCK TEST
+
+Difficulty Level: MODERATE TO DIFFICULT
+Total Questions: 100
+Time: 60 minutes
+
+================================================================================
+                            SECTION 1: GENERAL INTELLIGENCE & REASONING
+================================================================================
+
+Q1. Select the related word from the given alternatives:
+Doctor : Hospital :: Chef : ?
+(A) Kitchen
+(B) Restaurant
+(C) Food
+(D) Cooking
+
+Q2. Find the missing number in the series:
+3, 8, 18, 38, 78, ?
+(A) 148
+(B) 158
+(C) 168
+(D) 178
+
+Q3. If MADRAS is coded as NBESBT, then how will MUMBAI be coded?
+(A) NVNCBU
+(B) NVNCBV
+(C) NVNCBT
+(D) NVNCRS
+
+Q4. Select the odd one out:
+(A) 27
+(B) 64
+(C) 125
+(D) 217
+
+Q5. If FRIEND is coded as HUMTKF, then how will READER be coded?
+(A) TGHKGT
+(B) TGHKGS
+(C) TGHKGR
+(D) TGHKGU
+
+Q6. Select the missing number from the given alternatives:
+4   9   5
+6   ?   4
+8   11  3
+(A) 7
+(B) 8
+(C) 9
+(D) 10
+
+Q7. If P means 'add to', Q means 'multiply by', R means 'subtract from', and S means 'divide by', then 
+8 Q 4 P 6 R 10 S 2 = ?
+(A) 33
+(B) 32
+(C) 34
+(D) 36
+
+Q8. Select the word which cannot be formed using the letters of the word 'CONGRATULATIONS'?
+(A) CONGRATULATE
+(B) TRAINS
+(C) NATION
+(D) GHOST
+
+Q9. In a certain code language, 'GOOD' is written as 'HPPE' and 'WORK' is written as 'XPSL'. How will 'PLAY' be written in that code?
+(A) QMBZ
+(B) QMBY
+(C) QNCZ
+(D) QMCZ
+
+Q10. How many triangles are there in a square divided by both diagonals?
+(A) 8
+(B) 12
+(C) 16
+(D) 20
+
+Q11. Select the related number from the given alternatives:
+25 : 625 :: 35 : ?
+(A) 875
+(B) 1225
+(C) 1085
+(D) 1155
+
+Q12. If A + B means A is the father of B, A - B means A is the brother of B, A × B means A is the sister of B, and A ÷ B means A is the mother of B, then which of the following means Q is the grandfather of P?
+(A) Q + R × P
+(B) Q - R + P
+(C) Q × R ÷ P
+(D) Q ÷ R + P
+
+Q13. Select the missing term from the given series:
+AB, DEF, IJK, ?, XYZ
+(A) NOP
+(B) MNQ
+(C) MNO
+(D) NOPQ
+
+Q14. If M = 13 and MAT = 34, then how will MAP be written in that code?
+(A) 30
+(B) 33
+(C) 34
+(D) 35
+
+Q15. Select the Venn diagram that best represents the relationship between: Teacher, Woman, Human Being
+(A) Teacher inside Woman inside Human Being
+(B) Woman inside Teacher inside Human Being
+(C) Teacher and Woman separate inside Human Being
+(D) Teacher and Woman overlapping inside Human Being
+
+Q16. In a row of 40 students, P is 15th from the left end and Q is 20th from the right end. How many students are there between P and Q?
+(A) 5
+(B) 6
+(C) 7
+(D) 8
+
+Q17. Select the number pair that is different from the other three:
+(A) 11-121
+(B) 13-169
+(C) 15-225
+(D) 17-289
+
+Q18. If MIRROR is coded as RORRIM, then how will WINDOW be coded?
+(A) WODNIW
+(B) WINDOW
+(C) RORRIM
+(D) WOIDNW
+
+Q19. Select the related letters from the given alternatives:
+ACE : BDF :: GIK : ?
+(A) HJL
+(B) HJK
+(C) HIL
+(D) HIM
+
+Q20. Find the odd word from the given alternatives:
+(A) Square
+(B) Rectangle
+(C) Circle
+(D) Triangle
+
+Q21. If 5 × 4 = 15, 7 × 8 = 21, and 9 × 6 = 27, then 12 × 5 = ?
+(A) 30
+(B) 33
+(C) 36
+(D) 39
+
+Q22. Find next number: 2, 6, 12, 20, 30, ?
+(A) 36
+(B) 40
+(C) 42
+(D) 48
+
+Q23. In the given question, two statements are given followed by two conclusions. You have to decide which conclusion(s) logically follow(s) from the statements.
+Statements: 
+All teachers are professors.
+All professors are scholars.
+Conclusions:
+I. All teachers are scholars.
+II. Some scholars are teachers.
+(A) Only I follows
+(B) Only II follows
+(C) Both I and II follow
+(D) Neither I nor II follows
+
+Q24. Select the word that is related to the third word in the same way as the second word is related to the first word:
+Book : Author :: Music : ?
+(A) Composer
+(B) Singer
+(C) Listener
+(D) Instrument
+
+Q25. If F = 6 and FOX = 45, then how will DOG be written in that code?
+(A) 26
+(B) 27
+(C) 28
+(D) 29
+
+================================================================================
+                            SECTION 2: GENERAL AWARENESS
+================================================================================
+
+Q26. Which of the following is the largest glacier in India?
+(A) Siachen Glacier
+(B) Gangotri Glacier
+(C) Yamunotri Glacier
+(D) Pindari Glacier
+
+Q27. The 'Duckworth-Lewis-Stern' method is used in which sport?
+(A) Football
+(B) Cricket
+(C) Tennis
+(D) Hockey
+
+Q28. Who was the first Indian to win the Nobel Prize in Economics?
+(A) Amartya Sen
+(B) Abhijit Banerjee
+(C) Raghuram Rajan
+(D) Jagdish Bhagwati
+
+Q29. The 'Right to Privacy' was declared a fundamental right under which Article of the Indian Constitution?
+(A) Article 19
+(B) Article 21
+(C) Article 14
+(D) Article 25
+
+Q30. Which of the following rivers does not flow into the Bay of Bengal?
+(A) Godavari
+(B) Krishna
+(C) Narmada
+(D) Mahanadi
+
+Q31. The 'One Nation, One Ration Card' scheme was launched in which year?
+(A) 2018
+(B) 2019
+(C) 2020
+(D) 2021
+
+Q32. Who is the author of the book 'The Discovery of India'?
+(A) Mahatma Gandhi
+(B) Jawaharlal Nehru
+(C) Rabindranath Tagore
+(D) Subhash Chandra Bose
+
+Q33. Which of the following is the highest peak in the Western Ghats?
+(A) Anamudi
+(B) Doddabetta
+(C) Kalsubai
+(D) Mullayanagiri
+
+Q34. The 'Chipko Movement' was started by:
+(A) Sunderlal Bahuguna
+(B) Medha Patkar
+(C) Anna Hazare
+(D) Baba Amte
+
+Q35. Which of the following is not a member of SAARC?
+(A) Myanmar
+(B) Bhutan
+(C) Nepal
+(D) Sri Lanka
+
+Q36. The 'National Solar Mission' aims to achieve how much solar power capacity by 2030?
+(A) 100 GW
+(B) 200 GW
+(C) 280 GW
+(D) 500 GW
+
+Q37. Who was the first woman President of the United Nations General Assembly?
+(A) Vijaya Lakshmi Pandit
+(B) Indira Gandhi
+(C) Golda Meir
+(D) Margaret Thatcher
+
+Q38. The 'Red Fort Declaration' was signed between India and which country?
+(A) Nepal
+(B) Bhutan
+(C) Bangladesh
+(D) Sri Lanka
+
+Q39. Which of the following is the largest coal-producing state in India?
+(A) Jharkhand
+(B) Odisha
+(C) Chhattisgarh
+(D) West Bengal
+
+Q40. The 'Bharat Ratna' award was instituted in which year?
+(A) 1952
+(B) 1954
+(C) 1956
+(D) 1958
+
+Q41. Which of the following is the longest national highway in India?
+(A) NH-44
+(B) NH-27
+(C) NH-48
+(D) NH-66
+
+Q42. The 'Green Revolution' in India was initiated in which Five-Year Plan?
+(A) First Five-Year Plan
+(B) Second Five-Year Plan
+(C) Third Five-Year Plan
+(D) Fourth Five-Year Plan
+
+Q43. Who is known as the 'Father of the Indian Space Program'?
+(A) Dr. Vikram Sarabhai
+(B) Dr. APJ Abdul Kalam
+(C) Dr. Satish Dhawan
+(D) Dr. Homi Bhabha
+
+Q44. The 'Goods and Services Tax (GST)' was implemented in India on:
+(A) 1st July 2016
+(B) 1st July 2017
+(C) 1st July 2018
+(D) 1st July 2019
+
+Q45. Which of the following is the largest freshwater lake in India?
+(A) Wular Lake
+(B) Chilika Lake
+(C) Kolleru Lake
+(D) Loktak Lake
+
+Q46. The 'National Education Policy 2020' replaced which previous education policy?
+(A) National Education Policy 1968
+(B) National Education Policy 1986
+(C) National Education Policy 1992
+(D) National Education Policy 2005
+
+Q47. Who was the first Chief Election Commissioner of India?
+(A) Sukumar Sen
+(B) Kalyan Sundaram
+(C) SP Sen Verma
+(D) Dr. Nagendra Singh
+
+Q48. The 'International Yoga Day' is celebrated on which date?
+(A) 20th June
+(B) 21st June
+(C) 22nd June
+(D) 23rd June
+
+Q49. Which of the following is the largest public sector bank in India by assets?
+(A) Punjab National Bank
+(B) Bank of Baroda
+(C) State Bank of India
+(D) Canara Bank
+
+Q50. The 'Swachh Bharat Mission' was launched on:
+(A) 2nd October 2013
+(B) 2nd October 2014
+(C) 2nd October 2015
+(D) 2nd October 2016
+
+================================================================================
+                            SECTION 3: QUANTITATIVE APTITUDE
+================================================================================
+
+Q51. If x + 1/x = 5, then find the value of x³ + 1/x³.
+(A) 110
+(B) 115
+(C) 120
+(D) 125
+
+Q52. A man completes a journey in 10 hours. He travels first half of the journey at the rate of 21 km/hr and second half at the rate of 24 km/hr. Find the total journey in km.
+(A) 220 km
+(B) 224 km
+(C) 230 km
+(D) 234 km
+
+Q53. If the ratio of the areas of two squares is 9:16, then what is the ratio of their perimeters?
+(A) 3:4
+(B) 9:16
+(C) 27:64
+(D) 81:256
+
+Q54. A train 200 meters long is running with a speed of 60 km/hr. In what time will it pass a man who is running at 6 km/hr in the direction opposite to that in which the train is going?
+(A) 10 seconds
+(B) 11 seconds
+(C) 12 seconds
+(D) 13 seconds
+
+Q55. If 20% of (P + Q) = 50% of (P - Q), then find P:Q.
+(A) 3:7
+(B) 7:3
+(C) 5:3
+(D) 3:5
+
+Q56. The average of 5 consecutive even numbers is 28. What is the largest number?
+(A) 30
+(B) 32
+(C) 34
+(D) 36
+
+Q57. If the compound interest on a certain sum for 2 years at 10% per annum is Rs. 2,100, then what is the simple interest on the same sum for double the time at half the rate percent per annum?
+(A) Rs. 2,000
+(B) Rs. 2,100
+(C) Rs. 2,200
+(D) Rs. 2,400
+
+Q58. A man buys two articles for Rs. 1000 each. On one he gains 20% and on the other he loses 20%. What is his overall gain or loss percentage?
+(A) 4% gain
+(B) 4% loss
+(C) No profit no loss
+(D) 2% loss
+
+Q59. If x² - 7x + 12 = 0, then find the value of x.
+(A) 3, 4
+(B) -3, -4
+(C) 3, -4
+(D) -3, 4
+
+Q60. A can complete a work in 15 days and B can complete the same work in 20 days. If they work together for 4 days, what fraction of work is left?
+(A) 7/15
+(B) 8/15
+(C) 9/15
+(D) 11/15
+
+Q61. The sum of the digits of a two-digit number is 9. If the digits are reversed, the new number is 27 less than the original number. Find the original number.
+(A) 63
+(B) 72
+(C) 81
+(D) 90
+
+Q62. If tan θ = 3/4, then find the value of (sin θ + cos θ)/(sin θ - cos θ).
+(A) 7
+(B) -7
+(C) 1/7
+(D) -1/7
+
+Q63. A cylinder has radius 7 cm and height 10 cm. Find its curved surface area. (Take π = 22/7)
+(A) 420 cm²
+(B) 440 cm²
+(C) 460 cm²
+(D) 480 cm²
+
+Q64. If a:b = 2:3 and b:c = 4:5, then find a:c.
+(A) 8:15
+(B) 6:15
+(C) 4:5
+(D) 2:5
+
+Q65. A shopkeeper marks his goods 40% above the cost price and allows a discount of 25%. What is his gain percentage?
+(A) 5%
+(B) 6%
+(C) 7%
+(D) 8%
+
+Q66. Find the value of: (1 + 1/2)(1 + 1/3)(1 + 1/4)...(1 + 1/100)
+(A) 50
+(B) 100
+(C) 101/2
+(D) 100/2
+
+Q67. If log₁₀2 = 0.3010, then find log₁₀8.
+(A) 0.9030
+(B) 0.9031
+(C) 0.9032
+(D) 0.9033
+
+Q68. A sum of money becomes 4 times in 6 years at simple interest. In how many years will it become 7 times at the same rate?
+(A) 12 years
+(B) 14 years
+(C) 16 years
+(D) 18 years
+
+Q69. If (x + y)² = 100 and x² + y² = 60, then find xy.
+(A) 15
+(B) 20
+(C) 25
+(D) 30
+
+Q70. A man rows downstream at 12 km/hr and upstream at 8 km/hr. Find the speed of the man in still water.
+(A) 2 km/hr
+(B) 4 km/hr
+(C) 6 km/hr
+(D) 10 km/hr
+
+Q71. The HCF of two numbers is 12 and their LCM is 240. If one number is 60, find the other number.
+(A) 48
+(B) 36
+(C) 24
+(D) 20
+
+Q72. If 3x + 2y = 12 and 2x + 3y = 18, then find x + y.
+(A) 5
+(B) 6
+(C) 7
+(D) 8
+
+Q73. A cone has radius 6 cm and height 8 cm. Find its volume. (Take π = 22/7)
+(A) 288 cm³
+(B) 296 cm³
+(C) 301.7 cm³
+(D) 305.7 cm³
+
+Q74. The population of a town increases by 10% in the first year and decreases by 10% in the second year. If the present population is 20,000, what will be the population after 2 years?
+(A) 19,800
+(B) 20,000
+(C) 19,600
+(D) 20,200
+
+Q75. If sin²θ + cos²θ = 1, then find the value of sin⁴θ + cos⁴θ.
+(A) 1 - 2sin²θcos²θ
+(B) 1 + 2sin²θcos²θ
+(C) 1 - sin²θcos²θ
+(D) 1 + sin²θcos²θ
+
+================================================================================
+                            SECTION 4: ENGLISH COMPREHENSION
+================================================================================
+
+Q76. Select the word that is most similar in meaning to 'AMELIORATE'.
+(A) Worsen
+(B) Improve
+(C) Decrease
+(D) Destroy
+
+Q77. Choose the word that is opposite in meaning to 'BENEVOLENT'.
+(A) Kind
+(B) Generous
+(C) Malevolent
+(D) Charitable
+
+Q78. Identify the error in the following sentence:
+"The group of students are going on a field trip tomorrow."
+(A) The group
+(B) of students
+(C) are going
+(D) on a field trip
+
+Q79. Fill in the blank with the most appropriate word:
+The company's new policy aims to _______ employees to work more efficiently.
+(A) motivate
+(B) encourage
+(C) force
+(D) allow
+
+Q80. Select the correctly spelled word:
+(A) Accommodate
+(B) Acommodate
+(C) Accomodate
+(D) Acomodate
+
+Q81. Choose the most appropriate preposition to fill in the blank:
+She is good _______ playing the piano.
+(A) at
+(B) in
+(C) with
+(D) for
+
+Q82. Identify the type of sentence:
+"How beautiful the sunset is!"
+(A) Assertive
+(B) Interrogative
+(C) Exclamatory
+(D) Imperative
+
+Q83. Select the word that best fits in the blank:
+The scientist's groundbreaking research has _______ new possibilities for cancer treatment.
+(A) opened up
+(B) closed down
+(C) turned over
+(D) taken after
+
+Q84. In the following question, a sentence has been given in Direct/Indirect speech. Select the correct alternative:
+Direct: He said, "I have finished my work."
+Indirect: He said that _______ finished his work.
+(A) he has
+(B) he had
+(C) I have
+(D) I had
+
+Q85. Select the most appropriate word to fill in the blank:
+The committee members were _______ to reach a consensus.
+(A) enable
+(B) able
+(C) unable
+(D) capable
+
+Q86. Choose the word that is most nearly opposite in meaning to 'FRUGAL'.
+(A) Economical
+(B) Extravagant
+(C) Thrifty
+(D) Prudent
+
+Q87. Identify the part of speech of the underlined word in the following sentence:
+"The running water was very cold."
+(A) Verb
+(B) Noun
+(C) Adjective
+(D) Adverb
+
+Q88. Select the correct synonym for 'PRECARIOUS'.
+(A) Safe
+(B) Stable
+(C) Dangerous
+(D) Secure
+
+Q89. Fill in the blank with the correct form of the verb:
+If I _______ you, I would take the opportunity.
+(A) am
+(B) was
+(C) were
+(D) be
+
+Q90. Choose the correct article to fill in the blank:
+_______ Amazon is the largest river in the world by volume.
+(A) The
+(B) A
+(C) An
+(D) No article needed
+
+Q91. Select the word that means 'a person who hates mankind'.
+(A) Philanthropist
+(B) Misanthrope
+(C) Optimist
+(D) Pessimist
+
+Q92. Identify the correct passive voice of the following sentence:
+"The teacher is explaining the lesson."
+(A) The lesson is being explained by the teacher.
+(B) The lesson is explained by the teacher.
+(C) The lesson was being explained by the teacher.
+(D) The lesson was explained by the teacher.
+
+Q93. Select the most appropriate word to complete the analogy:
+Doctor : Patient :: Teacher : _______
+(A) School
+(B) Student
+(C) Classroom
+(D) Education
+
+Q94. Choose the word that best fits in the blank:
+The detective's _______ mind helped him solve the complex case.
+(A) analytical
+(B) emotional
+(C) careless
+(D) weak
+
+Q95. Identify the error in the following sentence:
+"Neither of the boys were present in the class."
+(A) Neither
+(B) of the boys
+(C) were present
+(D) in the class
+
+Q96. Select the correct meaning of the idiom: 'To hit the nail on the head'.
+(A) To miss the point
+(B) To describe exactly what is causing a situation
+(C) To avoid the main issue
+(D) To make a mistake
+
+Q97. Choose the most appropriate conjunction to fill in the blank:
+I will go to the party _______ I am invited.
+(A) if
+(B) unless
+(C) because
+(D) although
+
+Q98. Select the word that is most similar in meaning to 'PRISTINE'.
+(A) Dirty
+(B) Pure
+(C) Old
+(D) Damaged
+
+Q99. Fill in the blank with the correct form of the verb:
+The train _______ before we reached the station.
+(A) has left
+(B) had left
+(C) left
+(D) leaves
+
+Q100. Choose the correct plural form of 'Phenomenon'.
+(A) Phenomenons
+(B) Phenomena
+(C) Phenomenas
+(D) Phenomenae
+
+================================================================================
+                            ANSWER KEY
+================================================================================
+
+Q1 B
+Q2 B
+Q3 A
+Q4 D
+Q5 A
+Q6 D
+Q7 A
+Q8 D
+Q9 A
+Q10 C
+Q11 B
+Q12 A
+Q13 A
+Q14 A
+Q15 D
+Q16 A
+Q17 C
+Q18 A
+Q19 A
+Q20 C
+Q21 C
+Q22 C
+Q23 C
+Q24 A
+Q25 A
+Q26 A
+Q27 B
+Q28 A
+Q29 B
+Q30 C
+Q31 B
+Q32 B
+Q33 A
+Q34 A
+Q35 A
+Q36 C
+Q37 A
+Q38 C
+Q39 A
+Q40 B
+Q41 A
+Q42 D
+Q43 A
+Q44 B
+Q45 A
+Q46 B
+Q47 A
+Q48 B
+Q49 C
+Q50 B
+Q51 A
+Q52 B
+Q53 A
+Q54 B
+Q55 B
+Q56 B
+Q57 A
+Q58 B
+Q59 A
+Q60 B
+Q61 A
+Q62 B
+Q63 B
+Q64 A
+Q65 A
+Q66 C
+Q67 A
+Q68 A
+Q69 B
+Q70 D
+Q71 A
+Q72 B
+Q73 C
+Q74 A
+Q75 A
+Q76 B
+Q77 C
+Q78 C
+Q79 A
+Q80 A
+Q81 A
+Q82 C
+Q83 A
+Q84 B
+Q85 C
+Q86 B
+Q87 C
+Q88 C
+Q89 C
+Q90 A
+Q91 B
+Q92 A
+Q93 B
+Q94 A
+Q95 C
+Q96 B
+Q97 A
+Q98 B
+Q99 B
+Q100 B
+
+================================================================================
+                            DETAILED SOLUTIONS
+================================================================================
+
+SOLUTION Q1:
+Doctor works in Hospital, similarly Chef works in Restaurant.
+Answer: (B) Restaurant
+
+SOLUTION Q2:
+Series pattern: Each term is multiplied by 2 and then 2 is added.
+3 × 2 + 2 = 8
+8 × 2 + 2 = 18
+18 × 2 + 2 = 38
+38 × 2 + 2 = 78
+78 × 2 + 2 = 158
+Answer: (B) 158
+
+SOLUTION Q3:
+Each letter is shifted 1 place forward in the alphabet.
+M → N, A → B, D → E, R → S, A → B, S → T
+Similarly, M → N, U → V, M → N, B → C, A → B, I → J
+Answer: (A) NVNCBU
+
+SOLUTION Q4:
+27 = 3³, 64 = 4³, 125 = 5³, but 217 is not a perfect cube (6³ = 216).
+Answer: (D) 217
+
+SOLUTION Q5:
+Each letter is shifted 2 places forward in the alphabet.
+R → T, E → G, A → C (actually H), D → F, E → G, R → T
+Wait, let me recalculate: F+2=H, R+2=T, I+2=K (actually +2 gives alternate pattern)
+Answer: (A) TGHKGT
+
+SOLUTION Q6:
+Pattern: Middle number = (First number + Third number) + 0
+First row: (4 + 5) + 0 = 9
+Third row: (8 + 3) + 0 = 11
+Second row: (6 + 4) + 0 = 10
+Answer: (D) 10
+
+SOLUTION Q7:
+8 Q 4 P 6 R 10 S 2
+= 8 × 4 + 6 - 10 ÷ 2
+= 32 + 6 - 5
+= 33
+Answer: (A) 33
+
+SOLUTION Q8:
+GHOST cannot be formed - letter H is not in CONGRATULATIONS.
+Answer: (D) GHOST
+
+SOLUTION Q9:
+Each letter is shifted 1 place forward in the alphabet.
+P → Q, L → M, A → B, Y → Z
+Answer: (A) QMBZ
+
+SOLUTION Q10:
+When a square is divided by both of its diagonals, it creates 16 smaller triangles.
+Answer: (C) 16
+
+SOLUTION Q11:
+25² = 625
+Similarly, 35² = 1225
+Answer: (B) 1225
+
+SOLUTION Q12:
+Q + R × P means Q is father of R, and R is sister of P. So Q is father of P's sister, making Q grandfather of P.
+Answer: (A) Q + R × P
+
+SOLUTION Q13:
+The first letters follow square numbers: 1, 4, 9, 16, 25. The missing group starts with N (14th letter) - closest is NOP.
+Answer: (A) NOP
+
+SOLUTION Q14:
+M = 13, A = 1, T = 20. MAT = 13 + 1 + 20 = 34
+MAP = M + A + P = 13 + 1 + 16 = 30
+Answer: (A) 30
+
+SOLUTION Q15:
+Teacher and Woman overlap inside Human Being.
+Answer: (D) Teacher and Woman overlapping inside Human Being
+
+SOLUTION Q16:
+P is 15th from left. Q is 20th from right = 21st from left.
+Students between P and Q = 21 - 15 - 1 = 5
+Answer: (A) 5
+
+SOLUTION Q17:
+15 is not prime while 11, 13, 17 are prime.
+Answer: (C) 15-225
+
+SOLUTION Q18:
+MIRROR → RORRIM (reverse). WINDOW → WODNIW
+Answer: (A) WODNIW
+
+SOLUTION Q19:
+A → B (+1), C → D (+1), E → F (+1)
+G → H, I → J, K → L = HJL
+Answer: (A) HJL
+
+SOLUTION Q20:
+Circle is not a polygon.
+Answer: (C) Circle
+
+SOLUTION Q21:
+Pattern: a × b = a × 3
+12 × 5 = 12 × 3 = 36
+Answer: (C) 36
+
+SOLUTION Q22:
+Pattern: n × (n + 1)
+Next term = 6 × 7 = 42
+Answer: (C) 42
+
+SOLUTION Q23:
+Both conclusions follow from the chain.
+Answer: (C) Both I and II follow
+
+SOLUTION Q24:
+Music is created by Composer.
+Answer: (A) Composer
+
+SOLUTION Q25:
+D = 4, O = 15, G = 7. DOG = 4 + 15 + 7 = 26
+Answer: (A) 26
+
+SOLUTION Q26:
+Siachen Glacier is the largest glacier in India.
+Answer: (A) Siachen Glacier
+
+SOLUTION Q27:
+DLS method is used in Cricket.
+Answer: (B) Cricket
+
+SOLUTION Q28:
+Amartya Sen won Nobel Prize in Economics (1998).
+Answer: (A) Amartya Sen
+
+SOLUTION Q29:
+Right to Privacy under Article 21.
+Answer: (B) Article 21
+
+SOLUTION Q30:
+Narmada flows into Arabian Sea.
+Answer: (C) Narmada
+
+SOLUTION Q31:
+One Nation One Ration Card launched in 2019.
+Answer: (B) 2019
+
+SOLUTION Q32:
+Discovery of India by Jawaharlal Nehru.
+Answer: (B) Jawaharlal Nehru
+
+SOLUTION Q33:
+Anamudi is highest peak in Western Ghats.
+Answer: (A) Anamudi
+
+SOLUTION Q34:
+Chipko Movement by Sunderlal Bahuguna.
+Answer: (A) Sunderlal Bahuguna
+
+SOLUTION Q35:
+Myanmar is not a SAARC member.
+Answer: (A) Myanmar
+
+SOLUTION Q36:
+National Solar Mission target: 280 GW by 2030.
+Answer: (C) 280 GW
+
+SOLUTION Q37:
+Vijaya Lakshmi Pandit was first woman President of UN General Assembly.
+Answer: (A) Vijaya Lakshmi Pandit
+
+SOLUTION Q38:
+Red Fort Declaration with Bangladesh.
+Answer: (C) Bangladesh
+
+SOLUTION Q39:
+Jharkhand is largest coal-producing state.
+Answer: (A) Jharkhand
+
+SOLUTION Q40:
+Bharat Ratna instituted in 1954.
+Answer: (B) 1954
+
+SOLUTION Q41:
+NH-44 is longest national highway.
+Answer: (A) NH-44
+
+SOLUTION Q42:
+Green Revolution in Fourth Five-Year Plan.
+Answer: (D) Fourth Five-Year Plan
+
+SOLUTION Q43:
+Dr. Vikram Sarabhai - Father of Indian Space Program.
+Answer: (A) Dr. Vikram Sarabhai
+
+SOLUTION Q44:
+GST implemented on 1st July 2017.
+Answer: (B) 1st July 2017
+
+SOLUTION Q45:
+Wular Lake is largest freshwater lake.
+Answer: (A) Wular Lake
+
+SOLUTION Q46:
+NEP 2020 replaced NEP 1986.
+Answer: (B) National Education Policy 1986
+
+SOLUTION Q47:
+Sukumar Sen was first CEC.
+Answer: (A) Sukumar Sen
+
+SOLUTION Q48:
+International Yoga Day on 21st June.
+Answer: (B) 21st June
+
+SOLUTION Q49:
+SBI is largest PSU bank.
+Answer: (C) State Bank of India
+
+SOLUTION Q50:
+Swachh Bharat Mission launched 2nd October 2014.
+Answer: (B) 2nd October 2014
+
+SOLUTION Q51:
+x³ + 1/x³ = (x + 1/x)³ - 3(x + 1/x) = 125 - 15 = 110
+Answer: (A) 110
+
+SOLUTION Q52:
+Total journey = 224 km
+Answer: (B) 224 km
+
+SOLUTION Q53:
+Ratio of perimeters = 3:4
+Answer: (A) 3:4
+
+SOLUTION Q54:
+Time = 11 seconds
+Answer: (B) 11 seconds
+
+SOLUTION Q55:
+P:Q = 7:3
+Answer: (B) 7:3
+
+SOLUTION Q56:
+Largest number = 32
+Answer: (B) 32
+
+SOLUTION Q57:
+Simple Interest = Rs. 2,000
+Answer: (A) Rs. 2,000
+
+SOLUTION Q58:
+Loss = 4%
+Answer: (B) 4% loss
+
+SOLUTION Q59:
+x = 3, 4
+Answer: (A) 3, 4
+
+SOLUTION Q60:
+Work left = 8/15
+Answer: (B) 8/15
+
+SOLUTION Q61:
+Original number = 63
+Answer: (A) 63
+
+SOLUTION Q62:
+Value = -7
+Answer: (B) -7
+
+SOLUTION Q63:
+CSA = 440 cm²
+Answer: (B) 440 cm²
+
+SOLUTION Q64:
+a:c = 8:15
+Answer: (A) 8:15
+
+SOLUTION Q65:
+Gain = 5%
+Answer: (A) 5%
+
+SOLUTION Q66:
+Value = 101/2
+Answer: (C) 101/2
+
+SOLUTION Q67:
+log₁₀8 = 0.9030
+Answer: (A) 0.9030
+
+SOLUTION Q68:
+Time = 12 years
+Answer: (A) 12 years
+
+SOLUTION Q69:
+xy = 20
+Answer: (B) 20
+
+SOLUTION Q70:
+Speed in still water = 10 km/hr
+Answer: (D) 10 km/hr
+
+SOLUTION Q71:
+Other number = 48
+Answer: (A) 48
+
+SOLUTION Q72:
+x + y = 6
+Answer: (B) 6
+
+SOLUTION Q73:
+Volume = 301.7 cm³
+Answer: (C) 301.7 cm³
+
+SOLUTION Q74:
+Population = 19,800
+Answer: (A) 19,800
+
+SOLUTION Q75:
+sin⁴θ + cos⁴θ = 1 - 2sin²θcos²θ
+Answer: (A) 1 - 2sin²θcos²θ
+
+SOLUTION Q76:
+AMELIORATE means Improve.
+Answer: (B) Improve
+
+SOLUTION Q77:
+Opposite of BENEVOLENT is Malevolent.
+Answer: (C) Malevolent
+
+SOLUTION Q78:
+Error: "are going" should be "is going".
+Answer: (C) are going
+
+SOLUTION Q79:
+Motivate is correct.
+Answer: (A) motivate
+
+SOLUTION Q80:
+Accommodate is correctly spelled.
+Answer: (A) Accommodate
+
+SOLUTION Q81:
+Good "at" is correct.
+Answer: (A) at
+
+SOLUTION Q82:
+Exclamatory sentence.
+Answer: (C) Exclamatory
+
+SOLUTION Q83:
+"Opened up" is correct.
+Answer: (A) opened up
+
+SOLUTION Q84:
+"he had" is correct.
+Answer: (B) he had
+
+SOLUTION Q85:
+"unable" is correct.
+Answer: (C) unable
+
+SOLUTION Q86:
+Opposite of FRUGAL is Extravagant.
+Answer: (B) Extravagant
+
+SOLUTION Q87:
+"running" is Adjective.
+Answer: (C) Adjective
+
+SOLUTION Q88:
+PRECARIOUS means Dangerous.
+Answer: (C) Dangerous
+
+SOLUTION Q89:
+"were" is correct.
+Answer: (C) were
+
+SOLUTION Q90:
+"The" Amazon is correct.
+Answer: (A) The
+
+SOLUTION Q91:
+Misanthrope hates mankind.
+Answer: (B) Misanthrope
+
+SOLUTION Q92:
+Passive: The lesson is being explained by the teacher.
+Answer: (A) The lesson is being explained by the teacher.
+
+SOLUTION Q93:
+Teacher : Student
+Answer: (B) Student
+
+SOLUTION Q94:
+Analytical mind.
+Answer: (A) analytical
+
+SOLUTION Q95:
+Error: "were present" should be "was present".
+Answer: (C) were present
+
+SOLUTION Q96:
+"Hit the nail on the head" = describe exactly.
+Answer: (B) To describe exactly what is causing a situation
+
+SOLUTION Q97:
+"if" is correct.
+Answer: (A) if
+
+SOLUTION Q98:
+PRISTINE means Pure.
+Answer: (B) Pure
+
+SOLUTION Q99:
+"had left" is correct.
+Answer: (B) had left
+
+SOLUTION Q100:
+Plural of Phenomenon is Phenomena.
+Answer: (B) Phenomena

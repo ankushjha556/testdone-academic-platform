@@ -48,7 +48,6 @@ router.get('/dashboard', async (req: AuthRequest, res, next) => {
 
 // GET /api/v1/admin/stats - Alias for dashboard stats
 router.get('/stats', async (req: AuthRequest, res, next) => {
-    console.log('GET /admin/stats hit');
     try {
         const [
             totalUsers,
@@ -57,7 +56,10 @@ router.get('/stats', async (req: AuthRequest, res, next) => {
             totalTests,
             totalQuestions,
             totalExams,
-            totalSubjects
+            totalSubjects,
+            publishedExams,
+            publishedQuestions,
+            recentUsers
         ] = await Promise.all([
             prisma.user.count(),
             prisma.subscription.count({ where: { status: 'ACTIVE' } }),
@@ -69,19 +71,36 @@ router.get('/stats', async (req: AuthRequest, res, next) => {
             prisma.mockTest.count(),
             prisma.question.count(),
             prisma.exam.count(),
-            prisma.subject.count()
+            prisma.subject.count(),
+            prisma.exam.count({ where: { status: 'PUBLISHED' } }),
+            prisma.question.count({ where: { status: 'PUBLISHED' } }),
+            prisma.user.findMany({
+                take: 5,
+                orderBy: { createdAt: 'desc' },
+                select: { firstName: true, lastName: true, createdAt: true }
+            })
         ]);
+
+        const recentActivity = recentUsers.map(u => ({
+            title: `New user registered: ${u.firstName} ${u.lastName || ''}`,
+            time: new Date(u.createdAt).toLocaleDateString()
+        }));
 
         res.json({
             success: true,
-            stats: { // Frontend expects "stats" key
-                totalUsers,
-                activeSubscriptions,
-                todayRegistrations,
-                totalTests,
-                totalQuestions,
-                totalExams,
-                totalSubjects
+            data: {
+                stats: {
+                    totalUsers,
+                    activeSubscriptions,
+                    todayRegistrations,
+                    totalTests,
+                    totalQuestions,
+                    totalExams,
+                    totalSubjects,
+                    publishedExams,
+                    publishedQuestions,
+                    recentActivity
+                }
             }
         });
     } catch (error) {
@@ -223,6 +242,25 @@ router.post('/exams', async (req: AuthRequest, res, next) => {
     }
 });
 
+// GET /api/v1/admin/exams/:id
+router.get('/exams/:id', async (req: AuthRequest, res, next) => {
+    try {
+        const { id } = req.params;
+        const exam = await prisma.exam.findUnique({
+            where: { id },
+            include: {
+                category: { select: { id: true, name: true } }
+            }
+        });
+        if (!exam) {
+            return res.status(404).json({ success: false, message: 'Exam not found' });
+        }
+        res.json({ success: true, data: exam });
+    } catch (error) {
+        next(error);
+    }
+});
+
 // PUT /api/v1/admin/exams/:id
 router.put('/exams/:id', async (req: AuthRequest, res, next) => {
     try {
@@ -291,6 +329,27 @@ router.get('/questions', async (req: AuthRequest, res, next) => {
             success: true,
             data: { questions, pagination: { currentPage: pageNum, totalPages: Math.ceil(total / limitNum), totalItems: total } },
         });
+    } catch (error) {
+        next(error);
+    }
+});
+
+// GET /api/v1/admin/questions/:id
+router.get('/questions/:id', async (req: AuthRequest, res, next) => {
+    try {
+        const { id } = req.params;
+        const question = await prisma.question.findUnique({
+            where: { id },
+            include: {
+                questionExams: { select: { examId: true } },
+            }
+        });
+
+        if (!question) {
+            return res.status(404).json({ success: false, message: 'Question not found' });
+        }
+
+        res.json({ success: true, data: { question } });
     } catch (error) {
         next(error);
     }
@@ -370,7 +429,67 @@ router.post('/questions', validate(createQuestionSchema), async (req: AuthReques
 router.put('/questions/:id', async (req: AuthRequest, res, next) => {
     try {
         const { id } = req.params;
-        const question = await prisma.question.update({ where: { id }, data: req.body });
+        const body = req.body;
+
+        const {
+            questionText,
+            questionType,
+            options,
+            correctAnswer,
+            solution,
+            conceptNote,
+            difficulty,
+            year,
+            source,
+            tags,
+            subjectId,
+            topicId,
+            sectionId,
+            explanation,
+            examId
+        } = body;
+
+        const data: any = {
+            questionText,
+            questionType,
+            options,
+            correctAnswer,
+            solution: explanation || solution,
+            conceptNote,
+            difficulty,
+            year,
+            source,
+            tags,
+            subjectId,
+            topicId: topicId || null,
+            sectionId: sectionId || null,
+        };
+
+        // Remove undefined values
+        Object.keys(data).forEach(key => data[key] === undefined && delete data[key]);
+
+        // Transaction to update question and relations
+        const question = await prisma.$transaction(async (tx) => {
+            const updated = await tx.question.update({
+                where: { id },
+                data
+            });
+
+            if (examId !== undefined) {
+                // Update Exam Relation: Clear existing and set new
+                await tx.questionExam.deleteMany({ where: { questionId: id } });
+                if (examId) {
+                    await tx.questionExam.create({
+                        data: {
+                            questionId: id,
+                            examId: examId
+                        }
+                    });
+                }
+            }
+            return updated;
+        });
+
         res.json({ success: true, data: question });
     } catch (error) {
         next(error);
@@ -581,10 +700,21 @@ router.delete('/sections/:id', authorize('SUPER_ADMIN', 'ADMIN'), async (req: Au
 // ============== QUESTION CRUD - DELETE ==============
 
 // DELETE /api/v1/admin/questions/:id
+// DELETE /api/v1/admin/questions/:id
 router.delete('/questions/:id', authorize('SUPER_ADMIN', 'ADMIN'), async (req: AuthRequest, res, next) => {
     try {
         const { id } = req.params;
-        await prisma.question.delete({ where: { id } });
+
+        // Deep Delete: Remove dependencies manually (Schema missing some Cascades)
+        await prisma.$transaction([
+            // Remove from any Mock Tests
+            prisma.testQuestion.deleteMany({ where: { questionId: id } }),
+            // Remove from any User Attempts (Caution: modifies historical data)
+            prisma.attemptAnswer.deleteMany({ where: { questionId: id } }),
+            // Finally delete the question (Cascades handled by DB for others like Bookmarks if set)
+            prisma.question.delete({ where: { id } })
+        ]);
+
         res.json({ success: true, message: 'Question deleted' });
     } catch (error) {
         next(error);
@@ -660,6 +790,17 @@ router.post('/books', async (req: AuthRequest, res, next) => {
 
 // PUT /api/v1/admin/books/:id
 router.put('/books/:id', async (req: AuthRequest, res, next) => {
+    try {
+        const { id } = req.params;
+        const book = await prisma.book.update({ where: { id }, data: req.body });
+        res.json({ success: true, data: book });
+    } catch (error) {
+        next(error);
+    }
+});
+
+// PATCH /api/v1/admin/books/:id (partial update for status toggle)
+router.patch('/books/:id', async (req: AuthRequest, res, next) => {
     try {
         const { id } = req.params;
         const book = await prisma.book.update({ where: { id }, data: req.body });
@@ -780,7 +921,7 @@ router.delete('/users/:id', authorize('SUPER_ADMIN', 'ADMIN'), async (req: AuthR
         if (error.code === 'P2003') {
             return res.status(400).json({
                 success: false,
-                message: 'Cannot delete user: They have linked content or financial records. Deactivate instead.'
+                error: { message: 'Cannot delete user: They have linked content or financial records. Deactivate instead.' }
             });
         }
         res.status(500).json({

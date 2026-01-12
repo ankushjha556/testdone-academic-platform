@@ -14,6 +14,7 @@ export const createQuestionSchema = z.object({
     subjectId: z.string().uuid(),
     topicId: z.string().uuid().optional().nullable(),
     sectionId: z.string().uuid().optional().nullable(),
+    examId: z.string().uuid().optional().nullable(),
     // Strict: reject unknown keys is too harsh for some frameworks, but we can strip them.
     // We explicitly DO NOT include 'marks' here.
 });

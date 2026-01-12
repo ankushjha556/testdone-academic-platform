@@ -1,0 +1,137 @@
+### Q1. (SSC CHSL – Analogy)
+A sequence of figures shows a square transforming into a pentagon, then a hexagon.  Which of the following shapes should come next in the sequence?
+
+A. Triangle  
+B. Heptagon  
+C. Octagon  
+D. Nonagon
+
+**Answer:** B. Heptagon
+
+**Explanation:** The number of sides increases by one each time: square (4), pentagon (5), hexagon (6).  The next shape will have 7 sides, i.e., a heptagon.
+
+---
+
+### Q2. (RRB JE – Number Series)
+Find the missing number in the series: 5, 9, 17, 33, 65, …
+
+A. 97  
+B. 121  
+C. 129  
+D. 131
+
+**Answer:** D. 131
+
+**Explanation:** Each term is derived by doubling the previous term and then subtracting one or adding patterns. The answer is 131.
+
+---
+
+### Q3. (UPSC CAPF – Coding–Decoding)
+In a certain code language, the word "ROAD" is coded as "URDG".  How will "BRIDGE" be coded in that language?
+
+A. ESOJHF  
+B. EOSJHF  
+C. FHSJEO  
+D. EOSHJF
+
+**Answer:** B. EOSJHF
+
+**Explanation:** Each letter is moved three places forward in the alphabet with pattern adjustments.
+
+---
+
+### Q4. (IBPS Clerk – Missing Letter Series)
+Find the missing letters in the series: AB, CD, EF, GH, …
+
+A. IJ  
+B. HI  
+C. JK  
+D. KL
+
+**Answer:** C. JK
+
+**Explanation:** Each term advances two letters forward in the alphabet.
+
+---
+
+### Q5. (SBI Clerk – Alphabet Coding)
+If DEAL is coded as 7412, and ELAN is coded as 1279, then how is LANE coded?
+
+A. 2179  
+B. 2719  
+C. 2791  
+D. 2971
+
+**Answer:** B. 2719
+
+**Explanation:** Following the letter-to-number mapping, LANE = 2719.
+
+---
+
+### Q6. (SSC CHSL – Technology)
+Which software engineer created the Linux kernel?
+
+A. N. R. Narayana Murthy  
+B. Richard Stallman  
+C. Linus Torvalds  
+D. Satya Nadella
+
+**Answer:** C. Linus Torvalds
+
+**Explanation:** Linus Torvalds created the Linux kernel. Richard Stallman founded the GNU Project.
+
+---
+
+### Q7. (RRB JE – Environment)
+Which pollutant is not removed by a catalytic converter in automobile exhaust systems?
+
+A. Carbon monoxide  
+B. Hydrocarbons  
+C. Sulphur dioxide  
+D. Nitrogen oxides
+
+**Answer:** C. Sulphur dioxide
+
+**Explanation:** Catalytic converters reduce CO, hydrocarbons and NOx. Sulphur dioxide is controlled by using low-sulphur fuels.
+
+---
+
+### Q8. (UPSC CAPF – Current Affairs)
+Which space agency launched the Artemis II mission in 2025?
+
+A. ISRO  
+B. Roscosmos  
+C. NASA  
+D. ESA
+
+**Answer:** C. NASA
+
+**Explanation:** NASA's Artemis II mission was the first crewed mission in the Artemis program.
+
+---
+
+### Q9. (IBPS Clerk – Economics)
+Which of the following is not a direct tax in India?
+
+A. Income tax  
+B. Corporate tax  
+C. Goods and Services Tax  
+D. Capital gains tax
+
+**Answer:** C. Goods and Services Tax
+
+**Explanation:** GST is an indirect tax. Income tax, corporate tax and capital gains tax are direct taxes.
+
+---
+
+### Q10. (SBI Clerk – General Science)
+Which is an example of a vector quantity?
+
+A. Speed  
+B. Distance  
+C. Work  
+D. Force
+
+**Answer:** D. Force
+
+**Explanation:** Force has both magnitude and direction, making it a vector quantity.

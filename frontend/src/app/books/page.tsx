@@ -108,13 +108,23 @@ export default function BooksPage() {
                     <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                         {filteredBooks.map((book) => (
                             <div key={book.id} className="card group hover:shadow-xl transition-all duration-300">
-                                {/* Visual Cover */}
-                                <div className="h-48 bg-gradient-to-br from-primary-600 to-primary-800 relative flex items-center justify-center overflow-hidden rounded-t-xl">
-                                    <Book className="w-16 h-16 text-white/20 absolute -right-4 -bottom-4 group-hover:scale-110 transition-transform" />
-                                    <div className="text-center p-4">
-                                        <Book className="w-12 h-12 text-white mx-auto mb-2" />
-                                        <h3 className="text-white font-bold line-clamp-2">{book.title}</h3>
-                                    </div>
+                                {/* Cover Image */}
+                                <div className="h-48 relative overflow-hidden rounded-t-xl">
+                                    {book.coverUrl ? (
+                                        <img
+                                            src={book.coverUrl}
+                                            alt={book.title}
+                                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                                        />
+                                    ) : (
+                                        <div className="h-full bg-gradient-to-br from-primary-600 to-primary-800 flex items-center justify-center">
+                                            <Book className="w-16 h-16 text-white/20 absolute -right-4 -bottom-4 group-hover:scale-110 transition-transform" />
+                                            <div className="text-center p-4">
+                                                <Book className="w-12 h-12 text-white mx-auto mb-2" />
+                                                <h3 className="text-white font-bold line-clamp-2">{book.title}</h3>
+                                            </div>
+                                        </div>
+                                    )}
                                     <div className="absolute top-3 right-3">
                                         {book.accessType === 'FREE' ? (
                                             <span className="badge bg-green-500 text-white border-none flex items-center gap-1">
@@ -129,16 +139,24 @@ export default function BooksPage() {
                                 </div>
 
                                 <div className="p-5">
-                                    <p className="text-sm text-gray-500 mb-1">{book.category}</p>
+                                    <p className="text-sm text-gray-500 mb-1">{book.category || book.subject?.name || 'General'}</p>
                                     <h4 className="font-semibold text-gray-900 dark:text-white mb-2 line-clamp-1" title={book.title}>
                                         {book.title}
                                     </h4>
-                                    <p className="text-xs text-gray-400 mb-4">By {book.author}</p>
+                                    <p className="text-xs text-gray-400 mb-2">By {book.author || 'Unknown'}</p>
 
-                                    <div className="flex items-center justify-between text-sm text-gray-500 mb-4">
-                                        <span>{book.pages} Pages</span>
-                                        <span>{book.sizeMb} MB</span>
-                                    </div>
+                                    {book.description && (
+                                        <p className="text-sm text-gray-600 dark:text-gray-400 mb-3 line-clamp-2">
+                                            {book.description}
+                                        </p>
+                                    )}
+
+                                    {(book.pages || book.sizeMb) && (
+                                        <div className="flex items-center justify-between text-sm text-gray-500 mb-4">
+                                            {book.pages && <span>{book.pages} Pages</span>}
+                                            {book.sizeMb && <span>{book.sizeMb} MB</span>}
+                                        </div>
+                                    )}
 
                                     <div className="flex gap-2">
                                         <Link
