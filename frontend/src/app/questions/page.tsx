@@ -199,7 +199,7 @@ export default function QuestionsPage() {
                         onChange={(e) => setFilters({ ...filters, exam: e.target.value })}
                         className="input w-full sm:w-48"
                     >
-                        <option value="">All Exams</option>
+                        <option value="">All Exams (Updated)</option>
                         {exams.map((exam) => (
                             <option key={exam.id} value={exam.slug}>{exam.name}</option>
                         ))}
