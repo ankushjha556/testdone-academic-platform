@@ -84,7 +84,8 @@ export default function QuestionsPage() {
 
     const loadExams = async () => {
         try {
-            const response = await api.get<{ exams: Exam[] }>('/exams?limit=100');
+            // Use the dedicated endpoint to get all active exams with questions (Phase 1 Fix)
+            const response = await api.get<{ exams: Exam[] }>('/exams/with-questions');
             if (response.success) {
                 setExams(response.data?.exams || []);
             }

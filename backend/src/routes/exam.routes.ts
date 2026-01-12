@@ -129,6 +129,37 @@ router.get('/categories', async (req, res, next) => {
     }
 });
 
+// GET /api/v1/exams/with-questions - List exams that have questions (Phase 1 Fix)
+router.get('/with-questions', optionalAuth, async (req: AuthRequest, res, next) => {
+    try {
+        const exams = await prisma.exam.findMany({
+            where: {
+                status: 'PUBLISHED',
+                questionExams: {
+                    some: {
+                        question: { status: 'PUBLISHED' }
+                    }
+                }
+            },
+            select: {
+                id: true,
+                name: true,
+                slug: true,
+            },
+            orderBy: { name: 'asc' }
+        });
+
+        res.json({
+            success: true,
+            data: {
+                exams
+            }
+        });
+    } catch (error) {
+        next(error);
+    }
+});
+
 // GET /api/v1/exams/:slug - Get exam details
 router.get('/:slug', optionalAuth, async (req: AuthRequest, res, next) => {
     try {
