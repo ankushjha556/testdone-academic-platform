@@ -1,10 +1,11 @@
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api/v1';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || (typeof window === 'undefined' ? 'http://localhost:5000/api/v1' : 'https://testdone.in/api/v1');
 
 interface ApiResponse<T = any> {
     success: boolean;
     data?: T;
     error?: {
         message: string;
+        code?: string;
         details?: any;
     };
 }
@@ -36,6 +37,11 @@ async function request<T>(
     endpoint: string,
     options: RequestInit = {}
 ): Promise<ApiResponse<T>> {
+    if (!endpoint) {
+        console.error('API Error: Endpoint is undefined', new Error().stack);
+        throw new Error('API request failed: Endpoint is undefined');
+    }
+    console.log(`[API Debug] API_URL: ${API_URL}, Endpoint: ${endpoint}`);
     const url = `${API_URL}${endpoint}`;
 
     const headers: HeadersInit = {

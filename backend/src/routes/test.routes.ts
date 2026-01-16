@@ -88,7 +88,67 @@ router.get('/', async (req, res, next) => {
     }
 });
 
-// GET /api/v1/tests/:slug - Get test details
+// GET /api/v1/tests/info/:slug - Get public test info (no auth required) for SEO/preview
+router.get('/info/:slug', async (req, res, next) => {
+    try {
+        const { slug } = req.params;
+
+        // Check if input is a valid UUID
+        const isUuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(slug);
+
+        const test = await prisma.mockTest.findFirst({
+            where: {
+                OR: [
+                    { slug },
+                    ...(isUuid ? [{ id: slug }] : [])
+                ]
+            },
+            select: {
+                id: true,
+                name: true,
+                slug: true,
+                description: true,
+                testType: true,
+                totalQuestions: true,
+                totalMarks: true,
+                durationMinutes: true,
+                accessType: true,
+                isAllIndia: true,
+                instructions: true,
+                exam: {
+                    select: {
+                        id: true,
+                        name: true,
+                        slug: true,
+                    },
+                },
+                _count: {
+                    select: { attempts: true },
+                },
+            },
+        });
+
+        if (!test) {
+            return res.status(404).json({
+                success: false,
+                error: { message: 'Test not found' },
+            });
+        }
+
+        res.json({
+            success: true,
+            data: {
+                ...test,
+                attemptsCount: test._count.attempts,
+                _count: undefined,
+            },
+        });
+    } catch (error) {
+        next(error);
+    }
+});
+
+// GET /api/v1/tests/:slug - Get test details (authenticated)
 router.get('/:slug', authenticate, async (req: AuthRequest, res, next) => {
     try {
         const { slug } = req.params;
@@ -197,6 +257,7 @@ router.post('/:testId/start', authenticate, async (req: AuthRequest, res, next) 
                                 questionText: true,
                                 questionType: true,
                                 options: true,
+                                conceptNote: true, // For passages in comprehension questions
                             },
                         },
                     },
@@ -236,6 +297,7 @@ router.post('/:testId/start', authenticate, async (req: AuthRequest, res, next) 
                         questionText: tq.question.questionText,
                         questionType: tq.question.questionType,
                         options: tq.question.options,
+                        passage: tq.question.conceptNote || null, // Passage for comprehension
                         sectionIndex: tq.sectionIndex,
                         questionOrder: tq.questionOrder,
                         marks: tq.marks,
@@ -243,6 +305,7 @@ router.post('/:testId/start', authenticate, async (req: AuthRequest, res, next) 
                     sections: test.sections,
                     startedAt: existingAttempt.startedAt,
                     expiresAt: new Date(existingAttempt.startedAt.getTime() + test.durationMinutes * 60 * 1000),
+                    serverTime: new Date(),
                     savedAnswers: answers.reduce((acc, a) => {
                         acc[a.questionId] = a.selectedOption;
                         return acc;
@@ -277,6 +340,7 @@ router.post('/:testId/start', authenticate, async (req: AuthRequest, res, next) 
                     questionText: tq.question.questionText,
                     questionType: tq.question.questionType,
                     options: tq.question.options,
+                    passage: tq.question.conceptNote || null, // Passage for comprehension
                     sectionIndex: tq.sectionIndex,
                     questionOrder: tq.questionOrder,
                     marks: tq.marks,
@@ -284,6 +348,7 @@ router.post('/:testId/start', authenticate, async (req: AuthRequest, res, next) 
                 sections: test.sections,
                 startedAt: attempt.startedAt,
                 expiresAt: new Date(attempt.startedAt.getTime() + test.durationMinutes * 60 * 1000),
+                serverTime: new Date(),
                 savedAnswers: {},
             },
         });

@@ -1,0 +1,15 @@
+prisma:query SELECT "public"."Subject"."id", "public"."Subject"."name", "public"."Subject"."slug", "public"."Subject"."description", "public"."Subject"."icon", "public"."Subject"."color", "public"."Subject"."order", "public"."Subject"."createdAt", "public"."Subject"."updatedAt", COALESCE("aggr_selection_0_Question"."_aggr_count_questions", 0) AS "_aggr_count_questions" FROM "public"."Subject" LEFT JOIN (SELECT "public"."Question"."subjectId", COUNT(*) AS "_aggr_count_questions" FROM "public"."Question" WHERE 1=1 GROUP BY "public"."Question"."subjectId") AS "aggr_selection_0_Question" ON ("public"."Subject"."id" = "aggr_selection_0_Question"."subjectId") WHERE 1=1 ORDER BY "public"."Subject"."name" ASC OFFSET $1
+SUBJECT_DISTRIBUTION_START
+Computer [computer]: 400
+English Comprehension [english-comprehension]: 42
+English Language [english]: 0
+Environment & Pedagogy [environment-pedagogy]: 300
+General Awareness [general-awareness]: 50
+General Intelligence & Reasoning [general-intelligence-reasoning]: 50
+General Studies [general-studies]: 1500
+IBPS Quant [ibps-quant]: 3000
+Quantitative Aptitude [quantitative-aptitude]: 50
+Reasoning Ability [reasoning]: 300
+SUBJECT_DISTRIBUTION_END
+prisma:query SELECT COUNT(*) FROM (SELECT "public"."Question"."id" FROM "public"."Question" WHERE 1=1 OFFSET $1) AS "sub"
+TOTAL_QUESTIONS_IN_DB: 5692

@@ -1,0 +1,269 @@
+Q15001. SSC MTS/Reasoning – Find the next number in the series: 6, 8, 10, 12, ?
+    A. 14
+    B. 16
+    C. 13
+    D. 28
+
+Answer: 14
+Solution: The given series is an arithmetic sequence with common difference 2. Starting from 6, it increases by 2 each time. Therefore, the next term after 12 is 14.
+
+Q15002. SSC MTS/Reasoning – Find the next number in the series: 7, 10, 13, 16, ?
+    A. 19
+    B. 22
+    C. 18
+    D. 38
+
+Answer: 19
+Solution: The given series is an arithmetic sequence with common difference 3. Starting from 7, it increases by 3 each time. Therefore, the next term after 16 is 19.
+
+Q15003. SSC MTS/Reasoning – Find the next number in the series: 8, 12, 16, 20, ?
+    A. 24
+    B. 28
+    C. 23
+    D. 48
+
+Answer: 24
+Solution: The given series is an arithmetic sequence with common difference 4. Starting from 8, it increases by 4 each time. Therefore, the next term after 20 is 24.
+
+Q15004. SSC MTS/Reasoning – Find the next number in the series: 9, 14, 19, 24, ?
+    A. 29
+    B. 34
+    C. 28
+    D. 58
+
+Answer: 29
+Solution: The given series is an arithmetic sequence with common difference 5. Starting from 9, it increases by 5 each time. Therefore, the next term after 24 is 29.
+
+Q15005. SSC MTS/Reasoning – Find the next number in the series: 10, 16, 22, 28, ?
+    A. 34
+    B. 40
+    C. 33
+    D. 68
+
+Answer: 34
+Solution: The given series is an arithmetic sequence with common difference 6. Starting from 10, it increases by 6 each time. Therefore, the next term after 28 is 34.
+
+Q15006. SSC MTS/Reasoning – Find the next number in the series: 11, 18, 25, 32, ?
+    A. 39
+    B. 46
+    C. 38
+    D. 78
+
+Answer: 39
+Solution: The given series is an arithmetic sequence with common difference 7. Starting from 11, it increases by 7 each time. Therefore, the next term after 32 is 39.
+
+Q15007. SSC MTS/Reasoning – Find the next number in the series: 12, 20, 28, 36, ?
+    A. 44
+    B. 52
+    C. 43
+    D. 88
+
+Answer: 44
+Solution: The given series is an arithmetic sequence with common difference 8. Starting from 12, it increases by 8 each time. Therefore, the next term after 36 is 44.
+
+Q15008. SSC MTS/Reasoning – Find the next number in the series: 13, 22, 31, 40, ?
+    A. 49
+    B. 58
+    C. 48
+    D. 98
+
+Answer: 49
+Solution: The given series is an arithmetic sequence with common difference 9. Starting from 13, it increases by 9 each time. Therefore, the next term after 40 is 49.
+
+Q15009. SSC MTS/Reasoning – Find the next number in the series: 14, 24, 34, 44, ?
+    A. 54
+    B. 64
+    C. 53
+    D. 108
+
+Answer: 54
+Solution: The given series is an arithmetic sequence with common difference 10. Starting from 14, it increases by 10 each time. Therefore, the next term after 44 is 54.
+
+Q15010. SSC MTS/Reasoning – Find the next number in the series: 15, 26, 37, 48, ?
+    A. 59
+    B. 70
+    C. 58
+    D. 118
+
+Answer: 59
+Solution: The given series is an arithmetic sequence with common difference 11. Starting from 15, it increases by 11 each time. Therefore, the next term after 48 is 59.
+
+Q15011. SSC MTS/Reasoning – Find the next number in the series: 16, 28, 40, 52, ?
+    A. 64
+    B. 76
+    C. 63
+    D. 128
+
+Answer: 64
+Solution: The given series is an arithmetic sequence with common difference 12. Starting from 16, it increases by 12 each time. Therefore, the next term after 52 is 64.
+
+Q15012. SSC MTS/Reasoning – Find the next number in the series: 17, 30, 43, 56, ?
+    A. 69
+    B. 82
+    C. 68
+    D. 138
+
+Answer: 69
+Solution: The given series is an arithmetic sequence with common difference 13. Starting from 17, it increases by 13 each time. Therefore, the next term after 56 is 69.
+
+Q15013. SSC MTS/Reasoning – Find the next number in the series: 18, 20, 22, 24, ?
+    A. 26
+    B. 28
+    C. 25
+    D. 52
+
+Answer: 26
+Solution: The given series is an arithmetic sequence with common difference 2. Starting from 18, it increases by 2 each time. Therefore, the next term after 24 is 26.
+
+Q15014. SSC MTS/Reasoning – Find the next number in the series: 19, 22, 25, 28, ?
+    A. 31
+    B. 34
+    C. 30
+    D. 62
+
+Answer: 31
+Solution: The given series is an arithmetic sequence with common difference 3. Starting from 19, it increases by 3 each time. Therefore, the next term after 28 is 31.
+
+Q15015. SSC MTS/Reasoning – Find the next number in the series: 20, 24, 28, 32, ?
+    A. 36
+    B. 40
+    C. 35
+    D. 72
+
+Answer: 36
+Solution: The given series is an arithmetic sequence with common difference 4. Starting from 20, it increases by 4 each time. Therefore, the next term after 32 is 36.
+
+Q15016. SSC MTS/Reasoning – Find the next number in the series: 21, 26, 31, 36, ?
+    A. 41
+    B. 46
+    C. 40
+    D. 82
+
+Answer: 41
+Solution: The given series is an arithmetic sequence with common difference 5. Starting from 21, it increases by 5 each time. Therefore, the next term after 36 is 41.
+
+Q15017. SSC MTS/Reasoning – Find the next number in the series: 22, 28, 34, 40, ?
+    A. 46
+    B. 52
+    C. 45
+    D. 92
+
+Answer: 46
+Solution: The given series is an arithmetic sequence with common difference 6. Starting from 22, it increases by 6 each time. Therefore, the next term after 40 is 46.
+
+Q15018. SSC MTS/Reasoning – Find the next number in the series: 23, 30, 37, 44, ?
+    A. 51
+    B. 58
+    C. 50
+    D. 102
+
+Answer: 51
+Solution: The given series is an arithmetic sequence with common difference 7. Starting from 23, it increases by 7 each time. Therefore, the next term after 44 is 51.
+
+Q15019. SSC MTS/Reasoning – Find the next number in the series: 24, 32, 40, 48, ?
+    A. 56
+    B. 64
+    C. 55
+    D. 112
+
+Answer: 56
+Solution: The given series is an arithmetic sequence with common difference 8. Starting from 24, it increases by 8 each time. Therefore, the next term after 48 is 56.
+
+Q15020. SSC MTS/Reasoning – Find the next number in the series: 25, 34, 43, 52, ?
+    A. 61
+    B. 70
+    C. 60
+    D. 122
+
+Answer: 61
+Solution: The given series is an arithmetic sequence with common difference 9. Starting from 25, it increases by 9 each time. Therefore, the next term after 52 is 61.
+
+Q15021. SSC MTS/Reasoning – Find the next number in the series: 26, 36, 46, 56, ?
+    A. 66
+    B. 76
+    C. 65
+    D. 132
+
+Answer: 66
+Solution: The given series is an arithmetic sequence with common difference 10. Starting from 26, it increases by 10 each time. Therefore, the next term after 56 is 66.
+
+Q15022. SSC MTS/Reasoning – Find the next number in the series: 27, 38, 49, 60, ?
+    A. 71
+    B. 82
+    C. 70
+    D. 142
+
+Answer: 71
+Solution: The given series is an arithmetic sequence with common difference 11. Starting from 27, it increases by 11 each time. Therefore, the next term after 60 is 71.
+
+Q15023. SSC MTS/Reasoning – Find the next number in the series: 28, 40, 52, 64, ?
+    A. 76
+    B. 88
+    C. 75
+    D. 152
+
+Answer: 76
+Solution: The given series is an arithmetic sequence with common difference 12. Starting from 28, it increases by 12 each time. Therefore, the next term after 64 is 76.
+
+Q15024. SSC MTS/Reasoning – Find the next number in the series: 29, 42, 55, 68, ?
+    A. 81
+    B. 94
+    C. 80
+    D. 162
+
+Answer: 81
+Solution: The given series is an arithmetic sequence with common difference 13. Starting from 29, it increases by 13 each time. Therefore, the next term after 68 is 81.
+
+Q15025. SSC MTS/Reasoning – Find the next number in the series: 30, 32, 34, 36, ?
+    A. 38
+    B. 40
+    C. 37
+    D. 76
+
+Answer: 38
+Solution: The given series is an arithmetic sequence with common difference 2. Starting from 30, it increases by 2 each time. Therefore, the next term after 36 is 38.
+
+Q15026. SSC MTS/Reasoning – Find the next number in the series: 31, 34, 37, 40, ?
+    A. 43
+    B. 46
+    C. 42
+    D. 86
+
+Answer: 43
+Solution: The given series is an arithmetic sequence with common difference 3. Starting from 31, it increases by 3 each time. Therefore, the next term after 40 is 43.
+
+Q15027. SSC MTS/Reasoning – Find the next number in the series: 32, 36, 40, 44, ?
+    A. 48
+    B. 52
+    C. 47
+    D. 96
+
+Answer: 48
+Solution: The given series is an arithmetic sequence with common difference 4. Starting from 32, it increases by 4 each time. Therefore, the next term after 44 is 48.
+
+Q15028. SSC MTS/Reasoning – Find the next number in the series: 33, 38, 43, 48, ?
+    A. 53
+    B. 58
+    C. 52
+    D. 106
+
+Answer: 53
+Solution: The given series is an arithmetic sequence with common difference 5. Starting from 33, it increases by 5 each time. Therefore, the next term after 48 is 53.
+
+Q15029. SSC MTS/Reasoning – Find the next number in the series: 34, 40, 46, 52, ?
+    A. 58
+    B. 64
+    C. 57
+    D. 116
+
+Answer: 58
+Solution: The given series is an arithmetic sequence with common difference 6. Starting from 34, it increases by 6 each time. Therefore, the next term after 52 is 58.
+
+Q15030. SSC MTS/Reasoning – Find the next number in the series: 35, 42, 49, 56, ?
+    A. 63
+    B. 70
+    C. 62
+    D. 126
+
+Answer: 63
+Solution: The given series is an arithmetic sequence with common difference 7. Starting from 35, it increases by 7 each time. Therefore, the next term after 56 is 63.

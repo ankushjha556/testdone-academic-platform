@@ -17,15 +17,41 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-    title: 'TestDone - India\'s #1 Exam Preparation Platform',
+    metadataBase: new URL('https://testdone.in'),
+    title: {
+        default: 'TestDone – Smart Competitive Exam Preparation Platform',
+        template: '%s | TestDone'
+    },
     description: 'Prepare for IBPS, SSC, Railway, and 250+ competitive exams with TestDone. Free mock tests, question bank, and study materials.',
-    keywords: 'IBPS PO, SSC CGL, Bank Exams, Mock Tests, Question Bank, Competitive Exams India',
+    keywords: 'IBPS PO, SSC CGL, Bank Exams, Mock Tests, Question Bank, Competitive Exams India, Sarkari Result',
+    icons: {
+        icon: '/favicon.png',
+        shortcut: '/favicon.png',
+        apple: '/favicon.png',
+    },
     openGraph: {
-        title: 'TestDone - India\'s #1 Exam Preparation Platform',
+        title: 'TestDone – Smart Competitive Exam Preparation Platform',
         description: 'Prepare for 250+ competitive exams with free mock tests and study materials.',
         type: 'website',
         locale: 'en_IN',
         siteName: 'TestDone',
+        images: [
+            {
+                url: '/images/logo.png',
+                width: 800,
+                height: 800,
+                alt: 'TestDone Logo',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary',
+        title: 'TestDone – Smart Competitive Exam Preparation Platform',
+        description: 'Prepare for IBPS, SSC, Railway exams with TestDone.',
+        images: ['/images/logo.png'],
+    },
+    verification: {
+        google: 'gRCNr27ZPSbgimYW8qLmzv-ww872_mbr4YkqJgBcrMg',
     },
 };
 

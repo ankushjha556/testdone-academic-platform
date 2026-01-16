@@ -1,6 +1,5 @@
-'use client';
-
 import Link from 'next/link';
+import { Metadata } from 'next';
 import {
     BookOpen,
     Users,
@@ -17,7 +16,12 @@ import {
     Star,
     LayoutDashboard,
 } from 'lucide-react';
-import { useAuth } from '@/contexts/AuthContext';
+import { ActionButtons, CTAButtons } from '@/components/home/ActionButtons';
+
+export const metadata: Metadata = {
+    title: "TestDone – Smart Competitive Exam Preparation Platform | Mock Tests & PYQs",
+    description: "Prepare for SSC, Banking, Railways, and 250+ government exams with TestDone. Get free mock tests, previous year questions, and performance analytics.",
+};
 
 // Featured exams data
 const featuredExams = [
@@ -43,11 +47,14 @@ const stats = [
     { value: '250+', label: 'Exams Covered' },
 ];
 
-export default function HomePage() {
-    const { isAuthenticated } = useAuth();
+import OrganizationJsonLd from '@/components/seo/OrganizationJsonLd';
+import WebsiteJsonLd from '@/components/seo/WebsiteJsonLd';
 
+export default function HomePage() {
     return (
         <div className="min-h-screen">
+            <OrganizationJsonLd />
+            <WebsiteJsonLd />
             {/* Hero Section */}
             <section className="relative bg-gradient-to-br from-primary-600 via-primary-700 to-primary-900 text-white overflow-hidden">
                 {/* Background decorations */}
@@ -65,43 +72,19 @@ export default function HomePage() {
                                 <span>Trusted by 25 Lakh+ Students</span>
                             </div>
 
-                            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-heading leading-tight mb-6">
-                                Crack Your Dream Exam with{' '}
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-accent-amber to-accent-orange">
-                                    TestDone
-                                </span>
+                            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-heading leading-tight mb-4">
+                                India&apos;s Smart Competitive Exam Preparation Platform
                             </h1>
+                            <p className="text-xl sm:text-2xl font-medium text-accent-amber mb-6">
+                                Crack Your Dream Exam with TestDone
+                            </p>
 
                             <p className="text-lg sm:text-xl text-white/80 mb-8 max-w-xl mx-auto lg:mx-0">
-                                India's #1 platform for Banking, SSC, Railway & Government exam preparation.
+                                India&apos;s #1 platform for Banking, SSC, Railway & Government exam preparation.
                                 Practice with 5000+ mock tests and 1 lakh+ questions.
                             </p>
 
-                            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                                {isAuthenticated ? (
-                                    <Link
-                                        href="/dashboard"
-                                        className="btn bg-white text-primary-700 hover:bg-gray-100 btn-lg shadow-lg hover:shadow-xl transition-all flex items-center gap-2"
-                                    >
-                                        <LayoutDashboard className="w-5 h-5" />
-                                        Go to Dashboard
-                                    </Link>
-                                ) : (
-                                    <Link
-                                        href="/signup"
-                                        className="btn bg-white text-primary-700 hover:bg-gray-100 btn-lg shadow-lg hover:shadow-xl transition-all"
-                                    >
-                                        Start Free Practice
-                                        <ArrowRight className="w-5 h-5" />
-                                    </Link>
-                                )}
-                                <Link
-                                    href="/exams"
-                                    className="btn btn-outline border-white/30 text-white hover:bg-white/10 btn-lg"
-                                >
-                                    View All Exams
-                                </Link>
-                            </div>
+                            <ActionButtons />
 
                             {/* Trust indicators */}
                             <div className="flex items-center gap-6 mt-10 justify-center lg:justify-start">
@@ -147,7 +130,7 @@ export default function HomePage() {
                                 </div>
 
                                 <div className="absolute bottom-20 left-0 w-56 bg-white rounded-2xl shadow-2xl p-4 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-                                    <p className="text-gray-900 font-semibold text-sm mb-2">Today's Practice</p>
+                                    <p className="text-gray-900 font-semibold text-sm mb-2">Today&apos;s Practice</p>
                                     <div className="flex items-center justify-between text-sm">
                                         <span className="text-gray-500">Questions</span>
                                         <span className="text-primary-600 font-semibold">127</span>
@@ -202,7 +185,7 @@ export default function HomePage() {
                             Popular Exams
                         </h2>
                         <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-                            Start preparing for India's top competitive exams with our comprehensive study materials
+                            Start preparing for India&apos;s top competitive exams with our comprehensive study materials
                         </p>
                     </div>
 
@@ -244,6 +227,48 @@ export default function HomePage() {
                             View All 250+ Exams
                             <ArrowRight className="w-4 h-4" />
                         </Link>
+                    </div>
+                </div>
+            </section>
+
+            {/* SEO Content Block: Why Choose TestDone */}
+            <section className="py-16 bg-white dark:bg-gray-900 border-t border-gray-100 dark:border-gray-800">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="grid lg:grid-cols-2 gap-12 items-center">
+                        <div>
+                            <h2 className="text-3xl font-bold font-heading text-gray-900 dark:text-white mb-6">
+                                Why Choose TestDone for Your Exam Prep?
+                            </h2>
+                            <div className="prose dark:prose-invert max-w-none space-y-4 text-gray-600 dark:text-gray-400">
+                                <p>
+                                    TestDone is India&apos;s most trusted competitive exam preparation platform, designed to help you crack exams like <strong>SSC CGL, IBPS PO, SBI Clerk, RRB NTPC, and UPSC</strong>. We provide a scientifically designed testing interface that matches the real exam environment.
+                                </p>
+                                <p>
+                                    Our extensive <strong>Question Bank</strong> contains over 1 lakh+ updated questions covering Quantitative Aptitude, Reasoning, English, and General Awareness. With our <strong>Free Mock Tests</strong> and <strong>Previous Year Question Papers (PYQs)</strong>, you can analyze your performance with detailed solutions and all-India rankings.
+                                </p>
+                                <p>
+                                    Whether you are a beginner or an advanced aspirant, TestDone&apos;s personalized analytics help you identify weak areas and improve your speed and accuracy. Join thousands of successful candidates who have cleared their government exams with TestDone.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="grid grid-cols-2 gap-4">
+                            <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-2xl">
+                                <h4 className="font-semibold text-primary-600 mb-2">Real Exam Interface</h4>
+                                <p className="text-sm text-gray-500">Practice on the exact same UI used in actual TCS/NTA exams.</p>
+                            </div>
+                            <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-2xl">
+                                <h4 className="font-semibold text-primary-600 mb-2">Detailed Solutions</h4>
+                                <p className="text-sm text-gray-500">Step-by-step explanations and shortcut tricks for every question.</p>
+                            </div>
+                            <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-2xl">
+                                <h4 className="font-semibold text-primary-600 mb-2">All India Rank</h4>
+                                <p className="text-sm text-gray-500">Compete with lakhs of students and check your standing.</p>
+                            </div>
+                            <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-2xl">
+                                <h4 className="font-semibold text-primary-600 mb-2">Latest Pattern</h4>
+                                <p className="text-sm text-gray-500">Questions updated daily as per the latest 2024-2025 syllabus.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -293,33 +318,9 @@ export default function HomePage() {
                             </h2>
                             <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
                                 Join 25 lakh+ students who are already preparing with TestDone.
-                                Start your journey today – it's completely free!
+                                Start your journey today – it&apos;s completely free!
                             </p>
-                            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                                {isAuthenticated ? (
-                                    <Link
-                                        href="/dashboard"
-                                        className="btn bg-white text-primary-700 hover:bg-gray-100 btn-lg flex items-center gap-2"
-                                    >
-                                        <LayoutDashboard className="w-5 h-5" />
-                                        Go to Dashboard
-                                    </Link>
-                                ) : (
-                                    <Link
-                                        href="/signup"
-                                        className="btn bg-white text-primary-700 hover:bg-gray-100 btn-lg"
-                                    >
-                                        Create Free Account
-                                        <ArrowRight className="w-5 h-5" />
-                                    </Link>
-                                )}
-                                <Link
-                                    href="/tests"
-                                    className="btn btn-ghost border border-white/30 text-white hover:bg-white/10 btn-lg"
-                                >
-                                    Try a Free Mock Test
-                                </Link>
-                            </div>
+                            <CTAButtons />
                         </div>
                     </div>
                 </div>

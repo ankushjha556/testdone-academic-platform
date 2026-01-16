@@ -38,6 +38,36 @@ router.get('/', async (req, res, next) => {
     }
 });
 
+// GET /api/v1/subjects/with-questions - List subjects that have published questions (Phase 1 Fix)
+router.get('/with-questions', async (req, res, next) => {
+    try {
+        const subjects = await prisma.subject.findMany({
+            where: {
+                questions: {
+                    some: {
+                        status: 'PUBLISHED'
+                    }
+                }
+            },
+            select: {
+                id: true,
+                name: true,
+                slug: true,
+            },
+            orderBy: { name: 'asc' }
+        });
+
+        res.json({
+            success: true,
+            data: {
+                subjects
+            }
+        });
+    } catch (error) {
+        next(error);
+    }
+});
+
 // GET /api/v1/subjects/:slug/topics - Get topics for a subject
 router.get('/:slug/topics', async (req, res, next) => {
     try {

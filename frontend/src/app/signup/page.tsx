@@ -53,6 +53,9 @@ export default function SignupPage() {
         <div className="min-h-[80vh] flex items-center justify-center py-12 px-4">
             <div className="w-full max-w-md">
                 <div className="text-center mb-8">
+                    <Link href="/" className="inline-block mb-6">
+                        <img src="/images/logo.png" alt="TestDone" className="h-12 w-auto mx-auto" />
+                    </Link>
                     <h1 className="text-3xl font-bold font-heading text-gray-900 dark:text-white mb-2">
                         Create Your Account
                     </h1>
@@ -143,8 +146,8 @@ export default function SignupPage() {
                                             <div
                                                 key={level}
                                                 className={`h-1 flex-1 rounded ${strength >= level
-                                                        ? strength <= 1 ? 'bg-red-500' : strength <= 2 ? 'bg-yellow-500' : 'bg-green-500'
-                                                        : 'bg-gray-200'
+                                                    ? strength <= 1 ? 'bg-red-500' : strength <= 2 ? 'bg-yellow-500' : 'bg-green-500'
+                                                    : 'bg-gray-200'
                                                     }`}
                                             />
                                         ))}

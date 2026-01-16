@@ -4,9 +4,21 @@ import { authenticate, AuthRequest } from '../middleware/auth';
 
 const router = Router();
 
-// GET /api/v1/questions - Question bank
+// GET /api/v1/questions - Question bank (PREMIUM ONLY)
 router.get('/', authenticate, async (req: AuthRequest, res, next) => {
     try {
+        // Premium Access Control - Question Bank is PREMIUM ONLY
+        const allowedRoles = ['PREMIUM_USER', 'ADMIN', 'SUPER_ADMIN', 'CONTENT_MANAGER', 'MODERATOR'];
+        if (req.user && !allowedRoles.includes(req.user.role)) {
+            return res.status(403).json({
+                success: false,
+                error: {
+                    message: 'Premium subscription required to access the Question Bank',
+                    code: 'PREMIUM_REQUIRED'
+                }
+            });
+        }
+
         const {
             subject,
             topic,

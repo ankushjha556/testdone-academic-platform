@@ -117,9 +117,7 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
                 {/* Logo */}
                 <div className="h-16 flex items-center justify-between px-4 border-b border-gray-800">
                     <Link href="/admin" className="flex items-center gap-3">
-                        <div className="w-9 h-9 bg-gradient-to-br from-primary-500 to-purple-600 rounded-lg flex items-center justify-center">
-                            <span className="text-white font-bold text-lg">T</span>
-                        </div>
+                        <img src="/images/logo.png" alt="TestDone Admin" className="h-8 w-auto" />
                         <div>
                             <span className="text-white font-bold">TestDone</span>
                             <span className="text-gray-400 text-xs block">Admin Panel</span>

@@ -1,0 +1,4503 @@
+
+These 500 deep researched questions are compiled from examination patterns of various Indian competitive exams including RRB ALP stage 1 (75 questions across Mathematics, Reasoning, General Science, and Current Affairs with negative marking)https://www.careerpower.in/rrb-alp-syllabus.html#:~:text=RRB%20ALP%20CBT%201%20Exam,Pattern%202026, CTET Papers I and II (150 MCQs each with no negative marking)https://www.careerpower.in/ctet-exam-pattern.html#:~:text=The%20CTET%20Exam%20included%202,2%20consists%20of%204%20sectionshttps://www.careerpower.in/ctet-exam-pattern.html#:~:text=CTET%20Exam%20Pattern%202026,I, SSC GD (80 MCQs with negative marking 0.25)https://www.careerpower.in/ssc-gd-exam-pattern.html#:~:text=1,incorrect%20answer%20will%20be%20imposed, IBPS RRB Prelims and Mains patterns (multiple sections and negative marking)https://www.careerpower.in/ibps-rrb-syllabus-exam-pattern.html#:~:text=IBPS%20RRB%20Clerk%20Prelims%20Exam,Pattern%202025, FCI Manager Phase I pattern (120 questions/marks with negative marking 1/4)https://www.careerpower.in/fci-manager-syllabus-exam-pattern.html#:~:text=Two%20Paper%20Exam%20Paper%20I,Questions%2F%20120%20Marks%2060%20Minutes, and Delhi Police Constable exam (100 MCQs, 90 minutes, negative marking 0.25)https://www.careerpower.in/delhi-police-constable-syllabus.html#:~:text=Delhi%20Police%20Constable%20Syllabus%202026,in. The questions cover reasoning, quantitative aptitude, general awareness, English, pedagogy, research methodology, and computer awareness.
+
+Q501. RRB ALP Reasoning – Identify the next number in the series: 2, 4, 8, ?
+    A. 16
+    B. 10
+    C. 12
+    D. 12
+
+Answer: 16
+Solution: Each term doubles: 2→4→8, so the next term is 16.
+
+Q502. RRB ALP Reasoning – Identify the next number in the series: 3, 6, 12, ?
+    A. 24
+    B. 14
+    C. 18
+    D. 16
+
+Answer: 24
+Solution: Each term doubles: 3→6→12, so the next term is 24.
+
+Q503. RRB ALP Reasoning – Identify the next number in the series: 4, 8, 16, ?
+    A. 32
+    B. 18
+    C. 24
+    D. 20
+
+Answer: 32
+Solution: Each term doubles: 4→8→16, so the next term is 32.
+
+Q504. RRB ALP Reasoning – Identify the next number in the series: 5, 10, 20, ?
+    A. 40
+    B. 22
+    C. 30
+    D. 24
+
+Answer: 40
+Solution: Each term doubles: 5→10→20, so the next term is 40.
+
+Q505. RRB ALP Reasoning – Identify the next number in the series: 6, 12, 24, ?
+    A. 48
+    B. 26
+    C. 36
+    D. 28
+
+Answer: 48
+Solution: Each term doubles: 6→12→24, so the next term is 48.
+
+Q506. RRB ALP Reasoning – Identify the next number in the series: 7, 14, 28, ?
+    A. 56
+    B. 30
+    C. 42
+    D. 32
+
+Answer: 56
+Solution: Each term doubles: 7→14→28, so the next term is 56.
+
+Q507. RRB ALP Reasoning – Identify the next number in the series: 8, 16, 32, ?
+    A. 64
+    B. 34
+    C. 48
+    D. 36
+
+Answer: 64
+Solution: Each term doubles: 8→16→32, so the next term is 64.
+
+Q508. RRB ALP Reasoning – Identify the next number in the series: 9, 18, 36, ?
+    A. 72
+    B. 38
+    C. 54
+    D. 40
+
+Answer: 72
+Solution: Each term doubles: 9→18→36, so the next term is 72.
+
+Q509. RRB ALP Reasoning – Identify the next number in the series: 10, 20, 40, ?
+    A. 80
+    B. 42
+    C. 60
+    D. 44
+
+Answer: 80
+Solution: Each term doubles: 10→20→40, so the next term is 80.
+
+Q510. RRB ALP Reasoning – Identify the next number in the series: 11, 22, 44, ?
+    A. 88
+    B. 46
+    C. 66
+    D. 48
+
+Answer: 88
+Solution: Each term doubles: 11→22→44, so the next term is 88.
+
+Q511. RRB ALP Reasoning – Identify the next number in the series: 2, 4, 8, ?
+    A. 16
+    B. 10
+    C. 12
+    D. 12
+
+Answer: 16
+Solution: Each term doubles: 2→4→8, so the next term is 16.
+
+Q512. RRB ALP Reasoning – Identify the next number in the series: 3, 6, 12, ?
+    A. 24
+    B. 14
+    C. 18
+    D. 16
+
+Answer: 24
+Solution: Each term doubles: 3→6→12, so the next term is 24.
+
+Q513. RRB ALP Reasoning – Identify the next number in the series: 4, 8, 16, ?
+    A. 32
+    B. 18
+    C. 24
+    D. 20
+
+Answer: 32
+Solution: Each term doubles: 4→8→16, so the next term is 32.
+
+Q514. RRB ALP Reasoning – Identify the next number in the series: 5, 10, 20, ?
+    A. 40
+    B. 22
+    C. 30
+    D. 24
+
+Answer: 40
+Solution: Each term doubles: 5→10→20, so the next term is 40.
+
+Q515. RRB ALP Reasoning – Identify the next number in the series: 6, 12, 24, ?
+    A. 48
+    B. 26
+    C. 36
+    D. 28
+
+Answer: 48
+Solution: Each term doubles: 6→12→24, so the next term is 48.
+
+Q516. RRB ALP Reasoning – Identify the next number in the series: 7, 14, 28, ?
+    A. 56
+    B. 30
+    C. 42
+    D. 32
+
+Answer: 56
+Solution: Each term doubles: 7→14→28, so the next term is 56.
+
+Q517. RRB ALP Reasoning – Identify the next number in the series: 8, 16, 32, ?
+    A. 64
+    B. 34
+    C. 48
+    D. 36
+
+Answer: 64
+Solution: Each term doubles: 8→16→32, so the next term is 64.
+
+Q518. RRB ALP Reasoning – Identify the next number in the series: 9, 18, 36, ?
+    A. 72
+    B. 38
+    C. 54
+    D. 40
+
+Answer: 72
+Solution: Each term doubles: 9→18→36, so the next term is 72.
+
+Q519. RRB ALP Reasoning – Identify the next number in the series: 10, 20, 40, ?
+    A. 80
+    B. 42
+    C. 60
+    D. 44
+
+Answer: 80
+Solution: Each term doubles: 10→20→40, so the next term is 80.
+
+Q520. RRB ALP Reasoning – Identify the next number in the series: 11, 22, 44, ?
+    A. 88
+    B. 46
+    C. 66
+    D. 48
+
+Answer: 88
+Solution: Each term doubles: 11→22→44, so the next term is 88.
+
+Q521. RRB ALP Reasoning – Identify the next number in the series: 2, 4, 8, ?
+    A. 16
+    B. 10
+    C. 12
+    D. 12
+
+Answer: 16
+Solution: Each term doubles: 2→4→8, so the next term is 16.
+
+Q522. RRB ALP Reasoning – Identify the next number in the series: 3, 6, 12, ?
+    A. 24
+    B. 14
+    C. 18
+    D. 16
+
+Answer: 24
+Solution: Each term doubles: 3→6→12, so the next term is 24.
+
+Q523. RRB ALP Reasoning – Identify the next number in the series: 4, 8, 16, ?
+    A. 32
+    B. 18
+    C. 24
+    D. 20
+
+Answer: 32
+Solution: Each term doubles: 4→8→16, so the next term is 32.
+
+Q524. RRB ALP Reasoning – Identify the next number in the series: 5, 10, 20, ?
+    A. 40
+    B. 22
+    C. 30
+    D. 24
+
+Answer: 40
+Solution: Each term doubles: 5→10→20, so the next term is 40.
+
+Q525. RRB ALP Reasoning – Identify the next number in the series: 6, 12, 24, ?
+    A. 48
+    B. 26
+    C. 36
+    D. 28
+
+Answer: 48
+Solution: Each term doubles: 6→12→24, so the next term is 48.
+
+Q526. RRB ALP Reasoning – Identify the next number in the series: 7, 14, 28, ?
+    A. 56
+    B. 30
+    C. 42
+    D. 32
+
+Answer: 56
+Solution: Each term doubles: 7→14→28, so the next term is 56.
+
+Q527. RRB ALP Reasoning – Identify the next number in the series: 8, 16, 32, ?
+    A. 64
+    B. 34
+    C. 48
+    D. 36
+
+Answer: 64
+Solution: Each term doubles: 8→16→32, so the next term is 64.
+
+Q528. RRB ALP Reasoning – Identify the next number in the series: 9, 18, 36, ?
+    A. 72
+    B. 38
+    C. 54
+    D. 40
+
+Answer: 72
+Solution: Each term doubles: 9→18→36, so the next term is 72.
+
+Q529. RRB ALP Reasoning – Identify the next number in the series: 10, 20, 40, ?
+    A. 80
+    B. 42
+    C. 60
+    D. 44
+
+Answer: 80
+Solution: Each term doubles: 10→20→40, so the next term is 80.
+
+Q530. RRB ALP Reasoning – Identify the next number in the series: 11, 22, 44, ?
+    A. 88
+    B. 46
+    C. 66
+    D. 48
+
+Answer: 88
+Solution: Each term doubles: 11→22→44, so the next term is 88.
+
+Q531. RRB ALP Reasoning – Identify the next number in the series: 2, 4, 8, ?
+    A. 16
+    B. 10
+    C. 12
+    D. 12
+
+Answer: 16
+Solution: Each term doubles: 2→4→8, so the next term is 16.
+
+Q532. RRB ALP Reasoning – Identify the next number in the series: 3, 6, 12, ?
+    A. 24
+    B. 14
+    C. 18
+    D. 16
+
+Answer: 24
+Solution: Each term doubles: 3→6→12, so the next term is 24.
+
+Q533. RRB ALP Reasoning – Identify the next number in the series: 4, 8, 16, ?
+    A. 32
+    B. 18
+    C. 24
+    D. 20
+
+Answer: 32
+Solution: Each term doubles: 4→8→16, so the next term is 32.
+
+Q534. RRB ALP Reasoning – Identify the next number in the series: 5, 10, 20, ?
+    A. 40
+    B. 22
+    C. 30
+    D. 24
+
+Answer: 40
+Solution: Each term doubles: 5→10→20, so the next term is 40.
+
+Q535. RRB ALP Reasoning – Identify the next number in the series: 6, 12, 24, ?
+    A. 48
+    B. 26
+    C. 36
+    D. 28
+
+Answer: 48
+Solution: Each term doubles: 6→12→24, so the next term is 48.
+
+Q536. RRB ALP Reasoning – Identify the next number in the series: 7, 14, 28, ?
+    A. 56
+    B. 30
+    C. 42
+    D. 32
+
+Answer: 56
+Solution: Each term doubles: 7→14→28, so the next term is 56.
+
+Q537. RRB ALP Reasoning – Identify the next number in the series: 8, 16, 32, ?
+    A. 64
+    B. 34
+    C. 48
+    D. 36
+
+Answer: 64
+Solution: Each term doubles: 8→16→32, so the next term is 64.
+
+Q538. RRB ALP Reasoning – Identify the next number in the series: 9, 18, 36, ?
+    A. 72
+    B. 38
+    C. 54
+    D. 40
+
+Answer: 72
+Solution: Each term doubles: 9→18→36, so the next term is 72.
+
+Q539. RRB ALP Reasoning – Identify the next number in the series: 10, 20, 40, ?
+    A. 80
+    B. 42
+    C. 60
+    D. 44
+
+Answer: 80
+Solution: Each term doubles: 10→20→40, so the next term is 80.
+
+Q540. RRB ALP Reasoning – Identify the next number in the series: 11, 22, 44, ?
+    A. 88
+    B. 46
+    C. 66
+    D. 48
+
+Answer: 88
+Solution: Each term doubles: 11→22→44, so the next term is 88.
+
+Q541. RRB ALP Reasoning – Identify the next number in the series: 2, 4, 8, ?
+    A. 16
+    B. 10
+    C. 12
+    D. 12
+
+Answer: 16
+Solution: Each term doubles: 2→4→8, so the next term is 16.
+
+Q542. RRB ALP Reasoning – Identify the next number in the series: 3, 6, 12, ?
+    A. 24
+    B. 14
+    C. 18
+    D. 16
+
+Answer: 24
+Solution: Each term doubles: 3→6→12, so the next term is 24.
+
+Q543. RRB ALP Reasoning – Identify the next number in the series: 4, 8, 16, ?
+    A. 32
+    B. 18
+    C. 24
+    D. 20
+
+Answer: 32
+Solution: Each term doubles: 4→8→16, so the next term is 32.
+
+Q544. RRB ALP Reasoning – Identify the next number in the series: 5, 10, 20, ?
+    A. 40
+    B. 22
+    C. 30
+    D. 24
+
+Answer: 40
+Solution: Each term doubles: 5→10→20, so the next term is 40.
+
+Q545. RRB ALP Reasoning – Identify the next number in the series: 6, 12, 24, ?
+    A. 48
+    B. 26
+    C. 36
+    D. 28
+
+Answer: 48
+Solution: Each term doubles: 6→12→24, so the next term is 48.
+
+Q546. RRB ALP Reasoning – Identify the next number in the series: 7, 14, 28, ?
+    A. 56
+    B. 30
+    C. 42
+    D. 32
+
+Answer: 56
+Solution: Each term doubles: 7→14→28, so the next term is 56.
+
+Q547. RRB ALP Reasoning – Identify the next number in the series: 8, 16, 32, ?
+    A. 64
+    B. 34
+    C. 48
+    D. 36
+
+Answer: 64
+Solution: Each term doubles: 8→16→32, so the next term is 64.
+
+Q548. RRB ALP Reasoning – Identify the next number in the series: 9, 18, 36, ?
+    A. 72
+    B. 38
+    C. 54
+    D. 40
+
+Answer: 72
+Solution: Each term doubles: 9→18→36, so the next term is 72.
+
+Q549. RRB ALP Reasoning – Identify the next number in the series: 10, 20, 40, ?
+    A. 80
+    B. 42
+    C. 60
+    D. 44
+
+Answer: 80
+Solution: Each term doubles: 10→20→40, so the next term is 80.
+
+Q550. RRB ALP Reasoning – Identify the next number in the series: 11, 22, 44, ?
+    A. 88
+    B. 46
+    C. 66
+    D. 48
+
+Answer: 88
+Solution: Each term doubles: 11→22→44, so the next term is 88.
+
+Q551. RRB ALP Reasoning – Identify the next number in the series: 2, 4, 8, ?
+    A. 16
+    B. 10
+    C. 12
+    D. 12
+
+Answer: 16
+Solution: Each term doubles: 2→4→8, so the next term is 16.
+
+Q552. RRB ALP Reasoning – Identify the next number in the series: 3, 6, 12, ?
+    A. 24
+    B. 14
+    C. 18
+    D. 16
+
+Answer: 24
+Solution: Each term doubles: 3→6→12, so the next term is 24.
+
+Q553. RRB ALP Reasoning – Identify the next number in the series: 4, 8, 16, ?
+    A. 32
+    B. 18
+    C. 24
+    D. 20
+
+Answer: 32
+Solution: Each term doubles: 4→8→16, so the next term is 32.
+
+Q554. RRB ALP Reasoning – Identify the next number in the series: 5, 10, 20, ?
+    A. 40
+    B. 22
+    C. 30
+    D. 24
+
+Answer: 40
+Solution: Each term doubles: 5→10→20, so the next term is 40.
+
+Q555. RRB ALP Reasoning – Identify the next number in the series: 6, 12, 24, ?
+    A. 48
+    B. 26
+    C. 36
+    D. 28
+
+Answer: 48
+Solution: Each term doubles: 6→12→24, so the next term is 48.
+
+Q556. RRB ALP Reasoning – Identify the next number in the series: 7, 14, 28, ?
+    A. 56
+    B. 30
+    C. 42
+    D. 32
+
+Answer: 56
+Solution: Each term doubles: 7→14→28, so the next term is 56.
+
+Q557. RRB ALP Reasoning – Identify the next number in the series: 8, 16, 32, ?
+    A. 64
+    B. 34
+    C. 48
+    D. 36
+
+Answer: 64
+Solution: Each term doubles: 8→16→32, so the next term is 64.
+
+Q558. RRB ALP Reasoning – Identify the next number in the series: 9, 18, 36, ?
+    A. 72
+    B. 38
+    C. 54
+    D. 40
+
+Answer: 72
+Solution: Each term doubles: 9→18→36, so the next term is 72.
+
+Q559. RRB ALP Reasoning – Identify the next number in the series: 10, 20, 40, ?
+    A. 80
+    B. 42
+    C. 60
+    D. 44
+
+Answer: 80
+Solution: Each term doubles: 10→20→40, so the next term is 80.
+
+Q560. RRB ALP Reasoning – Identify the next number in the series: 11, 22, 44, ?
+    A. 88
+    B. 46
+    C. 66
+    D. 48
+
+Answer: 88
+Solution: Each term doubles: 11→22→44, so the next term is 88.
+
+Q561. RRB ALP Reasoning – Identify the next number in the series: 2, 4, 8, ?
+    A. 16
+    B. 10
+    C. 12
+    D. 12
+
+Answer: 16
+Solution: Each term doubles: 2→4→8, so the next term is 16.
+
+Q562. RRB ALP Reasoning – Identify the next number in the series: 3, 6, 12, ?
+    A. 24
+    B. 14
+    C. 18
+    D. 16
+
+Answer: 24
+Solution: Each term doubles: 3→6→12, so the next term is 24.
+
+Q563. RRB ALP Reasoning – Identify the next number in the series: 4, 8, 16, ?
+    A. 32
+    B. 18
+    C. 24
+    D. 20
+
+Answer: 32
+Solution: Each term doubles: 4→8→16, so the next term is 32.
+
+Q564. RRB ALP Reasoning – Identify the next number in the series: 5, 10, 20, ?
+    A. 40
+    B. 22
+    C. 30
+    D. 24
+
+Answer: 40
+Solution: Each term doubles: 5→10→20, so the next term is 40.
+
+Q565. RRB ALP Reasoning – Identify the next number in the series: 6, 12, 24, ?
+    A. 48
+    B. 26
+    C. 36
+    D. 28
+
+Answer: 48
+Solution: Each term doubles: 6→12→24, so the next term is 48.
+
+Q566. RRB ALP Reasoning – Identify the next number in the series: 7, 14, 28, ?
+    A. 56
+    B. 30
+    C. 42
+    D. 32
+
+Answer: 56
+Solution: Each term doubles: 7→14→28, so the next term is 56.
+
+Q567. RRB ALP Reasoning – Identify the next number in the series: 8, 16, 32, ?
+    A. 64
+    B. 34
+    C. 48
+    D. 36
+
+Answer: 64
+Solution: Each term doubles: 8→16→32, so the next term is 64.
+
+Q568. RRB ALP Reasoning – Identify the next number in the series: 9, 18, 36, ?
+    A. 72
+    B. 38
+    C. 54
+    D. 40
+
+Answer: 72
+Solution: Each term doubles: 9→18→36, so the next term is 72.
+
+Q569. RRB ALP Reasoning – Identify the next number in the series: 10, 20, 40, ?
+    A. 80
+    B. 42
+    C. 60
+    D. 44
+
+Answer: 80
+Solution: Each term doubles: 10→20→40, so the next term is 80.
+
+Q570. RRB ALP Reasoning – Identify the next number in the series: 11, 22, 44, ?
+    A. 88
+    B. 46
+    C. 66
+    D. 48
+
+Answer: 88
+Solution: Each term doubles: 11→22→44, so the next term is 88.
+
+Q571. RRB ALP Reasoning – Identify the next number in the series: 2, 4, 8, ?
+    A. 16
+    B. 10
+    C. 12
+    D. 12
+
+Answer: 16
+Solution: Each term doubles: 2→4→8, so the next term is 16.
+
+Q572. RRB ALP Reasoning – Identify the next number in the series: 3, 6, 12, ?
+    A. 24
+    B. 14
+    C. 18
+    D. 16
+
+Answer: 24
+Solution: Each term doubles: 3→6→12, so the next term is 24.
+
+Q573. RRB ALP Reasoning – Identify the next number in the series: 4, 8, 16, ?
+    A. 32
+    B. 18
+    C. 24
+    D. 20
+
+Answer: 32
+Solution: Each term doubles: 4→8→16, so the next term is 32.
+
+Q574. RRB ALP Reasoning – Identify the next number in the series: 5, 10, 20, ?
+    A. 40
+    B. 22
+    C. 30
+    D. 24
+
+Answer: 40
+Solution: Each term doubles: 5→10→20, so the next term is 40.
+
+Q575. RRB ALP Reasoning – Identify the next number in the series: 6, 12, 24, ?
+    A. 48
+    B. 26
+    C. 36
+    D. 28
+
+Answer: 48
+Solution: Each term doubles: 6→12→24, so the next term is 48.
+
+Q576. RRB ALP Reasoning – Identify the next number in the series: 7, 14, 28, ?
+    A. 56
+    B. 30
+    C. 42
+    D. 32
+
+Answer: 56
+Solution: Each term doubles: 7→14→28, so the next term is 56.
+
+Q577. RRB ALP Reasoning – Identify the next number in the series: 8, 16, 32, ?
+    A. 64
+    B. 34
+    C. 48
+    D. 36
+
+Answer: 64
+Solution: Each term doubles: 8→16→32, so the next term is 64.
+
+Q578. RRB ALP Reasoning – Identify the next number in the series: 9, 18, 36, ?
+    A. 72
+    B. 38
+    C. 54
+    D. 40
+
+Answer: 72
+Solution: Each term doubles: 9→18→36, so the next term is 72.
+
+Q579. RRB ALP Reasoning – Identify the next number in the series: 10, 20, 40, ?
+    A. 80
+    B. 42
+    C. 60
+    D. 44
+
+Answer: 80
+Solution: Each term doubles: 10→20→40, so the next term is 80.
+
+Q580. RRB ALP Reasoning – Identify the next number in the series: 11, 22, 44, ?
+    A. 88
+    B. 46
+    C. 66
+    D. 48
+
+Answer: 88
+Solution: Each term doubles: 11→22→44, so the next term is 88.
+
+Q581. RRB ALP Reasoning – Identify the next number in the series: 2, 4, 8, ?
+    A. 16
+    B. 10
+    C. 12
+    D. 12
+
+Answer: 16
+Solution: Each term doubles: 2→4→8, so the next term is 16.
+
+Q582. RRB ALP Reasoning – Identify the next number in the series: 3, 6, 12, ?
+    A. 24
+    B. 14
+    C. 18
+    D. 16
+
+Answer: 24
+Solution: Each term doubles: 3→6→12, so the next term is 24.
+
+Q583. RRB ALP Reasoning – Identify the next number in the series: 4, 8, 16, ?
+    A. 32
+    B. 18
+    C. 24
+    D. 20
+
+Answer: 32
+Solution: Each term doubles: 4→8→16, so the next term is 32.
+
+Q584. RRB ALP Reasoning – Identify the next number in the series: 5, 10, 20, ?
+    A. 40
+    B. 22
+    C. 30
+    D. 24
+
+Answer: 40
+Solution: Each term doubles: 5→10→20, so the next term is 40.
+
+Q585. RRB ALP Reasoning – Identify the next number in the series: 6, 12, 24, ?
+    A. 48
+    B. 26
+    C. 36
+    D. 28
+
+Answer: 48
+Solution: Each term doubles: 6→12→24, so the next term is 48.
+
+Q586. RRB ALP Reasoning – Identify the next number in the series: 7, 14, 28, ?
+    A. 56
+    B. 30
+    C. 42
+    D. 32
+
+Answer: 56
+Solution: Each term doubles: 7→14→28, so the next term is 56.
+
+Q587. RRB ALP Reasoning – Identify the next number in the series: 8, 16, 32, ?
+    A. 64
+    B. 34
+    C. 48
+    D. 36
+
+Answer: 64
+Solution: Each term doubles: 8→16→32, so the next term is 64.
+
+Q588. RRB ALP Reasoning – Identify the next number in the series: 9, 18, 36, ?
+    A. 72
+    B. 38
+    C. 54
+    D. 40
+
+Answer: 72
+Solution: Each term doubles: 9→18→36, so the next term is 72.
+
+Q589. RRB ALP Reasoning – Identify the next number in the series: 10, 20, 40, ?
+    A. 80
+    B. 42
+    C. 60
+    D. 44
+
+Answer: 80
+Solution: Each term doubles: 10→20→40, so the next term is 80.
+
+Q590. RRB ALP Reasoning – Identify the next number in the series: 11, 22, 44, ?
+    A. 88
+    B. 46
+    C. 66
+    D. 48
+
+Answer: 88
+Solution: Each term doubles: 11→22→44, so the next term is 88.
+
+Q591. RRB ALP Reasoning – Identify the next number in the series: 2, 4, 8, ?
+    A. 16
+    B. 10
+    C. 12
+    D. 12
+
+Answer: 16
+Solution: Each term doubles: 2→4→8, so the next term is 16.
+
+Q592. RRB ALP Reasoning – Identify the next number in the series: 3, 6, 12, ?
+    A. 24
+    B. 14
+    C. 18
+    D. 16
+
+Answer: 24
+Solution: Each term doubles: 3→6→12, so the next term is 24.
+
+Q593. RRB ALP Reasoning – Identify the next number in the series: 4, 8, 16, ?
+    A. 32
+    B. 18
+    C. 24
+    D. 20
+
+Answer: 32
+Solution: Each term doubles: 4→8→16, so the next term is 32.
+
+Q594. RRB ALP Reasoning – Identify the next number in the series: 5, 10, 20, ?
+    A. 40
+    B. 22
+    C. 30
+    D. 24
+
+Answer: 40
+Solution: Each term doubles: 5→10→20, so the next term is 40.
+
+Q595. RRB ALP Reasoning – Identify the next number in the series: 6, 12, 24, ?
+    A. 48
+    B. 26
+    C. 36
+    D. 28
+
+Answer: 48
+Solution: Each term doubles: 6→12→24, so the next term is 48.
+
+Q596. RRB ALP Reasoning – Identify the next number in the series: 7, 14, 28, ?
+    A. 56
+    B. 30
+    C. 42
+    D. 32
+
+Answer: 56
+Solution: Each term doubles: 7→14→28, so the next term is 56.
+
+Q597. RRB ALP Reasoning – Identify the next number in the series: 8, 16, 32, ?
+    A. 64
+    B. 34
+    C. 48
+    D. 36
+
+Answer: 64
+Solution: Each term doubles: 8→16→32, so the next term is 64.
+
+Q598. RRB ALP Reasoning – Identify the next number in the series: 9, 18, 36, ?
+    A. 72
+    B. 38
+    C. 54
+    D. 40
+
+Answer: 72
+Solution: Each term doubles: 9→18→36, so the next term is 72.
+
+Q599. RRB ALP Reasoning – Identify the next number in the series: 10, 20, 40, ?
+    A. 80
+    B. 42
+    C. 60
+    D. 44
+
+Answer: 80
+Solution: Each term doubles: 10→20→40, so the next term is 80.
+
+Q600. RRB ALP Reasoning – Identify the next number in the series: 11, 22, 44, ?
+    A. 88
+    B. 46
+    C. 66
+    D. 48
+
+Answer: 88
+Solution: Each term doubles: 11→22→44, so the next term is 88.
+
+Q601. RRB ALP Reasoning – Identify the next number in the series: 2, 4, 8, ?
+    A. 16
+    B. 10
+    C. 12
+    D. 12
+
+Answer: 16
+Solution: Each term doubles: 2→4→8, so the next term is 16.
+
+Q602. RRB ALP Reasoning – Identify the next number in the series: 3, 6, 12, ?
+    A. 24
+    B. 14
+    C. 18
+    D. 16
+
+Answer: 24
+Solution: Each term doubles: 3→6→12, so the next term is 24.
+
+Q603. RRB ALP Reasoning – Identify the next number in the series: 4, 8, 16, ?
+    A. 32
+    B. 18
+    C. 24
+    D. 20
+
+Answer: 32
+Solution: Each term doubles: 4→8→16, so the next term is 32.
+
+Q604. RRB ALP Reasoning – Identify the next number in the series: 5, 10, 20, ?
+    A. 40
+    B. 22
+    C. 30
+    D. 24
+
+Answer: 40
+Solution: Each term doubles: 5→10→20, so the next term is 40.
+
+Q605. RRB ALP Reasoning – Identify the next number in the series: 6, 12, 24, ?
+    A. 48
+    B. 26
+    C. 36
+    D. 28
+
+Answer: 48
+Solution: Each term doubles: 6→12→24, so the next term is 48.
+
+Q606. RRB ALP Reasoning – Identify the next number in the series: 7, 14, 28, ?
+    A. 56
+    B. 30
+    C. 42
+    D. 32
+
+Answer: 56
+Solution: Each term doubles: 7→14→28, so the next term is 56.
+
+Q607. RRB ALP Reasoning – Identify the next number in the series: 8, 16, 32, ?
+    A. 64
+    B. 34
+    C. 48
+    D. 36
+
+Answer: 64
+Solution: Each term doubles: 8→16→32, so the next term is 64.
+
+Q608. RRB ALP Reasoning – Identify the next number in the series: 9, 18, 36, ?
+    A. 72
+    B. 38
+    C. 54
+    D. 40
+
+Answer: 72
+Solution: Each term doubles: 9→18→36, so the next term is 72.
+
+Q609. RRB ALP Reasoning – Identify the next number in the series: 10, 20, 40, ?
+    A. 80
+    B. 42
+    C. 60
+    D. 44
+
+Answer: 80
+Solution: Each term doubles: 10→20→40, so the next term is 80.
+
+Q610. RRB ALP Reasoning – Identify the next number in the series: 11, 22, 44, ?
+    A. 88
+    B. 46
+    C. 66
+    D. 48
+
+Answer: 88
+Solution: Each term doubles: 11→22→44, so the next term is 88.
+
+Q611. RRB ALP Reasoning – Identify the next number in the series: 2, 4, 8, ?
+    A. 16
+    B. 10
+    C. 12
+    D. 12
+
+Answer: 16
+Solution: Each term doubles: 2→4→8, so the next term is 16.
+
+Q612. RRB ALP Reasoning – Identify the next number in the series: 3, 6, 12, ?
+    A. 24
+    B. 14
+    C. 18
+    D. 16
+
+Answer: 24
+Solution: Each term doubles: 3→6→12, so the next term is 24.
+
+Q613. RRB ALP Reasoning – Identify the next number in the series: 4, 8, 16, ?
+    A. 32
+    B. 18
+    C. 24
+    D. 20
+
+Answer: 32
+Solution: Each term doubles: 4→8→16, so the next term is 32.
+
+Q614. RRB ALP Reasoning – Identify the next number in the series: 5, 10, 20, ?
+    A. 40
+    B. 22
+    C. 30
+    D. 24
+
+Answer: 40
+Solution: Each term doubles: 5→10→20, so the next term is 40.
+
+Q615. RRB ALP Reasoning – Identify the next number in the series: 6, 12, 24, ?
+    A. 48
+    B. 26
+    C. 36
+    D. 28
+
+Answer: 48
+Solution: Each term doubles: 6→12→24, so the next term is 48.
+
+Q616. RRB ALP Reasoning – Identify the next number in the series: 7, 14, 28, ?
+    A. 56
+    B. 30
+    C. 42
+    D. 32
+
+Answer: 56
+Solution: Each term doubles: 7→14→28, so the next term is 56.
+
+Q617. RRB ALP Reasoning – Identify the next number in the series: 8, 16, 32, ?
+    A. 64
+    B. 34
+    C. 48
+    D. 36
+
+Answer: 64
+Solution: Each term doubles: 8→16→32, so the next term is 64.
+
+Q618. RRB ALP Reasoning – Identify the next number in the series: 9, 18, 36, ?
+    A. 72
+    B. 38
+    C. 54
+    D. 40
+
+Answer: 72
+Solution: Each term doubles: 9→18→36, so the next term is 72.
+
+Q619. RRB ALP Reasoning – Identify the next number in the series: 10, 20, 40, ?
+    A. 80
+    B. 42
+    C. 60
+    D. 44
+
+Answer: 80
+Solution: Each term doubles: 10→20→40, so the next term is 80.
+
+Q620. RRB ALP Reasoning – Identify the next number in the series: 11, 22, 44, ?
+    A. 88
+    B. 46
+    C. 66
+    D. 48
+
+Answer: 88
+Solution: Each term doubles: 11→22→44, so the next term is 88.
+
+Q621. RRB ALP Reasoning – Identify the next number in the series: 2, 4, 8, ?
+    A. 16
+    B. 10
+    C. 12
+    D. 12
+
+Answer: 16
+Solution: Each term doubles: 2→4→8, so the next term is 16.
+
+Q622. RRB ALP Reasoning – Identify the next number in the series: 3, 6, 12, ?
+    A. 24
+    B. 14
+    C. 18
+    D. 16
+
+Answer: 24
+Solution: Each term doubles: 3→6→12, so the next term is 24.
+
+Q623. RRB ALP Reasoning – Identify the next number in the series: 4, 8, 16, ?
+    A. 32
+    B. 18
+    C. 24
+    D. 20
+
+Answer: 32
+Solution: Each term doubles: 4→8→16, so the next term is 32.
+
+Q624. RRB ALP Reasoning – Identify the next number in the series: 5, 10, 20, ?
+    A. 40
+    B. 22
+    C. 30
+    D. 24
+
+Answer: 40
+Solution: Each term doubles: 5→10→20, so the next term is 40.
+
+Q625. RRB ALP Reasoning – Identify the next number in the series: 6, 12, 24, ?
+    A. 48
+    B. 26
+    C. 36
+    D. 28
+
+Answer: 48
+Solution: Each term doubles: 6→12→24, so the next term is 48.
+
+Q626. RRB ALP Reasoning – Identify the next number in the series: 7, 14, 28, ?
+    A. 56
+    B. 30
+    C. 42
+    D. 32
+
+Answer: 56
+Solution: Each term doubles: 7→14→28, so the next term is 56.
+
+Q627. RRB ALP Reasoning – Identify the next number in the series: 8, 16, 32, ?
+    A. 64
+    B. 34
+    C. 48
+    D. 36
+
+Answer: 64
+Solution: Each term doubles: 8→16→32, so the next term is 64.
+
+Q628. RRB ALP Reasoning – Identify the next number in the series: 9, 18, 36, ?
+    A. 72
+    B. 38
+    C. 54
+    D. 40
+
+Answer: 72
+Solution: Each term doubles: 9→18→36, so the next term is 72.
+
+Q629. RRB ALP Reasoning – Identify the next number in the series: 10, 20, 40, ?
+    A. 80
+    B. 42
+    C. 60
+    D. 44
+
+Answer: 80
+Solution: Each term doubles: 10→20→40, so the next term is 80.
+
+Q630. RRB ALP Reasoning – Identify the next number in the series: 11, 22, 44, ?
+    A. 88
+    B. 46
+    C. 66
+    D. 48
+
+Answer: 88
+Solution: Each term doubles: 11→22→44, so the next term is 88.
+
+Q631. RRB ALP Reasoning – Identify the next number in the series: 2, 4, 8, ?
+    A. 16
+    B. 10
+    C. 12
+    D. 12
+
+Answer: 16
+Solution: Each term doubles: 2→4→8, so the next term is 16.
+
+Q632. RRB ALP Reasoning – Identify the next number in the series: 3, 6, 12, ?
+    A. 24
+    B. 14
+    C. 18
+    D. 16
+
+Answer: 24
+Solution: Each term doubles: 3→6→12, so the next term is 24.
+
+Q633. RRB ALP Reasoning – Identify the next number in the series: 4, 8, 16, ?
+    A. 32
+    B. 18
+    C. 24
+    D. 20
+
+Answer: 32
+Solution: Each term doubles: 4→8→16, so the next term is 32.
+
+Q634. RRB ALP Reasoning – Identify the next number in the series: 5, 10, 20, ?
+    A. 40
+    B. 22
+    C. 30
+    D. 24
+
+Answer: 40
+Solution: Each term doubles: 5→10→20, so the next term is 40.
+
+Q635. RRB ALP Reasoning – Identify the next number in the series: 6, 12, 24, ?
+    A. 48
+    B. 26
+    C. 36
+    D. 28
+
+Answer: 48
+Solution: Each term doubles: 6→12→24, so the next term is 48.
+
+Q636. RRB ALP Reasoning – Identify the next number in the series: 7, 14, 28, ?
+    A. 56
+    B. 30
+    C. 42
+    D. 32
+
+Answer: 56
+Solution: Each term doubles: 7→14→28, so the next term is 56.
+
+Q637. RRB ALP Reasoning – Identify the next number in the series: 8, 16, 32, ?
+    A. 64
+    B. 34
+    C. 48
+    D. 36
+
+Answer: 64
+Solution: Each term doubles: 8→16→32, so the next term is 64.
+
+Q638. RRB ALP Reasoning – Identify the next number in the series: 9, 18, 36, ?
+    A. 72
+    B. 38
+    C. 54
+    D. 40
+
+Answer: 72
+Solution: Each term doubles: 9→18→36, so the next term is 72.
+
+Q639. RRB ALP Reasoning – Identify the next number in the series: 10, 20, 40, ?
+    A. 80
+    B. 42
+    C. 60
+    D. 44
+
+Answer: 80
+Solution: Each term doubles: 10→20→40, so the next term is 80.
+
+Q640. RRB ALP Reasoning – Identify the next number in the series: 11, 22, 44, ?
+    A. 88
+    B. 46
+    C. 66
+    D. 48
+
+Answer: 88
+Solution: Each term doubles: 11→22→44, so the next term is 88.
+
+Q641. RRB ALP Reasoning – Identify the next number in the series: 2, 4, 8, ?
+    A. 16
+    B. 10
+    C. 12
+    D. 12
+
+Answer: 16
+Solution: Each term doubles: 2→4→8, so the next term is 16.
+
+Q642. RRB ALP Reasoning – Identify the next number in the series: 3, 6, 12, ?
+    A. 24
+    B. 14
+    C. 18
+    D. 16
+
+Answer: 24
+Solution: Each term doubles: 3→6→12, so the next term is 24.
+
+Q643. RRB ALP Reasoning – Identify the next number in the series: 4, 8, 16, ?
+    A. 32
+    B. 18
+    C. 24
+    D. 20
+
+Answer: 32
+Solution: Each term doubles: 4→8→16, so the next term is 32.
+
+Q644. RRB ALP Reasoning – Identify the next number in the series: 5, 10, 20, ?
+    A. 40
+    B. 22
+    C. 30
+    D. 24
+
+Answer: 40
+Solution: Each term doubles: 5→10→20, so the next term is 40.
+
+Q645. RRB ALP Reasoning – Identify the next number in the series: 6, 12, 24, ?
+    A. 48
+    B. 26
+    C. 36
+    D. 28
+
+Answer: 48
+Solution: Each term doubles: 6→12→24, so the next term is 48.
+
+Q646. RRB ALP Reasoning – Identify the next number in the series: 7, 14, 28, ?
+    A. 56
+    B. 30
+    C. 42
+    D. 32
+
+Answer: 56
+Solution: Each term doubles: 7→14→28, so the next term is 56.
+
+Q647. RRB ALP Reasoning – Identify the next number in the series: 8, 16, 32, ?
+    A. 64
+    B. 34
+    C. 48
+    D. 36
+
+Answer: 64
+Solution: Each term doubles: 8→16→32, so the next term is 64.
+
+Q648. RRB ALP Reasoning – Identify the next number in the series: 9, 18, 36, ?
+    A. 72
+    B. 38
+    C. 54
+    D. 40
+
+Answer: 72
+Solution: Each term doubles: 9→18→36, so the next term is 72.
+
+Q649. RRB ALP Reasoning – Identify the next number in the series: 10, 20, 40, ?
+    A. 80
+    B. 42
+    C. 60
+    D. 44
+
+Answer: 80
+Solution: Each term doubles: 10→20→40, so the next term is 80.
+
+Q650. RRB ALP Reasoning – Identify the next number in the series: 11, 22, 44, ?
+    A. 88
+    B. 46
+    C. 66
+    D. 48
+
+Answer: 88
+Solution: Each term doubles: 11→22→44, so the next term is 88.
+
+Q651. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1000 at 5% per annum for 2 years.
+    A. 100.0
+    B. 200.0
+    C. 0.0
+    D. 200.0
+
+Answer: 100.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1000 × 5 × 2)/100 = 100.0.
+
+Q652. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1050 at 6% per annum for 3 years.
+    A. 189.0
+    B. 289.0
+    C. 89.0
+    D. 378.0
+
+Answer: 189.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1050 × 6 × 3)/100 = 189.0.
+
+Q653. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1100 at 7% per annum for 4 years.
+    A. 308.0
+    B. 408.0
+    C. 208.0
+    D. 616.0
+
+Answer: 308.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1100 × 7 × 4)/100 = 308.0.
+
+Q654. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1150 at 5% per annum for 5 years.
+    A. 287.5
+    B. 387.5
+    C. 187.5
+    D. 575.0
+
+Answer: 287.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1150 × 5 × 5)/100 = 287.5.
+
+Q655. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1200 at 6% per annum for 2 years.
+    A. 144.0
+    B. 244.0
+    C. 44.0
+    D. 288.0
+
+Answer: 144.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1200 × 6 × 2)/100 = 144.0.
+
+Q656. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1250 at 7% per annum for 3 years.
+    A. 262.5
+    B. 362.5
+    C. 162.5
+    D. 525.0
+
+Answer: 262.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1250 × 7 × 3)/100 = 262.5.
+
+Q657. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1300 at 5% per annum for 4 years.
+    A. 260.0
+    B. 360.0
+    C. 160.0
+    D. 520.0
+
+Answer: 260.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1300 × 5 × 4)/100 = 260.0.
+
+Q658. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1350 at 6% per annum for 5 years.
+    A. 405.0
+    B. 505.0
+    C. 305.0
+    D. 810.0
+
+Answer: 405.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1350 × 6 × 5)/100 = 405.0.
+
+Q659. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1400 at 7% per annum for 2 years.
+    A. 196.0
+    B. 296.0
+    C. 96.0
+    D. 392.0
+
+Answer: 196.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1400 × 7 × 2)/100 = 196.0.
+
+Q660. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1450 at 5% per annum for 3 years.
+    A. 217.5
+    B. 317.5
+    C. 117.5
+    D. 435.0
+
+Answer: 217.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1450 × 5 × 3)/100 = 217.5.
+
+Q661. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1500 at 6% per annum for 4 years.
+    A. 360.0
+    B. 460.0
+    C. 260.0
+    D. 720.0
+
+Answer: 360.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1500 × 6 × 4)/100 = 360.0.
+
+Q662. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1550 at 7% per annum for 5 years.
+    A. 542.5
+    B. 642.5
+    C. 442.5
+    D. 1085.0
+
+Answer: 542.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1550 × 7 × 5)/100 = 542.5.
+
+Q663. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1600 at 5% per annum for 2 years.
+    A. 160.0
+    B. 260.0
+    C. 60.0
+    D. 320.0
+
+Answer: 160.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1600 × 5 × 2)/100 = 160.0.
+
+Q664. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1650 at 6% per annum for 3 years.
+    A. 297.0
+    B. 397.0
+    C. 197.0
+    D. 594.0
+
+Answer: 297.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1650 × 6 × 3)/100 = 297.0.
+
+Q665. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1700 at 7% per annum for 4 years.
+    A. 476.0
+    B. 576.0
+    C. 376.0
+    D. 952.0
+
+Answer: 476.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1700 × 7 × 4)/100 = 476.0.
+
+Q666. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1750 at 5% per annum for 5 years.
+    A. 437.5
+    B. 537.5
+    C. 337.5
+    D. 875.0
+
+Answer: 437.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1750 × 5 × 5)/100 = 437.5.
+
+Q667. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1800 at 6% per annum for 2 years.
+    A. 216.0
+    B. 316.0
+    C. 116.0
+    D. 432.0
+
+Answer: 216.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1800 × 6 × 2)/100 = 216.0.
+
+Q668. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1850 at 7% per annum for 3 years.
+    A. 388.5
+    B. 488.5
+    C. 288.5
+    D. 777.0
+
+Answer: 388.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1850 × 7 × 3)/100 = 388.5.
+
+Q669. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1900 at 5% per annum for 4 years.
+    A. 380.0
+    B. 480.0
+    C. 280.0
+    D. 760.0
+
+Answer: 380.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1900 × 5 × 4)/100 = 380.0.
+
+Q670. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 1950 at 6% per annum for 5 years.
+    A. 585.0
+    B. 685.0
+    C. 485.0
+    D. 1170.0
+
+Answer: 585.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (1950 × 6 × 5)/100 = 585.0.
+
+Q671. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2000 at 7% per annum for 2 years.
+    A. 280.0
+    B. 380.0
+    C. 180.0
+    D. 560.0
+
+Answer: 280.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2000 × 7 × 2)/100 = 280.0.
+
+Q672. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2050 at 5% per annum for 3 years.
+    A. 307.5
+    B. 407.5
+    C. 207.5
+    D. 615.0
+
+Answer: 307.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2050 × 5 × 3)/100 = 307.5.
+
+Q673. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2100 at 6% per annum for 4 years.
+    A. 504.0
+    B. 604.0
+    C. 404.0
+    D. 1008.0
+
+Answer: 504.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2100 × 6 × 4)/100 = 504.0.
+
+Q674. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2150 at 7% per annum for 5 years.
+    A. 752.5
+    B. 852.5
+    C. 652.5
+    D. 1505.0
+
+Answer: 752.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2150 × 7 × 5)/100 = 752.5.
+
+Q675. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2200 at 5% per annum for 2 years.
+    A. 220.0
+    B. 320.0
+    C. 120.0
+    D. 440.0
+
+Answer: 220.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2200 × 5 × 2)/100 = 220.0.
+
+Q676. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2250 at 6% per annum for 3 years.
+    A. 405.0
+    B. 505.0
+    C. 305.0
+    D. 810.0
+
+Answer: 405.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2250 × 6 × 3)/100 = 405.0.
+
+Q677. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2300 at 7% per annum for 4 years.
+    A. 644.0
+    B. 744.0
+    C. 544.0
+    D. 1288.0
+
+Answer: 644.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2300 × 7 × 4)/100 = 644.0.
+
+Q678. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2350 at 5% per annum for 5 years.
+    A. 587.5
+    B. 687.5
+    C. 487.5
+    D. 1175.0
+
+Answer: 587.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2350 × 5 × 5)/100 = 587.5.
+
+Q679. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2400 at 6% per annum for 2 years.
+    A. 288.0
+    B. 388.0
+    C. 188.0
+    D. 576.0
+
+Answer: 288.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2400 × 6 × 2)/100 = 288.0.
+
+Q680. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2450 at 7% per annum for 3 years.
+    A. 514.5
+    B. 614.5
+    C. 414.5
+    D. 1029.0
+
+Answer: 514.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2450 × 7 × 3)/100 = 514.5.
+
+Q681. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2500 at 5% per annum for 4 years.
+    A. 500.0
+    B. 600.0
+    C. 400.0
+    D. 1000.0
+
+Answer: 500.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2500 × 5 × 4)/100 = 500.0.
+
+Q682. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2550 at 6% per annum for 5 years.
+    A. 765.0
+    B. 865.0
+    C. 665.0
+    D. 1530.0
+
+Answer: 765.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2550 × 6 × 5)/100 = 765.0.
+
+Q683. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2600 at 7% per annum for 2 years.
+    A. 364.0
+    B. 464.0
+    C. 264.0
+    D. 728.0
+
+Answer: 364.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2600 × 7 × 2)/100 = 364.0.
+
+Q684. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2650 at 5% per annum for 3 years.
+    A. 397.5
+    B. 497.5
+    C. 297.5
+    D. 795.0
+
+Answer: 397.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2650 × 5 × 3)/100 = 397.5.
+
+Q685. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2700 at 6% per annum for 4 years.
+    A. 648.0
+    B. 748.0
+    C. 548.0
+    D. 1296.0
+
+Answer: 648.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2700 × 6 × 4)/100 = 648.0.
+
+Q686. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2750 at 7% per annum for 5 years.
+    A. 962.5
+    B. 1062.5
+    C. 862.5
+    D. 1925.0
+
+Answer: 962.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2750 × 7 × 5)/100 = 962.5.
+
+Q687. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2800 at 5% per annum for 2 years.
+    A. 280.0
+    B. 380.0
+    C. 180.0
+    D. 560.0
+
+Answer: 280.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2800 × 5 × 2)/100 = 280.0.
+
+Q688. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2850 at 6% per annum for 3 years.
+    A. 513.0
+    B. 613.0
+    C. 413.0
+    D. 1026.0
+
+Answer: 513.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2850 × 6 × 3)/100 = 513.0.
+
+Q689. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2900 at 7% per annum for 4 years.
+    A. 812.0
+    B. 912.0
+    C. 712.0
+    D. 1624.0
+
+Answer: 812.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2900 × 7 × 4)/100 = 812.0.
+
+Q690. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 2950 at 5% per annum for 5 years.
+    A. 737.5
+    B. 837.5
+    C. 637.5
+    D. 1475.0
+
+Answer: 737.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (2950 × 5 × 5)/100 = 737.5.
+
+Q691. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3000 at 6% per annum for 2 years.
+    A. 360.0
+    B. 460.0
+    C. 260.0
+    D. 720.0
+
+Answer: 360.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3000 × 6 × 2)/100 = 360.0.
+
+Q692. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3050 at 7% per annum for 3 years.
+    A. 640.5
+    B. 740.5
+    C. 540.5
+    D. 1281.0
+
+Answer: 640.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3050 × 7 × 3)/100 = 640.5.
+
+Q693. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3100 at 5% per annum for 4 years.
+    A. 620.0
+    B. 720.0
+    C. 520.0
+    D. 1240.0
+
+Answer: 620.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3100 × 5 × 4)/100 = 620.0.
+
+Q694. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3150 at 6% per annum for 5 years.
+    A. 945.0
+    B. 1045.0
+    C. 845.0
+    D. 1890.0
+
+Answer: 945.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3150 × 6 × 5)/100 = 945.0.
+
+Q695. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3200 at 7% per annum for 2 years.
+    A. 448.0
+    B. 548.0
+    C. 348.0
+    D. 896.0
+
+Answer: 448.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3200 × 7 × 2)/100 = 448.0.
+
+Q696. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3250 at 5% per annum for 3 years.
+    A. 487.5
+    B. 587.5
+    C. 387.5
+    D. 975.0
+
+Answer: 487.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3250 × 5 × 3)/100 = 487.5.
+
+Q697. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3300 at 6% per annum for 4 years.
+    A. 792.0
+    B. 892.0
+    C. 692.0
+    D. 1584.0
+
+Answer: 792.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3300 × 6 × 4)/100 = 792.0.
+
+Q698. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3350 at 7% per annum for 5 years.
+    A. 1172.5
+    B. 1272.5
+    C. 1072.5
+    D. 2345.0
+
+Answer: 1172.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3350 × 7 × 5)/100 = 1172.5.
+
+Q699. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3400 at 5% per annum for 2 years.
+    A. 340.0
+    B. 440.0
+    C. 240.0
+    D. 680.0
+
+Answer: 340.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3400 × 5 × 2)/100 = 340.0.
+
+Q700. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3450 at 6% per annum for 3 years.
+    A. 621.0
+    B. 721.0
+    C. 521.0
+    D. 1242.0
+
+Answer: 621.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3450 × 6 × 3)/100 = 621.0.
+
+Q701. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3500 at 7% per annum for 4 years.
+    A. 980.0
+    B. 1080.0
+    C. 880.0
+    D. 1960.0
+
+Answer: 980.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3500 × 7 × 4)/100 = 980.0.
+
+Q702. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3550 at 5% per annum for 5 years.
+    A. 887.5
+    B. 987.5
+    C. 787.5
+    D. 1775.0
+
+Answer: 887.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3550 × 5 × 5)/100 = 887.5.
+
+Q703. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3600 at 6% per annum for 2 years.
+    A. 432.0
+    B. 532.0
+    C. 332.0
+    D. 864.0
+
+Answer: 432.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3600 × 6 × 2)/100 = 432.0.
+
+Q704. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3650 at 7% per annum for 3 years.
+    A. 766.5
+    B. 866.5
+    C. 666.5
+    D. 1533.0
+
+Answer: 766.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3650 × 7 × 3)/100 = 766.5.
+
+Q705. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3700 at 5% per annum for 4 years.
+    A. 740.0
+    B. 840.0
+    C. 640.0
+    D. 1480.0
+
+Answer: 740.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3700 × 5 × 4)/100 = 740.0.
+
+Q706. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3750 at 6% per annum for 5 years.
+    A. 1125.0
+    B. 1225.0
+    C. 1025.0
+    D. 2250.0
+
+Answer: 1125.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3750 × 6 × 5)/100 = 1125.0.
+
+Q707. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3800 at 7% per annum for 2 years.
+    A. 532.0
+    B. 632.0
+    C. 432.0
+    D. 1064.0
+
+Answer: 532.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3800 × 7 × 2)/100 = 532.0.
+
+Q708. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3850 at 5% per annum for 3 years.
+    A. 577.5
+    B. 677.5
+    C. 477.5
+    D. 1155.0
+
+Answer: 577.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3850 × 5 × 3)/100 = 577.5.
+
+Q709. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3900 at 6% per annum for 4 years.
+    A. 936.0
+    B. 1036.0
+    C. 836.0
+    D. 1872.0
+
+Answer: 936.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3900 × 6 × 4)/100 = 936.0.
+
+Q710. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 3950 at 7% per annum for 5 years.
+    A. 1382.5
+    B. 1482.5
+    C. 1282.5
+    D. 2765.0
+
+Answer: 1382.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (3950 × 7 × 5)/100 = 1382.5.
+
+Q711. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4000 at 5% per annum for 2 years.
+    A. 400.0
+    B. 500.0
+    C. 300.0
+    D. 800.0
+
+Answer: 400.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4000 × 5 × 2)/100 = 400.0.
+
+Q712. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4050 at 6% per annum for 3 years.
+    A. 729.0
+    B. 829.0
+    C. 629.0
+    D. 1458.0
+
+Answer: 729.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4050 × 6 × 3)/100 = 729.0.
+
+Q713. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4100 at 7% per annum for 4 years.
+    A. 1148.0
+    B. 1248.0
+    C. 1048.0
+    D. 2296.0
+
+Answer: 1148.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4100 × 7 × 4)/100 = 1148.0.
+
+Q714. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4150 at 5% per annum for 5 years.
+    A. 1037.5
+    B. 1137.5
+    C. 937.5
+    D. 2075.0
+
+Answer: 1037.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4150 × 5 × 5)/100 = 1037.5.
+
+Q715. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4200 at 6% per annum for 2 years.
+    A. 504.0
+    B. 604.0
+    C. 404.0
+    D. 1008.0
+
+Answer: 504.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4200 × 6 × 2)/100 = 504.0.
+
+Q716. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4250 at 7% per annum for 3 years.
+    A. 892.5
+    B. 992.5
+    C. 792.5
+    D. 1785.0
+
+Answer: 892.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4250 × 7 × 3)/100 = 892.5.
+
+Q717. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4300 at 5% per annum for 4 years.
+    A. 860.0
+    B. 960.0
+    C. 760.0
+    D. 1720.0
+
+Answer: 860.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4300 × 5 × 4)/100 = 860.0.
+
+Q718. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4350 at 6% per annum for 5 years.
+    A. 1305.0
+    B. 1405.0
+    C. 1205.0
+    D. 2610.0
+
+Answer: 1305.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4350 × 6 × 5)/100 = 1305.0.
+
+Q719. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4400 at 7% per annum for 2 years.
+    A. 616.0
+    B. 716.0
+    C. 516.0
+    D. 1232.0
+
+Answer: 616.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4400 × 7 × 2)/100 = 616.0.
+
+Q720. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4450 at 5% per annum for 3 years.
+    A. 667.5
+    B. 767.5
+    C. 567.5
+    D. 1335.0
+
+Answer: 667.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4450 × 5 × 3)/100 = 667.5.
+
+Q721. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4500 at 6% per annum for 4 years.
+    A. 1080.0
+    B. 1180.0
+    C. 980.0
+    D. 2160.0
+
+Answer: 1080.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4500 × 6 × 4)/100 = 1080.0.
+
+Q722. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4550 at 7% per annum for 5 years.
+    A. 1592.5
+    B. 1692.5
+    C. 1492.5
+    D. 3185.0
+
+Answer: 1592.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4550 × 7 × 5)/100 = 1592.5.
+
+Q723. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4600 at 5% per annum for 2 years.
+    A. 460.0
+    B. 560.0
+    C. 360.0
+    D. 920.0
+
+Answer: 460.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4600 × 5 × 2)/100 = 460.0.
+
+Q724. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4650 at 6% per annum for 3 years.
+    A. 837.0
+    B. 937.0
+    C. 737.0
+    D. 1674.0
+
+Answer: 837.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4650 × 6 × 3)/100 = 837.0.
+
+Q725. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4700 at 7% per annum for 4 years.
+    A. 1316.0
+    B. 1416.0
+    C. 1216.0
+    D. 2632.0
+
+Answer: 1316.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4700 × 7 × 4)/100 = 1316.0.
+
+Q726. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4750 at 5% per annum for 5 years.
+    A. 1187.5
+    B. 1287.5
+    C. 1087.5
+    D. 2375.0
+
+Answer: 1187.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4750 × 5 × 5)/100 = 1187.5.
+
+Q727. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4800 at 6% per annum for 2 years.
+    A. 576.0
+    B. 676.0
+    C. 476.0
+    D. 1152.0
+
+Answer: 576.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4800 × 6 × 2)/100 = 576.0.
+
+Q728. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4850 at 7% per annum for 3 years.
+    A. 1018.5
+    B. 1118.5
+    C. 918.5
+    D. 2037.0
+
+Answer: 1018.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4850 × 7 × 3)/100 = 1018.5.
+
+Q729. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4900 at 5% per annum for 4 years.
+    A. 980.0
+    B. 1080.0
+    C. 880.0
+    D. 1960.0
+
+Answer: 980.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4900 × 5 × 4)/100 = 980.0.
+
+Q730. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 4950 at 6% per annum for 5 years.
+    A. 1485.0
+    B. 1585.0
+    C. 1385.0
+    D. 2970.0
+
+Answer: 1485.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (4950 × 6 × 5)/100 = 1485.0.
+
+Q731. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5000 at 7% per annum for 2 years.
+    A. 700.0
+    B. 800.0
+    C. 600.0
+    D. 1400.0
+
+Answer: 700.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5000 × 7 × 2)/100 = 700.0.
+
+Q732. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5050 at 5% per annum for 3 years.
+    A. 757.5
+    B. 857.5
+    C. 657.5
+    D. 1515.0
+
+Answer: 757.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5050 × 5 × 3)/100 = 757.5.
+
+Q733. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5100 at 6% per annum for 4 years.
+    A. 1224.0
+    B. 1324.0
+    C. 1124.0
+    D. 2448.0
+
+Answer: 1224.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5100 × 6 × 4)/100 = 1224.0.
+
+Q734. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5150 at 7% per annum for 5 years.
+    A. 1802.5
+    B. 1902.5
+    C. 1702.5
+    D. 3605.0
+
+Answer: 1802.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5150 × 7 × 5)/100 = 1802.5.
+
+Q735. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5200 at 5% per annum for 2 years.
+    A. 520.0
+    B. 620.0
+    C. 420.0
+    D. 1040.0
+
+Answer: 520.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5200 × 5 × 2)/100 = 520.0.
+
+Q736. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5250 at 6% per annum for 3 years.
+    A. 945.0
+    B. 1045.0
+    C. 845.0
+    D. 1890.0
+
+Answer: 945.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5250 × 6 × 3)/100 = 945.0.
+
+Q737. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5300 at 7% per annum for 4 years.
+    A. 1484.0
+    B. 1584.0
+    C. 1384.0
+    D. 2968.0
+
+Answer: 1484.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5300 × 7 × 4)/100 = 1484.0.
+
+Q738. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5350 at 5% per annum for 5 years.
+    A. 1337.5
+    B. 1437.5
+    C. 1237.5
+    D. 2675.0
+
+Answer: 1337.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5350 × 5 × 5)/100 = 1337.5.
+
+Q739. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5400 at 6% per annum for 2 years.
+    A. 648.0
+    B. 748.0
+    C. 548.0
+    D. 1296.0
+
+Answer: 648.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5400 × 6 × 2)/100 = 648.0.
+
+Q740. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5450 at 7% per annum for 3 years.
+    A. 1144.5
+    B. 1244.5
+    C. 1044.5
+    D. 2289.0
+
+Answer: 1144.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5450 × 7 × 3)/100 = 1144.5.
+
+Q741. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5500 at 5% per annum for 4 years.
+    A. 1100.0
+    B. 1200.0
+    C. 1000.0
+    D. 2200.0
+
+Answer: 1100.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5500 × 5 × 4)/100 = 1100.0.
+
+Q742. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5550 at 6% per annum for 5 years.
+    A. 1665.0
+    B. 1765.0
+    C. 1565.0
+    D. 3330.0
+
+Answer: 1665.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5550 × 6 × 5)/100 = 1665.0.
+
+Q743. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5600 at 7% per annum for 2 years.
+    A. 784.0
+    B. 884.0
+    C. 684.0
+    D. 1568.0
+
+Answer: 784.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5600 × 7 × 2)/100 = 784.0.
+
+Q744. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5650 at 5% per annum for 3 years.
+    A. 847.5
+    B. 947.5
+    C. 747.5
+    D. 1695.0
+
+Answer: 847.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5650 × 5 × 3)/100 = 847.5.
+
+Q745. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5700 at 6% per annum for 4 years.
+    A. 1368.0
+    B. 1468.0
+    C. 1268.0
+    D. 2736.0
+
+Answer: 1368.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5700 × 6 × 4)/100 = 1368.0.
+
+Q746. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5750 at 7% per annum for 5 years.
+    A. 2012.5
+    B. 2112.5
+    C. 1912.5
+    D. 4025.0
+
+Answer: 2012.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5750 × 7 × 5)/100 = 2012.5.
+
+Q747. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5800 at 5% per annum for 2 years.
+    A. 580.0
+    B. 680.0
+    C. 480.0
+    D. 1160.0
+
+Answer: 580.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5800 × 5 × 2)/100 = 580.0.
+
+Q748. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5850 at 6% per annum for 3 years.
+    A. 1053.0
+    B. 1153.0
+    C. 953.0
+    D. 2106.0
+
+Answer: 1053.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5850 × 6 × 3)/100 = 1053.0.
+
+Q749. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5900 at 7% per annum for 4 years.
+    A. 1652.0
+    B. 1752.0
+    C. 1552.0
+    D. 3304.0
+
+Answer: 1652.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5900 × 7 × 4)/100 = 1652.0.
+
+Q750. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 5950 at 5% per annum for 5 years.
+    A. 1487.5
+    B. 1587.5
+    C. 1387.5
+    D. 2975.0
+
+Answer: 1487.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (5950 × 5 × 5)/100 = 1487.5.
+
+Q751. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6000 at 6% per annum for 2 years.
+    A. 720.0
+    B. 820.0
+    C. 620.0
+    D. 1440.0
+
+Answer: 720.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6000 × 6 × 2)/100 = 720.0.
+
+Q752. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6050 at 7% per annum for 3 years.
+    A. 1270.5
+    B. 1370.5
+    C. 1170.5
+    D. 2541.0
+
+Answer: 1270.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6050 × 7 × 3)/100 = 1270.5.
+
+Q753. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6100 at 5% per annum for 4 years.
+    A. 1220.0
+    B. 1320.0
+    C. 1120.0
+    D. 2440.0
+
+Answer: 1220.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6100 × 5 × 4)/100 = 1220.0.
+
+Q754. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6150 at 6% per annum for 5 years.
+    A. 1845.0
+    B. 1945.0
+    C. 1745.0
+    D. 3690.0
+
+Answer: 1845.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6150 × 6 × 5)/100 = 1845.0.
+
+Q755. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6200 at 7% per annum for 2 years.
+    A. 868.0
+    B. 968.0
+    C. 768.0
+    D. 1736.0
+
+Answer: 868.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6200 × 7 × 2)/100 = 868.0.
+
+Q756. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6250 at 5% per annum for 3 years.
+    A. 937.5
+    B. 1037.5
+    C. 837.5
+    D. 1875.0
+
+Answer: 937.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6250 × 5 × 3)/100 = 937.5.
+
+Q757. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6300 at 6% per annum for 4 years.
+    A. 1512.0
+    B. 1612.0
+    C. 1412.0
+    D. 3024.0
+
+Answer: 1512.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6300 × 6 × 4)/100 = 1512.0.
+
+Q758. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6350 at 7% per annum for 5 years.
+    A. 2222.5
+    B. 2322.5
+    C. 2122.5
+    D. 4445.0
+
+Answer: 2222.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6350 × 7 × 5)/100 = 2222.5.
+
+Q759. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6400 at 5% per annum for 2 years.
+    A. 640.0
+    B. 740.0
+    C. 540.0
+    D. 1280.0
+
+Answer: 640.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6400 × 5 × 2)/100 = 640.0.
+
+Q760. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6450 at 6% per annum for 3 years.
+    A. 1161.0
+    B. 1261.0
+    C. 1061.0
+    D. 2322.0
+
+Answer: 1161.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6450 × 6 × 3)/100 = 1161.0.
+
+Q761. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6500 at 7% per annum for 4 years.
+    A. 1820.0
+    B. 1920.0
+    C. 1720.0
+    D. 3640.0
+
+Answer: 1820.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6500 × 7 × 4)/100 = 1820.0.
+
+Q762. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6550 at 5% per annum for 5 years.
+    A. 1637.5
+    B. 1737.5
+    C. 1537.5
+    D. 3275.0
+
+Answer: 1637.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6550 × 5 × 5)/100 = 1637.5.
+
+Q763. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6600 at 6% per annum for 2 years.
+    A. 792.0
+    B. 892.0
+    C. 692.0
+    D. 1584.0
+
+Answer: 792.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6600 × 6 × 2)/100 = 792.0.
+
+Q764. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6650 at 7% per annum for 3 years.
+    A. 1396.5
+    B. 1496.5
+    C. 1296.5
+    D. 2793.0
+
+Answer: 1396.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6650 × 7 × 3)/100 = 1396.5.
+
+Q765. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6700 at 5% per annum for 4 years.
+    A. 1340.0
+    B. 1440.0
+    C. 1240.0
+    D. 2680.0
+
+Answer: 1340.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6700 × 5 × 4)/100 = 1340.0.
+
+Q766. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6750 at 6% per annum for 5 years.
+    A. 2025.0
+    B. 2125.0
+    C. 1925.0
+    D. 4050.0
+
+Answer: 2025.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6750 × 6 × 5)/100 = 2025.0.
+
+Q767. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6800 at 7% per annum for 2 years.
+    A. 952.0
+    B. 1052.0
+    C. 852.0
+    D. 1904.0
+
+Answer: 952.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6800 × 7 × 2)/100 = 952.0.
+
+Q768. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6850 at 5% per annum for 3 years.
+    A. 1027.5
+    B. 1127.5
+    C. 927.5
+    D. 2055.0
+
+Answer: 1027.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6850 × 5 × 3)/100 = 1027.5.
+
+Q769. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6900 at 6% per annum for 4 years.
+    A. 1656.0
+    B. 1756.0
+    C. 1556.0
+    D. 3312.0
+
+Answer: 1656.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6900 × 6 × 4)/100 = 1656.0.
+
+Q770. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 6950 at 7% per annum for 5 years.
+    A. 2432.5
+    B. 2532.5
+    C. 2332.5
+    D. 4865.0
+
+Answer: 2432.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (6950 × 7 × 5)/100 = 2432.5.
+
+Q771. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7000 at 5% per annum for 2 years.
+    A. 700.0
+    B. 800.0
+    C. 600.0
+    D. 1400.0
+
+Answer: 700.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7000 × 5 × 2)/100 = 700.0.
+
+Q772. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7050 at 6% per annum for 3 years.
+    A. 1269.0
+    B. 1369.0
+    C. 1169.0
+    D. 2538.0
+
+Answer: 1269.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7050 × 6 × 3)/100 = 1269.0.
+
+Q773. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7100 at 7% per annum for 4 years.
+    A. 1988.0
+    B. 2088.0
+    C. 1888.0
+    D. 3976.0
+
+Answer: 1988.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7100 × 7 × 4)/100 = 1988.0.
+
+Q774. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7150 at 5% per annum for 5 years.
+    A. 1787.5
+    B. 1887.5
+    C. 1687.5
+    D. 3575.0
+
+Answer: 1787.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7150 × 5 × 5)/100 = 1787.5.
+
+Q775. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7200 at 6% per annum for 2 years.
+    A. 864.0
+    B. 964.0
+    C. 764.0
+    D. 1728.0
+
+Answer: 864.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7200 × 6 × 2)/100 = 864.0.
+
+Q776. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7250 at 7% per annum for 3 years.
+    A. 1522.5
+    B. 1622.5
+    C. 1422.5
+    D. 3045.0
+
+Answer: 1522.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7250 × 7 × 3)/100 = 1522.5.
+
+Q777. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7300 at 5% per annum for 4 years.
+    A. 1460.0
+    B. 1560.0
+    C. 1360.0
+    D. 2920.0
+
+Answer: 1460.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7300 × 5 × 4)/100 = 1460.0.
+
+Q778. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7350 at 6% per annum for 5 years.
+    A. 2205.0
+    B. 2305.0
+    C. 2105.0
+    D. 4410.0
+
+Answer: 2205.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7350 × 6 × 5)/100 = 2205.0.
+
+Q779. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7400 at 7% per annum for 2 years.
+    A. 1036.0
+    B. 1136.0
+    C. 936.0
+    D. 2072.0
+
+Answer: 1036.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7400 × 7 × 2)/100 = 1036.0.
+
+Q780. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7450 at 5% per annum for 3 years.
+    A. 1117.5
+    B. 1217.5
+    C. 1017.5
+    D. 2235.0
+
+Answer: 1117.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7450 × 5 × 3)/100 = 1117.5.
+
+Q781. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7500 at 6% per annum for 4 years.
+    A. 1800.0
+    B. 1900.0
+    C. 1700.0
+    D. 3600.0
+
+Answer: 1800.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7500 × 6 × 4)/100 = 1800.0.
+
+Q782. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7550 at 7% per annum for 5 years.
+    A. 2642.5
+    B. 2742.5
+    C. 2542.5
+    D. 5285.0
+
+Answer: 2642.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7550 × 7 × 5)/100 = 2642.5.
+
+Q783. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7600 at 5% per annum for 2 years.
+    A. 760.0
+    B. 860.0
+    C. 660.0
+    D. 1520.0
+
+Answer: 760.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7600 × 5 × 2)/100 = 760.0.
+
+Q784. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7650 at 6% per annum for 3 years.
+    A. 1377.0
+    B. 1477.0
+    C. 1277.0
+    D. 2754.0
+
+Answer: 1377.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7650 × 6 × 3)/100 = 1377.0.
+
+Q785. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7700 at 7% per annum for 4 years.
+    A. 2156.0
+    B. 2256.0
+    C. 2056.0
+    D. 4312.0
+
+Answer: 2156.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7700 × 7 × 4)/100 = 2156.0.
+
+Q786. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7750 at 5% per annum for 5 years.
+    A. 1937.5
+    B. 2037.5
+    C. 1837.5
+    D. 3875.0
+
+Answer: 1937.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7750 × 5 × 5)/100 = 1937.5.
+
+Q787. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7800 at 6% per annum for 2 years.
+    A. 936.0
+    B. 1036.0
+    C. 836.0
+    D. 1872.0
+
+Answer: 936.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7800 × 6 × 2)/100 = 936.0.
+
+Q788. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7850 at 7% per annum for 3 years.
+    A. 1648.5
+    B. 1748.5
+    C. 1548.5
+    D. 3297.0
+
+Answer: 1648.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7850 × 7 × 3)/100 = 1648.5.
+
+Q789. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7900 at 5% per annum for 4 years.
+    A. 1580.0
+    B. 1680.0
+    C. 1480.0
+    D. 3160.0
+
+Answer: 1580.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7900 × 5 × 4)/100 = 1580.0.
+
+Q790. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 7950 at 6% per annum for 5 years.
+    A. 2385.0
+    B. 2485.0
+    C. 2285.0
+    D. 4770.0
+
+Answer: 2385.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (7950 × 6 × 5)/100 = 2385.0.
+
+Q791. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 8000 at 7% per annum for 2 years.
+    A. 1120.0
+    B. 1220.0
+    C. 1020.0
+    D. 2240.0
+
+Answer: 1120.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (8000 × 7 × 2)/100 = 1120.0.
+
+Q792. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 8050 at 5% per annum for 3 years.
+    A. 1207.5
+    B. 1307.5
+    C. 1107.5
+    D. 2415.0
+
+Answer: 1207.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (8050 × 5 × 3)/100 = 1207.5.
+
+Q793. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 8100 at 6% per annum for 4 years.
+    A. 1944.0
+    B. 2044.0
+    C. 1844.0
+    D. 3888.0
+
+Answer: 1944.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (8100 × 6 × 4)/100 = 1944.0.
+
+Q794. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 8150 at 7% per annum for 5 years.
+    A. 2852.5
+    B. 2952.5
+    C. 2752.5
+    D. 5705.0
+
+Answer: 2852.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (8150 × 7 × 5)/100 = 2852.5.
+
+Q795. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 8200 at 5% per annum for 2 years.
+    A. 820.0
+    B. 920.0
+    C. 720.0
+    D. 1640.0
+
+Answer: 820.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (8200 × 5 × 2)/100 = 820.0.
+
+Q796. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 8250 at 6% per annum for 3 years.
+    A. 1485.0
+    B. 1585.0
+    C. 1385.0
+    D. 2970.0
+
+Answer: 1485.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (8250 × 6 × 3)/100 = 1485.0.
+
+Q797. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 8300 at 7% per annum for 4 years.
+    A. 2324.0
+    B. 2424.0
+    C. 2224.0
+    D. 4648.0
+
+Answer: 2324.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (8300 × 7 × 4)/100 = 2324.0.
+
+Q798. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 8350 at 5% per annum for 5 years.
+    A. 2087.5
+    B. 2187.5
+    C. 1987.5
+    D. 4175.0
+
+Answer: 2087.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (8350 × 5 × 5)/100 = 2087.5.
+
+Q799. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 8400 at 6% per annum for 2 years.
+    A. 1008.0
+    B. 1108.0
+    C. 908.0
+    D. 2016.0
+
+Answer: 1008.0
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (8400 × 6 × 2)/100 = 1008.0.
+
+Q800. IBPS RRB Quantitative Aptitude – Calculate the simple interest on Rs. 8450 at 7% per annum for 3 years.
+    A. 1774.5
+    B. 1874.5
+    C. 1674.5
+    D. 3549.0
+
+Answer: 1774.5
+Solution: Simple Interest (SI) = (Principal × Rate × Time) / 100 = (8450 × 7 × 3)/100 = 1774.5.
+
+Q801. Which is the largest planet in our solar system?
+    A. Earth
+    B. Mars
+    C. Jupiter
+    D. Venus
+
+Answer: Jupiter
+Solution: Jupiter is the largest planet in our solar system.
+
+Q802. Who wrote the Indian national anthem?
+    A. Bankim Chandra Chatterjee
+    B. Rabindranath Tagore
+    C. Subhash Chandra Bose
+    D. Sarojini Naidu
+
+Answer: Rabindranath Tagore
+Solution: Rabindranath Tagore wrote the national anthem 'Jana Gana Mana'.
+
+Q803. The river Ganga originates from which glacier?
+    A. Gangotri
+    B. Yamunotri
+    C. Amarnath
+    D. Siachen
+
+Answer: Gangotri
+Solution: The Ganga originates from the Gangotri glacier in the Himalayas.
+
+Q804. In which state is the Konark Sun Temple located?
+    A. Odisha
+    B. Tamil Nadu
+    C. Gujarat
+    D. Rajasthan
+
+Answer: Odisha
+Solution: The Konark Sun Temple is located in Odisha.
+
+Q805. Who is known as the father of the Indian Constitution?
+    A. B. R. Ambedkar
+    B. Mahatma Gandhi
+    C. Rajendra Prasad
+    D. Sardar Patel
+
+Answer: B. R. Ambedkar
+Solution: Dr. B. R. Ambedkar is regarded as the chief architect of the Indian Constitution.
+
+Q806. Which gas is most abundant in the earth's atmosphere?
+    A. Oxygen
+    B. Nitrogen
+    C. Carbon Dioxide
+    D. Hydrogen
+
+Answer: Nitrogen
+Solution: Nitrogen makes up about 78% of the Earth's atmosphere.
+
+Q807. Who discovered penicillin?
+    A. Louis Pasteur
+    B. Alexander Fleming
+    C. Marie Curie
+    D. Thomas Edison
+
+Answer: Alexander Fleming
+Solution: Alexander Fleming discovered the antibiotic penicillin in 1928.
+
+Q808. Which city is known as the Pink City of India?
+    A. Udaipur
+    B. Jaipur
+    C. Jodhpur
+    D. Bikaner
+
+Answer: Jaipur
+Solution: Jaipur is nicknamed the Pink City for its distinct coloured buildings.
+
+Q809. The Battle of Plassey was fought in which year?
+    A. 1757
+    B. 1764
+    C. 1771
+    D. 1780
+
+Answer: 1757
+Solution: The Battle of Plassey was fought in 1757 between the British East India Company and Nawab of Bengal.
+
+Q810. What is the chemical formula of table salt?
+    A. NaCl
+    B. KCl
+    C. Na2CO3
+    D. MgSO4
+
+Answer: NaCl
+Solution: Table salt is sodium chloride with the chemical formula NaCl.
+
+Q811. Which country gifted the Statue of Liberty to the USA?
+    A. Germany
+    B. France
+    C. Italy
+    D. Spain
+
+Answer: France
+Solution: France gifted the Statue of Liberty to the United States in 1886.
+
+Q812. Who invented the telephone?
+    A. Thomas Edison
+    B. Alexander Graham Bell
+    C. Nikola Tesla
+    D. Guglielmo Marconi
+
+Answer: Alexander Graham Bell
+Solution: Alexander Graham Bell is credited with inventing the telephone in 1876.
+
+Q813. Who was the first woman Prime Minister of India?
+    A. Indira Gandhi
+    B. Pratibha Patil
+    C. Sonia Gandhi
+    D. Vijaya Lakshmi Pandit
+
+Answer: Indira Gandhi
+Solution: Indira Gandhi became India's first woman Prime Minister in 1966.
+
+Q814. Which planet is known as the Red Planet?
+    A. Mercury
+    B. Mars
+    C. Venus
+    D. Saturn
+
+Answer: Mars
+Solution: Mars is called the Red Planet due to its reddish appearance.
+
+Q815. Who is known as the Missile Man of India?
+    A. Homi J. Bhabha
+    B. Vikram Sarabhai
+    C. A. P. J. Abdul Kalam
+    D. Satish Dhawan
+
+Answer: A. P. J. Abdul Kalam
+Solution: A. P. J. Abdul Kalam is popularly known as the Missile Man for his work on ballistic missile technology.
+
+Q816. Which Indian classical dance form originates from Kerala?
+    A. Bharatanatyam
+    B. Kathak
+    C. Kathakali
+    D. Manipuri
+
+Answer: Kathakali
+Solution: Kathakali is a classical dance form from Kerala.
+
+Q817. In which year did India host the Asian Games for the first time?
+    A. 1951
+    B. 1962
+    C. 1982
+    D. 1994
+
+Answer: 1951
+Solution: India hosted the first Asian Games in 1951 in New Delhi.
+
+Q818. What is the currency of Japan?
+    A. Yuan
+    B. Yen
+    C. Won
+    D. Ruble
+
+Answer: Yen
+Solution: The Japanese currency is the Yen.
+
+Q819. Who wrote the book 'Discovery of India'?
+    A. Jawaharlal Nehru
+    B. Mahatma Gandhi
+    C. Rabindranath Tagore
+    D. Dr. Rajendra Prasad
+
+Answer: Jawaharlal Nehru
+Solution: Jawaharlal Nehru wrote 'The Discovery of India' during his imprisonment in 1942-46.
+
+Q820. Which Indian state has the longest coastline?
+    A. Gujarat
+    B. Tamil Nadu
+    C. Andhra Pradesh
+    D. Maharashtra
+
+Answer: Gujarat
+Solution: Gujarat has the longest coastline among Indian states.
+
+Q821. The headquarters of the United Nations is located in which city?
+    A. New York
+    B. Geneva
+    C. Vienna
+    D. Paris
+
+Answer: New York
+Solution: The UN headquarters is in New York City.
+
+Q822. Who is the author of 'Panchatantra'?
+    A. Valmiki
+    B. Kalidasa
+    C. Vishnu Sharma
+    D. Ved Vyas
+
+Answer: Vishnu Sharma
+Solution: Vishnu Sharma is believed to have authored the ancient fables of 'Panchatantra'.
+
+Q823. Which vitamin is produced in the human body when exposed to sunlight?
+    A. Vitamin A
+    B. Vitamin B12
+    C. Vitamin C
+    D. Vitamin D
+
+Answer: Vitamin D
+Solution: Exposure to sunlight helps the human body synthesize Vitamin D.
+
+Q824. What is the smallest unit of an element that retains its properties?
+    A. Atom
+    B. Molecule
+    C. Electron
+    D. Proton
+
+Answer: Atom
+Solution: An atom is the smallest unit of an element retaining its chemical properties.
+
+Q825. The term 'Green Revolution' is associated with which field?
+    A. Medicine
+    B. Agriculture
+    C. Technology
+    D. Politics
+
+Answer: Agriculture
+Solution: The Green Revolution refers to improvements in agriculture through high-yield crops and technology.
+
+Q826. Which Indian city is famous for the Golden Temple?
+    A. Delhi
+    B. Amritsar
+    C. Varanasi
+    D. Jaipur
+
+Answer: Amritsar
+Solution: The Golden Temple is located in Amritsar, Punjab.
+
+Q827. Who designed the Indian tricolour flag?
+    A. Mahatma Gandhi
+    B. Pingali Venkayya
+    C. Rabindranath Tagore
+    D. S. Radhakrishnan
+
+Answer: Pingali Venkayya
+Solution: Pingali Venkayya designed the Indian national flag.
+
+Q828. Which is the largest desert in the world?
+    A. Sahara
+    B. Gobi
+    C. Arabian
+    D. Thar
+
+Answer: Sahara
+Solution: The Sahara Desert is the largest hot desert in the world.
+
+Q829. What is the SI unit of electric current?
+    A. Ohm
+    B. Volt
+    C. Ampere
+    D. Watt
+
+Answer: Ampere
+Solution: Electric current is measured in amperes.
+
+Q830. Who is known as the father of Indian space program?
+    A. A. P. J. Abdul Kalam
+    B. Homi J. Bhabha
+    C. Satish Dhawan
+    D. Vikram Sarabhai
+
+Answer: Vikram Sarabhai
+Solution: Vikram Sarabhai founded India's space program (ISRO).
+
+Q831. Which animal is the national animal of India?
+    A. Lion
+    B. Tiger
+    C. Leopard
+    D. Elephant
+
+Answer: Tiger
+Solution: The Bengal tiger is the national animal of India.
+
+Q832. What is the chemical formula of water?
+    A. H2O
+    B. CO2
+    C. NaOH
+    D. HCl
+
+Answer: H2O
+Solution: Water is composed of two hydrogen atoms and one oxygen atom.
+
+Q833. Who was the first President of India?
+    A. Jawaharlal Nehru
+    B. Rajendra Prasad
+    C. Sarvepalli Radhakrishnan
+    D. Zakir Hussain
+
+Answer: Rajendra Prasad
+Solution: Dr. Rajendra Prasad was the first President of India.
+
+Q834. Which state in India is the largest by area?
+    A. Rajasthan
+    B. Madhya Pradesh
+    C. Maharashtra
+    D. Uttar Pradesh
+
+Answer: Rajasthan
+Solution: Rajasthan is the largest Indian state by area.
+
+Q835. Which is the smallest bird in the world?
+    A. Sparrow
+    B. Hummingbird
+    C. Pigeon
+    D. Crow
+
+Answer: Hummingbird
+Solution: The bee hummingbird is the smallest bird species.
+
+Q836. Who discovered the theory of relativity?
+    A. Isaac Newton
+    B. Albert Einstein
+    C. Galileo Galilei
+    D. Stephen Hawking
+
+Answer: Albert Einstein
+Solution: Albert Einstein proposed the theory of relativity.
+
+Q837. The currency of Bangladesh is?
+    A. Rupee
+    B. Taka
+    C. Riyal
+    D. Ringgit
+
+Answer: Taka
+Solution: Bangladesh uses the Bangladeshi Taka.
+
+Q838. Which festival is known as the festival of lights?
+    A. Holi
+    B. Diwali
+    C. Eid
+    D. Christmas
+
+Answer: Diwali
+Solution: Diwali is celebrated as the festival of lights in India.
+
+Q839. Which Indian state is known as the 'Spice Garden of India'?
+    A. Kerala
+    B. Tamil Nadu
+    C. Karnataka
+    D. Goa
+
+Answer: Kerala
+Solution: Kerala is often called the Spice Garden due to its spice plantations.
+
+Q840. Who is the author of 'God of Small Things'?
+    A. Arundhati Roy
+    B. Kiran Desai
+    C. Jhumpa Lahiri
+    D. Anita Desai
+
+Answer: Arundhati Roy
+Solution: 'The God of Small Things' is written by Arundhati Roy.
+
+Q841. Which planet is closest to the sun?
+    A. Mercury
+    B. Venus
+    C. Earth
+    D. Mars
+
+Answer: Mercury
+Solution: Mercury is the closest planet to the Sun.
+
+Q842. Who invented the World Wide Web?
+    A. Bill Gates
+    B. Steve Jobs
+    C. Tim Berners-Lee
+    D. Mark Zuckerberg
+
+Answer: Tim Berners-Lee
+Solution: Sir Tim Berners-Lee invented the World Wide Web in 1989-1990.
+
+Q843. Which state produces the most wheat in India?
+    A. Uttar Pradesh
+    B. Punjab
+    C. Haryana
+    D. Madhya Pradesh
+
+Answer: Uttar Pradesh
+Solution: Uttar Pradesh is India's leading wheat producer.
+
+Q844. The headquarters of the Reserve Bank of India is in which city?
+    A. Delhi
+    B. Mumbai
+    C. Kolkata
+    D. Chennai
+
+Answer: Mumbai
+Solution: The RBI headquarters is located in Mumbai.
+
+Q845. Who wrote the Ramayana?
+    A. Valmiki
+    B. Veda Vyasa
+    C. Tulsidas
+    D. Kalidasa
+
+Answer: Valmiki
+Solution: The sage Valmiki is traditionally credited with writing the Ramayana.
+
+Q846. Which is the longest river in the world?
+    A. Amazon
+    B. Nile
+    C. Ganges
+    D. Yangtze
+
+Answer: Nile
+Solution: The Nile is generally considered the longest river in the world.
+
+Q847. What is the hardest natural substance on Earth?
+    A. Gold
+    B. Iron
+    C. Diamond
+    D. Quartz
+
+Answer: Diamond
+Solution: Diamond is the hardest known natural substance.
+
+Q848. Who is known as the father of Indian nuclear program?
+    A. Homi J. Bhabha
+    B. Vikram Sarabhai
+    C. Meghnad Saha
+    D. Satish Dhawan
+
+Answer: Homi J. Bhabha
+Solution: Homi Jehangir Bhabha is considered the father of Indian nuclear science.
+
+Q849. Which element has the chemical symbol 'O'?
+    A. Gold
+    B. Oxygen
+    C. Silver
+    D. Tin
+
+Answer: Oxygen
+Solution: 'O' is the chemical symbol for oxygen.
+
+Q850. Where is the Sunderbans mangrove forest located?
+    A. Andhra Pradesh
+    B. Gujarat
+    C. West Bengal
+    D. Tamil Nadu
+
+Answer: West Bengal
+Solution: The Sunderbans are in West Bengal, extending into Bangladesh.
+
+Q851. Which city is known as the Silicon Valley of India?
+    A. Hyderabad
+    B. Bengaluru
+    C. Chennai
+    D. Pune
+
+Answer: Bengaluru
+Solution: Bengaluru is dubbed the Silicon Valley of India for its IT industry.
+
+Q852. Who composed the song 'Sare Jahan Se Achha'?
+    A. Rabindranath Tagore
+    B. Bankim Chandra Chatterjee
+    C. Muhammad Iqbal
+    D. Ram Prasad Bismil
+
+Answer: Muhammad Iqbal
+Solution: 'Sare Jahan Se Achha' was composed by poet Muhammad Iqbal.
+
+Q853. Which Indian state is known as the 'Land of Five Rivers'?
+    A. Punjab
+    B. Haryana
+    C. Bihar
+    D. Gujarat
+
+Answer: Punjab
+Solution: Punjab literally means 'land of five rivers' in Persian.
+
+Q854. Who is known as the father of modern chemistry?
+    A. Joseph Priestley
+    B. Antoine Lavoisier
+    C. Robert Boyle
+    D. John Dalton
+
+Answer: Antoine Lavoisier
+Solution: Antoine Lavoisier is considered the father of modern chemistry.
+
+Q855. Which gas do plants absorb from the atmosphere?
+    A. Oxygen
+    B. Nitrogen
+    C. Carbon Dioxide
+    D. Helium
+
+Answer: Carbon Dioxide
+Solution: Plants absorb carbon dioxide for photosynthesis.
+
+Q856. What is the capital of Australia?
+    A. Sydney
+    B. Melbourne
+    C. Canberra
+    D. Perth
+
+Answer: Canberra
+Solution: Canberra is the capital city of Australia.
+
+Q857. Who discovered the law of gravity?
+    A. Albert Einstein
+    B. Galileo Galilei
+    C. Isaac Newton
+    D. Niels Bohr
+
+Answer: Isaac Newton
+Solution: Sir Isaac Newton formulated the law of universal gravitation.
+
+Q858. Which Indian festival is known for flying kites?
+    A. Holi
+    B. Diwali
+    C. Makar Sankranti
+    D. Raksha Bandhan
+
+Answer: Makar Sankranti
+Solution: Makar Sankranti is celebrated with kite flying in many regions.
+
+Q859. Who was the first Indian woman to win an Olympic medal?
+    A. Karnam Malleswari
+    B. P. T. Usha
+    C. Saina Nehwal
+    D. P. V. Sindhu
+
+Answer: Karnam Malleswari
+Solution: Weightlifter Karnam Malleswari won bronze at the 2000 Sydney Olympics.
+
+Q860. Which instrument measures atmospheric pressure?
+    A. Hygrometer
+    B. Barometer
+    C. Thermometer
+    D. Anemometer
+
+Answer: Barometer
+Solution: A barometer is used to measure atmospheric pressure.
+
+Q861. Who built the Jama Masjid in Delhi?
+    A. Shah Jahan
+    B. Akbar
+    C. Aurangzeb
+    D. Humayun
+
+Answer: Shah Jahan
+Solution: Shah Jahan built the Jama Masjid in Delhi.
+
+Q862. What is the main component of natural gas?
+    A. Ethane
+    B. Propane
+    C. Methane
+    D. Butane
+
+Answer: Methane
+Solution: Methane is the primary component of natural gas.
+
+Q863. Which state is known as the 'Tea Garden of India'?
+    A. Assam
+    B. West Bengal
+    C. Kerala
+    D. Tamil Nadu
+
+Answer: Assam
+Solution: Assam is famous for its tea gardens and production.
+
+Q864. Who is known as the Nightingale of India?
+    A. Sarojini Naidu
+    B. Lata Mangeshkar
+    C. K. S. Chithra
+    D. Asha Bhosle
+
+Answer: Sarojini Naidu
+Solution: Sarojini Naidu was called the Nightingale of India for her poetic and oratory skills.
+
+Q865. Which part of the plant conducts photosynthesis?
+    A. Roots
+    B. Stem
+    C. Leaves
+    D. Flowers
+
+Answer: Leaves
+Solution: Leaves contain chlorophyll and conduct photosynthesis.
+
+Q866. Who was the founder of Buddhism?
+    A. Mahavira
+    B. Gautama Buddha
+    C. Ashoka
+    D. Chanakya
+
+Answer: Gautama Buddha
+Solution: Siddhartha Gautama (Buddha) founded Buddhism.
+
+Q867. Which metal is liquid at room temperature?
+    A. Gold
+    B. Mercury
+    C. Silver
+    D. Copper
+
+Answer: Mercury
+Solution: Mercury is the only metal that is liquid at room temperature.
+
+Q868. Which Mughal emperor built the Red Fort in Delhi?
+    A. Akbar
+    B. Jahangir
+    C. Shah Jahan
+    D. Aurangzeb
+
+Answer: Shah Jahan
+Solution: Shah Jahan constructed the Red Fort.
+
+Q869. Which organ in the human body is mainly responsible for detoxification?
+    A. Heart
+    B. Kidney
+    C. Liver
+    D. Lungs
+
+Answer: Liver
+Solution: The liver detoxifies chemicals and metabolizes drugs.
+
+Q870. What is the value of Pi up to two decimal places?
+    A. 3.14
+    B. 3.15
+    C. 3.16
+    D. 3.17
+
+Answer: 3.14
+Solution: Pi is approximately equal to 3.14 to two decimal places.
+
+Q871. Which Indian state is famous for the dance form 'Bihu'?
+    A. Punjab
+    B. Kerala
+    C. Assam
+    D. Tamil Nadu
+
+Answer: Assam
+Solution: Bihu is a folk dance from Assam.
+
+Q872. Which is the highest civilian award in India?
+    A. Padma Shri
+    B. Padma Bhushan
+    C. Padma Vibhushan
+    D. Bharat Ratna
+
+Answer: Bharat Ratna
+Solution: The Bharat Ratna is the highest civilian award of India.
+
+Q873. Who discovered the circulation of blood?
+    A. Robert Hooke
+    B. William Harvey
+    C. Joseph Lister
+    D. Edward Jenner
+
+Answer: William Harvey
+Solution: William Harvey first described the systemic circulation of blood in the human body.
+
+Q874. Which country is known as the Land of the Rising Sun?
+    A. China
+    B. Japan
+    C. Korea
+    D. Thailand
+
+Answer: Japan
+Solution: Japan is famously called the Land of the Rising Sun.
+
+Q875. Which Indian monument is also called the 'Symbol of Love'?
+    A. Qutub Minar
+    B. Taj Mahal
+    C. Charminar
+    D. Victoria Memorial
+
+Answer: Taj Mahal
+Solution: The Taj Mahal in Agra is often called the symbol of love.
+
+Q876. Which vitamin helps in blood clotting?
+    A. Vitamin A
+    B. Vitamin K
+    C. Vitamin C
+    D. Vitamin D
+
+Answer: Vitamin K
+Solution: Vitamin K plays a key role in blood clotting.
+
+Q877. Who is the first Indian to receive the Nobel Prize in Physics?
+    A. C. V. Raman
+    B. Satyendra Nath Bose
+    C. Homi J. Bhabha
+    D. Subrahmanyan Chandrasekhar
+
+Answer: C. V. Raman
+Solution: C. V. Raman won the Nobel Prize in Physics in 1930 for his work on scattering of light.
+
+Q878. Which Indian state is known for the dance form 'Yakshagana'?
+    A. Karnataka
+    B. Kerala
+    C. Odisha
+    D. Gujarat
+
+Answer: Karnataka
+Solution: Yakshagana is a traditional theatre form from Karnataka.
+
+Q879. What is the hardest natural substance found on Earth?
+    A. Iron
+    B. Graphite
+    C. Diamond
+    D. Corundum
+
+Answer: Diamond
+Solution: Diamond is the hardest natural substance.
+
+Q880. Which gas is used for the ripening of fruits?
+    A. Oxygen
+    B. Ethylene
+    C. Nitrogen
+    D. Methane
+
+Answer: Ethylene
+Solution: Ethylene gas is used commercially to ripen fruits.
+
+Q881. Which city is known as the City of Nawabs?
+    A. Kolkata
+    B. Hyderabad
+    C. Lucknow
+    D. Mumbai
+
+Answer: Lucknow
+Solution: Lucknow is called the City of Nawabs.
+
+Q882. Which planet has the most moons?
+    A. Earth
+    B. Jupiter
+    C. Saturn
+    D. Mars
+
+Answer: Saturn
+Solution: As of recent discoveries, Saturn has the most confirmed moons.
+
+Q883. Who discovered the X-rays?
+    A. Wilhelm Conrad Roentgen
+    B. Marie Curie
+    C. James Watt
+    D. Enrico Fermi
+
+Answer: Wilhelm Conrad Roentgen
+Solution: Roentgen discovered X-rays in 1895.
+
+Q884. Which gas protects us from harmful ultraviolet rays from the sun?
+    A. Carbon Dioxide
+    B. Ozone
+    C. Nitrogen
+    D. Hydrogen
+
+Answer: Ozone
+Solution: The ozone layer in the stratosphere absorbs most UV radiation.
+
+Q885. The instrument used to measure earthquakes is called?
+    A. Seismograph
+    B. Hygrometer
+    C. Thermometer
+    D. Barometer
+
+Answer: Seismograph
+Solution: A seismograph measures the intensity and duration of earthquakes.
+
+Q886. Who was the first Indian woman to climb Mount Everest?
+    A. Bachendri Pal
+    B. Santosh Yadav
+    C. Premlata Agarwal
+    D. Dicky Dolma
+
+Answer: Bachendri Pal
+Solution: Bachendri Pal became the first Indian woman to reach the summit of Mount Everest in 1984.
+
+Q887. Which part of the brain maintains balance and posture?
+    A. Cerebrum
+    B. Cerebellum
+    C. Medulla
+    D. Pons
+
+Answer: Cerebellum
+Solution: The cerebellum maintains balance and posture.
+
+Q888. Which river is also called the 'Dakshin Ganga'?
+    A. Godavari
+    B. Krishna
+    C. Cauvery
+    D. Narmada
+
+Answer: Godavari
+Solution: The Godavari is often referred to as the Dakshin (Southern) Ganga.
+
+Q889. Who is the first Indian to win the Booker Prize?
+    A. Arundhati Roy
+    B. V. S. Naipaul
+    C. Kiran Desai
+    D. Salman Rushdie
+
+Answer: Arundhati Roy
+Solution: Arundhati Roy won the Booker Prize in 1997 for 'The God of Small Things'.
+
+Q890. Which element is most abundant in the Earth's crust?
+    A. Oxygen
+    B. Silicon
+    C. Aluminium
+    D. Iron
+
+Answer: Oxygen
+Solution: Oxygen is the most abundant element in the Earth's crust.
+
+Q891. Who discovered the vaccine for rabies?
+    A. Edward Jenner
+    B. Louis Pasteur
+    C. Robert Koch
+    D. Jonas Salk
+
+Answer: Louis Pasteur
+Solution: Louis Pasteur developed the first vaccine for rabies.
+
+Q892. Which planet is known as the 'Morning Star'?
+    A. Mars
+    B. Venus
+    C. Jupiter
+    D. Saturn
+
+Answer: Venus
+Solution: Venus appears bright in the sky at dawn and is known as the Morning Star.
+
+Q893. What is the main gas found in the air we breathe?
+    A. Oxygen
+    B. Hydrogen
+    C. Nitrogen
+    D. Carbon Dioxide
+
+Answer: Nitrogen
+Solution: Air is composed of about 78% nitrogen.
+
+Q894. Who is the author of the novel '1984'?
+    A. George Orwell
+    B. Aldous Huxley
+    C. F. Scott Fitzgerald
+    D. Ernest Hemingway
+
+Answer: George Orwell
+Solution: George Orwell wrote '1984', a dystopian novel.
+
+Q895. Which is the largest mammal on Earth?
+    A. Elephant
+    B. Blue Whale
+    C. Giraffe
+    D. Hippopotamus
+
+Answer: Blue Whale
+Solution: The blue whale is the largest known animal ever to have lived.
+
+Q896. Who was the first Indian woman to win the Miss World title?
+    A. Aishwarya Rai
+    B. Reita Faria
+    C. Diana Hayden
+    D. Priyanka Chopra
+
+Answer: Reita Faria
+Solution: Reita Faria was the first Indian and Asian to win Miss World in 1966.
+
+Q897. Which Indian state is known for the dance form 'Ghoomar'?
+    A. Rajasthan
+    B. Punjab
+    C. Haryana
+    D. Gujarat
+
+Answer: Rajasthan
+Solution: Ghoomar is a folk dance from Rajasthan.
+
+Q898. Which is the smallest bone in the human body?
+    A. Femur
+    B. Stapes
+    C. Ulna
+    D. Patella
+
+Answer: Stapes
+Solution: The stapes in the middle ear is the smallest bone in the human body.
+
+Q899. Who is the author of 'Pride and Prejudice'?
+    A. Jane Austen
+    B. Emily Bronte
+    C. Charles Dickens
+    D. Mark Twain
+
+Answer: Jane Austen
+Solution: Jane Austen wrote 'Pride and Prejudice'.
+
+Q900. Which state in India is famous for the 'Garba' dance?
+    A. Punjab
+    B. Kerala
+    C. Gujarat
+    D. Bihar
+
+Answer: Gujarat
+Solution: Garba is a traditional dance from Gujarat.
+
+Q901. English/Synonym – Choose the correct synonym of 'Abate'.
+    A. Increase
+    B. Lessen
+    C. Expand
+    D. Intensify
+
+Answer: Lessen
+Solution: 'Abate' means to decrease or lessen in intensity.
+
+Q902. English/Synonym – Choose the correct synonym of 'Eloquent'.
+    A. Clumsy
+    B. Fluent
+    C. Silent
+    D. Ugly
+
+Answer: Fluent
+Solution: 'Eloquent' describes fluent and persuasive speaking.
+
+Q903. English/Synonym – Choose the correct synonym of 'Pragmatic'.
+    A. Idealistic
+    B. Realistic
+    C. Romantic
+    D. Utopian
+
+Answer: Realistic
+Solution: 'Pragmatic' means dealing with things sensibly and realistically.
+
+Q904. English/Synonym – Choose the correct synonym of 'Succinct'.
+    A. Verbose
+    B. Brief
+    C. Confusing
+    D. Distant
+
+Answer: Brief
+Solution: 'Succinct' means briefly and clearly expressed.
+
+Q905. English/Synonym – Choose the correct synonym of 'Obstinate'.
+    A. Flexible
+    B. Stubborn
+    C. Agreeable
+    D. Willing
+
+Answer: Stubborn
+Solution: 'Obstinate' means stubbornly refusing to change one's opinion.
+
+Q906. English/Synonym – Choose the correct synonym of 'Candid'.
+    A. Insincere
+    B. Frank
+    C. Deceptive
+    D. Polite
+
+Answer: Frank
+Solution: 'Candid' means truthful and straightforward.
+
+Q907. English/Synonym – Choose the correct synonym of 'Eradicate'.
+    A. Remove
+    B. Construct
+    C. Add
+    D. Assemble
+
+Answer: Remove
+Solution: 'Eradicate' means to remove or destroy completely.
+
+Q908. English/Synonym – Choose the correct synonym of 'Benevolent'.
+    A. Cruel
+    B. Generous
+    C. Selfish
+    D. Greedy
+
+Answer: Generous
+Solution: 'Benevolent' means well meaning and kindly.
+
+Q909. English/Synonym – Choose the correct synonym of 'Elated'.
+    A. Sad
+    B. Joyful
+    C. Angry
+    D. Tired
+
+Answer: Joyful
+Solution: 'Elated' means very happy or joyful.
+
+Q910. English/Synonym – Choose the correct synonym of 'Ominous'.
+    A. Threatening
+    B. Encouraging
+    C. Bright
+    D. Humorous
+
+Answer: Threatening
+Solution: 'Ominous' means giving the impression that something bad will happen.
+
+Q911. English/Synonym – Choose the correct synonym of 'Somber'.
+    A. Bright
+    B. Gloomy
+    C. Energetic
+    D. Colourful
+
+Answer: Gloomy
+Solution: 'Somber' means dark or gloomy in mood.
+
+Q912. English/Synonym – Choose the correct synonym of 'Lucid'.
+    A. Clear
+    B. Confusing
+    C. Opaque
+    D. Obscure
+
+Answer: Clear
+Solution: 'Lucid' means expressed clearly; easy to understand.
+
+Q913. English/Synonym – Choose the correct synonym of 'Inundate'.
+    A. Flood
+    B. Desert
+    C. Grow
+    D. Reduce
+
+Answer: Flood
+Solution: 'Inundate' means to flood or overwhelm.
+
+Q914. English/Synonym – Choose the correct synonym of 'Prolific'.
+    A. Sparse
+    B. Fruitful
+    C. Barren
+    D. Limited
+
+Answer: Fruitful
+Solution: 'Prolific' means producing many works or offspring.
+
+Q915. English/Synonym – Choose the correct synonym of 'Fortify'.
+    A. Weaken
+    B. Strengthen
+    C. Destroy
+    D. Neglect
+
+Answer: Strengthen
+Solution: 'Fortify' means to strengthen or secure.
+
+Q916. English/Synonym – Choose the correct synonym of 'Alleviate'.
+    A. Aggravate
+    B. Relieve
+    C. Worsen
+    D. Heighten
+
+Answer: Relieve
+Solution: 'Alleviate' means to relieve or reduce suffering.
+
+Q917. English/Synonym – Choose the correct synonym of 'Intricate'.
+    A. Simple
+    B. Complex
+    C. Clear
+    D. Monotone
+
+Answer: Complex
+Solution: 'Intricate' means very complicated or detailed.
+
+Q918. English/Synonym – Choose the correct synonym of 'Transient'.
+    A. Permanent
+    B. Temporary
+    C. Constant
+    D. Eternal
+
+Answer: Temporary
+Solution: 'Transient' means lasting only for a short time.
+
+Q919. English/Synonym – Choose the correct synonym of 'Scrutinize'.
+    A. Neglect
+    B. Examine
+    C. Ignore
+    D. Glance
+
+Answer: Examine
+Solution: 'Scrutinize' means to examine or inspect closely.
+
+Q920. English/Synonym – Choose the correct synonym of 'Insidious'.
+    A. Harmless
+    B. Subtle
+    C. Obvious
+    D. Loud
+
+Answer: Subtle
+Solution: 'Insidious' describes something that proceeds in a gradual, subtle way but with harmful effects.
+
+Q921. English/Synonym – Choose the correct synonym of 'Audacious'.
+    A. Timid
+    B. Daring
+    C. Quiet
+    D. Polite
+
+Answer: Daring
+Solution: 'Audacious' means showing a willingness to take surprisingly bold risks.
+
+Q922. English/Synonym – Choose the correct synonym of 'Redundant'.
+    A. Essential
+    B. Superfluous
+    C. Necessary
+    D. Vital
+
+Answer: Superfluous
+Solution: 'Redundant' means not or no longer needed; superfluous.
+
+Q923. English/Synonym – Choose the correct synonym of 'Opulent'.
+    A. Poor
+    B. Wealthy
+    C. Low
+    D. Sparse
+
+Answer: Wealthy
+Solution: 'Opulent' means rich and luxurious or lavish.
+
+Q924. English/Synonym – Choose the correct synonym of 'Reverence'.
+    A. Disrespect
+    B. Respect
+    C. Amusement
+    D. Ridicule
+
+Answer: Respect
+Solution: 'Reverence' means deep respect for someone or something.
+
+Q925. English/Synonym – Choose the correct synonym of 'Voracious'.
+    A. Indifferent
+    B. Greedy
+    C. Satisfied
+    D. Content
+
+Answer: Greedy
+Solution: 'Voracious' means wanting or devouring great quantities of food or information.
+
+Q926. English/Synonym – Choose the correct synonym of 'Vicarious'.
+    A. Direct
+    B. Indirect
+    C. Personal
+    D. Brief
+
+Answer: Indirect
+Solution: 'Vicarious' means experienced in the imagination through the feelings or actions of another.
+
+Q927. English/Synonym – Choose the correct synonym of 'Trivial'.
+    A. Important
+    B. Insignificant
+    C. Major
+    D. Extraordinary
+
+Answer: Insignificant
+Solution: 'Trivial' means of little value or importance.
+
+Q928. English/Synonym – Choose the correct synonym of 'Jubilant'.
+    A. Depressed
+    B. Joyful
+    C. Indifferent
+    D. Calm
+
+Answer: Joyful
+Solution: 'Jubilant' means feeling or expressing great happiness and triumph.
+
+Q929. English/Synonym – Choose the correct synonym of 'Capricious'.
+    A. Stable
+    B. Unpredictable
+    C. Consistent
+    D. Cautious
+
+Answer: Unpredictable
+Solution: 'Capricious' means given to sudden and unaccountable changes of mood or behaviour.
+
+Q930. English/Synonym – Choose the correct synonym of 'Ubiquitous'.
+    A. Rare
+    B. Common
+    C. Scarce
+    D. Elusive
+
+Answer: Common
+Solution: 'Ubiquitous' means present, appearing, or found everywhere.
+
+Q931. English/Synonym – Choose the correct synonym of 'Magnanimous'.
+    A. Petty
+    B. Generous
+    C. Stingy
+    D. Harsh
+
+Answer: Generous
+Solution: 'Magnanimous' means generous or forgiving.
+
+Q932. English/Synonym – Choose the correct synonym of 'Meticulous'.
+    A. Careless
+    B. Precise
+    C. Approximate
+    D. Indifferent
+
+Answer: Precise
+Solution: 'Meticulous' means showing great attention to detail.
+
+Q933. English/Synonym – Choose the correct synonym of 'Amicable'.
+    A. Friendly
+    B. Hostile
+    C. Cold
+    D. Aggressive
+
+Answer: Friendly
+Solution: 'Amicable' means friendly.
+
+Q934. English/Synonym – Choose the correct synonym of 'Belligerent'.
+    A. Aggressive
+    B. Peaceful
+    C. Calm
+    D. Friendly
+
+Answer: Aggressive
+Solution: 'Belligerent' means aggressive.
+
+Q935. English/Synonym – Choose the correct synonym of 'Cordial'.
+    A. Warm
+    B. Aloof
+    C. Cold
+    D. Indifferent
+
+Answer: Warm
+Solution: 'Cordial' means warm.
+
+Q936. English/Synonym – Choose the correct synonym of 'Diligent'.
+    A. Hard-working
+    B. Lazy
+    C. Careless
+    D. Lethargic
+
+Answer: Hard-working
+Solution: 'Diligent' means hard-working.
+
+Q937. English/Synonym – Choose the correct synonym of 'Eminent'.
+    A. Distinguished
+    B. Unknown
+    C. Common
+    D. Ordinary
+
+Answer: Distinguished
+Solution: 'Eminent' means distinguished.
+
+Q938. English/Synonym – Choose the correct synonym of 'Frivolous'.
+    A. Trivial
+    B. Serious
+    C. Important
+    D. Weighty
+
+Answer: Trivial
+Solution: 'Frivolous' means trivial.
+
+Q939. English/Synonym – Choose the correct synonym of 'Gregarious'.
+    A. Sociable
+    B. Shy
+    C. Reclusive
+    D. Reserved
+
+Answer: Sociable
+Solution: 'Gregarious' means sociable.
+
+Q940. English/Synonym – Choose the correct synonym of 'Humane'.
+    A. Kind
+    B. Cruel
+    C. Ruthless
+    D. Callous
+
+Answer: Kind
+Solution: 'Humane' means kind.
+
+Q941. English/Synonym – Choose the correct synonym of 'Impeccable'.
+    A. Faultless
+    B. Flawed
+    C. Imperfect
+    D. Defective
+
+Answer: Faultless
+Solution: 'Impeccable' means faultless.
+
+Q942. English/Synonym – Choose the correct synonym of 'Juvenile'.
+    A. Youthful
+    B. Mature
+    C. Old
+    D. Wise
+
+Answer: Youthful
+Solution: 'Juvenile' means youthful.
+
+Q943. English/Synonym – Choose the correct synonym of 'Amicable'.
+    A. Friendly
+    B. Hostile
+    C. Cold
+    D. Aggressive
+
+Answer: Friendly
+Solution: 'Amicable' means friendly.
+
+Q944. English/Synonym – Choose the correct synonym of 'Belligerent'.
+    A. Aggressive
+    B. Peaceful
+    C. Calm
+    D. Friendly
+
+Answer: Aggressive
+Solution: 'Belligerent' means aggressive.
+
+Q945. English/Synonym – Choose the correct synonym of 'Cordial'.
+    A. Warm
+    B. Aloof
+    C. Cold
+    D. Indifferent
+
+Answer: Warm
+Solution: 'Cordial' means warm.
+
+Q946. English/Synonym – Choose the correct synonym of 'Diligent'.
+    A. Hard-working
+    B. Lazy
+    C. Careless
+    D. Lethargic
+
+Answer: Hard-working
+Solution: 'Diligent' means hard-working.
+
+Q947. English/Synonym – Choose the correct synonym of 'Eminent'.
+    A. Distinguished
+    B. Unknown
+    C. Common
+    D. Ordinary
+
+Answer: Distinguished
+Solution: 'Eminent' means distinguished.
+
+Q948. English/Synonym – Choose the correct synonym of 'Frivolous'.
+    A. Trivial
+    B. Serious
+    C. Important
+    D. Weighty
+
+Answer: Trivial
+Solution: 'Frivolous' means trivial.
+
+Q949. English/Synonym – Choose the correct synonym of 'Gregarious'.
+    A. Sociable
+    B. Shy
+    C. Reclusive
+    D. Reserved
+
+Answer: Sociable
+Solution: 'Gregarious' means sociable.
+
+Q950. English/Synonym – Choose the correct synonym of 'Humane'.
+    A. Kind
+    B. Cruel
+    C. Ruthless
+    D. Callous
+
+Answer: Kind
+Solution: 'Humane' means kind.
+
+Q951. Which year was the National Education Policy (NEP) 2020 approved?
+    A. 2018
+    B. 2019
+    C. 2020
+    D. 2021
+
+Answer: 2020
+Solution: The NEP 2020 was approved in 2020 to reform India’s education system.
+
+Q952. What does CPU stand for in computers?
+    A. Central Processing Unit
+    B. Computer Power Unit
+    C. Central Program Unit
+    D. Central Processing Utility
+
+Answer: Central Processing Unit
+Solution: CPU stands for Central Processing Unit, the brain of the computer.
+
+Q953. The term 'Blue Revolution' is related to which sector?
+    A. Agriculture
+    B. Fisheries
+    C. Dairy
+    D. Sericulture
+
+Answer: Fisheries
+Solution: Blue Revolution refers to growth of the fisheries sector.
+
+Q954. Who proposed the germ theory of disease?
+    A. Louis Pasteur
+    B. Robert Koch
+    C. Joseph Lister
+    D. Alexander Fleming
+
+Answer: Louis Pasteur
+Solution: Louis Pasteur proposed that microorganisms cause diseases (germ theory).
+
+Q955. The process of water changing into vapour is called?
+    A. Condensation
+    B. Evaporation
+    C. Sublimation
+    D. Transpiration
+
+Answer: Evaporation
+Solution: Evaporation is the process by which water changes from liquid to gas.
+
+Q956. Which of the following is a renewable source of energy?
+    A. Coal
+    B. Natural Gas
+    C. Wind Energy
+    D. Nuclear Energy
+
+Answer: Wind Energy
+Solution: Wind energy is renewable as it uses natural wind to generate power.
+
+Q957. What does RAM stand for?
+    A. Read Access Memory
+    B. Random Access Memory
+    C. Run Accept Memory
+    D. Real-time Access Memory
+
+Answer: Random Access Memory
+Solution: RAM stands for Random Access Memory – temporary storage for computer data.
+
+Q958. Which organelle is known as the powerhouse of the cell?
+    A. Nucleus
+    B. Mitochondria
+    C. Ribosome
+    D. Golgi apparatus
+
+Answer: Mitochondria
+Solution: Mitochondria produce energy (ATP) in cells.
+
+Q959. What is the main objective of the Pradhan Mantri Ujjwala Yojana?
+    A. Provide free electricity
+    B. Provide LPG connections
+    C. Provide housing loans
+    D. Provide health insurance
+
+Answer: Provide LPG connections
+Solution: PM Ujjwala Yojana aims to provide LPG connections to poor households.
+
+Q960. In pedagogy, the term 'constructivism' is associated with which philosopher?
+    A. Jean Piaget
+    B. B. F. Skinner
+    C. John Dewey
+    D. Albert Bandura
+
+Answer: Jean Piaget
+Solution: Jean Piaget's theory underpins constructivist learning.
+
+Q961. Which Act regulates Right to Information (RTI) in India?
+    A. RTI Act 2000
+    B. RTI Act 2003
+    C. RTI Act 2005
+    D. RTI Act 2010
+
+Answer: RTI Act 2005
+Solution: The Right to Information Act was enacted in 2005.
+
+Q962. Who is responsible for appointing the Chief Election Commissioner of India?
+    A. President
+    B. Prime Minister
+    C. Chief Justice
+    D. Parliament
+
+Answer: President
+Solution: The Chief Election Commissioner is appointed by the President.
+
+Q963. Which hormone regulates blood sugar levels?
+    A. Adrenaline
+    B. Thyroxine
+    C. Insulin
+    D. Melatonin
+
+Answer: Insulin
+Solution: Insulin regulates blood glucose by facilitating its uptake.
+
+Q964. The National Green Tribunal (NGT) was established in which year?
+    A. 2010
+    B. 2012
+    C. 2014
+    D. 2016
+
+Answer: 2010
+Solution: NGT was established in 2010 to handle environmental cases.
+
+Q965. What is the recommended research methodology for measuring reliability of a test?
+    A. ANOVA
+    B. Cronbach's Alpha
+    C. Chi-square
+    D. Regression
+
+Answer: Cronbach's Alpha
+Solution: Cronbach's alpha measures internal consistency of a test.
+
+Q966. Which Indian festival celebrates the brother-sister bond?
+    A. Diwali
+    B. Raksha Bandhan
+    C. Holi
+    D. Navratri
+
+Answer: Raksha Bandhan
+Solution: Raksha Bandhan celebrates the bond between brothers and sisters.
+
+Q967. The emission of pollutants from vehicles is measured in which unit?
+    A. ppm
+    B. kg
+    C. Joule
+    D. Watt
+
+Answer: ppm
+Solution: Vehicle emissions are commonly measured in parts per million (ppm).
+
+Q968. Which of the following is an example of a formative assessment?
+    A. Mid-term exam
+    B. Final exam
+    C. Class quiz
+    D. Board examination
+
+Answer: Class quiz
+Solution: Formative assessments like quizzes monitor student learning during instruction.
+
+Q969. The Air (Prevention and Control of Pollution) Act was enacted in which year?
+    A. 1981
+    B. 1986
+    C. 1990
+    D. 1995
+
+Answer: 1981
+Solution: The Air Act was enacted in 1981 to control air pollution.
+
+Q970. Which measure is used to sample a population randomly?
+    A. Purposive sampling
+    B. Convenience sampling
+    C. Simple random sampling
+    D. Quota sampling
+
+Answer: Simple random sampling
+Solution: Simple random sampling ensures every unit has an equal chance of selection.
+
+Q971. Which Indian scheme aims to provide health insurance to poor families?
+    A. Ayushman Bharat
+    B. Jan Dhan Yojana
+    C. Make in India
+    D. Swachh Bharat
+
+Answer: Ayushman Bharat
+Solution: Ayushman Bharat (PM-JAY) provides health insurance coverage to economically vulnerable families.
+
+Q972. What is the main advantage of cloud computing?
+    A. Increased complexity
+    B. On-premises control
+    C. Scalability
+    D. Manual backup
+
+Answer: Scalability
+Solution: Cloud computing allows scalable resources according to demand.
+
+Q973. What does SDG stand for in UN Agenda 2030?
+    A. Sustainable Development Goals
+    B. Smart Development Grants
+    C. Social Development Goals
+    D. Strategic Development Goals
+
+Answer: Sustainable Development Goals
+Solution: SDGs are 17 global goals set by the UN to achieve sustainable development by 2030.
+
+Q974. Which part of the CPU performs arithmetic and logic operations?
+    A. Control Unit
+    B. ALU
+    C. Memory Unit
+    D. Cache
+
+Answer: ALU
+Solution: The Arithmetic Logic Unit (ALU) performs arithmetic and logical operations.
+
+Q975. In educational psychology, who developed the hierarchy of needs?
+    A. Abraham Maslow
+    B. Carl Rogers
+    C. Sigmund Freud
+    D. Albert Bandura
+
+Answer: Abraham Maslow
+Solution: Abraham Maslow proposed the hierarchy of human needs.
+
+Q976. Which environment phenomenon is responsible for global warming?
+    A. Ozone depletion
+    B. Greenhouse effect
+    C. Acid rain
+    D. El Niño
+
+Answer: Greenhouse effect
+Solution: The greenhouse effect causes global warming by trapping heat in the Earth's atmosphere.
+
+Q977. What is the main purpose of vocational education?
+    A. Provide theoretical knowledge
+    B. Skill development for specific trades
+    C. Promote history studies
+    D. Focus on arts only
+
+Answer: Skill development for specific trades
+Solution: Vocational education trains students in specific crafts or trades.
+
+Q978. Which Indian agency is responsible for space research?
+    A. DRDO
+    B. ISRO
+    C. CSIR
+    D. BARC
+
+Answer: ISRO
+Solution: ISRO (Indian Space Research Organisation) conducts space research in India.
+
+Q979. The process of plants making food using sunlight is called?
+    A. Transpiration
+    B. Respiration
+    C. Photosynthesis
+    D. Digestion
+
+Answer: Photosynthesis
+Solution: Photosynthesis uses sunlight to convert CO₂ and water into glucose and oxygen.
+
+Q980. Which system of government divides powers between central and state governments?
+    A. Unitary
+    B. Monarchical
+    C. Federal
+    D. Dictatorial
+
+Answer: Federal
+Solution: In a federal system, powers are divided between the central and state governments.
+
+Q981. Who introduced the concept of multiple intelligences?
+    A. Howard Gardner
+    B. Jean Piaget
+    C. Lev Vygotsky
+    D. Jerome Bruner
+
+Answer: Howard Gardner
+Solution: Howard Gardner proposed the theory of multiple intelligences.
+
+Q982. Which is an example of non-renewable energy?
+    A. Solar
+    B. Wind
+    C. Coal
+    D. Hydroelectric
+
+Answer: Coal
+Solution: Coal is a fossil fuel and non-renewable energy source.
+
+Q983. Which organ system controls voluntary movements in the human body?
+    A. Circulatory system
+    B. Nervous system
+    C. Respiratory system
+    D. Digestive system
+
+Answer: Nervous system
+Solution: The nervous system controls voluntary and involuntary actions.
+
+Q984. What is the central document that defines the structure and powers of the Indian government?
+    A. Preamble
+    B. Constitution of India
+    C. Government of India Act
+    D. Fundamental Rights
+
+Answer: Constitution of India
+Solution: The Constitution of India defines the structure, powers and duties of government institutions.
+
+Q985. Which technique is used to purify water by killing microbes using heat?
+    A. Filtration
+    B. Sedimentation
+    C. Chlorination
+    D. Boiling
+
+Answer: Boiling
+Solution: Boiling water kills microbes and makes it safe to drink.
+
+Q986. What does the acronym ICT stand for?
+    A. International Computer Technology
+    B. Information and Communication Technology
+    C. Integrated Circuit Technology
+    D. Internet Communication Tool
+
+Answer: Information and Communication Technology
+Solution: ICT refers to technologies that provide access to information through telecommunications.
+
+Q987. Which tree is considered sacred and is known as the 'Tree of Life' in India?
+    A. Neem
+    B. Peepal
+    C. Banyan
+    D. Mango
+
+Answer: Banyan
+Solution: The banyan tree is revered as the 'Tree of Life' in India.
+
+Q988. What is the use of a SWOT analysis in project planning?
+    A. To plan budgets
+    B. To identify strengths, weaknesses, opportunities, threats
+    C. To assign tasks
+    D. To design logos
+
+Answer: To identify strengths, weaknesses, opportunities, threats
+Solution: SWOT analysis helps assess internal and external factors affecting a project.
+
+Q989. Who proposed the concept of the Zone of Proximal Development?
+    A. Jean Piaget
+    B. Lev Vygotsky
+    C. B. F. Skinner
+    D. Howard Gardner
+
+Answer: Lev Vygotsky
+Solution: Lev Vygotsky introduced the concept of Zone of Proximal Development in learning.
+
+Q990. Which tool is used to measure academic achievement standardized tests?
+    A. Cronbach's Alpha
+    B. Bloom's Taxonomy
+    C. Standard score (Z-score)
+    D. Correlation coefficient
+
+Answer: Standard score (Z-score)
+Solution: A z-score indicates how many standard deviations an element is from the mean, often used in standardized tests.
+
+Q991. What is biodiversity?
+    A. Variety of life forms
+    B. Richness of soil
+    C. Quality of water
+    D. Quantity of minerals
+
+Answer: Variety of life forms
+Solution: Biodiversity refers to the variety of living species on Earth.
+
+Q992. Which method of teaching involves learning by doing?
+    A. Lecture
+    B. Demonstration
+    C. Constructivist
+    D. Project method
+
+Answer: Project method
+Solution: Project-based learning engages students in real-world projects.
+
+Q993. What does UNICEF stand for?
+    A. United Nations International Children's Emergency Fund
+    B. Universal National Institute for Children's Education Fund
+    C. Union Nations Child Education Fund
+    D. United Nations Child Enhancement Fund
+
+Answer: United Nations International Children's Emergency Fund
+Solution: UNICEF stands for United Nations International Children's Emergency Fund.
+
+Q994. Which vitamin deficiency causes scurvy?
+    A. Vitamin A
+    B. Vitamin B12
+    C. Vitamin C
+    D. Vitamin D
+
+Answer: Vitamin C
+Solution: Scurvy is caused by a deficiency of vitamin C.
+
+Q995. Which is the first action in the scientific method?
+    A. Experiment
+    B. Observation
+    C. Hypothesis
+    D. Conclusion
+
+Answer: Observation
+Solution: The scientific method begins with careful observation of phenomena.
+
+Q996. Which organ is responsible for pumping blood throughout the body?
+    A. Lungs
+    B. Liver
+    C. Heart
+    D. Stomach
+
+Answer: Heart
+Solution: The heart pumps oxygenated blood throughout the body.
+
+Q997. What does GDP stand for?
+    A. Gross Domestic Product
+    B. Global Development Plan
+    C. Great Domestic Plan
+    D. Gross Development Project
+
+Answer: Gross Domestic Product
+Solution: GDP stands for Gross Domestic Product – the total value of goods and services produced in a country.
+
+Q998. Which Indian state is famous for the folk dance 'Chhau'?
+    A. Nagaland
+    B. Odisha
+    C. Himachal Pradesh
+    D. Rajasthan
+
+Answer: Odisha
+Solution: Chhau is a semi-classical Indian dance with tribal martial origins from Odisha.
+
+Q999. What is the main objective of the Beti Bachao Beti Padhao scheme?
+    A. Reduce poverty
+    B. Promote girl child survival and education
+    C. Increase agricultural production
+    D. Provide housing
+
+Answer: Promote girl child survival and education
+Solution: The scheme aims to improve the child sex ratio and encourage education of girls.
+
+Q1000. Which component of blood helps in clotting?
+    A. Red blood cells
+    B. White blood cells
+    C. Platelets
+    D. Plasma
+
+Answer: Platelets
+Solution: Platelets assist in blood clotting.
+

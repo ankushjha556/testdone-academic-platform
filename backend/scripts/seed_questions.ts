@@ -161,20 +161,35 @@ async function main() {
 
         // Structure: Number. (Exams - Topic)\nQuestion Text\nA.\nB.\n...\n**Answer:** X\n**Solution:** Text
 
-        // Parse First Line: "1. (SSC CGL / RRB NTPC – Coding–Decoding)"
-        const firstLineEnd = block.indexOf('\n');
-        const firstLine = block.substring(0, firstLineEnd).trim();
+        // Parse Header from first non-empty line
+        const contentLines = block.split('\n').map(l => l.trim()).filter(l => l);
+        if (contentLines.length === 0) continue;
+
+        const firstLine = contentLines[0];
 
         // Extract Metadata
         // Regex for: Digits. ( ... )
-        const metaMatch = firstLine.match(/^(\d+)\.\s*\((.*?)\)$/);
+        let metaMatch = firstLine.match(/^(\d+)\.\s*\((.*?)\)$/);
         if (!metaMatch) {
-            console.log(`Skipping block ${i}: Invalid header format: ${firstLine}`);
-            continue;
+            console.log(`Skipping block ${i} (Header Mismatch): ${firstLine}`);
+            // Attempt to look at second line if first line is just a number?
+            if (contentLines.length > 1) {
+                const combined = contentLines[0] + ' ' + contentLines[1];
+                const altMatch = combined.match(/^(\d+)\.\s*\((.*?)\)$/);
+                if (altMatch) {
+                    console.log(`Recovered block ${i} using combined lines.`);
+                    metaMatch = altMatch;
+                } else {
+                    console.log(`Failed to recover block ${i}. Dump: ${combined.substring(0, 50)}...`);
+                    continue;
+                }
+            } else {
+                continue;
+            }
         }
 
-        const qNum = metaMatch[1];
-        const context = metaMatch[2]; // "SSC CGL / RRB NTPC – Coding–Decoding"
+        const qNum = metaMatch ? metaMatch[1] : '0';
+        const context = metaMatch ? metaMatch[2] : '';
 
         // Parse Context
         // Split by Dash

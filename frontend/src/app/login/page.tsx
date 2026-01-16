@@ -49,6 +49,9 @@ export default function LoginPage() {
         <div className="min-h-[80vh] flex items-center justify-center py-12 px-4">
             <div className="w-full max-w-md">
                 <div className="text-center mb-8">
+                    <Link href="/" className="inline-block mb-6">
+                        <img src="/images/logo.png" alt="TestDone" className="h-12 w-auto mx-auto" />
+                    </Link>
                     <h1 className="text-3xl font-bold font-heading text-gray-900 dark:text-white mb-2">
                         Welcome Back!
                     </h1>
