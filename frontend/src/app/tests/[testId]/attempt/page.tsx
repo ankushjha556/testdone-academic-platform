@@ -15,6 +15,7 @@ import {
     Loader2,
     Send,
     BookOpen,
+    Info,
 } from 'lucide-react';
 import toast from 'react-hot-toast';
 
@@ -259,7 +260,7 @@ export default function TestAttemptPage() {
         );
     }
 
-    if (!attempt || !currentQuestion) {
+    if (!attempt) {
         return null;
     }
 
@@ -338,94 +339,110 @@ export default function TestAttemptPage() {
                                     Question {currentQuestionInSection + 1} of {currentSectionQuestions.length}
                                 </span>
                             </div>
-                            <button
-                                onClick={() => toggleMarkReview(currentQuestion.id)}
-                                className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${markedReview.has(currentQuestion.id)
-                                    ? 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400'
-                                    : 'bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-400'
-                                    }`}
-                            >
-                                <Flag className="w-4 h-4" />
-                                {markedReview.has(currentQuestion.id) ? 'Marked' : 'Mark for Review'}
-                            </button>
-                        </div>
-
-                        {/* Passage (if exists) */}
-                        {currentQuestion.passage && (
-                            <div className="card p-6 mb-4 bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500">
-                                <div className="flex items-center gap-2 mb-3 text-blue-700 dark:text-blue-300">
-                                    <BookOpen className="w-5 h-5" />
-                                    <span className="font-semibold">Reading Passage</span>
-                                </div>
-                                <div
-                                    className="text-gray-800 dark:text-gray-200 leading-relaxed prose prose-sm dark:prose-invert max-w-none"
-                                    dangerouslySetInnerHTML={{ __html: currentQuestion.passage }}
-                                />
-                            </div>
-                        )}
-
-                        {/* Question Card */}
-                        <div className="card p-6 mb-6">
-                            <div
-                                className="text-lg text-gray-900 dark:text-white mb-6 whitespace-pre-wrap"
-                                dangerouslySetInnerHTML={{ __html: currentQuestion.questionText }}
-                            />
-
-                            {/* Options */}
-                            <div className="space-y-3">
-                                {currentQuestion.options.map((option) => (
-                                    <button
-                                        key={option.id}
-                                        onClick={() => saveAnswer(currentQuestion.id, option.id)}
-                                        className={`w-full text-left p-4 rounded-lg border-2 transition-all ${answers[currentQuestion.id] === option.id
-                                            ? 'border-primary-500 bg-primary-50 dark:bg-primary-900/20'
-                                            : 'border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600'
-                                            }`}
-                                    >
-                                        <div className="flex items-start gap-3">
-                                            <span className={`w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold ${answers[currentQuestion.id] === option.id
-                                                ? 'bg-primary-600 text-white'
-                                                : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400'
-                                                }`}>
-                                                {option.id}
-                                            </span>
-                                            <span className="flex-1 text-gray-800 dark:text-gray-200">{option.text}</span>
-                                        </div>
-                                    </button>
-                                ))}
-                            </div>
-
-                            {/* Clear Response */}
-                            {answers[currentQuestion.id] && (
+                            {currentQuestion && (
                                 <button
-                                    onClick={() => saveAnswer(currentQuestion.id, null)}
-                                    className="mt-4 text-sm text-gray-500 hover:text-red-600 transition-colors"
+                                    onClick={() => toggleMarkReview(currentQuestion.id)}
+                                    className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${markedReview.has(currentQuestion.id)
+                                        ? 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400'
+                                        : 'bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-400'
+                                        }`}
                                 >
-                                    Clear Response
+                                    <Flag className="w-4 h-4" />
+                                    {markedReview.has(currentQuestion.id) ? 'Marked' : 'Mark for Review'}
                                 </button>
                             )}
                         </div>
 
-                        {/* Navigation */}
-                        <div className="flex items-center justify-between">
-                            <button
-                                onClick={goToPrevQuestion}
-                                disabled={currentQuestionInSection === 0}
-                                className="btn btn-secondary disabled:opacity-50"
-                            >
-                                <ChevronLeft className="w-4 h-4" />
-                                Previous
-                            </button>
+                        {!currentQuestion ? (
+                            <div className="flex flex-col items-center justify-center p-12 text-center h-full min-h-[400px]">
+                                <div className="bg-amber-100 dark:bg-amber-900/20 p-4 rounded-full mb-4">
+                                    <Info className="w-8 h-8 text-amber-600 dark:text-amber-400" />
+                                </div>
+                                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">No Questions Available</h3>
+                                <p className="text-gray-500 dark:text-gray-400 max-w-md">
+                                    This section does not contain any questions for this mock test. Please switch to another section to continue.
+                                </p>
+                            </div>
+                        ) : (
+                            <>
+                                {/* Passage (if exists) */}
+                                {currentQuestion.passage && (
+                                    <div className="card p-6 mb-4 bg-blue-50 dark:bg-blue-900/20 border-l-4 border-blue-500">
+                                        <div className="flex items-center gap-2 mb-3 text-blue-700 dark:text-blue-300">
+                                            <BookOpen className="w-5 h-5" />
+                                            <span className="font-semibold">Reading Passage</span>
+                                        </div>
+                                        <div
+                                            className="text-gray-800 dark:text-gray-200 leading-relaxed prose prose-sm dark:prose-invert max-w-none"
+                                            dangerouslySetInnerHTML={{ __html: currentQuestion.passage }}
+                                        />
+                                    </div>
+                                )}
 
-                            <button
-                                onClick={goToNextQuestion}
-                                disabled={currentQuestionInSection === currentSectionQuestions.length - 1}
-                                className="btn btn-secondary disabled:opacity-50"
-                            >
-                                Next
-                                <ChevronRight className="w-4 h-4" />
-                            </button>
-                        </div>
+                                {/* Question Card */}
+                                <div className="card p-6 mb-6">
+                                    <div
+                                        className="text-lg text-gray-900 dark:text-white mb-6 whitespace-pre-wrap"
+                                        dangerouslySetInnerHTML={{ __html: currentQuestion.questionText }}
+                                    />
+
+                                    {/* Options */}
+                                    <div className="space-y-3">
+                                        {currentQuestion.options.map((option) => (
+                                            <button
+                                                key={option.id}
+                                                onClick={() => saveAnswer(currentQuestion.id, option.id)}
+                                                className={`w-full text-left p-4 rounded-lg border-2 transition-all ${answers[currentQuestion.id] === option.id
+                                                    ? 'border-primary-500 bg-primary-50 dark:bg-primary-900/20'
+                                                    : 'border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600'
+                                                    }`}
+                                            >
+                                                <div className="flex items-start gap-3">
+                                                    <span className={`w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold ${answers[currentQuestion.id] === option.id
+                                                        ? 'bg-primary-600 text-white'
+                                                        : 'bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400'
+                                                        }`}>
+                                                        {option.id}
+                                                    </span>
+                                                    <span className="flex-1 text-gray-800 dark:text-gray-200">{option.text}</span>
+                                                </div>
+                                            </button>
+                                        ))}
+                                    </div>
+
+                                    {/* Clear Response */}
+                                    {answers[currentQuestion.id] && (
+                                        <button
+                                            onClick={() => saveAnswer(currentQuestion.id, null)}
+                                            className="mt-4 text-sm text-gray-500 hover:text-red-600 transition-colors"
+                                        >
+                                            Clear Response
+                                        </button>
+                                    )}
+                                </div>
+
+                                {/* Navigation */}
+                                <div className="flex items-center justify-between">
+                                    <button
+                                        onClick={goToPrevQuestion}
+                                        disabled={currentQuestionInSection === 0}
+                                        className="btn btn-secondary disabled:opacity-50"
+                                    >
+                                        <ChevronLeft className="w-4 h-4" />
+                                        Previous
+                                    </button>
+
+                                    <button
+                                        onClick={goToNextQuestion}
+                                        disabled={currentQuestionInSection === currentSectionQuestions.length - 1}
+                                        className="btn btn-secondary disabled:opacity-50"
+                                    >
+                                        Next
+                                        <ChevronRight className="w-4 h-4" />
+                                    </button>
+                                </div>
+                            </>
+                        )}
                     </div>
                 </div>
 
