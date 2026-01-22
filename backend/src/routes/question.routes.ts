@@ -1,6 +1,8 @@
 import { Router } from 'express';
 import prisma from '../lib/prisma';
 import { authenticate, AuthRequest } from '../middleware/auth';
+import { featureFlags } from '../lib/featureFlags';
+import { classifyMistake } from '../lib/mistakeClassifier';
 
 const router = Router();
 
@@ -23,7 +25,7 @@ router.get('/', authenticate, async (req: AuthRequest, res, next) => {
             subject,
             topic,
             difficulty,
-            exam,
+            // exam removed - Question Bank is now subject-first
             page = '1',
             limit = '20',
         } = req.query;
@@ -48,20 +50,21 @@ router.get('/', authenticate, async (req: AuthRequest, res, next) => {
             where.difficulty = difficulty;
         }
 
-        if (exam) {
-            where.questionExams = {
-                some: {
-                    exam: { slug: exam },
-                },
-            };
-        }
+        // PHASE 1: Exam filtering REMOVED from Question Bank
+        // Question Bank is now purely SUBJECT-FIRST for universal practice
+        // Exam parameter is intentionally ignored here
+        // Questions are aggregated from ALL exams (SSC, Banking, Railways, etc.)
+        // Mock Tests remain exam-centric for targeted preparation
 
         const [questions, total] = await Promise.all([
             prisma.question.findMany({
                 where,
                 skip,
                 take: limitNum,
-                orderBy: { createdAt: 'desc' },
+                orderBy: [
+                    { createdAt: 'desc' },
+                    { id: 'desc' }
+                ],
                 select: {
                     id: true,
                     questionText: true,
@@ -278,6 +281,94 @@ router.get('/user/bookmarks', authenticate, async (req: AuthRequest, res, next) 
         });
     } catch (error) {
         next(error);
+    }
+});
+
+// POST /api/v1/questions/:id/track-attempt - Track Question Bank answer for Mistake Intelligence
+// Gated behind FEATURE_QB_INTELLIGENCE flag, premium users only
+router.post('/:id/track-attempt', authenticate, async (req: AuthRequest, res, next) => {
+    try {
+        // Feature flag check
+        if (!featureFlags.qbIntelligence) {
+            return res.json({ success: true, tracked: false, reason: 'feature_disabled' });
+        }
+
+        // Premium user check - FREE users are blocked
+        const premiumRoles = ['PREMIUM_USER', 'ADMIN', 'SUPER_ADMIN'];
+        if (!req.user || !premiumRoles.includes(req.user.role)) {
+            return res.json({ success: true, tracked: false, reason: 'not_premium' });
+        }
+
+        const { id } = req.params;
+        const { selectedOption, timeSpentSeconds } = req.body;
+
+        if (!selectedOption) {
+            return res.json({ success: true, tracked: false, reason: 'no_selection' });
+        }
+
+        // Get question details
+        const question = await prisma.question.findUnique({
+            where: { id },
+            select: {
+                id: true,
+                subjectId: true,
+                topicId: true,
+                difficulty: true,
+                correctAnswer: true,
+            },
+        });
+
+        if (!question) {
+            return res.json({ success: true, tracked: false, reason: 'question_not_found' });
+        }
+
+        const isCorrect = selectedOption === question.correctAnswer;
+
+        // Classify the mistake type for wrong answers
+        let mistakeType = null;
+        if (!isCorrect) {
+            const answerData = {
+                questionId: id,
+                selectedOption,
+                correctOption: question.correctAnswer,
+                timeSpentSeconds: timeSpentSeconds || null,
+                isCorrect: false,
+            };
+            const questionData = {
+                id: question.id,
+                difficulty: question.difficulty,
+                subjectId: question.subjectId,
+                topicId: question.topicId,
+            };
+            mistakeType = await classifyMistake(req.user.id, answerData, questionData);
+        }
+
+        // Log to UserMistakeLog with sourceType = QUESTION_BANK
+        await prisma.userMistakeLog.create({
+            data: {
+                userId: req.user.id,
+                questionId: id,
+                subjectId: question.subjectId,
+                topicId: question.topicId,
+                difficulty: question.difficulty,
+                isCorrect,
+                selectedOption,
+                correctOption: question.correctAnswer,
+                sourceType: 'QUESTION_BANK',
+                mistakeType,
+                timeSpentSeconds: timeSpentSeconds || null,
+            },
+        });
+
+        res.json({
+            success: true,
+            tracked: true,
+            isCorrect,
+        });
+    } catch (error) {
+        // Non-blocking - log error but don't fail the request
+        console.error('QB tracking error:', error);
+        res.json({ success: true, tracked: false, reason: 'error' });
     }
 });
 
