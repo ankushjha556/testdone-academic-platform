@@ -15,6 +15,25 @@ interface DropdownItem {
     name: string;
 }
 
+interface MockTestData {
+    id: string;
+    name: string;
+    slug: string;
+    description?: string;
+    examId: string;
+    testType: string;
+    durationMinutes: number;
+    totalMarks: number;
+    totalQuestions: number;
+    passingPercent: number;
+    accessType: string;
+    negativeMarking: number;
+    sectionalTiming: boolean;
+    instructions?: string;
+    status: string;
+    exam?: { id: string; name: string };
+}
+
 export default function EditTestPage() {
     const router = useRouter();
     const params = useParams();
@@ -25,13 +44,19 @@ export default function EditTestPage() {
     const [exams, setExams] = useState<DropdownItem[]>([]);
 
     const [formData, setFormData] = useState({
-        title: '',
+        name: '',
         slug: '',
         description: '',
         examId: '',
+        testType: 'FULL_LENGTH' as string,
         durationMinutes: 60,
         totalMarks: 100,
-        passingMarks: 35,
+        totalQuestions: 50,
+        passingPercent: 35,
+        accessType: 'FREE' as string,
+        negativeMarking: 0.25,
+        sectionalTiming: false,
+        instructions: '',
         status: 'DRAFT',
     });
 
@@ -41,28 +66,42 @@ export default function EditTestPage() {
 
     const loadData = async () => {
         try {
-            const [testRes, examRes] = await Promise.all([
-                api.get<{ test: any }>(`/admin/tests/${testId}`),
+            const [testRes, examsRes] = await Promise.all([
+                api.get<{ test: MockTestData }>(`/admin/tests/${testId}`),
                 api.get<{ exams: DropdownItem[] }>('/admin/exams'),
             ]);
 
-            if (examRes.success && examRes.data?.exams) setExams(examRes.data.exams);
+            if (testRes.success && testRes.data) {
+                const data = testRes.data as any;
+                const test = data.test;
+                if (test) {
+                    setFormData({
+                        name: test.name || '',
+                        slug: test.slug || '',
+                        description: test.description || '',
+                        examId: test.examId || test.exam?.id || '',
+                        testType: test.testType || 'FULL_LENGTH',
+                        durationMinutes: test.durationMinutes || 60,
+                        totalMarks: Number(test.totalMarks) || 100,
+                        totalQuestions: test.totalQuestions || 50,
+                        passingPercent: test.passingPercent || 35,
+                        accessType: test.accessType || 'FREE',
+                        negativeMarking: Number(test.negativeMarking) || 0.25,
+                        sectionalTiming: test.sectionalTiming || false,
+                        instructions: test.instructions || '',
+                        status: test.status || 'DRAFT',
+                    });
+                }
+            }
 
-            if (testRes.success && testRes.data?.test) {
-                const t = testRes.data.test;
-                setFormData({
-                    title: t.title || '',
-                    slug: t.slug || '',
-                    description: t.description || '',
-                    examId: t.examId || '',
-                    durationMinutes: t.durationMinutes || 60,
-                    totalMarks: t.totalMarks || 100,
-                    passingMarks: t.passingMarks || 35,
-                    status: t.status || 'DRAFT',
-                });
+            if (examsRes.success && examsRes.data) {
+                const data = examsRes.data as any;
+                const examsList = data.exams || [];
+                setExams(examsList.map((e: any) => ({ id: e.id, name: e.name })));
             }
         } catch (error) {
-            console.error('Failed to load data:', error);
+            console.error('Failed to load test data:', error);
+            alert('Failed to load test data');
         } finally {
             setLoading(false);
         }
@@ -70,6 +109,12 @@ export default function EditTestPage() {
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
+
+        if (!formData.examId) {
+            alert('Please select an exam category');
+            return;
+        }
+
         setSaving(true);
         try {
             const res = await api.put(`/admin/tests/${testId}`, formData);
@@ -77,7 +122,7 @@ export default function EditTestPage() {
                 alert('Test updated successfully!');
                 router.push('/admin/tests');
             } else {
-                alert('Failed to update: ' + (res.error?.message || 'Unknown error'));
+                alert('Failed to update test: ' + (res.error?.message || 'Unknown error'));
             }
         } catch (error) {
             console.error('Save error:', error);
@@ -87,7 +132,13 @@ export default function EditTestPage() {
         }
     };
 
-    if (loading) return <div>Loading...</div>;
+    if (loading) {
+        return (
+            <div className="flex items-center justify-center h-64">
+                <div className="w-8 h-8 border-4 border-primary-500 border-t-transparent rounded-full animate-spin"></div>
+            </div>
+        );
+    }
 
     return (
         <div className="space-y-6">
@@ -95,19 +146,23 @@ export default function EditTestPage() {
                 <Link href="/admin/tests" className="p-2 text-gray-400 hover:text-white hover:bg-gray-800 rounded-lg">
                     <ArrowLeft className="w-5 h-5" />
                 </Link>
-                <h1 className="text-2xl font-bold text-white">Edit Mock Test</h1>
+                <div>
+                    <h1 className="text-2xl font-bold text-white">Edit Mock Test</h1>
+                    <p className="text-gray-400">{formData.name}</p>
+                </div>
             </div>
 
             <form onSubmit={handleSubmit} className="grid lg:grid-cols-3 gap-6">
                 <div className="lg:col-span-2 space-y-6">
                     <div className="bg-gray-900 border border-gray-800 rounded-xl p-6">
+                        <h2 className="text-lg font-semibold text-white mb-4">Basic Information</h2>
                         <div className="space-y-4">
                             <div>
-                                <label className="block text-sm font-medium text-gray-300 mb-2">Title *</label>
+                                <label className="block text-sm font-medium text-gray-300 mb-2">Name *</label>
                                 <input
                                     type="text"
-                                    value={formData.title}
-                                    onChange={(e) => setFormData({ ...formData, title: e.target.value })}
+                                    value={formData.name}
+                                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                                     className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
                                     required
                                 />
@@ -127,6 +182,16 @@ export default function EditTestPage() {
                                     value={formData.description}
                                     onChange={(e) => setFormData({ ...formData, description: e.target.value })}
                                     rows={4}
+                                    className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
+                                />
+                            </div>
+                            <div>
+                                <label className="block text-sm font-medium text-gray-300 mb-2">Instructions</label>
+                                <textarea
+                                    value={formData.instructions}
+                                    onChange={(e) => setFormData({ ...formData, instructions: e.target.value })}
+                                    rows={3}
+                                    placeholder="Instructions for test-takers..."
                                     className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
                                 />
                             </div>
@@ -151,29 +216,81 @@ export default function EditTestPage() {
                                 </select>
                             </div>
                             <div>
-                                <label className="block text-sm font-medium text-gray-300 mb-2">Duration (Minutes)</label>
-                                <input
-                                    type="number"
-                                    value={formData.durationMinutes}
-                                    onChange={(e) => setFormData({ ...formData, durationMinutes: parseInt(e.target.value) })}
+                                <label className="block text-sm font-medium text-gray-300 mb-2">Test Type *</label>
+                                <select
+                                    value={formData.testType}
+                                    onChange={(e) => setFormData({ ...formData, testType: e.target.value })}
                                     className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
-                                />
+                                    required
+                                >
+                                    <option value="FULL_LENGTH">Full Length</option>
+                                    <option value="SECTIONAL">Sectional</option>
+                                    <option value="TOPIC">Topic-wise</option>
+                                    <option value="PREVIOUS_YEAR">Previous Year</option>
+                                    <option value="CHAPTER">Chapter-wise</option>
+                                </select>
                             </div>
                             <div>
-                                <label className="block text-sm font-medium text-gray-300 mb-2">Total Marks</label>
-                                <input
-                                    type="number"
-                                    value={formData.totalMarks}
-                                    onChange={(e) => setFormData({ ...formData, totalMarks: parseInt(e.target.value) })}
+                                <label className="block text-sm font-medium text-gray-300 mb-2">Access Type</label>
+                                <select
+                                    value={formData.accessType}
+                                    onChange={(e) => setFormData({ ...formData, accessType: e.target.value })}
                                     className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
-                                />
+                                >
+                                    <option value="FREE">Free</option>
+                                    <option value="PREMIUM">Premium</option>
+                                    <option value="SCHEDULED_FREE">Scheduled Free</option>
+                                </select>
+                            </div>
+                            <div className="grid grid-cols-2 gap-4">
+                                <div>
+                                    <label className="block text-sm font-medium text-gray-300 mb-2">Total Questions</label>
+                                    <input
+                                        type="number"
+                                        value={formData.totalQuestions}
+                                        onChange={(e) => setFormData({ ...formData, totalQuestions: parseInt(e.target.value) || 0 })}
+                                        className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
+                                    />
+                                </div>
+                                <div>
+                                    <label className="block text-sm font-medium text-gray-300 mb-2">Total Marks</label>
+                                    <input
+                                        type="number"
+                                        value={formData.totalMarks}
+                                        onChange={(e) => setFormData({ ...formData, totalMarks: parseInt(e.target.value) || 0 })}
+                                        className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
+                                    />
+                                </div>
+                            </div>
+                            <div className="grid grid-cols-2 gap-4">
+                                <div>
+                                    <label className="block text-sm font-medium text-gray-300 mb-2">Duration (Minutes)</label>
+                                    <input
+                                        type="number"
+                                        value={formData.durationMinutes}
+                                        onChange={(e) => setFormData({ ...formData, durationMinutes: parseInt(e.target.value) || 0 })}
+                                        className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
+                                    />
+                                </div>
+                                <div>
+                                    <label className="block text-sm font-medium text-gray-300 mb-2">Passing % (1-100)</label>
+                                    <input
+                                        type="number"
+                                        value={formData.passingPercent}
+                                        onChange={(e) => setFormData({ ...formData, passingPercent: parseInt(e.target.value) || 0 })}
+                                        className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
+                                        min={1}
+                                        max={100}
+                                    />
+                                </div>
                             </div>
                             <div>
-                                <label className="block text-sm font-medium text-gray-300 mb-2">Passing Marks</label>
+                                <label className="block text-sm font-medium text-gray-300 mb-2">Negative Marking</label>
                                 <input
                                     type="number"
-                                    value={formData.passingMarks}
-                                    onChange={(e) => setFormData({ ...formData, passingMarks: parseInt(e.target.value) })}
+                                    step="0.01"
+                                    value={formData.negativeMarking}
+                                    onChange={(e) => setFormData({ ...formData, negativeMarking: parseFloat(e.target.value) || 0 })}
                                     className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
                                 />
                             </div>
@@ -189,6 +306,15 @@ export default function EditTestPage() {
                                     <option value="ARCHIVED">Archived</option>
                                 </select>
                             </div>
+                            <label className="flex items-center gap-3 cursor-pointer">
+                                <input
+                                    type="checkbox"
+                                    checked={formData.sectionalTiming}
+                                    onChange={(e) => setFormData({ ...formData, sectionalTiming: e.target.checked })}
+                                    className="w-5 h-5 rounded border-gray-600 bg-gray-800 text-primary-600 focus:ring-primary-500"
+                                />
+                                <span className="text-gray-300">Sectional Timing</span>
+                            </label>
                         </div>
                     </div>
 
@@ -198,7 +324,7 @@ export default function EditTestPage() {
                         className="w-full flex items-center justify-center gap-2 px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white font-medium rounded-lg shadow-lg hover:shadow-xl transition-all disabled:opacity-50"
                     >
                         {saving ? <Loader2 className="w-5 h-5 animate-spin" /> : <Save className="w-5 h-5" />}
-                        Update Test
+                        Save Changes
                     </button>
                 </div>
             </form>

@@ -48,6 +48,18 @@ interface ExamDetailContentProps {
     tests: Test[];
 }
 
+// Helper function to convert plain text newlines to HTML <br/> tags
+// while preserving any existing HTML content
+const formatTextWithLineBreaks = (text: string | null | undefined): string => {
+    if (!text) return '';
+    // If text already contains HTML tags like <br>, <p>, <ul>, <li>, return as-is
+    if (/<(br|p|ul|ol|li|div)\s*\/?>/i.test(text)) {
+        return text;
+    }
+    // Otherwise, convert newlines to <br/> tags
+    return text.replace(/\n/g, '<br/>');
+};
+
 export default function ExamDetailContent({ exam, tests }: ExamDetailContentProps) {
     const [activeTab, setActiveTab] = useState('overview');
 
@@ -155,7 +167,7 @@ export default function ExamDetailContent({ exam, tests }: ExamDetailContentProp
                                     </h2>
                                     <div
                                         className="prose dark:prose-invert max-w-none"
-                                        dangerouslySetInnerHTML={{ __html: exam.description || 'No description available.' }}
+                                        dangerouslySetInnerHTML={{ __html: formatTextWithLineBreaks(exam.description) || 'No description available.' }}
                                     />
                                 </div>
 
@@ -167,7 +179,7 @@ export default function ExamDetailContent({ exam, tests }: ExamDetailContentProp
                                         </h2>
                                         <div
                                             className="prose dark:prose-invert max-w-none"
-                                            dangerouslySetInnerHTML={{ __html: exam.eligibility }}
+                                            dangerouslySetInnerHTML={{ __html: formatTextWithLineBreaks(exam.eligibility) }}
                                         />
                                     </div>
                                 )}
@@ -221,51 +233,7 @@ export default function ExamDetailContent({ exam, tests }: ExamDetailContentProp
                                     </div>
                                 </div>
 
-                                {/* Practice Questions & Subjects Block (New Phase 2) */}
-                                <div className="card p-6 border-l-4 border-l-primary-500">
-                                    <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
-                                        <div className="flex-1">
-                                            <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
-                                                Practice {exam.name} Questions
-                                            </h2>
-                                            <p className="text-gray-600 dark:text-gray-400 mb-4">
-                                                Access subject-wise practice questions specifically curated for {exam.name}.
-                                                Filter by difficulty and track your progress.
-                                            </p>
 
-                                            {/* Extracted Subjects from Syllabus */}
-                                            {exam.syllabus && (
-                                                <div className="mb-4">
-                                                    <h3 className="text-sm font-semibold text-gray-900 dark:text-white mb-2">
-                                                        Subjects Covered:
-                                                    </h3>
-                                                    <div className="flex flex-wrap gap-2">
-                                                        {Object.values(exam.syllabus).flat().map((section: any, idx: number) => {
-                                                            // Extract subject name before colon if present (e.g. "Quant: ...")
-                                                            const subjectName = section.section ? section.section.split(':')[0] : section.section;
-                                                            // Limit to first 6 subjects to avoid clutter
-                                                            if (idx > 5) return null;
-                                                            return (
-                                                                <span key={idx} className="badge bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300">
-                                                                    {subjectName}
-                                                                </span>
-                                                            );
-                                                        })}
-                                                    </div>
-                                                </div>
-                                            )}
-                                        </div>
-                                        <div>
-                                            <Link
-                                                href={`/questions?exam=${exam.slug}`}
-                                                className="btn btn-primary whitespace-nowrap"
-                                            >
-                                                Go to {exam.name} Question Bank
-                                                <ChevronRight className="w-4 h-4 ml-1" />
-                                            </Link>
-                                        </div>
-                                    </div>
-                                </div>
                             </>
                         )}
 
