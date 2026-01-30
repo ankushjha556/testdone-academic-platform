@@ -16,6 +16,7 @@ git reset --hard origin/$BRANCH
 echo "[DEPLOY] Building backend..."
 cd $APP_DIR/backend
 npm ci --production=false
+npx prisma generate
 npm run build --if-present
 
 # Frontend build
