@@ -16,10 +16,14 @@ import {
     ChevronDown,
     ChevronUp,
     ArrowLeft,
-    Share2,
-    Download,
     Loader2,
     BarChart2,
+    Zap,
+    Sparkles,
+    Lightbulb,
+    AlertCircle,
+    TrendingDown,
+    RefreshCw,
 } from 'lucide-react';
 
 interface Result {
@@ -128,11 +132,34 @@ export default function TestResultPage() {
                         href="/dashboard"
                         className="p-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
                     >
-                        <ArrowLeft className="w-5 h-5" />
+                        <ArrowLeft className="w-5 h-5 text-gray-500" />
                     </Link>
-                    <div>
-                        <h1 className="text-xl font-bold text-gray-900 dark:text-white">{result.test.name}</h1>
+                    <div className="flex-1">
+                        <h1 className="text-lg sm:text-xl font-bold text-gray-900 dark:text-white">{result.test.name}</h1>
                         <p className="text-sm text-gray-500">{result.test.exam.name}</p>
+                    </div>
+                </div>
+
+                {/* Mentor Feedback Message */}
+                <div className="card p-5 mb-6 border-l-4 border-l-primary-500">
+                    <div className="flex items-start gap-4">
+                        <div className="p-2.5 bg-primary-50 dark:bg-primary-900/30 rounded-lg flex-shrink-0">
+                            <Lightbulb className="w-5 h-5 text-primary-600" />
+                        </div>
+                        <div>
+                            <h3 className="font-medium text-gray-900 dark:text-white mb-1 text-sm">Test Performance Summary</h3>
+                            <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                                {result.percentage >= 80 ? (
+                                    <>Excellent work! You scored <strong>{result.percentage.toFixed(0)}%</strong> — you're demonstrating strong command over the topics. Focus on speed and consistency for the real exam.</>
+                                ) : result.percentage >= 60 ? (
+                                    <>Good effort! You scored <strong>{result.percentage.toFixed(0)}%</strong>. Review the topics below to strengthen your weak areas and push closer to 80%+.</>
+                                ) : result.percentage >= 40 ? (
+                                    <>You scored <strong>{result.percentage.toFixed(0)}%</strong>. There's room for growth — focus on the weak areas identified below and practice consistently.</>
+                                ) : (
+                                    <>This test scored <strong>{result.percentage.toFixed(0)}%</strong>. Don't be discouraged — use the insights below to identify gaps and start focused practice.</>
+                                )}
+                            </p>
+                        </div>
                     </div>
                 </div>
 
@@ -209,48 +236,157 @@ export default function TestResultPage() {
 
                 {/* Topic Analysis */}
                 {result.topicAnalysis.length > 0 && (
-                    <div className="card p-6 mb-6">
-                        <h2 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
-                            <BarChart2 className="w-5 h-5" />
-                            Topic-wise Analysis
-                        </h2>
-                        <div className="space-y-4">
-                            {result.topicAnalysis.map((topic) => (
-                                <div key={topic.topic}>
-                                    <div className="flex items-center justify-between mb-1">
-                                        <span className="text-sm font-medium text-gray-700 dark:text-gray-300">{topic.topic}</span>
-                                        <span className="text-sm text-gray-500">
-                                            {topic.correct}/{topic.total} ({topic.accuracy.toFixed(0)}%)
-                                        </span>
-                                    </div>
-                                    <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
-                                        <div
-                                            className={`h-full rounded-full ${topic.accuracy >= 70 ? 'bg-green-500' :
-                                                    topic.accuracy >= 40 ? 'bg-amber-500' : 'bg-red-500'
-                                                }`}
-                                            style={{ width: `${topic.accuracy}%` }}
-                                        />
-                                    </div>
-                                </div>
-                            ))}
+                    <div className="card p-5 mb-6">
+                        <div className="flex items-center justify-between mb-4">
+                            <h2 className="text-base font-semibold text-gray-900 dark:text-white flex items-center gap-2">
+                                <BarChart2 className="w-4 h-4 text-primary-600" />
+                                Performance by Topic
+                            </h2>
                         </div>
+
+                        {/* Strong Areas */}
+                        {result.topicAnalysis.some(t => t.accuracy >= 70) && (
+                            <div className="mb-4">
+                                <p className="text-xs font-medium text-emerald-600 dark:text-emerald-400 mb-2 flex items-center gap-1">
+                                    <CheckCircle2 className="w-3 h-3" />
+                                    Strong Areas
+                                </p>
+                                <div className="space-y-2">
+                                    {result.topicAnalysis.filter(t => t.accuracy >= 70).map((topic) => (
+                                        <div key={topic.topic} className="flex items-center gap-3">
+                                            <span className="text-sm text-gray-700 dark:text-gray-300 flex-1 truncate">{topic.topic}</span>
+                                            <div className="w-20 h-1.5 bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
+                                                <div className="h-full rounded-full bg-emerald-500" style={{ width: `${topic.accuracy}%` }} />
+                                            </div>
+                                            <span className="text-xs font-medium text-emerald-600 w-10 text-right">{topic.accuracy.toFixed(0)}%</span>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+
+                        {/* Areas to Improve */}
+                        {result.topicAnalysis.some(t => t.accuracy < 70) && (
+                            <div>
+                                <p className="text-xs font-medium text-orange-600 dark:text-orange-400 mb-2 flex items-center gap-1">
+                                    <Target className="w-3 h-3" />
+                                    Areas to Improve
+                                </p>
+                                <div className="space-y-2">
+                                    {result.topicAnalysis.filter(t => t.accuracy < 70).map((topic) => (
+                                        <div key={topic.topic} className="flex items-center gap-3">
+                                            <span className="text-sm text-gray-700 dark:text-gray-300 flex-1 truncate">{topic.topic}</span>
+                                            <div className="w-20 h-1.5 bg-gray-100 dark:bg-gray-700 rounded-full overflow-hidden">
+                                                <div
+                                                    className={`h-full rounded-full ${topic.accuracy >= 40 ? 'bg-amber-500' : 'bg-red-500'}`}
+                                                    style={{ width: `${topic.accuracy}%` }}
+                                                />
+                                            </div>
+                                            <span className={`text-xs font-medium w-10 text-right ${topic.accuracy >= 40 ? 'text-amber-600' : 'text-red-600'}`}>
+                                                {topic.accuracy.toFixed(0)}%
+                                            </span>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+
+                        {/* Practice CTA */}
+                        {result.topicAnalysis.some(t => t.accuracy < 70) && (
+                            <div className="mt-4 pt-4 border-t border-gray-100 dark:border-gray-800 flex flex-wrap gap-3">
+                                <Link
+                                    href="/smart-practice"
+                                    className="inline-flex items-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
+                                >
+                                    <Zap className="w-4 h-4" />
+                                    Practice Weak Areas
+                                </Link>
+                                <button
+                                    onClick={() => setFilter('incorrect')}
+                                    className="inline-flex items-center gap-2 px-4 py-2 border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 rounded-lg text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+                                >
+                                    <RefreshCw className="w-4 h-4" />
+                                    Retry Incorrect
+                                </button>
+                            </div>
+                        )}
                     </div>
                 )}
 
+                {/* Key Takeaways */}
+                <div className="card p-5 mb-6">
+                    <h2 className="text-base font-semibold text-gray-900 dark:text-white flex items-center gap-2 mb-4">
+                        <Sparkles className="w-4 h-4 text-amber-500" />
+                        Key Takeaways from This Test
+                    </h2>
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                        {/* Accuracy */}
+                        <div className="flex items-center gap-3 p-3 bg-gray-50 dark:bg-gray-800/50 rounded-lg">
+                            <div className={`w-10 h-10 rounded-lg flex items-center justify-center ${result.correctCount > result.incorrectCount ? 'bg-emerald-100 dark:bg-emerald-900/30' : 'bg-orange-100 dark:bg-orange-900/30'}`}>
+                                {result.correctCount > result.incorrectCount ? (
+                                    <TrendingUp className="w-5 h-5 text-emerald-600" />
+                                ) : (
+                                    <TrendingDown className="w-5 h-5 text-orange-600" />
+                                )}
+                            </div>
+                            <div>
+                                <p className="text-sm font-medium text-gray-900 dark:text-white">
+                                    {((result.correctCount / (result.correctCount + result.incorrectCount)) * 100).toFixed(0)}% Accuracy
+                                </p>
+                                <p className="text-xs text-gray-500">
+                                    {result.correctCount} correct of {result.correctCount + result.incorrectCount} attempted
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* Unattempted */}
+                        {result.unattemptedCount > 0 && (
+                            <div className="flex items-center gap-3 p-3 bg-gray-50 dark:bg-gray-800/50 rounded-lg">
+                                <div className="w-10 h-10 rounded-lg flex items-center justify-center bg-amber-100 dark:bg-amber-900/30">
+                                    <AlertCircle className="w-5 h-5 text-amber-600" />
+                                </div>
+                                <div>
+                                    <p className="text-sm font-medium text-gray-900 dark:text-white">
+                                        {result.unattemptedCount} Questions Skipped
+                                    </p>
+                                    <p className="text-xs text-gray-500">
+                                        {result.unattemptedCount > 10 ? 'Consider time management' : 'Review skipped questions'}
+                                    </p>
+                                </div>
+                            </div>
+                        )}
+
+                        {/* Time */}
+                        <div className="flex items-center gap-3 p-3 bg-gray-50 dark:bg-gray-800/50 rounded-lg">
+                            <div className="w-10 h-10 rounded-lg flex items-center justify-center bg-blue-100 dark:bg-blue-900/30">
+                                <Clock className="w-5 h-5 text-blue-600" />
+                            </div>
+                            <div>
+                                <p className="text-sm font-medium text-gray-900 dark:text-white">
+                                    {formatTime(result.timeTakenSeconds)} Spent
+                                </p>
+                                <p className="text-xs text-gray-500">
+                                    ~{Math.round(result.timeTakenSeconds / (result.correctCount + result.incorrectCount + result.unattemptedCount))}s per question
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 {/* Questions Review */}
                 <div className="card">
-                    <div className="p-4 border-b border-gray-200 dark:border-gray-700 flex flex-wrap items-center justify-between gap-4">
-                        <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
-                            Question Review
+                    <div className="p-4 border-b border-gray-100 dark:border-gray-800 flex flex-wrap items-center justify-between gap-3">
+                        <h2 className="text-base font-semibold text-gray-900 dark:text-white">
+                            Review Questions
                         </h2>
-                        <div className="flex gap-2">
+                        <div className="flex gap-1.5">
                             {(['all', 'correct', 'incorrect', 'unattempted'] as const).map((f) => (
                                 <button
                                     key={f}
                                     onClick={() => setFilter(f)}
-                                    className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${filter === f
-                                            ? 'bg-primary-600 text-white'
-                                            : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200'
+                                    className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-colors ${filter === f
+                                        ? 'bg-primary-600 text-white'
+                                        : 'bg-gray-50 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700'
                                         }`}
                                 >
                                     {f.charAt(0).toUpperCase() + f.slice(1)}
@@ -270,8 +406,8 @@ export default function TestResultPage() {
                                 >
                                     <div className="flex items-start gap-4">
                                         <span className={`w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold ${answer.isCorrect === true ? 'bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400' :
-                                                answer.isCorrect === false ? 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400' :
-                                                    'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-400'
+                                            answer.isCorrect === false ? 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400' :
+                                                'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-400'
                                             }`}>
                                             {idx + 1}
                                         </span>
@@ -282,7 +418,7 @@ export default function TestResultPage() {
                                             />
                                             <div className="flex items-center gap-4 mt-2 text-sm">
                                                 <span className={`${answer.isCorrect === true ? 'text-green-600' :
-                                                        answer.isCorrect === false ? 'text-red-600' : 'text-gray-500'
+                                                    answer.isCorrect === false ? 'text-red-600' : 'text-gray-500'
                                                     }`}>
                                                     {answer.isCorrect === true ? '✓ Correct' :
                                                         answer.isCorrect === false ? '✗ Incorrect' : '○ Skipped'}
@@ -315,10 +451,10 @@ export default function TestResultPage() {
                                                 <div
                                                     key={opt.id}
                                                     className={`p-3 rounded-lg border ${opt.id === answer.correctAnswer
-                                                            ? 'border-green-500 bg-green-50 dark:bg-green-900/20'
-                                                            : opt.id === answer.selectedOption
-                                                                ? 'border-red-500 bg-red-50 dark:bg-red-900/20'
-                                                                : 'border-gray-200 dark:border-gray-700'
+                                                        ? 'border-green-500 bg-green-50 dark:bg-green-900/20'
+                                                        : opt.id === answer.selectedOption
+                                                            ? 'border-red-500 bg-red-50 dark:bg-red-900/20'
+                                                            : 'border-gray-200 dark:border-gray-700'
                                                         }`}
                                                 >
                                                     <span className="font-medium">{opt.id}.</span> {opt.text}
@@ -347,15 +483,22 @@ export default function TestResultPage() {
                 </div>
 
                 {/* Actions */}
-                <div className="flex gap-4 mt-6">
+                <div className="flex flex-col sm:flex-row gap-3 mt-6">
                     <Link
                         href={`/tests/${result.test.slug}`}
-                        className="btn btn-primary"
+                        className="flex-1 px-4 py-3 bg-primary-600 text-white rounded-xl font-medium hover:bg-primary-700 transition-colors text-center"
                     >
                         Reattempt Test
                     </Link>
-                    <Link href="/tests" className="btn btn-secondary">
-                        Browse More Tests
+                    <Link
+                        href="/smart-practice"
+                        className="flex-1 px-4 py-3 border border-gray-200 dark:border-gray-700 rounded-xl font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors text-center flex items-center justify-center gap-2"
+                    >
+                        <Sparkles className="w-4 h-4" />
+                        Smart Practice
+                    </Link>
+                    <Link href="/tests" className="flex-1 px-4 py-3 border border-gray-200 dark:border-gray-700 rounded-xl font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors text-center">
+                        Browse Tests
                     </Link>
                 </div>
             </div>

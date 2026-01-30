@@ -1,0 +1,110 @@
+﻿python : C:\Users\jaiba\anaconda3\
+Lib\site-packages\paramiko\pkey.py
+:82: 
+CryptographyDeprecationWarning: 
+TripleDES has been moved to crypto
+graphy.hazmat.decrepit.ciphers.alg
+orithms.TripleDES and will be 
+removed from this module in 
+48.0.0.
+At line:1 char:1
++ python simple_check.py 2>&1 | 
+Out-File -FilePath 
+check_results.txt -E ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : Not 
+   Specified: (C:\Users\jaiba\..  
+  .dule in 48.0.0.:String) [],    
+ RemoteException
+    + FullyQualifiedErrorId : Nat 
+   iveCommandError
+ 
+  "cipher": algorithms.TripleDES,
+C:\Users\jaiba\anaconda3\Lib\site-
+packages\paramiko\transport.py:219
+: CryptographyDeprecationWarning: 
+Blowfish has been moved to cryptog
+raphy.hazmat.decrepit.ciphers.algo
+rithms.Blowfish and will be 
+removed from this module in 
+45.0.0.
+  "class": algorithms.Blowfish,
+C:\Users\jaiba\anaconda3\Lib\site-
+packages\paramiko\transport.py:243
+: CryptographyDeprecationWarning: 
+TripleDES has been moved to crypto
+graphy.hazmat.decrepit.ciphers.alg
+orithms.TripleDES and will be 
+removed from this module in 
+48.0.0.
+  "class": algorithms.TripleDES,
+1. Edit page exists?
+YES
+
+2. Edit page content (first 30 lines):
+'use client';
+
+import { useState, useEffect } from 'react';
+import { useRouter, useParams } from 'next/navigation';
+import Link from 'next/link';
+import { api } from '@/lib/api';
+import {
+    ArrowLeft,
+    Save,
+    Loader2,
+} from 'lucide-react';
+
+interface DropdownItem {
+    id: string;
+    name: string;
+}
+
+interface MockTestData {
+    id: string;
+    name: string;
+    slug: string;
+    description?: string;
+    examId: string;
+    testType: string;
+    durationMinutes: number;
+    totalMarks: number;
+    totalQuestions: number;
+    passingPercent: number;
+    accessType: string;
+    negativeMarking: number;
+
+3. Build folder test edit route:
+total 88
+drwxr-xr-x 4 root root  4096 Jan 29 13:25 .
+drwxr-xr-x 9 root root  4096 Jan 29 13:25 ..
+drwxr-xr-x 3 root root  4096 Jan 29 13:25 [id]
+drwxr-xr-x 2 root root  4096 Jan 29 13:25 new
+-rw-r--r-- 1 root root 23530 Jan 29 13:25 new.html
+-rw-r--r-- 1 root root   184 Jan 29 13:25 new.meta
+-rw-r--r-- 1 root root 17013 Jan 29 13:25 new.rsc
+-rw-r--r-- 1 root root 11621 Jan 29 13:25 page.js
+-rw-r--r-- 1 root root  1133 Jan 29 13:25 page.js.nft.json
+
+4. Line break fix in ExamDetailContent:
+53:const formatTextWithLineBreaks = (text: string | null | undefined): string => {
+170:                                        dangerouslySetInnerHTML={{ __html: formatTextWithLineBreaks(exam.description) || 'No description available.' }}
+182:                                            dangerouslySetInnerHTML={{ __html: formatTextWithLineBreaks(exam.eligibility) }}
+
+5. PM2 frontend status:
+Traceback (most recent call last):
+  File "C:\Users\jaiba\Downloads\T
+estDone\testdone-app\simple_check.
+py", line 43, in <module>
+    print(result)
+  File "C:\Users\jaiba\anaconda3\L
+ib\encodings\cp1252.py", line 19, 
+in encode
+    return codecs.charmap_encode(i
+nput,self.errors,encoding_table)[0
+]
+           ^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' 
+codec can't encode characters in 
+position 48-105: character maps 
+to <undefined>

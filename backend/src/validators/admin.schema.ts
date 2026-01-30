@@ -31,6 +31,11 @@ export const createTestSchema = z.object({
     durationMinutes: z.preprocess((val) => Number(val), z.number().int().min(1)),
     passingPercent: z.preprocess((val) => Number(val), z.number().int().min(1).max(100)),
     examId: z.string().uuid(),
+    accessType: z.enum(['FREE', 'PREMIUM', 'SCHEDULED_FREE']).optional().default('FREE'),
+    negativeMarking: z.preprocess((val) => Number(val), z.number().min(0)).optional().default(0.25),
+    sectionalTiming: z.boolean().optional().default(false),
+    instructions: z.string().optional(),
+    status: z.enum(['DRAFT', 'PUBLISHED', 'ARCHIVED']).optional().default('DRAFT'),
     questions: z.array(z.object({
         questionId: z.string().uuid(),
         sectionIndex: z.number().optional(),

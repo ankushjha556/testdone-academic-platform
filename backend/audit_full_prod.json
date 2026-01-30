@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-01-20T11:12:08.211Z",
+  "stats": {
+    "totalScanned": 2654,
+    "integrityIssues": 0,
+    "duplicateSets": 0,
+    "passageCandidates": 0,
+    "orphans": 0
+  }
+}

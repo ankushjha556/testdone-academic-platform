@@ -20,6 +20,8 @@ import analyticsRoutes from './routes/analytics.routes';
 import bookRoutes from './routes/book.routes';
 import adminRoutes from './routes/admin.routes';
 import uploadRoutes from './routes/upload.routes';
+import mistakeRoutes from './routes/mistake.routes';
+import smartPracticeRoutes from './routes/smartpractice.routes';
 
 // Import middleware
 import { errorHandler } from './middleware/errorHandler';
@@ -86,6 +88,8 @@ app.use('/api/v1/analytics', analyticsRoutes);
 app.use('/api/v1/books', bookRoutes);
 app.use('/api/v1/admin', adminRoutes);
 app.use('/api/v1/upload', uploadRoutes);
+app.use('/api/v1/mistakes', mistakeRoutes);
+app.use('/api/v1/smart-practice', smartPracticeRoutes);
 
 // Error handling
 app.use(notFound);

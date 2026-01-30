@@ -1,6 +1,8 @@
 import { Router } from 'express';
 import prisma from '../lib/prisma';
 import { authenticate, AuthRequest } from '../middleware/auth';
+import { isFeatureEnabled } from '../lib/featureFlags';
+import { getWeaknessProfile } from '../lib/weaknessProfiler';
 
 const router = Router();
 
@@ -67,14 +69,75 @@ router.get('/', authenticate, async (req: AuthRequest, res, next) => {
             score: (Number(a.totalScore) / Number(a.test.totalMarks)) * 100,
         }));
 
-        // Subject-wise analysis from attempt answers
-        const subjectAnalysis = await prisma.attemptAnswer.groupBy({
-            by: ['questionId'],
-            where: {
-                attempt: whereAttempt,
-            },
-            _count: { isCorrect: true },
-        });
+        // Get weakness profile if Mistake Intelligence is enabled
+        let subjectBreakdown: any[] = [];
+        let weakTopics: any[] = [];
+        let strongTopics: any[] = [];
+        let suggestedAction: string | null = null;
+
+        if (isFeatureEnabled('mistakeIntelligence')) {
+            try {
+                const profile = await getWeaknessProfile(req.user!.id);
+                if (profile.hasData) {
+                    // Use top weak subjects as subject breakdown
+                    subjectBreakdown = profile.topWeakSubjects.map(s => ({
+                        subjectId: s.subjectId,
+                        name: s.name,
+                        accuracy: s.accuracy,
+                        trend: s.trend,
+                        errorCount: s.errorCount,
+                    }));
+
+                    // Weak topics from snapshot
+                    if (profile.snapshot?.weakTopics) {
+                        const topics = profile.snapshot.weakTopics as any[];
+                        weakTopics = topics.slice(0, 5).map(t => ({
+                            topicId: t.topicId,
+                            name: t.name,
+                            subject: t.subjectName,
+                            accuracy: t.accuracy,
+                        }));
+                    }
+
+                    // Strong topics (high accuracy)
+                    if (profile.snapshot?.weakTopics) {
+                        const topics = profile.snapshot.weakTopics as any[];
+                        strongTopics = topics.slice(-5).reverse().map(t => ({
+                            topicId: t.topicId,
+                            name: t.name,
+                            subject: t.subjectName,
+                            accuracy: t.accuracy,
+                        }));
+                    }
+
+                    suggestedAction = profile.suggestedAction;
+                }
+            } catch (err) {
+                console.error('[Analytics] Failed to get weakness profile:', err);
+            }
+        }
+
+        // Calculate improvement delta (this week vs last week)
+        let improvementDelta: number | null = null;
+        const oneWeekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
+        const twoWeeksAgo = new Date(Date.now() - 14 * 24 * 60 * 60 * 1000);
+
+        const thisWeekAttempts = attempts.filter(a => a.completedAt && a.completedAt >= oneWeekAgo);
+        const lastWeekAttempts = attempts.filter(a =>
+            a.completedAt && a.completedAt >= twoWeeksAgo && a.completedAt < oneWeekAgo
+        );
+
+        if (thisWeekAttempts.length > 0 && lastWeekAttempts.length > 0) {
+            const thisWeekAvg = thisWeekAttempts.reduce((sum, a) =>
+                sum + (Number(a.totalScore) / Number(a.test.totalMarks)) * 100, 0
+            ) / thisWeekAttempts.length;
+
+            const lastWeekAvg = lastWeekAttempts.reduce((sum, a) =>
+                sum + (Number(a.totalScore) / Number(a.test.totalMarks)) * 100, 0
+            ) / lastWeekAttempts.length;
+
+            improvementDelta = Math.round((thisWeekAvg - lastWeekAvg) * 10) / 10;
+        }
 
         res.json({
             success: true,
@@ -84,11 +147,14 @@ router.get('/', authenticate, async (req: AuthRequest, res, next) => {
                     questionsAttempted: totalQuestions,
                     averageScore: Math.round(avgScore * 10) / 10,
                     accuracy: Math.round(accuracy * 10) / 10,
+                    improvementDelta,
+                    thisWeekTests: thisWeekAttempts.length,
                 },
                 scoreTrend,
-                subjectBreakdown: [], // Would need more complex query
-                weakTopics: [],
-                strongTopics: [],
+                subjectBreakdown,
+                weakTopics,
+                strongTopics,
+                suggestedAction,
             },
         });
     } catch (error) {

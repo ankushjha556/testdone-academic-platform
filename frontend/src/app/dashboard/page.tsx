@@ -32,6 +32,22 @@ interface DashboardStats {
     accuracy: number;
 }
 
+interface SubjectWeakness {
+    subjectId: string;
+    name: string;
+    accuracy: number;
+    trend: 'improving' | 'declining' | 'stable';
+    errorCount: number;
+}
+
+interface AnalyticsData {
+    summary: DashboardStats & { improvementDelta: number | null; thisWeekTests: number };
+    subjectBreakdown: SubjectWeakness[];
+    weakTopics: any[];
+    strongTopics: any[];
+    suggestedAction: string | null;
+}
+
 interface RecentAttempt {
     id: string;
     totalScore: number;
@@ -50,6 +66,11 @@ export default function DashboardPage() {
     const router = useRouter();
     const [stats, setStats] = useState<DashboardStats | null>(null);
     const [recentAttempts, setRecentAttempts] = useState<RecentAttempt[]>([]);
+    const [weakAreas, setWeakAreas] = useState<SubjectWeakness[]>([]);
+    const [strongAreas, setStrongAreas] = useState<any[]>([]);
+    const [suggestedAction, setSuggestedAction] = useState<string | null>(null);
+    const [improvementDelta, setImprovementDelta] = useState<number | null>(null);
+    const [thisWeekTests, setThisWeekTests] = useState<number>(0);
     const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
@@ -65,12 +86,17 @@ export default function DashboardPage() {
     const loadDashboardData = async () => {
         try {
             const [analyticsRes, attemptsRes] = await Promise.all([
-                api.get<{ summary: DashboardStats }>('/analytics'),
+                api.get<AnalyticsData>('/analytics'),
                 api.get<{ attempts: RecentAttempt[] }>('/users/attempts?limit=5'),
             ]);
 
-            if (analyticsRes.success) {
-                setStats(analyticsRes.data?.summary || null);
+            if (analyticsRes.success && analyticsRes.data) {
+                setStats(analyticsRes.data.summary || null);
+                setWeakAreas(analyticsRes.data.subjectBreakdown || []);
+                setStrongAreas(analyticsRes.data.strongTopics || []);
+                setSuggestedAction(analyticsRes.data.suggestedAction || null);
+                setImprovementDelta(analyticsRes.data.summary?.improvementDelta ?? null);
+                setThisWeekTests(analyticsRes.data.summary?.thisWeekTests || 0);
             }
             if (attemptsRes.success) {
                 setRecentAttempts(attemptsRes.data?.attempts || []);
@@ -104,8 +130,7 @@ export default function DashboardPage() {
             color: 'from-blue-500 to-blue-600',
             bgColor: 'bg-blue-50 dark:bg-blue-900/20',
             iconColor: 'text-blue-600',
-            trend: '+12%',
-            trendUp: true
+            subtext: thisWeekTests > 0 ? `${thisWeekTests} this week` : null,
         },
         {
             label: 'Questions Solved',
@@ -114,8 +139,7 @@ export default function DashboardPage() {
             color: 'from-emerald-500 to-emerald-600',
             bgColor: 'bg-emerald-50 dark:bg-emerald-900/20',
             iconColor: 'text-emerald-600',
-            trend: '+8%',
-            trendUp: true
+            subtext: null,
         },
         {
             label: 'Average Score',
@@ -124,8 +148,7 @@ export default function DashboardPage() {
             color: 'from-amber-500 to-orange-500',
             bgColor: 'bg-amber-50 dark:bg-amber-900/20',
             iconColor: 'text-amber-600',
-            trend: '+5%',
-            trendUp: true
+            trend: improvementDelta,
         },
         {
             label: 'Accuracy Rate',
@@ -134,8 +157,7 @@ export default function DashboardPage() {
             color: 'from-purple-500 to-pink-500',
             bgColor: 'bg-purple-50 dark:bg-purple-900/20',
             iconColor: 'text-purple-600',
-            trend: '-2%',
-            trendUp: false
+            subtext: null,
         },
     ];
 
@@ -178,56 +200,181 @@ export default function DashboardPage() {
                                     <div className={`p-3 rounded-xl ${stat.bgColor}`}>
                                         <stat.icon className={`w-6 h-6 ${stat.iconColor}`} />
                                     </div>
-                                    <div className={`flex items-center gap-1 text-xs font-medium ${stat.trendUp ? 'text-emerald-600' : 'text-red-500'}`}>
-                                        {stat.trendUp ? <ArrowUp className="w-3 h-3" /> : <ArrowDown className="w-3 h-3" />}
-                                        {stat.trend}
-                                    </div>
+                                    {stat.trend !== undefined && stat.trend !== null && (
+                                        <div className={`flex items-center gap-1 text-xs font-medium ${stat.trend >= 0 ? 'text-emerald-600' : 'text-red-500'}`}>
+                                            {stat.trend >= 0 ? <ArrowUp className="w-3 h-3" /> : <ArrowDown className="w-3 h-3" />}
+                                            {stat.trend >= 0 ? '+' : ''}{stat.trend}%
+                                        </div>
+                                    )}
                                 </div>
                                 <p className="text-3xl font-bold text-gray-900 dark:text-white mb-1">
-                                    {stat.value.toLocaleString()}
+                                    {typeof stat.value === 'number' ? stat.value.toLocaleString() : stat.value}
                                 </p>
                                 <p className="text-sm text-gray-500 dark:text-gray-400">{stat.label}</p>
+                                {stat.subtext && (
+                                    <p className="text-xs text-primary-600 mt-1">{stat.subtext}</p>
+                                )}
                             </div>
                         </div>
                     ))}
                 </div>
 
+                {/* Mistake Intelligence Section */}
+                {(suggestedAction || weakAreas.length > 0) && (
+                    <div className="grid lg:grid-cols-2 gap-4 mb-8">
+                        {/* Suggested Action Card */}
+                        {suggestedAction && (
+                            <div className="card p-5 border-l-4 border-l-primary-500 animate-slide-up" style={{ opacity: 0, animationDelay: '0.25s' }}>
+                                <div className="flex items-start gap-4">
+                                    <div className="p-2.5 bg-primary-50 dark:bg-primary-900/30 rounded-lg flex-shrink-0">
+                                        <Sparkles className="w-5 h-5 text-primary-600" />
+                                    </div>
+                                    <div className="flex-1 min-w-0">
+                                        <h3 className="font-medium text-gray-900 dark:text-white mb-1 text-sm">
+                                            Recommended Focus
+                                        </h3>
+                                        <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-3">
+                                            {suggestedAction}
+                                        </p>
+                                        <Link
+                                            href="/smart-practice"
+                                            className="inline-flex items-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg text-sm font-medium hover:bg-primary-700 transition-colors"
+                                        >
+                                            <Zap className="w-4 h-4" />
+                                            Start Practice
+                                        </Link>
+                                    </div>
+                                </div>
+                            </div>
+                        )}
+
+                        {/* Weak Areas Card */}
+                        {weakAreas.length > 0 && (
+                            <div className="card p-5 animate-slide-up" style={{ opacity: 0, animationDelay: '0.3s' }}>
+                                <h3 className="font-medium text-gray-900 dark:text-white mb-4 flex items-center gap-2 text-sm">
+                                    <Target className="w-4 h-4 text-orange-500" />
+                                    Areas to Improve
+                                </h3>
+                                <div className="space-y-3">
+                                    {weakAreas.slice(0, 3).map((area, i) => (
+                                        <div key={area.subjectId} className="flex items-center gap-3">
+                                            <span className={`w-7 h-7 rounded-lg flex items-center justify-center text-xs font-semibold flex-shrink-0 ${area.accuracy < 40 ? 'bg-red-50 text-red-600 dark:bg-red-900/20 dark:text-red-400' :
+                                                area.accuracy < 60 ? 'bg-orange-50 text-orange-600 dark:bg-orange-900/20 dark:text-orange-400' :
+                                                    'bg-yellow-50 text-yellow-600 dark:bg-yellow-900/20 dark:text-yellow-400'
+                                                }`}>
+                                                {i + 1}
+                                            </span>
+                                            <div className="flex-1 min-w-0">
+                                                <p className="font-medium text-gray-900 dark:text-white text-sm truncate">{area.name}</p>
+                                            </div>
+                                            <div className="flex items-center gap-2 flex-shrink-0">
+                                                <div className="w-16 h-1.5 bg-gray-100 dark:bg-gray-800 rounded-full overflow-hidden">
+                                                    <div
+                                                        className={`h-full rounded-full ${area.accuracy < 40 ? 'bg-red-500' :
+                                                            area.accuracy < 60 ? 'bg-orange-500' :
+                                                                'bg-yellow-500'
+                                                            }`}
+                                                        style={{ width: `${area.accuracy}%` }}
+                                                    />
+                                                </div>
+                                                <span className={`text-xs font-medium w-8 text-right ${area.accuracy < 40 ? 'text-red-600' :
+                                                    area.accuracy < 60 ? 'text-orange-600' :
+                                                        'text-yellow-600'
+                                                    }`}>
+                                                    {area.accuracy}%
+                                                </span>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+
+                        {/* Strong Areas Card */}
+                        {strongAreas.length > 0 && (
+                            <div className="card p-5 animate-slide-up" style={{ opacity: 0, animationDelay: '0.35s' }}>
+                                <h3 className="font-medium text-gray-900 dark:text-white mb-4 flex items-center gap-2 text-sm">
+                                    <CheckCircle2 className="w-4 h-4 text-emerald-500" />
+                                    Strong Areas
+                                </h3>
+                                <div className="space-y-3">
+                                    {strongAreas.slice(0, 3).map((area, i) => (
+                                        <div key={area.topicId || i} className="flex items-center gap-3">
+                                            <span className="w-7 h-7 rounded-lg flex items-center justify-center text-xs font-semibold flex-shrink-0 bg-emerald-50 text-emerald-600 dark:bg-emerald-900/20 dark:text-emerald-400">
+                                                {i + 1}
+                                            </span>
+                                            <div className="flex-1 min-w-0">
+                                                <p className="font-medium text-gray-900 dark:text-white text-sm truncate">{area.name}</p>
+                                                {area.subject && (
+                                                    <p className="text-xs text-gray-500 truncate">{area.subject}</p>
+                                                )}
+                                            </div>
+                                            <div className="flex items-center gap-2 flex-shrink-0">
+                                                <div className="w-16 h-1.5 bg-gray-100 dark:bg-gray-800 rounded-full overflow-hidden">
+                                                    <div
+                                                        className="h-full rounded-full bg-emerald-500"
+                                                        style={{ width: `${area.accuracy}%` }}
+                                                    />
+                                                </div>
+                                                <span className="text-xs font-medium w-8 text-right text-emerald-600">
+                                                    {area.accuracy}%
+                                                </span>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+                    </div>
+                )}
+
                 {/* Performance Chart & Quick Actions */}
                 <div className="grid lg:grid-cols-3 gap-6 mb-8">
-                    {/* Performance Overview */}
+                    {/* Subject Performance Overview */}
                     <div className="lg:col-span-2 card p-6 animate-slide-up" style={{ opacity: 0, animationDelay: '0.3s' }}>
                         <div className="flex items-center justify-between mb-6">
                             <h2 className="text-lg font-semibold text-gray-900 dark:text-white flex items-center gap-2">
                                 <BarChart2 className="w-5 h-5 text-primary-600" />
-                                Performance Overview
+                                Subject Performance
                             </h2>
-                            <select className="text-sm border border-gray-200 dark:border-gray-700 rounded-lg px-3 py-1.5 bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300">
-                                <option>Last 7 days</option>
-                                <option>Last 30 days</option>
-                                <option>All time</option>
-                            </select>
+                            {improvementDelta !== null && (
+                                <div className={`flex items-center gap-1 text-sm font-medium px-2 py-1 rounded-lg ${improvementDelta >= 0 ? 'text-emerald-600 bg-emerald-50 dark:bg-emerald-900/20' : 'text-red-500 bg-red-50 dark:bg-red-900/20'}`}>
+                                    {improvementDelta >= 0 ? <TrendingUp className="w-4 h-4" /> : <ArrowDown className="w-4 h-4" />}
+                                    {improvementDelta >= 0 ? '+' : ''}{improvementDelta}% vs last week
+                                </div>
+                            )}
                         </div>
 
-                        {/* Visual Bar Chart Representation */}
-                        <div className="space-y-4">
-                            {['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'].map((day, i) => {
-                                const height = Math.random() * 60 + 20;
-                                return (
-                                    <div key={day} className="flex items-center gap-4">
-                                        <span className="w-10 text-sm text-gray-500 dark:text-gray-400">{day}</span>
-                                        <div className="flex-1 h-8 bg-gray-100 dark:bg-gray-800 rounded-lg overflow-hidden">
+                        {/* Subject Accuracy Bars */}
+                        {weakAreas.length > 0 ? (
+                            <div className="space-y-4">
+                                {weakAreas.map((subject) => (
+                                    <div key={subject.subjectId} className="flex items-center gap-4">
+                                        <span className="w-24 text-sm text-gray-700 dark:text-gray-300 truncate">{subject.name}</span>
+                                        <div className="flex-1 h-6 bg-gray-100 dark:bg-gray-800 rounded-lg overflow-hidden">
                                             <div
-                                                className="h-full bg-gradient-to-r from-primary-500 to-purple-500 rounded-lg transition-all duration-500"
-                                                style={{ width: `${height}%` }}
+                                                className={`h-full rounded-lg transition-all duration-500 ${subject.accuracy >= 70 ? 'bg-emerald-500' :
+                                                    subject.accuracy >= 40 ? 'bg-amber-500' : 'bg-red-500'
+                                                    }`}
+                                                style={{ width: `${subject.accuracy}%` }}
                                             />
                                         </div>
-                                        <span className="w-12 text-sm font-medium text-gray-700 dark:text-gray-300 text-right">
-                                            {Math.round(height)}%
+                                        <span className={`w-12 text-sm font-medium text-right ${subject.accuracy >= 70 ? 'text-emerald-600' :
+                                            subject.accuracy >= 40 ? 'text-amber-600' : 'text-red-600'
+                                            }`}>
+                                            {subject.accuracy}%
                                         </span>
                                     </div>
-                                );
-                            })}
-                        </div>
+                                ))}
+                            </div>
+                        ) : (
+                            <div className="text-center py-8">
+                                <p className="text-gray-500 dark:text-gray-400 mb-2">No performance data yet</p>
+                                <Link href="/tests" className="text-sm text-primary-600 hover:text-primary-700 font-medium">
+                                    Take a test to see your performance →
+                                </Link>
+                            </div>
+                        )}
                     </div>
 
                     {/* Quick Actions */}
@@ -246,6 +393,16 @@ export default function DashboardPage() {
                                     <span className="font-medium">Start New Test</span>
                                 </div>
                                 <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                            </Link>
+                            <Link
+                                href="/smart-practice"
+                                className="flex items-center justify-between p-4 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-primary-500 hover:bg-primary-50 dark:hover:bg-primary-900/10 transition-all group"
+                            >
+                                <div className="flex items-center gap-3">
+                                    <Zap className="w-5 h-5 text-amber-500" />
+                                    <span className="font-medium text-gray-700 dark:text-gray-300">Smart Practice</span>
+                                </div>
+                                <ChevronRight className="w-5 h-5 text-gray-400 group-hover:translate-x-1 transition-transform" />
                             </Link>
                             <Link
                                 href="/exams"

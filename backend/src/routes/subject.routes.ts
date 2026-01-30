@@ -38,17 +38,30 @@ router.get('/', async (req, res, next) => {
     }
 });
 
-// GET /api/v1/subjects/with-questions - List subjects that have published questions (Phase 1 Fix)
+// GET /api/v1/subjects/with-questions - List subjects that have published questions (Phase 6 Fix)
 router.get('/with-questions', async (req, res, next) => {
     try {
-        const subjects = await prisma.subject.findMany({
-            where: {
-                questions: {
-                    some: {
-                        status: 'PUBLISHED'
-                    }
+        const { exam } = req.query; // Optional exam slug
+
+        const where: any = {
+            questions: {
+                some: {
+                    status: 'PUBLISHED'
                 }
-            },
+            }
+        };
+
+        // If exam provided, only return subjects present in that exam
+        if (exam) {
+            where.questions.some.questionExams = {
+                some: {
+                    exam: { slug: String(exam) }
+                }
+            };
+        }
+
+        const subjects = await prisma.subject.findMany({
+            where,
             select: {
                 id: true,
                 name: true,

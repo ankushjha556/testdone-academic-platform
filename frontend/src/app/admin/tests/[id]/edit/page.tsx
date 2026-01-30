@@ -73,7 +73,10 @@ export default function EditTestPage() {
 
             if (testRes.success && testRes.data) {
                 const data = testRes.data as any;
-                const test = data.test;
+                // Robust extraction: handle { data: { test: ... } } vs { data: ... }
+                const test = data.test || data;
+                console.log('Loaded Test Data:', test);
+
                 if (test) {
                     setFormData({
                         name: test.name || '',

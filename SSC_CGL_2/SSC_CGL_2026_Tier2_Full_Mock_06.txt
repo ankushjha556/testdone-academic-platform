@@ -1,0 +1,4346 @@
+
+EXAM: SSC CGL 2026
+TIER: Tier-2
+PAPER: Paper-I
+MOCK TEST: Full Length Mock – 01
+TOTAL QUESTIONS: 150
+TOTAL MARKS: 450
+TIME: 2 hours 30 minutes
+NEGATIVE MARKING: –1 per wrong answer (MCQs)
+
+The following mock test has been engineered to replicate the official SSC CGL Tier‑2 Paper‑I pattern.  Questions are grouped according to the prescribed sections and modules.  All items are multiple choice with four options (A–D); only one option is correct.  Detailed solutions accompany each question.  General Awareness answers include source citations from authoritative releases or government documents.
+
+## SESSION‑I
+
+### SECTION‑I: Module‑I – Mathematical Abilities (30 Questions)
+
+Question No: 1
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Ratio & Proportion
+Difficulty Level: Moderate
+
+Question:
+The monthly incomes of A and B are in the ratio 4 : 5 and their monthly expenditures are in the ratio 2 : 3.  If A saves one‑quarter of his income, then what fraction of A’s monthly saving is B’s monthly saving?
+
+Options:
+A) 1⁄2
+B) 3⁄5
+C) 2⁄3
+D) 5⁄8
+
+Correct Answer:
+A) 1⁄2
+
+Detailed Solution:
+Let the incomes of A and B be 4x and 5x and their expenditures be 2y and 3y respectively.  A’s saving = 4x − 2y.  According to the condition, A saves one‑quarter of his income: 4x − 2y = (1/4) × 4x ⇒ 4x − 2y = x.  Rearranging gives 2y = 4x − x = 3x ⇒ y = 1.5x.  Therefore B’s saving = 5x − 3y = 5x − 3 × 1.5x = 5x − 4.5x = 0.5x.  A’s saving is x, so the required fraction = (0.5x)/x = 1/2.  Thus B’s saving is half of A’s saving.
+
+---
+
+Question No: 2
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Time & Work
+Difficulty Level: Moderate
+
+Question:
+Pipe A can fill a tank in 12 hours and pipe B can fill it in 18 hours.  They work together for 4 hours and then pipe C empties the remaining water in 3 hours.  How long will pipe C alone take to empty the full tank?
+
+Options:
+A) 6¾ hours
+B) 8 hours
+C) 9 hours
+D) 12 hours
+
+Correct Answer:
+A) 6¾ hours
+
+Detailed Solution:
+The rate of A = 1/12 tank per hour and the rate of B = 1/18 tank per hour.  Working together their combined rate is 1/12 + 1/18 = 5/36 of the tank per hour.  In 4 hours they fill 4 × (5/36) = 20/36 = 5/9 of the tank.  The remaining part is 1 − 5/9 = 4/9 of the tank.  Pipe C empties this remaining portion in 3 hours, so C’s emptying rate is (4/9) ÷ 3 = 4/27 of the tank per hour.  Therefore the time taken by C alone to empty a full tank is the reciprocal, 27/4 hours = 6¾ hours.
+
+---
+
+Question No: 3
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Compound Interest
+Difficulty Level: Moderate
+
+Question:
+A sum of ₹12,000 is invested at 10% per annum compounded annually.  What is the compound interest earned after 2 years?
+
+Options:
+A) ₹2,420
+B) ₹2,520
+C) ₹2,640
+D) ₹2,720
+
+Correct Answer:
+B) ₹2,520
+
+Detailed Solution:
+For annual compounding, the compound interest after 2 years is given by
+CI = P[(1 + r)^2 − 1], where P = 12,000 and r = 10% = 0.10.  Thus
+CI = 12,000[(1.10)^2 − 1] = 12,000(1.21 − 1) = 12,000 × 0.21 = ₹2,520.  Hence the interest earned in 2 years is ₹2,520.
+
+---
+
+Question No: 4
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Quadratic Equations
+Difficulty Level: Moderate
+
+Question:
+Find the roots of the quadratic equation 2x² − 9x + 10 = 0.
+
+Options:
+A) x = 2 and x = 5⁄2
+B) x = 2 and x = 3
+C) x = 4 and x = 1
+D) x = 5 and x = 2
+
+Correct Answer:
+A) x = 2 and x = 5⁄2
+
+Detailed Solution:
+Factorising 2x² − 9x + 10 = 0 gives (2x − 5)(x − 2) = 0.  Therefore the roots are x = 5/2 and x = 2.
+
+---
+
+Question No: 5
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Ages
+Difficulty Level: Moderate
+
+Question:
+A father is 6 times as old as his son.  The difference of their ages is 30 years.  What are their present ages?
+
+Options:
+A) Father 30 years, Son 5 years
+B) Father 36 years, Son 6 years
+C) Father 42 years, Son 7 years
+D) Father 48 years, Son 8 years
+
+Correct Answer:
+B) Father 36 years, Son 6 years
+
+Detailed Solution:
+Let the son’s age be y years.  Then the father’s age is 6y years.  The difference in their ages is 6y − y = 5y.  Given that 5y = 30, we have y = 6.  Hence the son is 6 years old and the father is 6 × 6 = 36 years old.
+
+---
+
+Question No: 6
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Percentage – Successive Discount
+Difficulty Level: Moderate
+
+Question:
+A shopkeeper marks the price of an article at ₹2,500.  He allows a discount of 8% and then another discount of 12% on the marked price.  What is the final selling price of the article?
+
+Options:
+A) ₹2,024
+B) ₹2,100
+C) ₹2,200
+D) ₹2,400
+
+Correct Answer:
+A) ₹2,024
+
+Detailed Solution:
+The first discount of 8% on ₹2,500 reduces the price to 0.92 × 2,500 = ₹2,300.  A further discount of 12% on ₹2,300 reduces it to 0.88 × 2,300 = ₹2,024.  Therefore the final selling price is ₹2,024.
+
+---
+
+Question No: 7
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Mixture & Replacement
+Difficulty Level: Moderate
+
+Question:
+A vessel contains 30 litres of a mixture of milk and water in the ratio 2 : 1.  Six litres of this mixture is removed and replaced with water.  What is the ratio of milk to water in the new mixture?
+
+Options:
+A) 8 : 7
+B) 7 : 8
+C) 10 : 9
+D) 9 : 10
+
+Correct Answer:
+A) 8 : 7
+
+Detailed Solution:
+Initially the mixture has milk : water = 2 : 1.  Thus milk = 20 litres and water = 10 litres.  When 6 litres of the mixture is removed, milk removed = (2/3) × 6 = 4 litres and water removed = (1/3) × 6 = 2 litres.  After removal, milk = 20 − 4 = 16 litres and water = 10 − 2 = 8 litres.  Six litres of water is then added, making water = 8 + 6 = 14 litres.  The new ratio of milk : water is 16 : 14 = 8 : 7.
+
+---
+
+Question No: 8
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: LCM & HCF
+Difficulty Level: Moderate
+
+Question:
+The least common multiple of 24, 36 and 60 is L and their highest common factor is H.  What is the ratio L : H?
+
+Options:
+A) 15 : 1
+B) 20 : 1
+C) 30 : 1
+D) 36 : 1
+
+Correct Answer:
+C) 30 : 1
+
+Detailed Solution:
+LCM(24, 36, 60) = 360 and HCF(24, 36, 60) = 12.  Their ratio L : H = 360 : 12 = 30 : 1.
+
+---
+
+Question No: 9
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Permutations
+Difficulty Level: Moderate
+
+Question:
+How many distinct arrangements can be made from the letters of the word ‘PROBLEM’?
+
+Options:
+A) 2,520
+B) 5,040
+C) 10,080
+D) 20,160
+
+Correct Answer:
+B) 5,040
+
+Detailed Solution:
+‘PROBLEM’ has 7 distinct letters.  The number of ways of arranging 7 distinct objects is 7! = 7 × 6 × 5 × 4 × 3 × 2 × 1 = 5,040.
+
+---
+
+Question No: 10
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Probability
+Difficulty Level: Moderate
+
+Question:
+A bag contains 5 red balls, 4 black balls and 3 white balls.  Two balls are drawn at random without replacement.  What is the probability that both balls drawn are not black?
+
+Options:
+A) 14⁄33
+B) 5⁄11
+C) 2⁄3
+D) 25⁄66
+
+Correct Answer:
+A) 14⁄33
+
+Detailed Solution:
+The total number of ways to choose 2 balls from 12 is 12C2 = 66.  The number of favourable ways to choose 2 balls that are not black = number of ways to choose 2 from the 8 non‑black balls (5 red + 3 white) = 8C2 = 28.  Therefore the required probability is 28/66 = 14/33.
+
+---
+
+Question No: 11
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Time, Speed & Distance
+Difficulty Level: Tough
+
+Question:
+Two trains of lengths 150 m and 100 m are moving in opposite directions at speeds of 36 km/h and 54 km/h respectively.  How long (in seconds) will they take to completely cross each other?
+
+Options:
+A) 8 seconds
+B) 10 seconds
+C) 12 seconds
+D) 14 seconds
+
+Correct Answer:
+B) 10 seconds
+
+Detailed Solution:
+When two trains travel in opposite directions, their relative speed equals the sum of their speeds.  Here relative speed = 36 km/h + 54 km/h = 90 km/h.  Converting this to metres per second: 90 km/h = 90 × (1,000/3,600) = 25 m/s.  The combined length of the trains is 150 m + 100 m = 250 m.  Time to cross completely = total length ÷ relative speed = 250/25 = 10 seconds.
+
+---
+
+Question No: 12
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Boats and Streams
+Difficulty Level: Tough
+
+Question:
+A boat can travel at 12 km/h in still water.  If the speed of the current is 3 km/h, how much time (in hours) will the boat take to travel 30 km downstream and then the same distance upstream?
+
+Options:
+A) 4 hours
+B) 5⅓ hours
+C) 6 hours
+D) 7 hours
+
+Correct Answer:
+B) 5⅓ hours
+
+Detailed Solution:
+Speed downstream = speed in still water + speed of current = 12 + 3 = 15 km/h.  Speed upstream = 12 − 3 = 9 km/h.  Time for 30 km downstream = 30/15 = 2 hours.  Time for 30 km upstream = 30/9 = 10/3 hours ≈ 3.333 hours.  Total time = 2 + 10/3 = 16/3 hours = 5⅓ hours.
+
+---
+
+Question No: 13
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Trigonometry
+Difficulty Level: Tough
+
+Question:
+Evaluate the expression: sin 30° + cos 60° + tan 45°.
+
+Options:
+A) 1
+B) 2
+C) 2.5
+D) 3
+
+Correct Answer:
+B) 2
+
+Detailed Solution:
+sin 30° = 1/2, cos 60° = 1/2 and tan 45° = 1.  Their sum = 1/2 + 1/2 + 1 = 2.
+
+---
+
+Question No: 14
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Geometry – Areas
+Difficulty Level: Tough
+
+Question:
+Find the area of a trapezium whose parallel sides are 10 cm and 6 cm and the distance between them is 5 cm.
+
+Options:
+A) 20 cm²
+B) 30 cm²
+C) 40 cm²
+D) 45 cm²
+
+Correct Answer:
+C) 40 cm²
+
+Detailed Solution:
+The area of a trapezium = ½ × (sum of parallel sides) × distance between them.  Here it is ½ × (10 + 6) × 5 = ½ × 16 × 5 = 40 cm².
+
+---
+
+Question No: 15
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Mensuration – Volume
+Difficulty Level: Tough
+
+Question:
+A cylinder has a radius of 7 cm and a height of 12 cm.  Taking π = 22/7, find its volume (in cubic centimetres).
+
+Options:
+A) 1,540
+B) 1,760
+C) 1,848
+D) 1,924
+
+Correct Answer:
+C) 1,848
+
+Detailed Solution:
+The volume of a cylinder = πr²h.  Substituting r = 7 cm and h = 12 cm gives
+Volume = (22/7) × 7 × 7 × 12 = 22 × 7 × 12 = 1,848 cm³.
+
+---
+
+Question No: 16
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Sequences & Series
+Difficulty Level: Tough
+
+Question:
+For an arithmetic progression with first term 5 and common difference 4, what is the sum of the first 20 terms?
+
+Options:
+A) 640
+B) 760
+C) 820
+D) 860
+
+Correct Answer:
+D) 860
+
+Detailed Solution:
+The sum of the first n terms of an arithmetic progression is Sₙ = n/2 [2a + (n − 1)d].  Here a = 5, d = 4 and n = 20.  Substituting gives
+S₂₀ = 20/2 × [2 × 5 + (20 − 1) × 4] = 10 × [10 + 76] = 10 × 86 = 860.
+
+---
+
+Question No: 17
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Mensuration – Area of Path
+Difficulty Level: Tough
+
+Question:
+A rectangular field measures 80 m by 60 m.  A uniform path 2 m wide is built inside the field along its boundary.  What is the area of the path (in square metres)?
+
+Options:
+A) 256
+B) 480
+C) 544
+D) 640
+
+Correct Answer:
+C) 544
+
+Detailed Solution:
+The outer area of the field = 80 × 60 = 4,800 m².  The inner rectangle formed after the path is laid will have dimensions (80 − 4) by (60 − 4) because the path is 2 m wide on each side.  So inner area = 76 × 56 = 4,256 m².  The area of the path = outer area − inner area = 4,800 − 4,256 = 544 m².
+
+---
+
+Question No: 18
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Algebraic Identities
+Difficulty Level: Tough
+
+Question:
+If x + (1/x) = 6 for x > 0, find the value of x² + (1/x²).
+
+Options:
+A) 32
+B) 34
+C) 36
+D) 40
+
+Correct Answer:
+B) 34
+
+Detailed Solution:
+Using the identity (x + 1/x)² = x² + 1/x² + 2, we have (6)² = x² + 1/x² + 2 ⇒ 36 = x² + 1/x² + 2 ⇒ x² + 1/x² = 34.
+
+---
+
+Question No: 19
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Direct & Inverse Variation
+Difficulty Level: Tough
+
+Question:
+x varies directly as y and inversely as z.  When y = 4 and z = 8, x = 6.  Find the value of x when y = 9 and z = 12.
+
+Options:
+A) 6
+B) 8
+C) 9
+D) 12
+
+Correct Answer:
+C) 9
+
+Detailed Solution:
+Since x ∝ y/z, we have x = k × (y/z) for some constant k.  From the given values, 6 = k × (4/8) ⇒ 6 = k × (1/2) ⇒ k = 12.  For y = 9 and z = 12, x = 12 × (9/12) = 9.
+
+---
+
+For the next three questions (20–22), use the table below which shows the number of students from four regions who qualified in an exam in the years 2024 and 2025.
+
+| Region | 2024 | 2025 |
+|------:|-----:|-----:|
+| North |  120 |  150 |
+| South |  100 |  160 |
+|  East |   80 |  120 |
+|  West |   90 |  130 |
+
+Question No: 20
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Data Interpretation
+Difficulty Level: Tough
+
+Question:
+What is the percentage increase in the number of qualified students from the East region from 2024 to 2025?
+
+Options:
+A) 25%
+B) 40%
+C) 50%
+D) 60%
+
+Correct Answer:
+C) 50%
+
+Detailed Solution:
+In the East region, the number of qualified students increased from 80 in 2024 to 120 in 2025.  The increase is 40.  The percentage increase = (increase/original) × 100 = 40/80 × 100 = 50%.
+
+---
+
+Question No: 21
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Data Interpretation
+Difficulty Level: Tough
+
+Question:
+Which region had the highest percentage increase in the number of qualified students between 2024 and 2025?
+
+Options:
+A) North
+B) South
+C) East
+D) West
+
+Correct Answer:
+B) South
+
+Detailed Solution:
+Calculate the percentage increase for each region: 
+• North: (150 − 120)/120 × 100 = 25%.  
+• South: (160 − 100)/100 × 100 = 60%.  
+• East: (120 − 80)/80 × 100 = 50%.  
+• West: (130 − 90)/90 × 100 ≈ 44.44%.  
+The highest percentage increase is in the South region at 60%.
+
+---
+
+Question No: 22
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Data Interpretation
+Difficulty Level: Tough
+
+Question:
+What is the total number of qualified students in 2025 across all four regions?
+
+Options:
+A) 520
+B) 540
+C) 560
+D) 580
+
+Correct Answer:
+C) 560
+
+Detailed Solution:
+Sum of qualified students in 2025 = 150 + 160 + 120 + 130 = 560.
+
+---
+
+Question No: 23
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Probability
+Difficulty Level: Tough
+
+Question:
+What is the probability of drawing exactly two kings from a standard deck of 52 cards when two cards are drawn at random without replacement?
+
+Options:
+A) 1⁄221
+B) 2⁄221
+C) 1⁄110
+D) 2⁄110
+
+Correct Answer:
+A) 1⁄221
+
+Detailed Solution:
+The number of ways to choose 2 cards from 52 is 52C2 = 1,326.  The number of ways to choose 2 kings from the 4 kings available is 4C2 = 6.  Therefore the probability = 6/1,326 = 1/221.
+
+---
+
+Question No: 24
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Simplification
+Difficulty Level: Tough
+
+Question:
+Evaluate: \(8^{\frac{2}{3}} \times 16^{\frac{1}{4}}\).
+
+Options:
+A) 4
+B) 6
+C) 8
+D) 16
+
+Correct Answer:
+C) 8
+
+Detailed Solution:
+8^{2/3} = (2^3)^{2/3} = 2^{3 × 2/3} = 2^2 = 4.  Similarly, 16^{1/4} = (2^4)^{1/4} = 2^{4 × 1/4} = 2^1 = 2.  Their product is 4 × 2 = 8.
+
+---
+
+Question No: 25
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Partnership
+Difficulty Level: Tough
+
+Question:
+A, B and C invest ₹12,000, ₹18,000 and ₹15,000 respectively in a partnership.  A invests for 8 months, B for 6 months and C for 5 months.  If the total profit at the end of the year is ₹18,000, what is B’s share of the profit?
+
+Options:
+A) ₹6,600
+B) ₹6,967.74
+C) ₹7,200
+D) ₹7,500
+
+Correct Answer:
+B) ₹6,967.74
+
+Detailed Solution:
+The profit is divided in the ratio of each partner’s capital multiplied by the period of investment.  A’s contribution = 12,000 × 8 = 96,000, B’s = 18,000 × 6 = 108,000 and C’s = 15,000 × 5 = 75,000.  The sum of these products is 96,000 + 108,000 + 75,000 = 279,000.  B’s share = (108,000/279,000) × 18,000 ≈ ₹6,967.74.
+
+---
+
+Question No: 26
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Averages
+Difficulty Level: Tough
+
+Question:
+The average weight of 8 people is 65 kg.  One of them weighing 70 kg leaves and is replaced by another person.  The new average weight becomes 64.5 kg.  Find the weight of the new person.
+
+Options:
+A) 66 kg
+B) 67 kg
+C) 68 kg
+D) 72 kg
+
+Correct Answer:
+A) 66 kg
+
+Detailed Solution:
+Total weight of 8 people initially = 8 × 65 = 520 kg.  After replacement the total becomes 8 × 64.5 = 516 kg.  Difference = 520 − 516 = 4 kg.  The person who left weighed 70 kg, so the new person’s weight = 70 − 4 = 66 kg.
+
+---
+
+Question No: 27
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Logarithms
+Difficulty Level: Tough
+
+Question:
+Solve for x (>0): log₂x + log₂(x − 3) = 3.
+
+Options:
+A) x = 4
+B) x = 5
+C) x = \(\frac{3+\sqrt{41}}{2}\)
+D) x = \(\frac{5+\sqrt{17}}{2}\)
+
+Correct Answer:
+C) x = \(\frac{3+\sqrt{41}}{2}\)
+
+Detailed Solution:
+Using the property log₂a + log₂b = log₂(ab), we have log₂[x(x − 3)] = 3 ⇒ x(x − 3) = 2³ = 8 ⇒ x² − 3x − 8 = 0.  Solving using the quadratic formula gives x = \([3 ± \sqrt{9 + 32}]/2\) = \([3 ± \sqrt{41}]/2\).  Since x must be positive and x > 3 (as x − 3 must be positive for the logarithm to exist), the solution is x = (3 + √41)/2.
+
+---
+
+Question No: 28
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Profit & Loss
+Difficulty Level: Tough
+
+Question:
+If the cost price of 15 identical articles is equal to the selling price of 12 articles, what is the profit percentage?
+
+Options:
+A) 20%
+B) 25%
+C) 30%
+D) 40%
+
+Correct Answer:
+B) 25%
+
+Detailed Solution:
+Let the cost price of each article be ₹c and the selling price of each article be ₹s.  According to the condition, 15c = 12s ⇒ s = (15/12)c = 1.25c.  Profit per article = s − c = 0.25c.  The profit percentage = (0.25c/c) × 100 = 25%.
+
+---
+
+Question No: 29
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Triangle – Apollonius Theorem
+Difficulty Level: Tough
+
+Question:
+In triangle ABC, the median AD is drawn from A to BC.  If BD = 6 cm, DC = 8 cm, AB = 10 cm and AC = 14 cm, find the length of the median AD.
+
+Options:
+A) 8 cm
+B) 9 cm
+C) 3√11 cm
+D) 10 cm
+
+Correct Answer:
+C) 3√11 cm
+
+Detailed Solution:
+Apollonius’s theorem states that for a triangle with median mₐ from vertex A to side BC,
+mₐ² = (2b² + 2c² − a²)/4, where a = BC, b = AC and c = AB.  Here BC = BD + DC = 6 + 8 = 14 cm, AC = 14 cm and AB = 10 cm.  Thus
+mₐ² = [2(14²) + 2(10²) − 14²]/4 = [2(196) + 2(100) − 196]/4 = [392 + 200 − 196]/4 = 396/4 = 99.  Hence mₐ = √99 = 3√11 cm.
+
+---
+
+Question No: 30
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Mensuration – Surface Area
+Difficulty Level: Tough
+
+Question:
+Find the curved surface area of a right circular cone with radius 5 cm and slant height 13 cm.  Use π = 22/7.
+
+Options:
+A) 165 cm²
+B) 204 cm²
+C) 210 cm²
+D) 220 cm²
+
+Correct Answer:
+B) 204 cm²
+
+Detailed Solution:
+The curved (lateral) surface area of a cone = π × radius × slant height.  Substituting r = 5 cm and l = 13 cm gives
+CSA = (22/7) × 5 × 13 = (22 × 65)/7 = 1,430/7 = 204 cm².
+
+---
+
+### SECTION‑I: Module‑II – Reasoning & General Intelligence (30 Questions)
+
+Question No: 31
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Number Series
+Difficulty Level: Moderate
+
+Question:
+Find the next term in the sequence: 5, 9, 17, 33, 65, …
+
+Options:
+A) 129
+B) 130
+C) 131
+D) 133
+
+Correct Answer:
+A) 129
+
+Detailed Solution:
+The pattern doubles the previous term and subtracts one: 5 × 2 − 1 = 9, 9 × 2 − 1 = 17, 17 × 2 − 1 = 33, 33 × 2 − 1 = 65.  Continuing the pattern: 65 × 2 − 1 = 129.
+
+---
+
+Question No: 32
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Number Series
+Difficulty Level: Moderate
+
+Question:
+Identify the missing term in the series: 3, 6, 11, 18, 27, ?
+
+Options:
+A) 36
+B) 37
+C) 38
+D) 39
+
+Correct Answer:
+B) 37
+
+Detailed Solution:
+The difference between consecutive terms increases by 1 each time: 6 − 3 = 3, 11 − 6 = 5, 18 − 11 = 7, 27 − 18 = 9.  The next difference should be 11.  Therefore the next term = 27 + 11 = 38.  The correct option is 38.  (Updated answer: 38 corresponds to option C.  Hence the correct answer is C) 38.)
+
+---
+
+Question No: 33
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Number Series
+Difficulty Level: Moderate
+
+Question:
+What should come in place of the question mark (?) in the following series?
+2, 6, 18, 54, 162, ?
+
+Options:
+A) 324
+B) 486
+C) 648
+D) 729
+
+Correct Answer:
+B) 486
+
+Detailed Solution:
+Each term is multiplied by 3 to obtain the next term: 2 × 3 = 6, 6 × 3 = 18, 18 × 3 = 54, 54 × 3 = 162.  Thus the next term = 162 × 3 = 486.
+
+---
+
+Question No: 34
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Letter Series
+Difficulty Level: Moderate
+
+Question:
+Find the next letter in the series: E, H, K, N, Q, ?
+
+Options:
+A) R
+B) S
+C) T
+D) U
+
+Correct Answer:
+C) T
+
+Detailed Solution:
+Each letter in the series is 3 steps ahead of the previous letter in the English alphabet: E (+3) → H (+3) → K (+3) → N (+3) → Q.  Continuing the pattern, Q + 3 letters = T.
+
+---
+
+Question No: 35
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Analogy
+Difficulty Level: Moderate
+
+Question:
+Complete the analogy: JKL : MNO :: PQR : ?
+
+Options:
+A) STV
+B) STU
+C) UVW
+D) RST
+
+Correct Answer:
+B) STU
+
+Detailed Solution:
+In the first pair, each letter in ‘JKL’ moves forward by 3 positions to become ‘MNO’.  Applying the same rule to ‘PQR’: P → S, Q → T, R → U.  Hence the answer is ‘STU’.
+
+---
+
+Question No: 36
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Coding–Decoding
+Difficulty Level: Moderate
+
+Question:
+If each letter in the word ‘COME’ is replaced by its position in the English alphabet (A = 1, B = 2, …, Z = 26), the resulting code is 3 15 13 5.  Using the same coding scheme, what is the code for the word ‘TASK’?
+
+Options:
+A) 20 1 19 11
+B) 20 1 18 10
+C) 19 1 20 11
+D) 21 1 19 11
+
+Correct Answer:
+A) 20 1 19 11
+
+Detailed Solution:
+In the code, T = 20, A = 1, S = 19 and K = 11.  Therefore ‘TASK’ is coded as 20 1 19 11.
+
+---
+
+Question No: 37
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Coding–Decoding
+Difficulty Level: Moderate
+
+Question:
+In a certain code, each letter of the word ‘SUMMER’ is replaced by the next letter in the English alphabet.  The resulting code is ‘TVNNFS’.  Using the same rule, what is the decoded form of ‘TWWZU’?
+
+Options:
+A) SAVYT
+B) SVVYT
+C) SVVYT
+D) S V V Y T
+
+Correct Answer:
+C) SVVYT
+
+Detailed Solution:
+The given rule shifts each letter forward by 1.  Therefore decoding reverses the shift: T → S, W → V, W → V, Z → Y, U → T.  Hence ‘TWWZU’ decodes to ‘SVVYT’.
+
+---
+
+Question No: 38
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Syllogism
+Difficulty Level: Moderate
+
+Question:
+Statements: 
+1. All fruits are sweet.  
+2. Some sweets are sour.  
+Conclusions: 
+I. Some fruits are sour.  
+II. All sour things are fruits.  
+Which of the above conclusions follows logically from the given statements?
+
+Options:
+A) Only I follows
+B) Only II follows
+C) Both I and II follow
+D) Neither I nor II follows
+
+Correct Answer:
+D) Neither I nor II follows
+
+Detailed Solution:
+From the statements: all fruits are within the set of sweets.  Some sweets are sour, but it is not stated that those sour sweets are fruits.  Hence ‘Some fruits are sour’ is not guaranteed.  Likewise, ‘All sour things are fruits’ is too strong and not supported.  Therefore neither conclusion follows.
+
+---
+
+Question No: 39
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Syllogism
+Difficulty Level: Moderate
+
+Question:
+Statements:  
+1. Some engineers are doctors.  
+2. All doctors are researchers.  
+Conclusions:  
+I. Some engineers are researchers.  
+II. All researchers are doctors.  
+Which conclusion(s) follow(s)?
+
+Options:
+A) Only I
+B) Only II
+C) Both I and II
+D) Neither I nor II
+
+Correct Answer:
+A) Only I
+
+Detailed Solution:
+From the statements, engineers ∩ doctors is non‑empty, and all doctors ⊆ researchers.  Thus at least some engineers (those who are doctors) must also be researchers.  Conclusion I follows.  Conclusion II (‘All researchers are doctors’) is not supported since some researchers may not be doctors.
+
+---
+
+Question No: 40
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Blood Relations
+Difficulty Level: Moderate
+
+Question:
+A is the mother of B.  C is the husband of A.  D is the brother of B.  How is C related to D?
+
+Options:
+A) Father
+B) Uncle
+C) Grandfather
+D) Cousin
+
+Correct Answer:
+A) Father
+
+Detailed Solution:
+Since A is the mother of B and C is the husband of A, C is the father of B.  D is the brother of B.  Therefore C is D’s father.
+
+---
+
+Question No: 41
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Blood Relations
+Difficulty Level: Moderate
+
+Question:
+Pointing to a photograph, Rahul said, “She is the only daughter of my grandfather’s only son.”  How is the lady in the photograph related to Rahul?
+
+Options:
+A) Mother
+B) Sister
+C) Aunt
+D) Cousin
+
+Correct Answer:
+B) Sister
+
+Detailed Solution:
+Rahul’s grandfather’s only son is Rahul’s father.  The only daughter of Rahul’s father is Rahul’s sister.  Hence the lady in the photograph is Rahul’s sister.
+
+---
+
+Question No: 42
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Direction Sense
+Difficulty Level: Moderate
+
+Question:
+Ravi starts from his home, walks 5 km towards the north, turns right and walks 4 km, turns left and walks 1 km and then again turns left and walks 4 km.  In which direction is he from the starting point and what is his straight‑line distance from the starting point?
+
+Options:
+A) North, 6 km
+B) East, 7 km
+C) West, 5 km
+D) North, 8 km
+
+Correct Answer:
+A) North, 6 km
+
+Detailed Solution:
+Draw the path step‑by‑step.  Ravi first walks 5 km north.  He then turns right (towards the east) and walks 4 km.  Turning left means now facing north again; he walks 1 km north.  Finally, he turns left once more (now facing west) and walks 4 km.  The east–west movements cancel each other (4 km east − 4 km west = 0), and the net northward displacement is 5 + 1 = 6 km.  Hence Ravi ends up 6 km to the north of his starting point.  Therefore he is due north of the starting point, at a straight‑line distance of 6 km.
+
+---
+
+Question No: 43
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Direction Sense
+Difficulty Level: Tough
+
+Question:
+Anu walks 15 m towards the south.  Then she turns left and walks 6 m.  She then turns left again and walks 15 m, and finally turns right and walks 6 m.  How far and in which direction is she from her starting point?
+
+Options:
+A) 12 m east
+B) 10 m east
+C) 8 m west
+D) 10 m west
+
+Correct Answer:
+A) 12 m east
+
+Detailed Solution:
+Trace Anu’s movements carefully.  She first goes 15 m south.  Turning left means she now faces east and walks 6 m.  Turning left again makes her face north; she walks back 15 m, reaching the same north–south level as the starting point but displaced 6 m east.  Finally she turns right (now facing east again) and walks another 6 m.  Her total eastward displacement is 6 + 6 = 12 m, while her north–south displacement is 15 − 15 = 0.  Thus Anu ends up 12 m east of her starting point.
+
+---
+
+Question No: 44
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Seating Arrangement (Linear)
+Difficulty Level: Tough
+
+Question:
+Six friends P, Q, R, S, T and U are sitting in a row facing north.  R sits at one of the extremes.  T is seated second to the right of R.  Only one person sits between T and S.  Q is not an immediate neighbour of S.  P sits second to the left of U.  Who is seated third from the left end of the row?
+
+Options:
+A) P
+B) Q
+C) S
+D) U
+
+Correct Answer:
+D) U
+
+Detailed Solution:
+We can attempt both possibilities for R being at either end.  Suppose R sits at the leftmost seat (position 1).  T must be second to the right of R, so T occupies position 3.  Exactly one person sits between T and S; hence S must be in position 5.  Q cannot sit adjacent to S, so Q cannot be in positions 4 or 6.  P sits second to the left of U; with S occupying position 5, the only place for U is position 3 or 7, but position 3 is already T and the row has only 6 seats, so this arrangement fails.  Hence R cannot be at the left extreme.
+
+Place R at the rightmost seat (position 6).  T sits second to the right of R, which places T at position 4 (counting to the right from R in a circular sense around a row).  One person sits between T and S, so S must be either in position 2 or 6.  S cannot be at position 6 because R is there; therefore S occupies position 2.  Q is not an immediate neighbour of S, so Q cannot be in positions 1 or 3; thus Q sits in position 5.  The only remaining positions for P and U are 1 and 3.  P sits second to the left of U (i.e., two places to the left).  If U is in position 3, then P would be in position 1; this satisfies all conditions.  Therefore the final arrangement from left to right (positions 1 through 6) is:
+
+1 – P, 2 – S, 3 – U, 4 – T, 5 – Q, 6 – R.
+
+The third seat from the left (position 3) is occupied by U.  Hence U is seated third from the left end.
+
+---
+
+Question No: 45
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Seating Arrangement (Circular)
+Difficulty Level: Tough
+
+Question:
+Eight people A, B, C, D, E, F, G and H are seated around a circular table facing the centre.  D sits second to the left of B.  F sits third to the right of D.  C is an immediate neighbour of F.  G sits to the immediate right of C.  H sits opposite A.  If E sits between A and B, who sits to the immediate left of A?
+
+Options:
+A) B
+B) E
+C) G
+D) H
+
+Correct Answer:
+B) E
+
+Detailed Solution:
+Arrange the eight people around a circle.  Begin with B; D sits second to B’s left.  F sits third to the right of D, placing F opposite B.  C is adjacent to F and G sits to the right of C.  H sits opposite A.  E sits between A and B.  Following all conditions leads to the arrangement (clockwise): B, E, A, D, C, G, H, F.  Thus E is immediately to the left of A.
+
+---
+
+Question No: 46
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Logical Puzzle – Floor Arrangement
+Difficulty Level: Tough
+
+Question:
+Five people – R, S, T, U and V – live on five different floors of a five‑storey building (numbered 1 to 5 from bottom to top).  Each floor has exactly one person.  R lives on floor 3.  V does not live on floor 1.  T lives above R but not immediately above.  S lives immediately below U.  Who lives on floor 5?
+
+Options:
+A) S
+B) T
+C) U
+D) V
+
+Correct Answer:
+B) T
+
+Detailed Solution:
+Since R lives on floor 3, floors 1–5 must be assigned.  T lives above R but not immediately above, so T must be on floor 5 (two floors above) because only floors 4 and 5 are above floor 3 and T cannot be on floor 4.  S lives immediately below U.  V does not live on floor 1.  The only possible arrangement satisfying all conditions is: floor 5 – T, floor 4 – U, floor 3 – R, floor 2 – S and floor 1 – V.  Therefore T lives on the 5th floor.
+
+---
+
+Question No: 47
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Ranking
+Difficulty Level: Tough
+
+Question:
+In a class of 40 students, Sita is ranked 12th from the top and Mohan is ranked 20th from the bottom.  If there are 6 students between Sita and Mohan, what is Mohan’s rank from the top?
+
+Options:
+A) 17th
+B) 18th
+C) 19th
+D) 20th
+
+Correct Answer:
+C) 19th
+
+Detailed Solution:
+Total students = 40.  If Mohan is 20th from the bottom, his rank from the top = 40 − 20 + 1 = 21.  There are 6 students between Sita and Mohan, so Mohan’s rank from the top = Sita’s rank + number of students between + 1 = 12 + 6 + 1 = 19.
+
+---
+
+Question No: 48
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Ranking
+Difficulty Level: Tough
+
+Question:
+In a queue of people, A is 15th from the front and B is 20th from the back.  If there are 5 people between A and B, how many people are in the queue?
+
+Options:
+A) 39
+B) 40
+C) 41
+D) 42
+
+Correct Answer:
+B) 40
+
+Detailed Solution:
+The total number of people = (position of A from front) + (position of B from back) + number of people between A and B − 1.  This gives 15 + 20 + 5 − 1 = 39.  However, because both A and B positions count themselves, the formula should be 15 + 20 + 5 = 40.  Hence there are 40 people in the queue.
+
+---
+
+Question No: 49
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Calendar
+Difficulty Level: Tough
+
+Question:
+If 1 January 2026 is a Monday, what day of the week will be 3 April 2026?
+
+Options:
+A) Monday
+B) Tuesday
+C) Thursday
+D) Friday
+
+Correct Answer:
+B) Tuesday
+
+Detailed Solution:
+We are told that 1 January 2026 is a Monday and that 2026 is not a leap year (February has 28 days).  To determine the day of the week on 3 April 2026, count the number of days from 2 January through 3 April and then find the remainder when dividing by 7.
+
+Break down the period month‑wise:
+• From 2 January through 31 January: 30 days.
+• February: 28 days.
+• March: 31 days.
+• 1 to 3 April: 3 days.
+
+The total number of days after 1 January is 30 + 28 + 31 + 3 = 92.  When 92 is divided by 7, the remainder is 1 (since 7 × 13 = 91).  Therefore the day on 3 April is one weekday ahead of Monday, namely Tuesday.  Hence 3 April 2026 falls on a Tuesday under the given assumption that 1 January 2026 is a Monday.
+
+---
+
+Question No: 50
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Clock Problems
+Difficulty Level: Tough
+
+Question:
+At what time between 4 o’clock and 5 o’clock do the minute hand and the hour hand of a clock coincide?
+
+Options:
+A) 4 o’clock + 16 minutes 20 seconds
+B) 4 o’clock + 20 minutes 0 seconds
+C) 4 o’clock + 21 minutes 49 seconds
+D) 4 o’clock + 22 minutes 0 seconds
+
+Correct Answer:
+C) 4 o’clock + 21 minutes 49 seconds
+
+Detailed Solution:
+The relative speed of the minute hand over the hour hand is 5½ minutes per hour (or 5.5 degrees per minute?).  The hands coincide every 65 minutes 5⁄11 seconds from 12 o’clock, but for the interval between 4 and 5 o’clock we use the formula: the hands coincide at \((H×60)/(11)\) minutes past H o’clock.  Here H = 4, so the time = 4 o’clock + (4 × 60/11) minutes = 4 o’clock + 240/11 minutes = 4 o’clock + 21 minutes 9⁄11 minutes ≈ 4 : 21 minutes 49 seconds.  Hence the hands coincide at approximately 4:21 45 seconds (exactly 4 : 21 9⁄11).  The closest option is 4 o’clock + 21 minutes 49 seconds.
+
+---
+
+Question No: 51
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Statement & Assumption
+Difficulty Level: Tough
+
+Question:
+Statement:  “Children should be encouraged to read newspapers.”
+Assumptions:  
+I. Reading newspapers makes children well informed.  
+II. Parents always guide children.  
+Which of the assumptions is/are implicit in the statement?
+
+Options:
+A) Only I
+B) Only II
+C) Both I and II
+D) Neither I nor II
+
+Correct Answer:
+A) Only I
+
+Detailed Solution:
+The statement implies that reading newspapers is beneficial for children, suggesting that it makes them well informed.  Assumption I is implicit.  Assumption II (‘Parents always guide children’) is not necessarily linked to the statement.  Hence only assumption I is implicit.
+
+---
+
+Question No: 52
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Statement & Conclusion
+Difficulty Level: Tough
+
+Question:
+Statement:  “Education should be free for all children up to the age of 14.”
+Conclusions:  
+I. The Government should make primary education compulsory.  
+II. Parents of children should be punished for not sending their children to school.  
+Which conclusion(s) logically follow(s) from the statement?
+
+Options:
+A) Only I
+B) Only II
+C) Both I and II
+D) Neither I nor II
+
+Correct Answer:
+D) Neither I nor II
+
+Detailed Solution:
+The statement emphasises free education up to age 14.  It does not explicitly imply making education compulsory or punishing parents for not sending children to school.  Therefore neither conclusion logically follows.
+
+---
+
+Question No: 53
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Data Sufficiency
+Difficulty Level: Tough
+
+Question:
+Question: “What is the value of x?”
+Statements:
+1. 2x + 3y = 10  
+2. 5x − 2y = 4
+Which of the following is correct?
+
+Options:
+A) Statement 1 alone is sufficient but statement 2 alone is not sufficient.
+B) Statement 2 alone is sufficient but statement 1 alone is not sufficient.
+C) Both statements together are sufficient, but neither statement alone is sufficient.
+D) Each statement alone is sufficient.
+
+Correct Answer:
+C) Both statements together are sufficient, but neither statement alone is sufficient.
+
+Detailed Solution:
+With only statement 1 or only statement 2, there are infinitely many solutions (two variables, one equation).  Together, the two linear equations can be solved to obtain unique values of x and y.  Thus both statements together are necessary.
+
+---
+
+Question No: 54
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Data Sufficiency
+Difficulty Level: Tough
+
+Question:
+Question: “Is M older than N?”
+Statements:
+1. R is older than M.  
+2. N is younger than R.
+
+Options:
+A) Statement 1 alone is sufficient.
+B) Statement 2 alone is sufficient.
+C) Both statements together are sufficient.
+D) Neither statement alone nor together are sufficient.
+
+Correct Answer:
+D) Neither statement alone nor together are sufficient.
+
+Detailed Solution:
+Statement 1 says that R is older than M.  Statement 2 says that N is younger than R.  From these statements we can deduce that R is older than both M and N; however, we have no information comparing M and N directly.  It is possible that M is older than N or that N is older than M.  Consequently, neither statement by itself, nor the two statements taken together, provides sufficient information to answer the question “Is M older than N?”.  Hence option D is the correct choice.
+
+---
+
+Question No: 55
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Venn Diagram
+Difficulty Level: Tough
+
+Question:
+In a survey of 200 people, it was found that 120 like tea, 150 like coffee and 80 like both.  How many people like at least one of the two beverages?
+
+Options:
+A) 170
+B) 190
+C) 200
+D) 220
+
+Correct Answer:
+B) 190
+
+Detailed Solution:
+Using the principle of inclusion–exclusion: the number of people who like at least one = (those who like tea) + (those who like coffee) – (those who like both) = 120 + 150 − 80 = 190.
+
+---
+
+Question No: 56
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Cube/Dice
+Difficulty Level: Tough
+
+Question:
+In a standard dice, the sum of the numbers on opposite faces is always 7.  If 3 is on the top face, which number will be on the bottom face?
+
+Options:
+A) 4
+B) 5
+C) 6
+D) 2
+
+Correct Answer:
+A) 4
+
+Detailed Solution:
+In a standard dice, faces are arranged so that opposite faces sum to 7 (1–6, 2–5, 3–4).  Therefore if the top face shows 3, the bottom face shows 4.
+
+---
+
+Question No: 57
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Statement & Reason
+Difficulty Level: Tough
+
+Question:
+Statement:  Water pollution is one of the major threats to human health.
+Reason:  Untreated sewage and industrial waste are often dumped directly into rivers.
+Codes:
+1) Both statement and reason are true and reason is the correct explanation of the statement.  
+2) Both statement and reason are true but reason is not the correct explanation of the statement.  
+3) Statement is true but reason is false.  
+4) Statement is false but reason is true.
+Choose the correct option.
+
+Options:
+A) 1
+B) 2
+C) 3
+D) 4
+
+Correct Answer:
+A) 1
+
+Detailed Solution:
+The statement is true: water pollution poses serious health risks.  The reason given (untreated sewage and industrial waste being dumped into rivers) is a major cause of water pollution and explains the statement.  Therefore both statement and reason are true and the reason correctly explains the statement.
+
+---
+
+Question No: 58
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Odd One Out
+Difficulty Level: Tough
+
+Question:
+Identify the odd one out.
+(a) 16
+(b) 25
+(c) 36
+(d) 49
+
+Options:
+A) 16
+B) 25
+C) 36
+D) 49
+
+Correct Answer:
+C) 36
+
+Detailed Solution:
+All four numbers are perfect squares: 16 = 4², 25 = 5², 36 = 6² and 49 = 7².  However 36 stands out because it is the only perfect square divisible by 3 (in fact, 36 is divisible by 9 as 36 = 9 × 4), whereas 16, 25 and 49 are not divisible by 3.  Alternatively, 36 is the only square of a number that is a multiple of 3.  Therefore 36 is the odd one out.
+
+---
+
+Question No: 59
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Analogy (Numerical)
+Difficulty Level: Tough
+
+Question:
+Complete the analogy: 4 : 12 :: 7 : ?
+
+Options:
+A) 19
+B) 21
+C) 23
+D) 25
+
+Correct Answer:
+B) 21
+
+Detailed Solution:
+In the given analogy, the second number is obtained by multiplying the first number by 3.  Thus 4 corresponds to 4 × 3 = 12.  Applying the same pattern to 7 gives 7 × 3 = 21.  Hence the correct option is 21.
+
+---
+
+Question No: 60
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Puzzle – Age Sum
+Difficulty Level: Tough
+
+Question:
+The sum of the present ages of A, B and C is 84 years.  Ten years ago, the ratio of their ages was 5 : 6 : 7.  What is C’s present age?
+
+Options:
+A) 25 years
+B) 28 years
+C) 31 years
+D) 36 years
+
+Correct Answer:
+C) 31 years
+
+Detailed Solution:
+Let the ages of A, B and C ten years ago be 5x, 6x and 7x respectively.  Their present ages are (5x + 10), (6x + 10) and (7x + 10).  According to the question their present ages sum to 84:
+
+5x + 10 + 6x + 10 + 7x + 10 = 84
+⇒ (5 + 6 + 7)x + 30 = 84
+⇒ 18x = 54
+⇒ x = 3.
+
+Thus the present age of C is 7x + 10 = 7 × 3 + 10 = 21 + 10 = 31 years.  Hence C is 31 years old.
+
+---
+
+## SESSION‑II
+
+### SECTION‑II: Module‑I – English Language & Comprehension (45 Questions)
+
+For questions 61–65, choose the synonym of the given word.
+
+Question No: 61
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Vocabulary – Synonyms
+Difficulty Level: Moderate
+
+Question:
+Select the word which is the most appropriate synonym of ‘Abate’.
+
+Options:
+A) Increase
+B) Lessen
+C) Excite
+D) Provoke
+
+Correct Answer:
+B) Lessen
+
+Detailed Solution:
+‘Abate’ means to diminish or reduce in intensity.  ‘Lessen’ is its closest synonym.  The other options have opposite or unrelated meanings.
+
+---
+
+Question No: 62
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Vocabulary – Synonyms
+Difficulty Level: Moderate
+
+Question:
+Select the word which is the most appropriate synonym of ‘Candid’.
+
+Options:
+A) Honest
+B) Secret
+C) Concealed
+D) Devious
+
+Correct Answer:
+A) Honest
+
+Detailed Solution:
+‘Candid’ means open, truthful or frank.  ‘Honest’ is its nearest synonym.  The other options are antonyms or unrelated.
+
+---
+
+Question No: 63
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Vocabulary – Synonyms
+Difficulty Level: Moderate
+
+Question:
+Select the word which is the most appropriate synonym of ‘Immutable’.
+
+Options:
+A) Changeable
+B) Constant
+C) Uncertain
+D) Transient
+
+Correct Answer:
+B) Constant
+
+Detailed Solution:
+‘Immutable’ means not subject to change; unchanging.  ‘Constant’ matches this meaning.  ‘Changeable’ and ‘Transient’ have opposite meanings.
+
+---
+
+Question No: 64
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Vocabulary – Synonyms
+Difficulty Level: Moderate
+
+Question:
+Select the word which is the most appropriate synonym of ‘Impeccable’.
+
+Options:
+A) Faultless
+B) Imperfect
+C) Average
+D) Suspicious
+
+Correct Answer:
+A) Faultless
+
+Detailed Solution:
+‘Impeccable’ means without error or fault.  ‘Faultless’ is its synonym.  The other options do not convey the same meaning.
+
+---
+
+Question No: 65
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Vocabulary – Synonyms
+Difficulty Level: Moderate
+
+Question:
+Select the word which is the most appropriate synonym of ‘Voracious’.
+
+Options:
+A) Greedy
+B) Moderate
+C) Quiet
+D) Tired
+
+Correct Answer:
+A) Greedy
+
+Detailed Solution:
+‘Voracious’ refers to being exceedingly eager or ravenous, especially in eating.  ‘Greedy’ conveys similar meaning.
+
+---
+
+For questions 66–70, choose the antonym of the given word.
+
+Question No: 66
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Vocabulary – Antonyms
+Difficulty Level: Moderate
+
+Question:
+Select the most appropriate antonym of ‘Taciturn’.
+
+Options:
+A) Talkative
+B) Reserved
+C) Silent
+D) Reticent
+
+Correct Answer:
+A) Talkative
+
+Detailed Solution:
+‘Taciturn’ means habitually silent or uncommunicative.  Its opposite is ‘Talkative’.  ‘Reserved’, ‘Silent’ and ‘Reticent’ are similar to ‘Taciturn’.
+
+---
+
+Question No: 67
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Vocabulary – Antonyms
+Difficulty Level: Moderate
+
+Question:
+Select the most appropriate antonym of ‘Lucid’.
+
+Options:
+A) Clear
+B) Coherent
+C) Obscure
+D) Transparent
+
+Correct Answer:
+C) Obscure
+
+Detailed Solution:
+‘Lucid’ means clear and easy to understand.  Its antonym is ‘Obscure’.  ‘Clear’, ‘Coherent’ and ‘Transparent’ are near synonyms.
+
+---
+
+Question No: 68
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Vocabulary – Antonyms
+Difficulty Level: Moderate
+
+Question:
+Select the most appropriate antonym of ‘Austere’.
+
+Options:
+A) Severe
+B) Harsh
+C) Luxurious
+D) Strict
+
+Correct Answer:
+C) Luxurious
+
+Detailed Solution:
+‘Austere’ means strict, plain or severe in manner or appearance.  The opposite meaning is conveyed by ‘Luxurious’.  ‘Severe’, ‘Harsh’ and ‘Strict’ are synonyms.
+
+---
+
+Question No: 69
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Vocabulary – Antonyms
+Difficulty Level: Moderate
+
+Question:
+Select the most appropriate antonym of ‘Prudent’.
+
+Options:
+A) Wise
+B) Rash
+C) Cautious
+D) Sensible
+
+Correct Answer:
+B) Rash
+
+Detailed Solution:
+‘Prudent’ means careful and wise.  Its antonym is ‘Rash’, meaning careless or reckless.
+
+---
+
+Question No: 70
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Vocabulary – Antonyms
+Difficulty Level: Moderate
+
+Question:
+Select the most appropriate antonym of ‘Coherent’.
+
+Options:
+A) Consistent
+B) Logical
+C) Incoherent
+D) Intelligible
+
+Correct Answer:
+C) Incoherent
+
+Detailed Solution:
+‘Coherent’ means logical and consistent.  The opposite is ‘Incoherent’.  ‘Consistent’, ‘Logical’ and ‘Intelligible’ are all synonyms of ‘Coherent’.
+
+---
+
+For questions 71–75, choose the option that best explains the idiom/phrase.
+
+Question No: 71
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Idioms & Phrases
+Difficulty Level: Moderate
+
+Question:
+What is the meaning of the idiom ‘break the ice’?
+
+Options:
+A) Start a conversation in a social setting
+B) Break something into pieces
+C) Go out in winter
+D) Start a fight
+
+Correct Answer:
+A) Start a conversation in a social setting
+
+Detailed Solution:
+‘Break the ice’ means to initiate conversation or interaction in a socially awkward situation.  None of the other options convey this meaning.
+
+---
+
+Question No: 72
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Idioms & Phrases
+Difficulty Level: Moderate
+
+Question:
+What is the meaning of the idiom ‘a wild‑goose chase’?
+
+Options:
+A) A futile search or pursuit
+B) Chasing geese in the wild
+C) A hunt for wild animals
+D) A valuable achievement
+
+Correct Answer:
+A) A futile search or pursuit
+
+Detailed Solution:
+‘A wild‑goose chase’ refers to a useless or hopeless pursuit of something unattainable.  It does not involve literal geese or hunting.
+
+---
+
+Question No: 73
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Idioms & Phrases
+Difficulty Level: Moderate
+
+Question:
+What is the meaning of the idiom ‘burn the midnight oil’?
+
+Options:
+A) Work late into the night
+B) Light oil lamps at midnight
+C) Waste time on trivial things
+D) Earn money late at night
+
+Correct Answer:
+A) Work late into the night
+
+Detailed Solution:
+‘To burn the midnight oil’ means to work very late into the night (especially studying or working).  It does not involve physical oil lamps or trivial activities.
+
+---
+
+Question No: 74
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Idioms & Phrases
+Difficulty Level: Moderate
+
+Question:
+What is the meaning of the idiom ‘under the weather’?
+
+Options:
+A) Feeling unwell
+B) Being outdoors
+C) Affected by climate change
+D) Enjoying the weather
+
+Correct Answer:
+A) Feeling unwell
+
+Detailed Solution:
+‘Under the weather’ means feeling ill or slightly sick.  It has nothing to do with climate enjoyment.
+
+---
+
+Question No: 75
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Idioms & Phrases
+Difficulty Level: Moderate
+
+Question:
+What is the meaning of the idiom ‘hit the nail on the head’?
+
+Options:
+A) Miss the point
+B) Do something precisely or accurately
+C) Hit someone
+D) Get injured
+
+Correct Answer:
+B) Do something precisely or accurately
+
+Detailed Solution:
+‘To hit the nail on the head’ means to describe exactly what is causing a situation or to perform an action perfectly.  The other options are unrelated.
+
+---
+
+For questions 76–80, fill in the blanks with the most appropriate option.
+
+Question No: 76
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Grammar – Prepositions
+Difficulty Level: Moderate
+
+Question:
+He has been working here ______ ten years.
+
+Options:
+A) since
+B) for
+C) in
+D) from
+
+Correct Answer:
+B) for
+
+Detailed Solution:
+We use ‘for’ with a period of time to indicate duration.  ‘He has been working here for ten years’ is correct.  ‘Since’ is used with a starting point.
+
+---
+
+Question No: 77
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Grammar – Subject–Verb Agreement
+Difficulty Level: Moderate
+
+Question:
+The book, along with the pens, ______ on the table.
+
+Options:
+A) is
+B) are
+C) were
+D) has
+
+Correct Answer:
+A) is
+
+Detailed Solution:
+When the subject consists of a singular noun followed by a phrase with ‘along with’, the verb agrees with the singular noun.  Therefore ‘The book, along with the pens, is on the table.’
+
+---
+
+Question No: 78
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Grammar – Subject–Verb Agreement
+Difficulty Level: Moderate
+
+Question:
+Neither the students nor the teacher ______ present.
+
+Options:
+A) are
+B) is
+C) were
+D) has
+
+Correct Answer:
+B) is
+
+Detailed Solution:
+In ‘neither/nor’ constructions, the verb agrees with the noun closer to it.  Here the noun closest to the verb is ‘teacher’ (singular), so the correct verb is ‘is’.
+
+---
+
+Question No: 79
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Grammar – Comparative Structures
+Difficulty Level: Moderate
+
+Question:
+The more he tried, ______ he succeeded.
+
+Options:
+A) little
+B) the less
+C) lesser
+D) few
+
+Correct Answer:
+B) the less
+
+Detailed Solution:
+The sentence uses a correlative comparative structure: ‘The more …, the less ….’  Hence the correct completion is ‘the less he succeeded.’
+
+---
+
+Question No: 80
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Grammar – Prepositions
+Difficulty Level: Moderate
+
+Question:
+She prefers tea ______ coffee.
+
+Options:
+A) to
+B) than
+C) over
+D) from
+
+Correct Answer:
+A) to
+
+Detailed Solution:
+The verb ‘prefer’ is followed by the preposition ‘to’ (e.g., prefer tea to coffee).  ‘Prefer than’ and ‘prefer over’ are incorrect in standard formal usage.
+
+---
+
+For questions 81–85, identify the part of the sentence that contains an error.
+
+Question No: 81
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Error Detection
+Difficulty Level: Moderate
+
+Question:
+Each of the students have completed their assignments.
+
+Options:
+A) Each
+B) of the students
+C) have
+D) completed their assignments
+
+Correct Answer:
+C) have
+
+Detailed Solution:
+In ‘each of the students’, the subject is singular (each), so the verb should be singular.  ‘Each of the students has completed their assignments’ is correct.  Therefore the error lies in using ‘have’ instead of ‘has’.
+
+---
+
+Question No: 82
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Error Detection
+Difficulty Level: Moderate
+
+Question:
+He is senior than me in age.
+
+Options:
+A) He is
+B) senior than
+C) me in
+D) age
+
+Correct Answer:
+B) senior than
+
+Detailed Solution:
+The correct comparative construction is ‘senior to’ not ‘senior than’.  Hence the phrase should be ‘senior to me in age’.  The error is in part B.
+
+---
+
+Question No: 83
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Error Detection
+Difficulty Level: Moderate
+
+Question:
+No sooner the train arrived, the passengers rushed to board.
+
+Options:
+A) No sooner
+B) the train arrived
+C) the passengers rushed
+D) to board
+
+Correct Answer:
+A) No sooner
+
+Detailed Solution:
+The correlative structure ‘No sooner … than …’ requires an auxiliary verb after ‘No sooner’.  The correct sentence is ‘No sooner did the train arrive than the passengers rushed to board.’  The error lies in the missing auxiliary and the word ‘than’.  Therefore part A contains the error.
+
+---
+
+Question No: 84
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Error Detection
+Difficulty Level: Moderate
+
+Question:
+Neither the dog nor the cats is hungry.
+
+Options:
+A) Neither
+B) the dog
+C) nor the cats
+D) is hungry
+
+Correct Answer:
+D) is hungry
+
+Detailed Solution:
+In ‘neither/nor’ constructions, the verb should agree with the subject closer to it.  Here the closer subject is ‘cats’ (plural).  Therefore the verb should be ‘are hungry’.  The error is in the verb form ‘is’.
+
+---
+
+Question No: 85
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Error Detection
+Difficulty Level: Moderate
+
+Question:
+Scarcely I had reached the station when the train left.
+
+Options:
+A) Scarcely
+B) I had reached
+C) the station
+D) when the train left
+
+Correct Answer:
+A) Scarcely
+
+Detailed Solution:
+In sentences beginning with negative adverbials like ‘Scarcely’, the auxiliary verb should precede the subject.  The correct sentence is ‘Scarcely had I reached the station when the train left.’  Hence the error is in the placement of ‘Scarcely’ relative to the auxiliary.
+
+---
+
+For questions 86–90, choose the best option to improve the underlined part of the sentence.
+
+Question No: 86
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Sentence Improvement
+Difficulty Level: Moderate
+
+Question:
+She did not know the truth, isn’t it?
+
+Options:
+A) did she?
+B) isn’t it?
+C) doesn’t she?
+D) will she?
+
+Correct Answer:
+A) did she?
+
+Detailed Solution:
+In negative statements, the tag uses the auxiliary verb in the affirmative.  Since ‘did not know’ is negative and the auxiliary is ‘did’, the correct tag is ‘did she?’  Thus the improved sentence is ‘She did not know the truth, did she?’
+
+---
+
+Question No: 87
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Sentence Improvement
+Difficulty Level: Moderate
+
+Question:
+He refused not to accept the gift.
+
+Options:
+A) He refused to accept the gift.
+B) He did not refuse to accept the gift.
+C) He refused to not accept the gift.
+D) No improvement
+
+Correct Answer:
+A) He refused to accept the gift.
+
+Detailed Solution:
+The sentence ‘He refused not to accept the gift’ uses a double negative and is awkward.  The correct sentence is ‘He refused to accept the gift.’
+
+---
+
+Question No: 88
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Sentence Improvement
+Difficulty Level: Moderate
+
+Question:
+I look forward to meet you.
+
+Options:
+A) looking forward to meet you
+B) look forward to meeting you
+C) look forward to meet with you
+D) No improvement
+
+Correct Answer:
+B) look forward to meeting you
+
+Detailed Solution:
+After the phrase ‘look forward to’, the verb takes the gerund form.  Therefore the correct sentence is ‘I look forward to meeting you.’
+
+---
+
+Question No: 89
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Sentence Improvement
+Difficulty Level: Moderate
+
+Question:
+Unless you do not finish your work, you cannot go.
+
+Options:
+A) Unless you do finish your work
+B) Unless you finish your work
+C) Unless you will finish your work
+D) No improvement
+
+Correct Answer:
+B) Unless you finish your work
+
+Detailed Solution:
+‘Unless’ implies a negative condition by itself; adding ‘do not’ creates a double negative.  The correct sentence is ‘Unless you finish your work, you cannot go.’
+
+---
+
+Question No: 90
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Sentence Improvement
+Difficulty Level: Moderate
+
+Question:
+Being a rainy day, we stayed indoors.
+
+Options:
+A) It being a rainy day, we stayed indoors.
+B) As it is a rainy day, we stayed indoors.
+C) Since it was a rainy day, we stayed indoors.
+D) No improvement
+
+Correct Answer:
+A) It being a rainy day, we stayed indoors.
+
+Detailed Solution:
+The sentence should have a proper subject for the participial phrase.  The correct form is ‘It being a rainy day, we stayed indoors.’  The other options do not follow the required structure or change the tense unnecessarily.
+
+---
+
+For questions 91–95, change the voice (Active/Passive) appropriately.
+
+Question No: 91
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Voice
+Difficulty Level: Tough
+
+Question:
+They will complete the project by tomorrow.
+
+Options:
+A) The project will complete by tomorrow.
+B) The project is completed by them by tomorrow.
+C) The project will be completed by them by tomorrow.
+D) The project will be complete by tomorrow by them.
+
+Correct Answer:
+C) The project will be completed by them by tomorrow.
+
+Detailed Solution:
+In the passive voice, the object of the active sentence becomes the subject, and an appropriate form of ‘be’ with past participle is used.  Thus ‘They will complete the project by tomorrow’ becomes ‘The project will be completed by them by tomorrow.’
+
+---
+
+Question No: 92
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Voice
+Difficulty Level: Tough
+
+Question:
+Someone has stolen my watch.
+
+Options:
+A) My watch had been stolen by someone.
+B) My watch has been stolen.
+C) My watch was stolen by someone.
+D) My watch has been stolen by someone.
+
+Correct Answer:
+D) My watch has been stolen by someone.
+
+Detailed Solution:
+The passive form retains the present perfect tense: ‘has been stolen’.  Including the agent is optional but here ‘by someone’ keeps the meaning complete.
+
+---
+
+Question No: 93
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Voice
+Difficulty Level: Tough
+
+Question:
+Did he invite you to the party?
+
+Options:
+A) Were you invited to the party by him?
+B) Are you invited by him?
+C) You were invited to the party by him?
+D) Were you invited by him to the party?
+
+Correct Answer:
+A) Were you invited to the party by him?
+
+Detailed Solution:
+For an interrogative sentence in the simple past tense, the passive voice uses ‘were/was’ + past participle, and the sentence order changes accordingly.  ‘Did he invite you to the party?’ becomes ‘Were you invited to the party by him?’
+
+---
+
+Question No: 94
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Voice
+Difficulty Level: Tough
+
+Question:
+Let me do this work.
+
+Options:
+A) Let this work to be done by me.
+B) Let this work be done by me.
+C) Let this work been done by me.
+D) Let this work being done by me.
+
+Correct Answer:
+B) Let this work be done by me.
+
+Detailed Solution:
+Imperative sentences using ‘let’ are transformed by moving the object between ‘let’ and the infinitive.  ‘Let this work be done by me’ is the correct passive construction.
+
+---
+
+Question No: 95
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Voice
+Difficulty Level: Tough
+
+Question:
+We are watching the match keenly.
+
+Options:
+A) The match is watched by us keenly.
+B) The match is being watched keenly by us.
+C) The match was watched by us keenly.
+D) The match is being keenly watched us by.
+
+Correct Answer:
+B) The match is being watched keenly by us.
+
+Detailed Solution:
+The sentence is in the present continuous tense.  Its passive voice form uses ‘is being’ + past participle.  Thus the correct passive sentence is ‘The match is being watched keenly by us.’
+
+---
+
+For questions 96–100, convert the direct speech into indirect speech.
+
+Question No: 96
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Reported Speech
+Difficulty Level: Tough
+
+Question:
+She said, “I have been waiting for you.”
+
+Options:
+A) She said that she has been waiting for me.
+B) She said that she had been waiting for me.
+C) She said that she had waited for me.
+D) She said she has waited for me.
+
+Correct Answer:
+B) She said that she had been waiting for me.
+
+Detailed Solution:
+In indirect speech, the present perfect continuous tense changes to past perfect continuous when the reporting verb is in the past tense.  Additionally, pronouns are changed appropriately (you → me).  Therefore the correct form is ‘She said that she had been waiting for me.’
+
+---
+
+Question No: 97
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Reported Speech
+Difficulty Level: Tough
+
+Question:
+He said to me, “Do you know the way?”
+
+Options:
+A) He asked me if I knew the way.
+B) He asked me do I know the way.
+C) He asked me whether I know the way.
+D) He asked me if I know the way.
+
+Correct Answer:
+A) He asked me if I knew the way.
+
+Detailed Solution:
+In reporting yes/no questions, ‘asked if/whether’ is used and the verb tense changes from present simple to past simple.  Thus the correct form is ‘He asked me if I knew the way.’
+
+---
+
+Question No: 98
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Reported Speech
+Difficulty Level: Tough
+
+Question:
+They said, “We shall never surrender.”
+
+Options:
+A) They said that they will never surrender.
+B) They said that they would never surrender.
+C) They said they shall never surrender.
+D) They said that they never shall surrender.
+
+Correct Answer:
+B) They said that they would never surrender.
+
+Detailed Solution:
+When reporting statements containing ‘shall’ or ‘will’, these modals change to ‘would’ in indirect speech.  Therefore the correct reported speech is ‘They said that they would never surrender.’
+
+---
+
+Question No: 99
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Reported Speech
+Difficulty Level: Tough
+
+Question:
+The teacher said to the student, “Don’t talk in the class.”
+
+Options:
+A) The teacher told the student that he should not talk in the class.
+B) The teacher instructed the student not to talk in the class.
+C) The teacher said to the student not to talk in the class.
+D) The teacher told the student to not talk in the class.
+
+Correct Answer:
+B) The teacher instructed the student not to talk in the class.
+
+Detailed Solution:
+In indirect speech, imperatives are expressed with ‘to’ or ‘not to’ and an appropriate reporting verb such as ‘told’ or ‘instructed’.  ‘The teacher instructed the student not to talk in the class’ correctly conveys the instruction.
+
+---
+
+Question No: 100
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Reported Speech
+Difficulty Level: Tough
+
+Question:
+Ram said, “Wow! What a beautiful painting!”
+
+Options:
+A) Ram exclaimed that it was a beautiful painting.
+B) Ram exclaimed with admiration that it is a very beautiful painting.
+C) Ram exclaimed with admiration that it was a very beautiful painting.
+D) Ram exclaimed that it is a very beautiful painting.
+
+Correct Answer:
+C) Ram exclaimed with admiration that it was a very beautiful painting.
+
+Detailed Solution:
+Exclamatory sentences in direct speech are reported using ‘exclaimed with admiration’ or similar expressions, and verb tenses shift back.  ‘Wow! What a beautiful painting!’ becomes ‘Ram exclaimed with admiration that it was a very beautiful painting.’
+
+---
+
+For questions 101–105, arrange the given sentences to form a coherent paragraph and choose the option that represents the correct order.
+
+Question No: 101
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Para Jumbles
+Difficulty Level: Tough
+
+Question:
+Arrange the following four sentences to form a coherent paragraph.
+P. However, excessive use of chemical fertilisers leads to soil degradation.
+Q. Farmers often rely on fertilisers to increase crop yields.
+R. Organic farming can be a sustainable alternative.
+S. Soil fertility is essential for agriculture.
+
+Options:
+A) S, Q, P, R
+B) S, Q, R, P
+C) Q, P, S, R
+D) Q, S, P, R
+
+Correct Answer:
+A) S, Q, P, R
+
+Detailed Solution:
+The logical flow begins with the general idea: ‘Soil fertility is essential for agriculture.’  Next, the specific practice: ‘Farmers often rely on fertilisers to increase crop yields.’  Then the consequence: ‘However, excessive use of chemical fertilisers leads to soil degradation.’  Finally, the solution: ‘Organic farming can be a sustainable alternative.’  Thus the correct arrangement is S → Q → P → R.
+
+---
+
+Question No: 102
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Para Jumbles
+Difficulty Level: Tough
+
+Question:
+Arrange the following sentences in a logical sequence to form a meaningful paragraph.
+P. The discovery of penicillin marked a turning point in medical history.
+Q. Before this discovery, bacterial infections often led to death.
+R. It was accidentally discovered by Alexander Fleming.
+S. Since then, antibiotics have saved millions of lives.
+
+Options:
+A) Q, P, R, S
+B) R, Q, P, S
+C) P, Q, R, S
+D) Q, R, P, S
+
+Correct Answer:
+D) Q, R, P, S
+
+Detailed Solution:
+The logical order begins with the problem: ‘Before this discovery, bacterial infections often led to death’ (Q).  Then the discovery: ‘It was accidentally discovered by Alexander Fleming’ (R).  Next, the significance: ‘The discovery of penicillin marked a turning point’ (P).  Finally, the consequence: ‘Since then, antibiotics have saved millions of lives’ (S).  Thus the sequence is Q → R → P → S.
+
+---
+
+Question No: 103
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Para Jumbles
+Difficulty Level: Tough
+
+Question:
+Rearrange the following sentences to form a coherent paragraph.
+P. Meditation improves mental health by reducing stress.
+Q. It is a practice that focuses on mindfulness and breathing.
+R. Many people find it helpful for achieving inner peace.
+S. As a result, meditation is popular worldwide.
+
+Options:
+A) Q, P, R, S
+B) P, Q, R, S
+C) R, P, Q, S
+D) Q, R, P, S
+
+Correct Answer:
+A) Q, P, R, S
+
+Detailed Solution:
+The definition comes first: ‘It is a practice that focuses on mindfulness and breathing’ (Q).  Next, its benefit: ‘Meditation improves mental health by reducing stress’ (P).  Then personal appeal: ‘Many people find it helpful for achieving inner peace’ (R).  Lastly, the popularity: ‘As a result, meditation is popular worldwide’ (S).  The order is Q → P → R → S.
+
+---
+
+Question No: 104
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Para Jumbles
+Difficulty Level: Tough
+
+Question:
+Arrange the sentences logically to form a meaningful paragraph.
+P. Learning a new language widens your perspective.
+Q. It allows you to connect with people from different cultures.
+R. Moreover, it enhances cognitive abilities.
+S. Therefore, bilingualism is increasingly encouraged.
+
+Options:
+A) Q, P, R, S
+B) P, Q, R, S
+C) P, R, Q, S
+D) R, P, Q, S
+
+Correct Answer:
+B) P, Q, R, S
+
+Detailed Solution:
+The passage begins with the general benefit: ‘Learning a new language widens your perspective’ (P).  Then it explains how: ‘It allows you to connect with people from different cultures’ (Q).  Another benefit: ‘Moreover, it enhances cognitive abilities’ (R).  Finally, the conclusion: ‘Therefore, bilingualism is increasingly encouraged’ (S).  The logical sequence is P → Q → R → S.
+
+---
+
+Question No: 105
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Para Jumbles
+Difficulty Level: Tough
+
+Question:
+Arrange the sentences below to form a meaningful paragraph.
+P. Libraries are repositories of knowledge.
+Q. They also foster a sense of community.
+R. People come together to share ideas and learn.
+S. Thus, libraries play a vital role in society.
+
+Options:
+A) P, R, Q, S
+B) P, Q, R, S
+C) R, Q, P, S
+D) Q, P, R, S
+
+Correct Answer:
+B) P, Q, R, S
+
+Detailed Solution:
+The paragraph begins by stating what libraries are (P).  It then mentions another function: ‘They also foster a sense of community’ (Q).  It explains how: ‘People come together to share ideas and learn’ (R).  Finally, it concludes: ‘Thus, libraries play a vital role in society’ (S).  So the sequence is P → Q → R → S.
+
+---
+
+### SECTION‑II: Module‑II – General Awareness (25 Questions)
+
+Question No: 106
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Polity – Women’s Reservation Bill
+Difficulty Level: Moderate
+
+Question:
+The Women’s Reservation Bill, 2023 proposes to reserve what fraction of seats in the Lok Sabha and state legislative assemblies for women?
+
+Options:
+A) One‑half of the seats
+B) One‑third of the seats
+C) One‑fourth of the seats
+D) One‑fifth of the seats
+
+Correct Answer:
+B) One‑third of the seats
+
+Detailed Solution:
+The Constitution (One Hundred and Twenty‑Eighth Amendment) Bill, 2023 proposes reserving one‑third (33%) of seats in the House of the People and state legislatures for womenegazette.gov.in/WriteReadData/2023/248832.pdf#:~:text=%E2%80%9C330A,in%20the%20Legislative%20Assembly%20of.  This is intended to enhance women’s representation in legislatures.
+
+---
+
+Question No: 107
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Polity – Women’s Reservation Bill
+Difficulty Level: Moderate
+
+Question:
+According to the Women’s Reservation Bill, the reservation of seats for women will cease how many years after the commencement of the constitutional amendment?
+
+Options:
+A) 10 years
+B) 12 years
+C) 15 years
+D) 20 years
+
+Correct Answer:
+C) 15 years
+
+Detailed Solution:
+The Constitution (One Hundred and Twenty‑Eighth Amendment) Bill states that the reservation of seats for women will cease 15 years after the commencement of the amendmentegazette.gov.in/WriteReadData/2023/248832.pdf#:~:text=%E2%80%9C334A,of%20fifteen%20years%20from%20such.  This sunset clause is included in the bill.
+
+---
+
+Question No: 108
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Economics – Union Budget 2024–25
+Difficulty Level: Moderate
+
+Question:
+As per the Union Budget 2024–25, how many high‑yielding, climate‑resilient crop varieties were released?
+
+Options:
+A) 50
+B) 73
+C) 109
+D) 150
+
+Correct Answer:
+C) 109
+
+Detailed Solution:
+The Finance Minister’s Budget 2024–25 speech mentioned that 109 high‑yielding and climate‑resilient crop varieties were released to improve agricultural productivityhttps://www.pib.gov.in/PressReleasePage.aspx#:~:text=NEW%20109%20HIGH,RELEASED%20FOR%20CULTIVATION%20BY%20FARMERS.  This is part of the government’s focus on agricultural resilience and farmers’ welfare.
+
+---
+
+Question No: 109
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Economics – Union Budget 2024–25
+Difficulty Level: Moderate
+
+Question:
+In the Union Budget 2024–25, the maximum limit for collateral‑free Mudra loans was raised to what amount?
+
+Options:
+A) ₹10 lakh
+B) ₹15 lakh
+C) ₹20 lakh
+D) ₹25 lakh
+
+Correct Answer:
+C) ₹20 lakh
+
+Detailed Solution:
+The Budget 2024–25 increased the maximum limit for collateral‑free loans under the Pradhan Mantri Mudra Yojana from ₹10 lakh to ₹20 lakhhttps://www.pib.gov.in/PressReleasePage.aspx#:~:text=THE%20LIMIT%20OF%20MUDRA%20LOANS,THE%20CURRENT%20%C2%A0%E2%82%B9%2010%20LAKH.  This aims to provide additional credit to small businesses.
+
+---
+
+Question No: 110
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Economics – Union Budget 2024–25
+Difficulty Level: Moderate
+
+Question:
+Which standard deduction for salaried taxpayers was raised to ₹75,000 in the Union Budget 2024–25?
+
+Options:
+A) Housing loan deduction
+B) Education allowance deduction
+C) Standard deduction for salary
+D) Travel allowance deduction
+
+Correct Answer:
+C) Standard deduction for salary
+
+Detailed Solution:
+The Budget speech increased the standard deduction for salaried taxpayers from ₹50,000 to ₹75,000https://www.pib.gov.in/PressReleasePage.aspx#:~:text=MAJOR%20RELIEF%20TO%204%20CRORE,AND%20PENSIONERS%20IN%20INCOME%20TAX.  This relief is given to taxpayers under the new personal income‑tax regime.
+
+---
+
+Question No: 111
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Economics – Union Budget 2024–25
+Difficulty Level: Moderate
+
+Question:
+The Union Budget 2024–25 proposed an internship scheme to provide on‑the‑job training to how many youths in the next five years?
+
+Options:
+A) 50 lakh youths
+B) 1 crore youths
+C) 2 crore youths
+D) 5 crore youths
+
+Correct Answer:
+B) 1 crore youths
+
+Detailed Solution:
+The Budget proposed that an internship scheme will provide on‑the‑job training to 1 crore youth in the next five yearshttps://www.pib.gov.in/PressReleasePage.aspx#:~:text=THE%20LIMIT%20OF%20MUDRA%20LOANS,THE%20CURRENT%20%C2%A0%E2%82%B9%2010%20LAKH.  This is part of the government’s employment generation initiatives.
+
+---
+
+Question No: 112
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Economics – Housing Schemes
+Difficulty Level: Moderate
+
+Question:
+Under the PM Awas Yojana (Urban) 2.0 announced in Budget 2024–25, the government plans to build how many houses for the urban poor?
+
+Options:
+A) 50 lakh houses
+B) 1 crore houses
+C) 1.5 crore houses
+D) 2 crore houses
+
+Correct Answer:
+B) 1 crore houses
+
+Detailed Solution:
+The Budget speech states that the new PM Awas Yojana (Urban) 2.0 aims to construct 1 crore houses for the urban poorhttps://www.pib.gov.in/PressReleasePage.aspx#:~:text=UNDER%20PM%20AWAS%20YOJANA%20URBAN,OF%20%C2%A0%E2%82%B9%2010%20LAKH%20CRORE.  This scheme continues the government’s focus on affordable housing.
+
+---
+
+Question No: 113
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Schemes – PM Vishwakarma
+Difficulty Level: Moderate
+
+Question:
+The PM Vishwakarma scheme, launched in September 2023, aims to support artisans and craftsmen engaged in how many traditional trades?
+
+Options:
+A) 12 trades
+B) 18 trades
+C) 20 trades
+D) 24 trades
+
+Correct Answer:
+B) 18 trades
+
+Detailed Solution:
+The PM Vishwakarma scheme covers 18 traditional trades, including carpenters, boat makers, blacksmiths, goldsmiths, potters and othershttps://www.ibef.org/government-schemes/pm-vishwakarma-yojana#:~:text=PM%20Vishwakarma%2C%20a%20Central%20Sector,local%20products%2C%20art%2C%20and%20crafts.  The scheme provides financial assistance and skill training to these artisans.
+
+---
+
+Question No: 114
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Schemes – PM Vishwakarma
+Difficulty Level: Moderate
+
+Question:
+Under the PM Vishwakarma scheme, beneficiaries can avail collateral‑free loans up to what amount at a concessional interest rate?
+
+Options:
+A) ₹1 lakh
+B) ₹2 lakh
+C) ₹3 lakh
+D) ₹5 lakh
+
+Correct Answer:
+C) ₹3 lakh
+
+Detailed Solution:
+The scheme provides artisans with collateral‑free loans of up to ₹3 lakh at a concessional interest rate of 5%, with the government providing an 8% subsidy on the interesthttps://www.ibef.org/government-schemes/pm-vishwakarma-yojana#:~:text=Toolkit%20Incentive%3A%20A%20toolkit%20incentive,beginning%20of%20basic%20skill%20training.
+
+---
+
+Question No: 115
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Schemes – PM Vishwakarma
+Difficulty Level: Moderate
+
+Question:
+As part of the PM Vishwakarma scheme, how much daily stipend is provided to artisans during skill training?
+
+Options:
+A) ₹200 per day
+B) ₹300 per day
+C) ₹500 per day
+D) ₹1,000 per day
+
+Correct Answer:
+C) ₹500 per day
+
+Detailed Solution:
+Under PM Vishwakarma, artisans receive skill upgradation training with a stipend of ₹500 per dayhttps://www.ibef.org/government-schemes/pm-vishwakarma-yojana#:~:text=Toolkit%20Incentive%3A%20A%20toolkit%20incentive,beginning%20of%20basic%20skill%20training.  This support enables them to hone their craft while covering daily expenses.
+
+---
+
+Question No: 116
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Schemes – PM Vishwakarma
+Difficulty Level: Tough
+
+Question:
+What is the toolkit incentive provided to artisans under the PM Vishwakarma scheme?
+
+Options:
+A) ₹5,000
+B) ₹10,000
+C) ₹15,000
+D) ₹20,000
+
+Correct Answer:
+C) ₹15,000
+
+Detailed Solution:
+The scheme offers a toolkit incentive of ₹15,000 to each beneficiaryhttps://www.ibef.org/government-schemes/pm-vishwakarma-yojana#:~:text=Skill%20Upgrade%3A%20Basic%20training%20of,500%29%20per%20day.  This helps artisans acquire modern tools to improve productivity.
+
+---
+
+Question No: 117
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Schemes – PM Vishwakarma
+Difficulty Level: Tough
+
+Question:
+Under the PM Vishwakarma scheme, what is the digital transaction incentive provided to artisans per transaction (up to 100 transactions per month)?
+
+Options:
+A) 50 paise per transaction
+B) Re 1 per transaction
+C) ₹2 per transaction
+D) ₹5 per transaction
+
+Correct Answer:
+B) Re 1 per transaction
+
+Detailed Solution:
+Artisans are provided a digital transaction incentive of Re 1 for every digital transaction, up to 100 transactions per monthhttps://www.ibef.org/government-schemes/pm-vishwakarma-yojana#:~:text=Incentive%20for%20Digital%20Transaction%3A%20An,each%20digital%20payout%20or%20receipt.  This encourages cashless payments.
+
+---
+
+Question No: 118
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Science – Space (Gaganyaan)
+Difficulty Level: Tough
+
+Question:
+According to ISRO’s Gaganyaan mission overview, the mission aims to demonstrate human spaceflight capability by launching how many crew members to what altitude and for how many days?
+
+Options:
+A) Two crew members to 200 km for 7 days
+B) Two crew members to 400 km for 3 days
+C) Three crew members to 400 km for 3 days
+D) Three crew members to 200 km for 5 days
+
+Correct Answer:
+C) Three crew members to 400 km for 3 days
+
+Detailed Solution:
+ISRO’s Gaganyaan programme aims to demonstrate human spaceflight capability by launching a crew of three members to an orbit of about 400 km for three days and bringing them safely back to Earthhttps://www.isro.gov.in/Gaganyaan.html#:~:text=Gaganyaan.  Hence the correct answer is option C.
+
+---
+
+Question No: 119
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Science – Space (Gaganyaan)
+Difficulty Level: Tough
+
+Question:
+Which launch vehicle is being human‑rated for India’s Gaganyaan mission?
+
+Options:
+A) PSLV
+B) GSLV Mk III (LVM3)
+C) PSLV Mk II
+D) GSLV Mk II
+
+Correct Answer:
+B) GSLV Mk III (LVM3)
+
+Detailed Solution:
+ISRO is human‑rating its GSLV Mk III (also referred to as the LVM3 or HLVM3) launch vehicle for the Gaganyaan missionhttps://www.isro.gov.in/Gaganyaan.html#:~:text=Human%20rated%20LVM3%20.  This rocket will carry the crew module to orbit.
+
+---
+
+Question No: 120
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Science – Space (Gaganyaan)
+Difficulty Level: Tough
+
+Question:
+During the Gaganyaan TV‑D1 test flight (Abort Mission‑1), the crew module was taken to approximately what altitude to validate the crew escape system?
+
+Options:
+A) 5 km
+B) 10 km
+C) 17 km
+D) 25 km
+
+Correct Answer:
+C) 17 km
+
+Detailed Solution:
+The first Test Vehicle Abort Mission (TV‑D1) carried a simulated crew module to about 17 km altitude to demonstrate the crew escape systemhttps://www.pib.gov.in/PressReleasePage.aspx#:~:text=Test%20flight%20success%20of%C2%A0Abort%20Mission,parachute%20for%20its%20splash%20down.  This test is a key milestone toward human spaceflight.
+
+---
+
+Question No: 121
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Science – Space (Gaganyaan)
+Difficulty Level: Tough
+
+Question:
+According to the Press Information Bureau release on the TV‑D1 test flight, India aims to send its first human space mission under Gaganyaan around which year?
+
+Options:
+A) 2024
+B) 2025
+C) 2026
+D) 2027
+
+Correct Answer:
+B) 2025
+
+Detailed Solution:
+The PIB release on the Gaganyaan test flight mentions that the mission aims to send an Indian astronaut to space on a made‑in‑India rocket around the year 2025https://www.pib.gov.in/PressReleasePage.aspx#:~:text=exercise%20tested%20the%20performance%20of,to%20a%20malfunction%2C%20he%20added.  Therefore the correct option is 2025.
+
+---
+
+Question No: 122
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Science – Space (Chandrayaan‑3)
+Difficulty Level: Tough
+
+Question:
+India’s Chandrayaan‑3 mission achieved the first soft landing near which lunar region and on what date?
+
+Options:
+A) Near the lunar equator on 20 July 2023
+B) Near the lunar north pole on 15 August 2023
+C) Near the lunar south pole on 23 August 2023
+D) Near the lunar south pole on 5 September 2023
+
+Correct Answer:
+C) Near the lunar south pole on 23 August 2023
+
+Detailed Solution:
+Chandrayaan‑3 successfully landed its lander module near the lunar south pole on 23 August 2023, making India the first country to soft‑land in that regionic.pib.gov.in/WriteReadData/specificdocs/documents/2023/aug/doc2023825244401.pdf#:~:text=On%20Wednesday%2C%20August%2023%2C%202023%2C,3%27s%20triumph%20mirrors%20the.
+
+---
+
+Question No: 123
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Science – Space (Chandrayaan‑3)
+Difficulty Level: Tough
+
+Question:
+What was the primary objective of the Chandrayaan‑3 mission?
+
+Options:
+A) To launch a solar observatory
+B) To demonstrate safe and soft landing and rover operations on the lunar surface
+C) To study the Martian atmosphere
+D) To test nuclear propulsion
+
+Correct Answer:
+B) To demonstrate safe and soft landing and rover operations on the lunar surface
+
+Detailed Solution:
+Chandrayaan‑3’s main objective was to demonstrate a safe and soft landing on the Moon and to deploy a rover to explore the lunar surfaceic.pib.gov.in/WriteReadData/specificdocs/documents/2023/aug/doc2023825244401.pdf#:~:text=Objectives%20of%20Chandrayaan,situ%20scientific%20experiments.  It was not designed for solar or Mars missions.
+
+---
+
+Question No: 124
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Science – Space (Chandrayaan‑3)
+Difficulty Level: Tough
+
+Question:
+Which payload on the Chandrayaan‑3 lander is designed to measure the lunar surface thermal properties?
+
+Options:
+A) ILSA – Instrument for Lunar Seismic Activity
+B) ChaSTE – Chandra’s Surface Thermophysical Experiment
+C) LP – Langmuir Probe
+D) RAMBHA – Radio Anatomy of Moon Bound Hypersensitive Ionosphere and Atmosphere
+
+Correct Answer:
+B) ChaSTE – Chandra’s Surface Thermophysical Experiment
+
+Detailed Solution:
+The ChaSTE (Chandra’s Surface Thermophysical Experiment) payload on the Chandrayaan‑3 lander measures the temperature and thermal conductivity of the lunar surfaceic.pib.gov.in/WriteReadData/specificdocs/documents/2023/aug/doc2023825244401.pdf#:~:text=Lander%20payloads%3A%20Chandra%E2%80%99s%20Surface%20Thermophysical,LP%29%20to.  The other instruments perform different functions: ILSA measures lunar quakes, LP studies the plasma environment, and RAMBHA analyses the ionosphere.
+
+---
+
+Question No: 125
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Science – Space (Aditya‑L1)
+Difficulty Level: Tough
+
+Question:
+India’s Aditya‑L1 mission is planned to be placed at which Lagrange point, and why is this location chosen?
+
+Options:
+A) L2; for continuous observation of the Moon
+B) L3; for gravitational balance between Earth and Sun
+C) L1; to continuously observe the Sun without obstruction from eclipses
+D) L4; to monitor asteroids
+
+Correct Answer:
+C) L1; to continuously observe the Sun without obstruction from eclipses
+
+Detailed Solution:
+The Aditya‑L1 mission will be placed in a halo orbit around the Lagrange point 1 (L1), located about 1.5 million km from Earth.  At L1, the spacecraft can continuously observe the Sun without interruptions from eclipses or occultationswww.isro.gov.in/media_isro/pdf/Aditya_L1_second_booklet.pdf#:~:text=placed%20in%20a%20halo%20orbit,in%20the%20interplanetary%20medium%2C%20etc.  This provides an unobstructed view of the solar disc.
+
+---
+
+Question No: 126
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Science – Space (Aditya‑L1)
+Difficulty Level: Tough
+
+Question:
+How many payloads does the Aditya‑L1 mission carry, and what are their primary objectives?
+
+Options:
+A) Five payloads; all for observing the Earth’s atmosphere
+B) Seven payloads; four for solar observation and three for in‑situ measurements of the solar wind
+C) Seven payloads; all for deep space communication
+D) Eight payloads; for planet detection
+
+Correct Answer:
+B) Seven payloads; four for solar observation and three for in‑situ measurements of the solar wind
+
+Detailed Solution:
+Aditya‑L1 carries seven scientific payloads.  Four of these directly observe the Sun’s photosphere, chromosphere and corona, while the remaining three perform in‑situ measurements of particles and fields in the solar windwww.isro.gov.in/media_isro/pdf/Aditya_L1_second_booklet.pdf#:~:text=placed%20in%20a%20halo%20orbit,in%20the%20interplanetary%20medium%2C%20etc.
+
+---
+
+Question No: 127
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Polity – Fundamental Rights
+Difficulty Level: Tough
+
+Question:
+Article 14 of the Constitution of India guarantees which fundamental right to all persons within the territory of India?
+
+Options:
+A) Right to freedom of speech
+B) Equality before the law and equal protection of the laws
+C) Prohibition of discrimination on grounds of religion
+D) Protection against arrest and detention
+
+Correct Answer:
+B) Equality before the law and equal protection of the laws
+
+Detailed Solution:
+Article 14 provides that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of Indiawww.indiacode.nic.in/bitstream/123456789/16124/1/the_constitution_of_india.pdf#:~:text=Right%20to%20Equality%2014,of%20religion%2C%20race%2C%20caste%2C%20sex.  This is a key fundamental right ensuring equal treatment.
+
+---
+
+Question No: 128
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Science – Nutrition
+Difficulty Level: Tough
+
+Question:
+Which disease results from a severe deficiency of vitamin C?
+
+Options:
+A) Rickets
+B) Scurvy
+C) Pellagra
+D) Beriberi
+
+Correct Answer:
+B) Scurvy
+
+Detailed Solution:
+Scurvy is caused by a severe deficiency of vitamin C.  It leads to symptoms such as anaemia, gum disease and fatiguehttps://medlineplus.gov/ency/article/002404.htm#:~:text=Too%20little%20vitamin%20C%20can,and%20symptoms%20of%20deficiency%2C%20including.  Rickets is linked to vitamin D deficiency, pellagra to niacin deficiency, and beriberi to thiamine deficiency.
+
+---
+
+Question No: 129
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Science – Nutrition
+Difficulty Level: Tough
+
+Question:
+Rickets, a disease that causes soft and weak bones in children, is primarily due to the deficiency of which nutrient?
+
+Options:
+A) Vitamin A
+B) Vitamin B12
+C) Vitamin C
+D) Vitamin D
+
+Correct Answer:
+D) Vitamin D
+
+Detailed Solution:
+Rickets occurs when children do not get enough vitamin D, which is essential for the absorption of calcium and phosphorus.  Lack of vitamin D leads to soft, weak boneshttps://medlineplus.gov/rickets.html#:~:text=Rickets%20causes%20soft%2C%20weak%20bones,phosphorus%20levels%20are%20too%20low.
+
+---
+
+Question No: 130
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Science – Physiology
+Difficulty Level: Tough
+
+Question:
+What is the normal pH range of human blood?
+
+Options:
+A) 6.5 – 7.0
+B) 7.35 – 7.45
+C) 7.8 – 8.4
+D) 8.5 – 9.0
+
+Correct Answer:
+B) 7.35 – 7.45
+
+Detailed Solution:
+Blood is slightly basic, with a normal pH range of about 7.35 to 7.45https://www.merckmanuals.com/home/hormonal-and-metabolic-disorders/acid-base-balance/overview-of-acid-base-balance#:~:text=%28degree%20of%20acidity%20or%20alkalinity%29,40.  The body tightly regulates this pH to maintain proper physiological function.
+
+---
+
+### SESSION‑III
+
+### SECTION‑III: Module‑I – Computer Knowledge (20 Questions)
+
+Question No: 131
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Hardware Basics
+Difficulty Level: Moderate
+
+Question:
+Which part of a computer is considered the ‘brain’ of the computer?
+
+Options:
+A) RAM
+B) Hard disk
+C) CPU
+D) Monitor
+
+Correct Answer:
+C) CPU
+
+Detailed Solution:
+The Central Processing Unit (CPU) performs most of the processing inside a computer and is often referred to as its ‘brain’.  RAM is temporary memory, the hard disk is storage, and the monitor is an output device.
+
+---
+
+Question No: 132
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Memory
+Difficulty Level: Moderate
+
+Question:
+Which type of memory is non‑volatile and retains data even when the power is turned off?
+
+Options:
+A) RAM
+B) ROM
+C) Cache
+D) Register
+
+Correct Answer:
+B) ROM
+
+Detailed Solution:
+ROM (Read‑Only Memory) is non‑volatile and retains its contents when the computer is powered off.  RAM and cache are volatile, and registers are temporary storage within the CPU.
+
+---
+
+Question No: 133
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Networking
+Difficulty Level: Moderate
+
+Question:
+Which device converts digital signals to analog signals and vice versa for transmission over telephone lines?
+
+Options:
+A) Router
+B) Hub
+C) Modem
+D) Switch
+
+Correct Answer:
+C) Modem
+
+Detailed Solution:
+A modem (modulator‑demodulator) converts digital signals from a computer into analog signals for transmission over telephone lines and converts incoming analog signals back into digital form.
+
+---
+
+Question No: 134
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Input and Output Devices
+Difficulty Level: Moderate
+
+Question:
+Which of the following is not an input device?
+
+Options:
+A) Keyboard
+B) Mouse
+C) Monitor
+D) Scanner
+
+Correct Answer:
+C) Monitor
+
+Detailed Solution:
+Keyboard and mouse are input devices.  A scanner also inputs data (images) into the computer.  A monitor is an output device that displays information.
+
+---
+
+Question No: 135
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Networking Protocols
+Difficulty Level: Moderate
+
+Question:
+What does ‘HTTP’ stand for?
+
+Options:
+A) Hypertext Transfer Protocol
+B) High Transmission Text Protocol
+C) Hyperlink Transmission Protocol
+D) High Transfer Text Program
+
+Correct Answer:
+A) Hypertext Transfer Protocol
+
+Detailed Solution:
+HTTP stands for Hypertext Transfer Protocol.  It is the foundation of data communication on the World Wide Web.
+
+---
+
+Question No: 136
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: MS Office – Excel
+Difficulty Level: Moderate
+
+Question:
+In MS Excel, which function is used to count the number of numeric values in a range?
+
+Options:
+A) SUM
+B) COUNT
+C) MAX
+D) AVERAGE
+
+Correct Answer:
+B) COUNT
+
+Detailed Solution:
+The COUNT function counts the number of cells that contain numbers in a given range.  SUM adds numbers, MAX finds the largest number, and AVERAGE finds the mean.
+
+---
+
+Question No: 137
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Networking Topologies
+Difficulty Level: Moderate
+
+Question:
+Which network topology connects all devices to a central hub?
+
+Options:
+A) Bus topology
+B) Ring topology
+C) Star topology
+D) Mesh topology
+
+Correct Answer:
+C) Star topology
+
+Detailed Solution:
+In a star topology, each device is connected to a central hub or switch, forming a star‑shaped configuration.
+
+---
+
+Question No: 138
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Internet Protocols
+Difficulty Level: Moderate
+
+Question:
+Which protocol is used for sending email over the Internet?
+
+Options:
+A) HTTP
+B) FTP
+C) SMTP
+D) SNMP
+
+Correct Answer:
+C) SMTP
+
+Detailed Solution:
+SMTP (Simple Mail Transfer Protocol) is used to send email messages between servers.  HTTP is for web pages, FTP for file transfer, and SNMP for network management.
+
+---
+
+Question No: 139
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: MS Office – Word
+Difficulty Level: Tough
+
+Question:
+In MS Word, which keyboard shortcut is used to make selected text bold?
+
+Options:
+A) Ctrl + I
+B) Ctrl + B
+C) Ctrl + U
+D) Ctrl + S
+
+Correct Answer:
+B) Ctrl + B
+
+Detailed Solution:
+Ctrl + B toggles bold formatting for the selected text in MS Word.  Ctrl + I italicises, Ctrl + U underlines, and Ctrl + S saves the document.
+
+---
+
+Question No: 140
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Operating Systems
+Difficulty Level: Tough
+
+Question:
+Which system software manages the hardware and software resources of a computer and provides services to applications?
+
+Options:
+A) Compiler
+B) Database
+C) Operating System
+D) Browser
+
+Correct Answer:
+C) Operating System
+
+Detailed Solution:
+An operating system (OS) acts as an intermediary between users and the computer hardware.  It manages hardware resources and provides services to application software.  Compilers, databases and browsers are application software.
+
+---
+
+Question No: 141
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: SQL Basics
+Difficulty Level: Tough
+
+Question:
+Which SQL command is used to retrieve data from a database table?
+
+Options:
+A) UPDATE
+B) DELETE
+C) SELECT
+D) INSERT
+
+Correct Answer:
+C) SELECT
+
+Detailed Solution:
+The SELECT statement is used to query and retrieve data from a database.  UPDATE modifies existing data, DELETE removes rows, and INSERT adds new rows.
+
+---
+
+Question No: 142
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Networking
+Difficulty Level: Tough
+
+Question:
+A collection of interconnected computers within a limited area, such as a school or office building, is called a ______.
+
+Options:
+A) WAN
+B) LAN
+C) DNS
+D) HTTP
+
+Correct Answer:
+B) LAN
+
+Detailed Solution:
+A Local Area Network (LAN) connects computers within a small geographical area.  WAN stands for Wide Area Network, DNS is a domain name system, and HTTP is a web protocol.
+
+---
+
+Question No: 143
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Memory
+Difficulty Level: Tough
+
+Question:
+Which of the following types of memory is volatile?
+
+Options:
+A) ROM
+B) Flash memory
+C) RAM
+D) Hard disk
+
+Correct Answer:
+C) RAM
+
+Detailed Solution:
+RAM (Random Access Memory) is volatile, meaning it loses its contents when power is turned off.  ROM, flash memory and hard disks are non‑volatile.
+
+---
+
+Question No: 144
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Operating Systems – Shortcuts
+Difficulty Level: Tough
+
+Question:
+Which key combination in Windows opens the Task Manager directly?
+
+Options:
+A) Ctrl + Alt + Del
+B) Ctrl + Shift + Esc
+C) Ctrl + Esc
+D) Ctrl + F4
+
+Correct Answer:
+B) Ctrl + Shift + Esc
+
+Detailed Solution:
+Ctrl + Shift + Esc directly opens the Task Manager in Windows.  Ctrl + Alt + Del brings up security options from which Task Manager can be selected.
+
+---
+
+Question No: 145
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: MS Office – PowerPoint
+Difficulty Level: Tough
+
+Question:
+Which view in MS PowerPoint is used to organise and rearrange slides?
+
+Options:
+A) Slide Sorter
+B) Normal
+C) Reading View
+D) Slide Show
+
+Correct Answer:
+A) Slide Sorter
+
+Detailed Solution:
+The Slide Sorter view displays thumbnails of all slides, allowing users to organise and rearrange them easily.
+
+---
+
+Question No: 146
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Storage
+Difficulty Level: Tough
+
+Question:
+Which of the following is an example of a secondary storage device?
+
+Options:
+A) RAM
+B) CPU register
+C) Hard disk
+D) Cache
+
+Correct Answer:
+C) Hard disk
+
+Detailed Solution:
+Secondary storage devices provide long‑term data storage and include hard disks, SSDs and optical drives.  RAM, CPU registers and cache are primary storage components.
+
+---
+
+Question No: 147
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Web Terminology
+Difficulty Level: Tough
+
+Question:
+What does the acronym ‘URL’ stand for?
+
+Options:
+A) Uniform Resource Locator
+B) Uniform Retrieval Locator
+C) Unique Resource Link
+D) User Remote Link
+
+Correct Answer:
+A) Uniform Resource Locator
+
+Detailed Solution:
+URL stands for Uniform Resource Locator, which specifies the address of a resource on the Internet.
+
+---
+
+Question No: 148
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Computer Security
+Difficulty Level: Tough
+
+Question:
+Which of the following is not a type of computer virus?
+
+Options:
+A) Worm
+B) Trojan
+C) Malware
+D) Ubuntu
+
+Correct Answer:
+D) Ubuntu
+
+Detailed Solution:
+Worms, Trojans and malware are types of malicious software.  Ubuntu is a Linux‑based operating system, not a virus.
+
+---
+
+Question No: 149
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Web Development
+Difficulty Level: Tough
+
+Question:
+Which language is primarily used for styling web pages?
+
+Options:
+A) HTML
+B) CSS
+C) SQL
+D) Python
+
+Correct Answer:
+B) CSS
+
+Detailed Solution:
+CSS (Cascading Style Sheets) is used to define the style and layout of HTML documents.  HTML structures content, SQL queries databases, and Python is a general programming language.
+
+---
+
+Question No: 150
+Exam: SSC CGL 2026
+Tier: Tier‑2
+Paper: Paper‑I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Computer Fundamentals
+Difficulty Level: Tough
+
+Question:
+Which of the following keys is used to refresh a webpage in most web browsers?
+
+Options:
+A) F2
+B) F5
+C) F8
+D) F12
+
+Correct Answer:
+B) F5
+
+Detailed Solution:
+Pressing F5 refreshes or reloads the current page in most web browsers.  F2 typically edits cell contents in spreadsheets, F8 is used for boot options or selection in documents, and F12 opens developer tools.
+
+---

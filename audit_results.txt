@@ -1,0 +1,139 @@
+﻿=== Mock Test Audit ===
+
+Found 15 Tier-2 mocks:
+
+Mock 1:
+  Total Questions: 129
+  Duration: 150 mins
+  Total Marks: 387
+  Access: PREMIUM
+  Status: PUBLISHED
+  Sections JSON: Mathematical Abilities(30Qs), Reasoning & General Intelligence(30Qs), English Language & Comprehension(45Qs), General Awareness(24Qs), Computer Knowledge(0Qs)
+  Question Distribution: S0:30, S1:30, S2:45, S3:24
+
+Mock 10:
+  Total Questions: 150
+  Duration: 150 mins
+  Total Marks: 450
+  Access: PREMIUM
+  Status: PUBLISHED
+  Sections JSON: Mathematical Abilities(30Qs), Reasoning & General Intelligence(30Qs), English Language & Comprehension(45Qs), General Awareness(25Qs), Computer Knowledge(20Qs)
+  Question Distribution: S0:30, S1:30, S2:45, S3:25, S4:20
+
+Mock 11:
+  Total Questions: 150
+  Duration: 150 mins
+  Total Marks: 450
+  Access: PREMIUM
+  Status: PUBLISHED
+  Sections JSON: Mathematical Abilities(30Qs), Reasoning & General Intelligence(30Qs), English Language & Comprehension(45Qs), General Awareness(25Qs), Computer Knowledge(20Qs)
+  Question Distribution: S0:30, S1:30, S2:45, S3:25, S4:20
+
+Mock 12:
+  Total Questions: 140
+  Duration: 150 mins
+  Total Marks: 420
+  Access: PREMIUM
+  Status: PUBLISHED
+  Sections JSON: Mathematical Abilities(30Qs), Reasoning & General Intelligence(29Qs), English Language & Comprehension(36Qs), General Awareness(25Qs), Computer Knowledge(20Qs)
+  Question Distribution: S0:30, S1:29, S2:36, S3:25, S4:20
+
+Mock 13:
+  Total Questions: 148
+  Duration: 150 mins
+  Total Marks: 444
+  Access: PREMIUM
+  Status: PUBLISHED
+  Sections JSON: Mathematical Abilities(30Qs), Reasoning & General Intelligence(28Qs), English Language & Comprehension(45Qs), General Awareness(25Qs), Computer Knowledge(20Qs)
+  Question Distribution: S0:30, S1:28, S2:45, S3:25, S4:20
+
+Mock 14:
+  Total Questions: 150
+  Duration: 150 mins
+  Total Marks: 450
+  Access: PREMIUM
+  Status: PUBLISHED
+  Sections JSON: Mathematical Abilities(30Qs), Reasoning & General Intelligence(30Qs), English Language & Comprehension(45Qs), General Awareness(25Qs), Computer Knowledge(20Qs)
+  Question Distribution: S0:30, S1:30, S2:45, S3:25, S4:20
+
+Mock 15:
+  Total Questions: 108
+  Duration: 150 mins
+  Total Marks: 324
+  Access: PREMIUM
+  Status: PUBLISHED
+  Sections JSON: Mathematical Abilities(108Qs), Reasoning & General Intelligence(0Qs), English Language & Comprehension(0Qs), General Awareness(0Qs), Computer Knowledge(0Qs)
+  Question Distribution: S0:108
+
+Mock 2:
+  Total Questions: 116
+  Duration: 150 mins
+  Total Marks: 351
+  Access: PREMIUM
+  Status: PUBLISHED
+  Sections JSON: Mathematical Abilities(30Qs), Reasoning & General Intelligence(30Qs), English Language & Comprehension(45Qs), General Awareness(12Qs), Computer Knowledge(0Qs)
+  Question Distribution: S0:30, S1:30, S2:44, S3:12
+
+Mock 3:
+  Total Questions: 111
+  Duration: 150 mins
+  Total Marks: 333
+  Access: PREMIUM
+  Status: PUBLISHED
+  Sections JSON: Mathematical Abilities(30Qs), Reasoning & General Intelligence(30Qs), English Language & Comprehension(45Qs), General Awareness(6Qs), Computer Knowledge(0Qs)
+  Question Distribution: S0:30, S1:30, S2:45, S3:6
+
+Mock 4:
+  Total Questions: 120
+  Duration: 150 mins
+  Total Marks: 360
+  Access: PREMIUM
+  Status: PUBLISHED
+  Sections JSON: Mathematical Abilities(30Qs), Reasoning & General Intelligence(30Qs), English Language & Comprehension(45Qs), General Awareness(15Qs), Computer Knowledge(0Qs)
+  Question Distribution: S0:30, S1:30, S2:45, S3:15
+
+Mock 5:
+  Total Questions: 118
+  Duration: 150 mins
+  Total Marks: 357
+  Access: PREMIUM
+  Status: PUBLISHED
+  Sections JSON: Mathematical Abilities(30Qs), Reasoning & General Intelligence(30Qs), English Language & Comprehension(45Qs), General Awareness(14Qs), Computer Knowledge(0Qs)
+  Question Distribution: S0:30, S1:30, S2:44, S3:14
+
+Mock 6:
+  Total Questions: 150
+  Duration: 150 mins
+  Total Marks: 450
+  Access: PREMIUM
+  Status: PUBLISHED
+  Sections JSON: Mathematical Abilities(30Qs), Reasoning & General Intelligence(30Qs), English Language & Comprehension(45Qs), General Awareness(25Qs), Computer Knowledge(20Qs)
+  Question Distribution: S0:30, S1:30, S2:45, S3:25, S4:20
+
+Mock 7:
+  Total Questions: 150
+  Duration: 150 mins
+  Total Marks: 450
+  Access: PREMIUM
+  Status: PUBLISHED
+  Sections JSON: Mathematical Abilities(30Qs), Reasoning & General Intelligence(30Qs), English Language & Comprehension(45Qs), General Awareness(25Qs), Computer Knowledge(20Qs)
+  Question Distribution: S0:30, S1:30, S2:45, S3:25, S4:20
+
+Mock 8:
+  Total Questions: 147
+  Duration: 150 mins
+  Total Marks: 447
+  Access: PREMIUM
+  Status: PUBLISHED
+  Sections JSON: Mathematical Abilities(30Qs), Reasoning & General Intelligence(30Qs), English Language & Comprehension(45Qs), General Awareness(25Qs), Computer Knowledge(19Qs)
+  Question Distribution: S0:30, S1:30, S2:45, S3:24, S4:18
+
+Mock 9:
+  Total Questions: 150
+  Duration: 150 mins
+  Total Marks: 456
+  Access: PREMIUM
+  Status: PUBLISHED
+  Sections JSON: Mathematical Abilities(30Qs), Reasoning & General Intelligence(30Qs), English Language & Comprehension(45Qs), General Awareness(25Qs), Computer Knowledge(22Qs)
+  Question Distribution: S0:30, S1:29, S2:44, S3:25, S4:22
+

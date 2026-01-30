@@ -1,0 +1,64 @@
+﻿python : C:\Users\jaiba\anaconda3\
+Lib\site-packages\paramiko\pkey.py
+:82: 
+CryptographyDeprecationWarning: 
+TripleDES has been moved to crypto
+graphy.hazmat.decrepit.ciphers.alg
+orithms.TripleDES and will be 
+removed from this module in 
+48.0.0.
+At line:1 char:1
++ python deploy_admin_fixes.py 
+2>&1 | Out-File -FilePath 
+deploy_results ...
++ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : Not 
+   Specified: (C:\Users\jaiba\..  
+  .dule in 48.0.0.:String) [],    
+ RemoteException
+    + FullyQualifiedErrorId : Nat 
+   iveCommandError
+ 
+  "cipher": algorithms.TripleDES,
+C:\Users\jaiba\anaconda3\Lib\site-
+packages\paramiko\transport.py:219
+: CryptographyDeprecationWarning: 
+Blowfish has been moved to cryptog
+raphy.hazmat.decrepit.ciphers.algo
+rithms.Blowfish and will be 
+removed from this module in 
+45.0.0.
+  "class": algorithms.Blowfish,
+C:\Users\jaiba\anaconda3\Lib\site-
+packages\paramiko\transport.py:243
+: CryptographyDeprecationWarning: 
+TripleDES has been moved to crypto
+graphy.hazmat.decrepit.ciphers.alg
+orithms.TripleDES and will be 
+removed from this module in 
+48.0.0.
+  "class": algorithms.TripleDES,
+Traceback (most recent call last):
+  File "C:\Users\jaiba\Downloads\T
+estDone\testdone-app\deploy_admin_
+fixes.py", line 134, in <module>
+    main()
+  File "C:\Users\jaiba\Downloads\T
+estDone\testdone-app\deploy_admin_
+fixes.py", line 41, in main
+    print("\n\U0001f680 TestDone 
+Admin Panel Fixes - Production 
+Deployment")
+  File "C:\Users\jaiba\anaconda3\L
+ib\encodings\cp1252.py", line 19, 
+in encode
+    return codecs.charmap_encode(i
+nput,self.errors,encoding_table)[0
+]
+           ^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' 
+codec can't encode character 
+'\U0001f680' in position 2: 
+character maps to <undefined>

@@ -1,6 +1,8 @@
 import { Router } from 'express';
 import prisma from '../lib/prisma';
 import { authenticate, authorize, AuthRequest } from '../middleware/auth';
+import { logMistakesFromAttempt } from '../lib/mistakeLogger';
+import { refreshWeaknessSnapshotAsync } from '../lib/weaknessProfiler';
 
 const router = Router();
 
@@ -425,6 +427,9 @@ router.post('/attempts/:attemptId/submit', authenticate, async (req: AuthRequest
                                         id: true,
                                         correctAnswer: true,
                                         options: true,
+                                        difficulty: true,
+                                        subjectId: true,
+                                        topicId: true,
                                     },
                                 },
                             },
@@ -492,6 +497,33 @@ router.post('/attempts/:attemptId/submit', authenticate, async (req: AuthRequest
         await Promise.all(
             answerUpdates.map(update => prisma.attemptAnswer.update(update))
         );
+
+        // Log mistakes to UserMistakeLog (async, non-blocking)
+        // This runs in the background and doesn't affect response time
+        const answersWithQuestions = attempt.answers.map(answer => {
+            const testQuestion = attempt.test.testQuestions.find(tq => tq.questionId === answer.questionId);
+            const answerUpdate = answerUpdates.find(u => u.where.id === answer.id);
+            return {
+                questionId: answer.questionId,
+                selectedOption: answer.selectedOption,
+                isCorrect: answerUpdate?.data.isCorrect ?? null,
+                timeSpentSeconds: answer.timeSpentSeconds,
+                question: testQuestion!.question,
+            };
+        });
+
+        logMistakesFromAttempt(
+            {
+                id: attempt.id,
+                userId: req.user!.id,
+                testId: attempt.testId,
+                test: { examId: attempt.test.examId },
+            },
+            answersWithQuestions
+        ).catch(err => console.error('[MistakeLogger] Background logging failed:', err));
+
+        // Refresh weakness snapshot in background (non-blocking)
+        refreshWeaknessSnapshotAsync(req.user!.id);
 
         const timeTaken = Math.floor((Date.now() - attempt.startedAt.getTime()) / 1000);
 

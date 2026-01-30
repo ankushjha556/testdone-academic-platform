@@ -36,7 +36,10 @@ const BATCH_FILES = [
     'batch4_4000_questions.txt',
     'batch5_5000_questions.txt',
     'batch6_10000_questions.txt',
-    'batch7_20000_questions.txt'
+    'batch7_20000_questions.txt',
+    'batch8_30000_questions.txt',
+    'batch9_50000_questions.txt',
+    'batch10_80000_questions.txt'
 ];
 
 // Statistics
@@ -420,6 +423,133 @@ function parseNewFormat(content, batchName) {
     return questions;
 }
 
+// Parse NEWEST format (batch8-9) - "Q#. Exam/Subject: ExamName SubjectName" format
+function parseNewestFormat(content, batchName) {
+    const questions = [];
+
+    // Split by question headers Q#.
+    const blocks = content.split(/\n(?=Q\d+\.)/);
+
+    for (const block of blocks) {
+        if (!block.trim()) continue;
+
+        try {
+            const lines = block.split('\n').filter(l => l.trim());
+            if (lines.length === 0) continue;
+
+            // Match header: Q1. Exam/Subject: SSC/Railway Reasoning
+            const headerMatch = lines[0].match(/^Q(\d+)\.\s*Exam\/Subject:\s*(.+)/);
+            if (!headerMatch) continue;
+
+            const [_, qNum, examSubject] = headerMatch;
+
+            // Parse exam and subject from "SSC/Railway Reasoning"
+            const parts = examSubject.trim().split(/\s+/);
+            let subjectRaw = parts.pop() || 'General Awareness';
+            let examRaw = parts.join(' ') || 'General';
+
+            // Build question text from second line
+            let questionText = lines[1] || '';
+            const options = [];
+            let answerValue = null;
+            let solution = '';
+            let parsingMode = 'question';
+
+            for (let i = 2; i < lines.length; i++) {
+                const line = lines[i].trim();
+
+                // Check for option (may or may not have indentation)
+                const optMatch = line.match(/^([A-D])\.\s+(.+)/);
+                if (optMatch) {
+                    options.push({ key: optMatch[1], text: optMatch[2].trim() });
+                    parsingMode = 'options';
+                    continue;
+                }
+
+                // Check for answer
+                if (line.startsWith('Answer:')) {
+                    answerValue = line.replace('Answer:', '').trim();
+                    parsingMode = 'answer';
+                    continue;
+                }
+
+                // Check for solution
+                if (line.startsWith('Solution:')) {
+                    solution = line.replace('Solution:', '').trim();
+                    parsingMode = 'solution';
+                    continue;
+                }
+
+                // Continue building content
+                if (parsingMode === 'question' && options.length === 0) {
+                    questionText += ' ' + line;
+                } else if (parsingMode === 'solution') {
+                    solution += ' ' + line;
+                }
+            }
+
+            // Validate options
+            if (options.length !== 4) {
+                stats.parseErrors.push(`${batchName} Q${qNum}: Found ${options.length} options`);
+                continue;
+            }
+
+            // Determine correct answer key
+            let answerKey = null;
+
+            if (answerValue && ['A', 'B', 'C', 'D'].includes(answerValue.toUpperCase())) {
+                answerKey = answerValue.toUpperCase();
+            } else if (answerValue) {
+                for (const opt of options) {
+                    if (opt.text === answerValue ||
+                        opt.text.startsWith(answerValue) ||
+                        opt.text.toLowerCase() === answerValue.toLowerCase()) {
+                        answerKey = opt.key;
+                        break;
+                    }
+                }
+
+                if (!answerKey) {
+                    const numericAnswer = answerValue.replace(/[^0-9.-]/g, '');
+                    for (const opt of options) {
+                        const numericOpt = opt.text.replace(/[^0-9.-]/g, '');
+                        if (numericOpt === numericAnswer) {
+                            answerKey = opt.key;
+                            break;
+                        }
+                    }
+                }
+            }
+
+            if (!answerKey) {
+                stats.parseErrors.push(`${batchName} Q${qNum}: Could not match answer "${answerValue}" to options`);
+                continue;
+            }
+
+            questions.push({
+                batchId: batchName,
+                qNum,
+                examRaw: normalizeExamName(examRaw),
+                subjectRaw: normalizeSubjectName(subjectRaw),
+                questionText: questionText.trim(),
+                options: options.map(o => ({
+                    id: o.key,
+                    text: o.text,
+                    isCorrect: o.key === answerKey
+                })),
+                correctAnswer: answerKey,
+                solution: solution.trim(),
+                difficulty: 'MEDIUM'
+            });
+
+        } catch (e) {
+            stats.parseErrors.push(`${batchName} block error: ${e.message}`);
+        }
+    }
+
+    return questions;
+}
+
 // Detect format and parse
 function parseFile(filePath) {
     const content = fs.readFileSync(filePath, 'utf-8');
@@ -429,6 +559,9 @@ function parseFile(filePath) {
     if (content.includes('### Q') && content.includes('**Answer:**')) {
         console.log(`📚 Detected OLD format for ${batchName}`);
         return parseOldFormat(content, batchName);
+    } else if (content.includes('Exam/Subject:')) {
+        console.log(`📚 Detected NEWEST format for ${batchName}`);
+        return parseNewestFormat(content, batchName);
     } else {
         console.log(`📚 Detected NEW format for ${batchName}`);
         return parseNewFormat(content, batchName);

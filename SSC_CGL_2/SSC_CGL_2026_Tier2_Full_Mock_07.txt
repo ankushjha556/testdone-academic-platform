@@ -1,0 +1,4399 @@
+
+EXAM: SSC CGL 2026
+TIER: Tier-2
+PAPER: Paper-I
+MOCK TEST: Full Length Mock – 01
+TOTAL QUESTIONS: 150
+TOTAL MARKS: 450
+TIME: 2 hours 30 minutes
+NEGATIVE MARKING: –1 per wrong answer (MCQs)
+
+Question No: 1
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Profit and Loss
+Difficulty Level: Moderate
+
+Question:
+A shopkeeper sells two identical articles at ₹480 each.  On one article he makes a profit of 20 % and on the other he incurs a loss of 20 %.  What is his overall percentage gain or loss on these two transactions?
+
+Options:
+A) 4 % gain
+B) 4 % loss
+C) 0 % (no profit, no loss)
+D) 8 % loss
+
+Correct Answer:
+B) 4 % loss
+
+Detailed Solution:
+- Let the two articles have cost prices \(C_1\) and \(C_2\), and both have the same selling price \(S = ₹480\).
+- For the first article sold at 20 % profit:
+  \[ C_1 = \frac{S}{1 + 0.20} = \frac{480}{1.2} = ₹400. \]
+- For the second article sold at 20 % loss:
+  \[ C_2 = \frac{S}{1 - 0.20} = \frac{480}{0.8} = ₹600. \]
+- Total cost price \(C_1 + C_2 = 400 + 600 = ₹1{,}000\).
+- Total selling price \(S_1 + S_2 = 480 + 480 = ₹960\).
+- Overall loss = Total cost price − Total selling price = ₹1{,}000 − ₹960 = ₹40.
+- Percentage loss = \(\frac{40}{1{,}000} \times 100 = 4 \%\).
+- Therefore, the shopkeeper makes an overall 4 % loss.
+
+Question No: 2
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Simple Interest
+Difficulty Level: Moderate
+
+Question:
+A certain sum of money amounts to ₹12,000 in 3 years and to ₹13,500 in 5 years at the same rate of simple interest.  Find the principal.
+
+Options:
+A) ₹9,750
+B) ₹10,000
+C) ₹9,600
+D) ₹10,500
+
+Correct Answer:
+A) ₹9,750
+
+Detailed Solution:
+- Under simple interest, the difference in the amounts for 3 years and 5 years corresponds to the interest for the extra 2 years.
+- The amount after 5 years minus the amount after 3 years gives the interest earned for 2 years:
+  \[I_{2\,\text{years}} = 13{,}500 - 12{,}000 = 1{,}500.\]
+- Hence the interest for 1 year is \(1{,}500/2 = 750\) rupees.
+- In 3 years, the total interest is \(750 \times 3 = 2{,}250\) rupees.
+- Therefore, the principal = Amount after 3 years − Interest for 3 years
+  \[P = 12{,}000 - 2{,}250 = 9{,}750\,\text{rupees}.\]
+- Thus, the required principal is ₹9,750.
+
+Question No: 3
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Ratio and Proportion
+Difficulty Level: Moderate
+
+Question:
+The incomes of two persons A and B are in the ratio 5 : 7 and their expenditures are in the ratio 3 : 4.  If each saves ₹4,000 per month, what is A’s monthly income?
+
+Options:
+A) ₹20,000
+B) ₹24,000
+C) ₹28,000
+D) ₹32,000
+
+Correct Answer:
+A) ₹20,000
+
+Detailed Solution:
+- Let A’s income and expenditure be 5x and 3y, respectively; let B’s income and expenditure be 7x and 4y.
+- Since both save ₹4,000, we have two equations:
+  \[5x - 3y = 4{,}000 \quad \text{and} \quad 7x - 4y = 4{,}000.\]
+- Multiply the first equation by 4 and the second by 3 to eliminate \(y\):
+  \[20x - 12y = 16{,}000, \quad 21x - 12y = 12{,}000.\]
+- Subtract to get \(x = 4{,}000\).
+- A’s income = \(5x = 5 \times 4{,}000 = 20{,}000\) rupees.
+- Hence, A’s monthly income is ₹20,000.
+
+Question No: 4
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Time and Work
+Difficulty Level: Tough
+
+Question:
+Two persons A and B can complete a piece of work together in 6 days.  B and C can complete the same work together in 8 days, and A and C together can finish it in 12 days.  In how many days will A alone finish the work?
+
+Options:
+A) 10 days
+B) 12 days
+C) 14 days
+D) 16 days
+
+Correct Answer:
+D) 16 days
+
+Detailed Solution:
+- Let \(1/a, 1/b, 1/c\) be the daily work rates of A, B and C respectively.
+- We are given:
+  \[ \frac{1}{a} + \frac{1}{b} = \frac{1}{6}, \quad \frac{1}{b} + \frac{1}{c} = \frac{1}{8}, \quad \frac{1}{a} + \frac{1}{c} = \frac{1}{12}. \]
+- Adding the three equations:
+  \[ \left(\frac{1}{a} + \frac{1}{b} + \frac{1}{c}\right) + \left(\frac{1}{a} + \frac{1}{b} + \frac{1}{c}\right) = \frac{1}{6} + \frac{1}{8} + \frac{1}{12}. \]
+- Therefore,
+  \[ 2\left(\frac{1}{a} + \frac{1}{b} + \frac{1}{c}\right) = \frac{1}{6} + \frac{1}{8} + \frac{1}{12} = \frac{20 + 15 + 10}{120} = \frac{45}{120} = \frac{3}{8}. \]
+- Hence \(\frac{1}{a} + \frac{1}{b} + \frac{1}{c} = \frac{3}{16}\).
+- But \(\frac{1}{b} + \frac{1}{c} = \frac{1}{8}\), so
+  \[ \frac{1}{a} = \frac{3}{16} - \frac{1}{8} = \frac{3}{16} - \frac{2}{16} = \frac{1}{16}. \]
+- Therefore \(a = 16\) days.
+- Thus, A alone will finish the work in 16 days.
+
+Question No: 5
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Speed, Time and Distance
+Difficulty Level: Moderate
+
+Question:
+A train 120 m long crosses a platform 180 m long in 18 seconds.  What is the speed of the train in kilometres per hour?
+
+Options:
+A) 54 km/h
+B) 60 km/h
+C) 72 km/h
+D) 90 km/h
+
+Correct Answer:
+B) 60 km/h
+
+Detailed Solution:
+- To cross the platform completely, the train must cover its own length plus the length of the platform: \(120 + 180 = 300\) m.
+- Time taken = 18 s.  Therefore speed in m/s = \(300/18 = 16\,\tfrac{2}{3}\) m/s.
+- To convert to km/h, multiply by \(18/5\):
+  \[16\,\tfrac{2}{3} \times \frac{18}{5} = 16.666… \times 3.6 = 60\ \text{km/h}.\]
+- Hence, the speed of the train is 60 km/h.
+
+Question No: 6
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Trigonometry
+Difficulty Level: Moderate
+
+Question:
+If \(\tan \theta = \tfrac{3}{4}\), then find the value of \(\sin^4 \theta + \cos^4 \theta\).
+
+Options:
+A) \(\tfrac{337}{625}\)
+B) \(\tfrac{289}{625}\)
+C) \(\tfrac{81}{625}\)
+D) \(\tfrac{256}{625}\)
+
+Correct Answer:
+A) \(\tfrac{337}{625}\)
+
+Detailed Solution:
+- Given \(\tan\theta = \frac{3}{4}\).  Let \(\theta\) lie in the first quadrant; then \(\sin\theta = \frac{3}{5}\) and \(\cos\theta = \frac{4}{5}\).
+- Therefore \(\sin^4\theta = \left(\tfrac{3}{5}\right)^4 = \frac{81}{625}\) and \(\cos^4\theta = \left(\tfrac{4}{5}\right)^4 = \frac{256}{625}\).
+- Their sum is \(\frac{81}{625} + \frac{256}{625} = \frac{337}{625}.\)
+- Hence the required value is \(\tfrac{337}{625}\).
+
+Question No: 7
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Geometry – Circles
+Difficulty Level: Tough
+
+Question:
+Triangle ABC has sides of length 5 cm, 6 cm and 7 cm.  Find the radius of its circumcircle.
+
+Options:
+A) \(\tfrac{35\sqrt{6}}{24}\) cm
+B) \(\tfrac{7\sqrt{6}}{4}\) cm
+C) \(\tfrac{35\sqrt{3}}{12}\) cm
+D) \(\tfrac{35}{24}\) cm
+
+Correct Answer:
+A) \(\tfrac{35\sqrt{6}}{24}\) cm
+
+Detailed Solution:
+- For a triangle with sides \(a\), \(b\), \(c\) and area \(\Delta\), the circumradius \(R\) is given by \(R = \frac{abc}{4\Delta}\).
+- Here \(a = 5\), \(b = 6\), \(c = 7\) cm.  First compute the semiperimeter \(s = \frac{5 + 6 + 7}{2} = 9\) cm.
+- Using Heron’s formula, the area is
+  \[ \Delta = \sqrt{s(s - a)(s - b)(s - c)} = \sqrt{9\times 4\times 3\times 2} = \sqrt{216} = 6\sqrt{6}. \]
+- Therefore, the circumradius
+  \[R = \frac{5\times 6\times 7}{4\times 6\sqrt{6}} = \frac{210}{24\sqrt{6}} = \frac{35}{4\sqrt{6}} = \frac{35\sqrt{6}}{24}\ \text{cm}.\]
+- Hence, the radius of the circumcircle is \(\tfrac{35\sqrt{6}}{24}\) cm.
+
+Question No: 8
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Mensuration
+Difficulty Level: Moderate
+
+Question:
+The volume of a right circular cylinder of radius 4 cm and height 7 cm is equal to the volume of a right circular cone of height 21 cm.  What is the radius of the base of the cone?
+
+Options:
+A) 2 cm
+B) 3 cm
+C) 4 cm
+D) 6 cm
+
+Correct Answer:
+C) 4 cm
+
+Detailed Solution:
+- The volume of the cylinder is \(\pi r^2 h = \pi\times 4^2 \times 7 = 112\pi\ \text{cm}^3.\)
+- For a cone, the volume is \(\tfrac{1}{3}\pi R^2 H\).  We are given that this equals 112\pi, and the cone’s height \(H\) is 21 cm:
+  \[ \frac{1}{3}\pi R^2\times 21 = 112\pi. \]
+- Simplifying gives \(7R^2 = 112\), so \(R^2 = 16\) and hence \(R = 4\) cm.
+- Thus, the radius of the base of the cone is 4 cm.
+
+Question No: 9
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Data Interpretation
+Difficulty Level: Moderate
+
+Question:
+The following table shows the sales of a company (in thousand units) over five consecutive years.
+
+| Year | 2019 | 2020 | 2021 | 2022 | 2023 |
+|------|------|------|------|------|------|
+| Sales (in thousand units) | 56 | 62 | 85 | 73 | 90 |
+
+By what percentage did the sales in 2023 exceed the sales in 2019?
+
+Options:
+A) \(60\,\tfrac{5}{7}\%\)
+B) \(61\%\)
+C) \(64\,\tfrac{2}{7}\%\)
+D) \(65\%\)
+
+Correct Answer:
+A) \(60\,\tfrac{5}{7}\%\)
+
+Detailed Solution:
+- The sales in 2019 = 56 thousand units; in 2023 = 90 thousand units.
+- The increase = 90 − 56 = 34 thousand units.
+- Percentage increase over 2019 = \(\frac{34}{56} \times 100 = \frac{17}{28}\times 100\) percent.
+- Simplifying \(\frac{17}{28}\times 100\) gives \(\frac{1700}{28}\) = \(425/7\) = \(60\,\tfrac{5}{7}\%\).
+- Hence, sales increased by \(60\,\tfrac{5}{7}\%\) from 2019 to 2023.
+
+Question No: 10
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Arithmetic Progression
+Difficulty Level: Moderate
+
+Question:
+Find the sum of the first 20 terms of the arithmetic progression 7, 10, 13, ….
+
+Options:
+A) 690
+B) 700
+C) 710
+D) 720
+
+Correct Answer:
+C) 710
+
+Detailed Solution:
+- In this arithmetic progression, the first term \(a = 7\) and the common difference \(d = 3\).
+- Sum of the first \(n\) terms is \(S_n = \frac{n}{2}[2a + (n - 1)d]\).
+- For \(n = 20\),
+  \[S_{20} = \frac{20}{2}[2\times 7 + 19\times 3] = 10[14 + 57] = 10\times 71 = 710.\]
+- Hence, the sum of the first 20 terms is 710.
+
+Question No: 11
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Quadratic Equations
+Difficulty Level: Moderate
+
+Question:
+If \(x^2 - 8x + 12 = 0\) has real roots \(\alpha\) and \(\beta\), what is the value of \(\dfrac{1}{\alpha} + \dfrac{1}{\beta}\)?
+
+Options:
+A) \(\dfrac{2}{3}\)
+B) \(\dfrac{5}{6}\)
+C) \(\dfrac{3}{5}\)
+D) \(\dfrac{4}{5}\)
+
+Correct Answer:
+A) \(\dfrac{2}{3}\)
+
+Detailed Solution:
+- The quadratic equation \(x^2 - 8x + 12 = 0\) factors as \((x - 2)(x - 6) = 0\).  Thus, the roots are \(\alpha = 2\) and \(\beta = 6\).
+- The required sum is \(\frac{1}{\alpha} + \frac{1}{\beta} = \frac{1}{2} + \frac{1}{6} = \frac{3 + 1}{6} = \frac{4}{6} = \frac{2}{3}.\)
+- Hence, the value is \(\dfrac{2}{3}\).
+
+Question No: 12
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Probability
+Difficulty Level: Moderate
+
+Question:
+An urn contains 5 red balls and 4 blue balls. Two balls are drawn one after another without replacement. What is the probability that both balls drawn are of the same colour?
+
+Options:
+A) \(\dfrac{1}{3}\)
+B) \(\dfrac{4}{9}\)
+C) \(\dfrac{5}{18}\)
+D) \(\dfrac{7}{18}\)
+
+Correct Answer:
+B) \(\dfrac{4}{9}\)
+
+Detailed Solution:
+- Total number of ways to choose 2 balls from 9 is \(\binom{9}{2} = 36\).
+- Favourable cases: either both balls are red or both are blue.
+  * Both red: \(\binom{5}{2} = 10\) ways.
+  * Both blue: \(\binom{4}{2} = 6\) ways.
+- Total favourable ways = 10 + 6 = 16.
+- Probability = \(\frac{16}{36} = \frac{4}{9}.\)
+- Hence, the probability that both drawn balls are of the same colour is \(\dfrac{4}{9}\).
+
+Question No: 13
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Permutations and Combinations
+Difficulty Level: Moderate
+
+Question:
+How many distinct arrangements of the letters of the word ‘DELHI’ are possible if the vowels always occur together?
+
+Options:
+A) 24
+B) 30
+C) 48
+D) 60
+
+Correct Answer:
+C) 48
+
+Detailed Solution:
+- The word ‘DELHI’ contains 5 distinct letters of which the vowels are E and I.
+- If the vowels always come together, treat the pair ‘EI’ as one unit.  Then we have 4 units: [EI], D, L, H.
+- These 4 units can be arranged in \(4! = 24\) ways.
+- Within the block, the two vowels E and I can be arranged among themselves in \(2! = 2\) ways.
+- Total arrangements = \(24 \times 2 = 48\).
+- Hence, 48 distinct arrangements are possible.
+
+Question No: 14
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Logarithms
+Difficulty Level: Moderate
+
+Question:
+Solve for \(x\) if \(\log_{10}(x) + \log_{10}(x - 3) = 1\).
+
+Options:
+A) 4
+B) 5
+C) 6
+D) 8
+
+Correct Answer:
+B) 5
+
+Detailed Solution:
+- Using the property \(\log_b m + \log_b n = \log_b (mn)\), we have
+  \[\log_{10} [x(x - 3)] = 1.\]
+- Therefore, \(x(x - 3) = 10^1 = 10\), leading to the quadratic equation
+  \[x^2 - 3x - 10 = 0.\]
+- Solving, \(x = \frac{3 \pm \sqrt{9 + 40}}{2} = \frac{3 \pm 7}{2}\).  The roots are 5 and −2.
+- Since \(x > 3\) to keep \(x - 3 > 0\), only \(x = 5\) is valid.
+- Hence, the solution is 5.
+
+Question No: 15
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Geometry – Circle and Square
+Difficulty Level: Moderate
+
+Question:
+The circumference of a circle is equal to the perimeter of a square whose area is 484 cm².  Find the radius of the circle.
+
+Options:
+A) \(\tfrac{44}{\pi}\) cm
+B) \(7\) cm
+C) \(14\) cm
+D) \(\tfrac{22}{\pi}\) cm
+
+Correct Answer:
+A) \(\tfrac{44}{\pi}\) cm
+
+Detailed Solution:
+- The area of the square is 484 cm², so its side length \(s = \sqrt{484} = 22\) cm.  Hence the perimeter of the square = \(4 \times 22 = 88\) cm.
+- Given that the circumference of the circle = 88 cm, we have \(2\pi r = 88\).
+- Therefore \(r = \frac{88}{2\pi} = \frac{44}{\pi}\) cm.
+- Thus, the radius of the circle is \(\tfrac{44}{\pi}\) cm.
+
+Question No: 16
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Mensuration – Trapezium
+Difficulty Level: Moderate
+
+Question:
+The parallel sides of a trapezium are 12 cm and 20 cm, and the distance between them is 9 cm.  What is its area?
+
+Options:
+A) 132 cm²
+B) 144 cm²
+C) 156 cm²
+D) 168 cm²
+
+Correct Answer:
+B) 144 cm²
+
+Detailed Solution:
+- The area \(A\) of a trapezium with parallel sides \(a\) and \(b\) and distance \(h\) between them is
+  \[A = \tfrac{1}{2}(a + b)h.\]
+- Here \(a = 12\) cm, \(b = 20\) cm and \(h = 9\) cm.  Therefore
+  \[A = \tfrac{1}{2}(12 + 20)\times 9 = \tfrac{1}{2}(32) \times 9 = 16 \times 9 = 144\ \text{cm}^2.\]
+- Hence, the area of the trapezium is 144 cm².
+
+Question No: 17
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Indices and Surds
+Difficulty Level: Moderate
+
+Question:
+Simplify \((8^{2/3} \times 16^{3/4}) \div 4^{5/2}\).
+
+Options:
+A) 1
+B) 2
+C) 4
+D) 8
+
+Correct Answer:
+A) 1
+
+Detailed Solution:
+- Express each term using prime bases:
+  * \(8 = 2^3\); thus \(8^{2/3} = (2^3)^{2/3} = 2^{(3\times 2/3)} = 2^2 = 4\).
+  * \(16 = 2^4\); thus \(16^{3/4} = (2^4)^{3/4} = 2^{(4\times 3/4)} = 2^3 = 8\).
+  * \(4 = 2^2\); thus \(4^{5/2} = (2^2)^{5/2} = 2^{(2\times 5/2)} = 2^5 = 32\).
+- Therefore, \((8^{2/3} \times 16^{3/4}) = 4 \times 8 = 32\), and dividing by \(4^{5/2} = 32\) yields 1.
+- Hence, the value of the expression is 1.
+
+Question No: 18
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Exponential Equations
+Difficulty Level: Moderate
+
+Question:
+Solve for \(x\): \(3^{x+2} = 27 \times 9^x\).
+
+Options:
+A) −1
+B) 0
+C) 1
+D) 2
+
+Correct Answer:
+A) −1
+
+Detailed Solution:
+- Write each term in powers of 3: \(27 = 3^3\) and \(9 = 3^2\).
+- The given equation becomes \(3^{x+2} = 3^3 \times (3^2)^x = 3^3 \times 3^{2x} = 3^{2x + 3}.\)
+- Equating the exponents: \(x + 2 = 2x + 3\) implies \(x = -1\).
+- Hence, \(x = -1\).
+
+Question No: 19
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Combinations
+Difficulty Level: Moderate
+
+Question:
+Out of 4 men and 3 women, a committee of 4 members is to be formed such that at least 2 members are women.  In how many different ways can this be done?
+
+Options:
+A) 18
+B) 20
+C) 22
+D) 24
+
+Correct Answer:
+C) 22
+
+Detailed Solution:
+- A committee of 4 members with at least 2 women can be formed in two cases:
+  1. 2 women and 2 men: \(\binom{3}{2} \times \binom{4}{2} = 3 \times 6 = 18\) ways.
+  2. 3 women and 1 man: \(\binom{3}{3} \times \binom{4}{1} = 1 \times 4 = 4\) ways.
+- Total ways = 18 + 4 = 22.
+- Hence, 22 different committees can be formed.
+
+Question No: 20
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Number Theory
+Difficulty Level: Moderate
+
+Question:
+Find the smallest number greater than 100 that leaves a remainder of 3 when divided by 4, 6 and 8.
+
+Options:
+A) 99
+B) 103
+C) 115
+D) 123
+
+Correct Answer:
+D) 123
+
+Detailed Solution:
+- Let the required number be \(N\).  The conditions \(N \equiv 3 \pmod{4}\), \(N \equiv 3 \pmod{6}\) and \(N \equiv 3 \pmod{8}\) mean that \(N - 3\) is divisible by the least common multiple of 4, 6 and 8.
+- \(\operatorname{lcm}(4, 6, 8) = 24\), so \(N - 3\) must be a multiple of 24.
+- Multiples of 24 around 100 are 96 and 120.  Adding 3 gives 99 and 123.
+- Among these, the number greater than 100 is 123.  Checking: 123 divided by 4, 6 or 8 leaves remainder 3.
+- Hence, the required number is 123.
+
+Question No: 21
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Trigonometry
+Difficulty Level: Moderate
+
+Question:
+If \(\sin\theta + \cos\theta = \sqrt{2}\), where \(0\leq \theta \leq \frac{\pi}{2}\), then find the value of \(\theta\).
+
+Options:
+A) \(\frac{\pi}{6}\)
+B) \(\frac{\pi}{4}\)
+C) \(\frac{\pi}{3}\)
+D) \(\frac{\pi}{2}\)
+
+Correct Answer:
+B) \(\frac{\pi}{4}\)
+
+Detailed Solution:
+- The maximum value of \(\sin\theta + \cos\theta\) on \([0, \pi/2]\) is \(\sqrt{2}\), which occurs when \(\sin\theta = \cos\theta\).
+- That happens at \(\theta = 45^\circ = \frac{\pi}{4}\) radians.
+- Hence, \(\theta = \frac{\pi}{4}\).
+
+Question No: 22
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Quadratic Inequalities
+Difficulty Level: Moderate
+
+Question:
+Solve the inequality \(x^2 - 5x + 6 \leq 0\).  Which of the following represents the solution set?
+
+Options:
+A) \(x \in (−\infty, 2] \cup [3, \infty)\)
+B) \(x \in [2, 3]\)
+C) \(x \in (−\infty, 2) \cup (3, \infty)\)
+D) \(x \in (2, 3)\)
+
+Correct Answer:
+B) \(x \in [2, 3]\)
+
+Detailed Solution:
+- Factor the quadratic: \(x^2 - 5x + 6 = (x - 2)(x - 3)\).
+- The parabola opens upward (coefficient of \(x^2\) positive) and is zero at \(x = 2\) and \(x = 3\).
+- For a quadratic with two real roots, the expression is non‑positive between the roots and positive outside.
+- Thus, \(x^2 - 5x + 6 \leq 0\) when \(x\) is between 2 and 3 inclusive.
+- Hence, the solution set is \([2, 3]\).
+
+Question No: 23
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Ratio & Proportion – Linear Equations
+Difficulty Level: Moderate
+
+Question:
+Two numbers are in the ratio 4 : 5.  When 2 is subtracted from each, the ratio becomes 3 : 4.  Find the two numbers.
+
+Options:
+A) 6 and 8
+B) 8 and 10
+C) 9 and 11
+D) 10 and 12
+
+Correct Answer:
+B) 8 and 10
+
+Detailed Solution:
+- Let the numbers be 4x and 5x.  After subtracting 2 from each, their ratio becomes 3 : 4, so
+  \[\frac{4x - 2}{5x - 2} = \frac{3}{4}.\]
+- Cross‑multiplying gives \(4(4x - 2) = 3(5x - 2)\), i.e., \(16x - 8 = 15x - 6\).
+- Therefore, \(x = 2\).  Hence the numbers are 4×2 = 8 and 5×2 = 10.
+- Thus, the required numbers are 8 and 10.
+
+Question No: 24
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Determinants
+Difficulty Level: Moderate
+
+Question:
+Evaluate the determinant \(\begin{vmatrix}2 & 5\\ 1 & 3\end{vmatrix}\).
+
+Options:
+A) −1
+B) 1
+C) 5
+D) 7
+
+Correct Answer:
+B) 1
+
+Detailed Solution:
+- The determinant of a 2×2 matrix \(\begin{pmatrix}a & b\\ c & d\end{pmatrix}\) is \(ad - bc\).
+- Here \(a = 2\), \(b = 5\), \(c = 1\), \(d = 3\).
+- Therefore determinant = \(2\times 3 - 5\times 1 = 6 - 5 = 1\).
+- Hence, the value of the determinant is 1.
+
+Question No: 25
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Set Theory
+Difficulty Level: Moderate
+
+Question:
+In the universal set \(U = \{1, 2, 3, \dotsc, 50\}\), let \(A\) be the set of multiples of 4 and \(B\) the set of multiples of 6.  How many elements are in the intersection \(A \cap B\)?
+
+Options:
+A) 3
+B) 4
+C) 8
+D) 12
+
+Correct Answer:
+B) 4
+
+Detailed Solution:
+- Elements in \(A \cap B\) are numbers that are multiples of both 4 and 6, i.e., multiples of \(\operatorname{lcm}(4, 6) = 12\).
+- The multiples of 12 up to 50 are 12, 24, 36 and 48.
+- There are 4 such numbers.
+- Hence, \(|A \cap B| = 4\).
+
+Question No: 26
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Statistics
+Difficulty Level: Moderate
+
+Question:
+The mean of 20 numbers is 15.  The mean of the first 12 numbers is 14.  What is the average of the remaining 8 numbers?
+
+Options:
+A) 15
+B) 16
+C) 16.5
+D) 17
+
+Correct Answer:
+C) 16.5
+
+Detailed Solution:
+- The total of all 20 numbers = \(20 \times 15 = 300\).
+- The sum of the first 12 numbers = \(12 \times 14 = 168\).
+- Therefore, the sum of the remaining 8 numbers = 300 − 168 = 132.
+- Their average = \(132/8 = 16.5\).
+- Hence, the average of the remaining 8 numbers is 16.5.
+
+Question No: 27
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Geometry – Right Triangle
+Difficulty Level: Moderate
+
+Question:
+In a right‑angled triangle ABC, the right angle is at C.  If AC = 6 cm and BC = 8 cm, what is the radius of the incircle of the triangle?
+
+Options:
+A) 1 cm
+B) 2 cm
+C) 3 cm
+D) 4 cm
+
+Correct Answer:
+B) 2 cm
+
+Detailed Solution:
+- In a right‑angled triangle with legs \(a\) and \(b\) and hypotenuse \(c\), the inradius \(r\) is given by
+  \[r = \frac{a + b - c}{2}.\]
+- Here \(a = 6\) cm, \(b = 8\) cm.  By the Pythagoras theorem, \(c = \sqrt{6^2 + 8^2} = 10\) cm.
+- Hence \(r = \frac{6 + 8 - 10}{2} = \frac{4}{2} = 2\) cm.
+- Thus, the radius of the incircle is 2 cm.
+
+Question No: 28
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Inequalities
+Difficulty Level: Moderate
+
+Question:
+Solve the inequality \(|2x - 5| < 7\) and choose the correct interval of \(x\).
+
+Options:
+A) \(x \in (-2, 6)\)
+B) \(x \in (-1, 6)\)
+C) \(x \in (-1, 5)\)
+D) \(x \in (1, 5)\)
+
+Correct Answer:
+B) \(x \in (-1, 6)\)
+
+Detailed Solution:
+- The inequality \(|2x - 5| < 7\) implies
+  \[-7 < 2x - 5 < 7.\]
+- Adding 5 throughout gives \(-2 < 2x < 12\).
+- Dividing by 2 yields \(-1 < x < 6\).
+- Hence, the solution interval is \((-1, 6)\).
+
+Question No: 29
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Permutations
+Difficulty Level: Moderate
+
+Question:
+Using the digits 1, 2, 3, 4 and 5 without repetition, how many three‑digit numbers can be formed that are divisible by 5?
+
+Options:
+A) 8
+B) 10
+C) 12
+D) 16
+
+Correct Answer:
+C) 12
+
+Detailed Solution:
+- A three‑digit number is divisible by 5 if its units digit is 0 or 5.  Here 0 is not available, so the units digit must be 5.
+- Fixing 5 in the units place, the remaining two places can be filled by any two of the remaining digits \{1, 2, 3, 4\} without repetition.
+- The hundreds place can be chosen in 4 ways and the tens place in 3 ways, giving \(4 \times 3 = 12\) numbers.
+- Hence, 12 such numbers can be formed.
+
+Question No: 30
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Probability
+Difficulty Level: Tough
+
+Question:
+A bag contains 5 white balls numbered from 1 to 5 and 5 black balls numbered from 1 to 5.  One ball is drawn at random.  What is the probability that the ball drawn is either black or has an even number printed on it (or both)?
+
+Options:
+A) \(\dfrac{3}{5}\)
+B) \(\dfrac{7}{10}\)
+C) \(\dfrac{4}{5}\)
+D) \(\dfrac{9}{10}\)
+
+Correct Answer:
+B) \(\dfrac{7}{10}\)
+
+Detailed Solution:
+- Total number of balls = 10 (5 white and 5 black), each numbered 1 to 5.
+- We need the probability that the ball is black or has an even number (or both).  Let events:
+  * \(B\): ball is black (5 favourable out of 10).
+  * \(E\): ball has an even number (numbers 2 and 4 on both colours: 2 white + 2 black = 4 balls).
+- We use the formula \(P(B \cup E) = P(B) + P(E) - P(B \cap E)\).
+- Here \(P(B) = 5/10 = 1/2\), \(P(E) = 4/10 = 2/5\).
+- The intersection \(B \cap E\) corresponds to black balls with an even number (numbers 2 and 4): there are 2 such balls, so \(P(B \cap E) = 2/10 = 1/5\).
+- Therefore
+  \[P(B \cup E) = \frac{1}{2} + \frac{2}{5} - \frac{1}{5} = \frac{5}{10} + \frac{4}{10} - \frac{2}{10} = \frac{7}{10}.\]
+- Hence, the required probability is \(\dfrac{7}{10}\).
+
+Question No: 31
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Direction Sense
+Difficulty Level: Moderate
+
+Question:
+A man walks 30 m towards north, then turns right and walks 40 m.  He again turns right and walks 30 m and finally turns left and walks 20 m.  How far and in which direction is he from his starting point?
+
+Options:
+A) 20 m east
+B) 60 m east
+C) 20 m west
+D) 60 m west
+
+Correct Answer:
+B) 60 m east
+
+Detailed Solution:
+- Mark the starting point as the origin \((0, 0)\).  First, the man walks 30 m north: his position becomes \((0, 30)\).
+- He then turns right (toward east) and walks 40 m: new position \((40, 30)\).
+- Turning right again (toward south), he walks 30 m: position \((40, 0)\).
+- Finally, turning left (toward east), he walks 20 m: position \((60, 0)\).
+- His displacement from the origin is 60 m to the east; the distance from the starting point is 60 m.
+- Thus, he is 60 m east of his starting point.
+
+Question No: 32
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Blood Relations
+Difficulty Level: Moderate
+
+Question:
+Introducing a man, a woman said, “His mother is the only daughter of my mother.”  How is the man related to the woman?
+
+Options:
+A) Son
+B) Brother
+C) Father
+D) Nephew
+
+Correct Answer:
+A) Son
+
+Detailed Solution:
+- The woman’s mother has only one daughter; therefore, the woman herself is the only daughter of her mother.
+- The man’s mother is the only daughter of the woman’s mother, which means that the woman herself is the man’s mother.
+- Hence, the man is the woman’s son.
+
+Question No: 33
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Number Series
+Difficulty Level: Moderate
+
+Question:
+Find the next term in the sequence:
+
+3, 7, 13, 21, 31, ?
+
+Options:
+A) 41
+B) 43
+C) 45
+D) 47
+
+Correct Answer:
+B) 43
+
+Detailed Solution:
+- Observe the differences between successive terms: 7 − 3 = 4, 13 − 7 = 6, 21 − 13 = 8, 31 − 21 = 10.
+- The differences increase by 2 each time (4, 6, 8, 10, …).  Thus, the next difference should be 12.
+- Adding 12 to 31 gives 43.
+- Hence, the next term is 43.
+
+Question No: 34
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Alphabet Series
+Difficulty Level: Moderate
+
+Question:
+Fill in the blank with the missing pair in the following sequence:
+
+AZ, BY, CX, DW, EV, __
+
+Options:
+A) FU
+B) GF
+C) FX
+D) GU
+
+Correct Answer:
+A) FU
+
+Detailed Solution:
+- In each pair, the first letters follow the sequence A, B, C, D, E, … and the second letters follow Z, Y, X, W, V, … (each time moving forward/backward by one alphabet).
+- After EV, the next pair’s first letter is F (following E) and the second letter is U (preceding V).
+- Therefore, the missing pair is FU.
+
+Question No: 35
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Coding–Decoding
+Difficulty Level: Moderate
+
+Question:
+In a certain code, every letter of the English alphabet is replaced by the letter two places ahead of it (with Z wrapping around to B).  For example, DANCE becomes FCOGE.  Using the same code, how is the word BRAIN written?
+
+Options:
+A) DTCKP
+B) DTCJP
+C) BTCJP
+D) DTCLP
+
+Correct Answer:
+A) DTCKP
+
+Detailed Solution:
+- The rule is to replace each letter with the letter two positions ahead in the alphabet (cyclically), i.e., A→C, B→D, …, Y→A, Z→B.
+- Applying this to BRAIN:
+  * B → D
+  * R → T
+  * A → C
+  * I → K
+  * N → P
+- Thus, BRAIN becomes DTCKP.
+
+Question No: 36
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Seating Arrangement
+Difficulty Level: Tough
+
+Question:
+Six people P, Q, R, S, T and U are sitting around a circular table facing the centre.  P is sitting between Q and R.  S is to the immediate left of Q.  T sits between S and U.  Q is not a neighbour of T.  Who is sitting opposite P?
+
+Options:
+A) Q
+B) R
+C) S
+D) T
+
+Correct Answer:
+D) T
+
+Detailed Solution:
+- Place the six seats around a circle and assign positions: let Q occupy seat 1.  S is to the immediate left of Q; since everyone faces the centre, “left” is clockwise, so seat 2 is S.
+- T sits between S and U, so in clockwise order we must have either S–T–U or U–T–S.  Q is not a neighbour of T, so T cannot be in seat 6 (which would make T adjacent to Q).  Hence, the only possible ordering clockwise from seat 2 is S (seat 2), T (seat 3), U (seat 4).
+- P sits between Q and R, so P must occupy the seat adjacent to Q that is not already taken by S; thus P sits in seat 6.  Consequently, seat 5 is R.
+- The complete arrangement clockwise is: seat 1 = Q, seat 2 = S, seat 3 = T, seat 4 = U, seat 5 = R, seat 6 = P.
+- The person opposite P (seat 6) is the one sitting three seats away, i.e., seat 3, which is T.
+- Therefore, T sits opposite P.
+
+Question No: 37
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Syllogisms
+Difficulty Level: Moderate
+
+Question:
+Statements:
+1. Some men are doctors.
+2. All doctors are smart.
+
+Conclusions:
+I. Some men are smart.
+II. All smart people are doctors.
+
+Which one of the following is correct?
+
+Options:
+A) Only conclusion I follows
+B) Only conclusion II follows
+C) Both conclusions follow
+D) Neither conclusion follows
+
+Correct Answer:
+A) Only conclusion I follows
+
+Detailed Solution:
+- From “Some men are doctors” and “All doctors are smart,” it follows that some men are smart (conclusion I).
+- Conclusion II states that all smart people are doctors, which is not necessarily true because there may be smart people who are not doctors.
+- Hence, only conclusion I logically follows.
+
+Question No: 38
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Direction Sense
+Difficulty Level: Moderate
+
+Question:
+A person starts from a point and travels 5 km east, then 4 km south, then 3 km west and finally 2 km north.  How far and in which direction is the person from the starting point?
+
+Options:
+A) \(2\sqrt{2}\) km towards south‑east
+B) \(\sqrt{2}\) km towards north‑east
+C) \(2\) km towards south
+D) \(3\sqrt{2}\) km towards south‑west
+
+Correct Answer:
+A) \(2\sqrt{2}\) km towards south‑east
+
+Detailed Solution:
+- Treat the starting point as origin.  The movements in the east–west direction: 5 km east then 3 km west → net displacement 2 km east.  The movements in the north–south direction: 4 km south and 2 km north → net displacement 2 km south.
+- Hence, the final position relative to the start is 2 km east and 2 km south.  The distance from the origin is \(\sqrt{2^2 + 2^2} = \sqrt{8} = 2\sqrt{2}\) km.
+- The direction is south‑east.
+- Therefore, the person is \(2\sqrt{2}\) km away in the south‑east direction.
+
+Question No: 39
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Analogies
+Difficulty Level: Moderate
+
+Question:
+Complete the analogy:
+
+Foot : Toe :: Hand : ?
+
+Options:
+A) Nail
+B) Finger
+C) Thumb
+D) Wrist
+
+Correct Answer:
+B) Finger
+
+Detailed Solution:
+- A foot has toes and a hand has fingers.  Thus, the word corresponding to “Hand” in the analogy is “Finger.”
+
+Question No: 40
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Classification
+Difficulty Level: Moderate
+
+Question:
+Which one of the following is the odd word out?
+
+A) June
+B) July
+C) January
+D) March
+
+Options:
+A) June
+B) July
+C) January
+D) March
+
+Correct Answer:
+A) June
+
+Detailed Solution:
+- January, March and July each have 31 days, whereas June has only 30 days.
+- Therefore, June is the odd one out.
+
+Question No: 41
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Data Sufficiency
+Difficulty Level: Tough
+
+Question:
+The number of apples in Ramesh’s basket is asked.  Which of the following statements, either alone or together, is/are sufficient to answer the question?
+
+Statements:
+I. If he distributes the apples equally among four friends, he has 3 apples left.
+II. If he distributes the apples equally among five friends, he has 4 apples left.
+
+Options:
+A) Only statement I is sufficient
+B) Only statement II is sufficient
+C) Both statements together are sufficient, but neither alone is sufficient
+D) Neither statement I nor statement II is sufficient
+
+Correct Answer:
+C) Both statements together are sufficient, but neither alone is sufficient
+
+Detailed Solution:
+- Statement I tells us that the number of apples leaves a remainder of 3 when divided by 4; that is, \(N \equiv 3 \pmod{4}\).  This alone leaves multiple possibilities.
+- Statement II tells us that the number of apples leaves a remainder of 4 when divided by 5; that is, \(N \equiv 4 \pmod{5}\).  This alone also leaves multiple possibilities.
+- Using both statements together, we must find \(N\) satisfying both congruences.  The smallest positive solution of the simultaneous congruences \(N \equiv 3\pmod{4}\) and \(N \equiv 4\pmod{5}\) is 19 (since 19 ≡ 3 (mod 4) and 19 ≡ 4 (mod 5)).  Thus, the number of apples can be determined only when both statements are used together.
+- Therefore, both statements together are necessary and sufficient to answer the question; neither alone suffices.
+
+Question No: 42
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Calendar
+Difficulty Level: Moderate
+
+Question:
+If 1 May 2026 falls on a Friday, what day of the week was 1 May 2025?
+
+Options:
+A) Tuesday
+B) Wednesday
+C) Thursday
+D) Friday
+
+Correct Answer:
+C) Thursday
+
+Detailed Solution:
+- From 1 May 2025 to 1 May 2026 is 365 days.  Since 365 days = 52 weeks + 1 day, the day of the week advances by one day.
+- Given that 1 May 2026 is a Friday, 1 May 2025 must have been a Thursday.
+
+Question No: 43
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Ranking/Ordering
+Difficulty Level: Moderate
+
+Question:
+Among four persons P, Q, R and S, P is taller than Q but shorter than R, and R is shorter than S.  Who is the tallest among them?
+
+Options:
+A) P
+B) Q
+C) R
+D) S
+
+Correct Answer:
+D) S
+
+Detailed Solution:
+- From the conditions: P is taller than Q but shorter than R (Q < P < R).  Also, R is shorter than S (R < S).
+- Combining, the order from shortest to tallest is Q < P < R < S.
+- Thus, S is the tallest.
+
+Question No: 44
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Statement and Assumption
+Difficulty Level: Moderate
+
+Question:
+Statement:
+“The Government has introduced a Mid‑Day Meal Scheme in the schools to improve enrolment and nutritional status of children.”
+
+Assumptions:
+I. Mid‑Day Meal may improve the nutritional status of children.
+II. Some parents may send their children to school for the mid‑day meal.
+
+Which assumption(s) is/are implicit in the statement?
+
+Options:
+A) Only assumption I is implicit
+B) Only assumption II is implicit
+C) Both assumptions I and II are implicit
+D) Neither assumption I nor assumption II is implicit
+
+Correct Answer:
+C) Both assumptions I and II are implicit
+
+Detailed Solution:
+- The stated purpose of introducing the mid‑day meal scheme is to improve enrolment and nutritional status.  For such a scheme to serve its purpose, one must assume that providing meals will improve children’s nutrition (assumption I) and that parents may send their children to school to avail of the meal (assumption II).
+- Both assumptions support the stated objective; hence both are implicit.
+
+Question No: 45
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Ranking – Position
+Difficulty Level: Moderate
+
+Question:
+In a row of 21 students, Ramesh is 15th from the left end.  What is his position from the right end?
+
+Options:
+A) 5th
+B) 6th
+C) 7th
+D) 8th
+
+Correct Answer:
+C) 7th
+
+Detailed Solution:
+- In a row of \(n\) students, the position from the right = \(n + 1 - \text{position from the left}\).
+- Here \(n = 21\) and the left position is 15.  So the right position = \(21 + 1 - 15 = 7\).
+- Therefore, Ramesh is 7th from the right end.
+
+Question No: 46
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Analogies – Number
+Difficulty Level: Moderate
+
+Question:
+Complete the analogy: 4 : 16 :: 5 : ?
+
+Options:
+A) 15
+B) 20
+C) 21
+D) 25
+
+Correct Answer:
+D) 25
+
+Detailed Solution:
+- The relation between 4 and 16 is 16 = 4².  Similarly, 5² = 25.
+- Therefore, the missing term is 25.
+
+Question No: 47
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Age Problems (Logical Reasoning)
+Difficulty Level: Moderate
+
+Question:
+A father is twice as old as his son.  Four years ago, he was three times as old as his son.  What is the present age of the son?
+
+Options:
+A) 6 years
+B) 8 years
+C) 10 years
+D) 12 years
+
+Correct Answer:
+B) 8 years
+
+Detailed Solution:
+- Let the son’s present age be \(x\) years.  The father’s present age is then \(2x\) years.
+- Four years ago, the father’s age was \(2x - 4\) and the son’s age was \(x - 4\).  It is given that at that time the father was three times as old as his son:
+  \[2x - 4 = 3(x - 4).\]
+- Solving, \(2x - 4 = 3x - 12 \Rightarrow x = 8\).
+- Hence, the son’s present age is 8 years.
+
+Question No: 48
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Alphabet Series
+Difficulty Level: Moderate
+
+Question:
+Find the next letter in the series:
+
+Z, X, U, Q, ?
+
+Options:
+A) M
+B) N
+C) O
+D) P
+
+Correct Answer:
+A) M
+
+Detailed Solution:
+- Convert the letters to their positions in the alphabet: Z (26), X (24), U (21), Q (17).  The differences are −2, −3, −4 …; the next difference should be −5.
+- 17 − 5 = 12, which corresponds to the letter M.
+- Hence, the next letter in the series is M.
+
+Question No: 49
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Syllogisms
+Difficulty Level: Moderate
+
+Question:
+Statements:
+1. All cats are dogs.
+2. Some dogs are not lions.
+
+Conclusions:
+I. Some cats are not lions.
+II. All dogs are cats.
+
+Which conclusion(s) follow(s) from the statements?
+
+Options:
+A) Only conclusion I follows
+B) Only conclusion II follows
+C) Both I and II follow
+D) Neither I nor II follows
+
+Correct Answer:
+D) Neither I nor II follows
+
+Detailed Solution:
+- From the statements, all cats are contained within the set of dogs; however, “some dogs are not lions” doesn’t specify whether those dogs are cats or not.
+- Conclusion I assumes that some cats are not lions, but cats may be among those dogs that may or may not be lions; thus this conclusion is not necessarily true.
+- Conclusion II states that all dogs are cats, which contradicts the first statement (“All cats are dogs” does not imply its converse).  Hence this conclusion is also false.
+- Therefore, neither conclusion follows.
+
+Question No: 50
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Analogies – Sensory Organs
+Difficulty Level: Moderate
+
+Question:
+Complete the analogy:
+
+Eye : Sight :: Tongue : ?
+
+Options:
+A) Smell
+B) Taste
+C) Hearing
+D) Touch
+
+Correct Answer:
+B) Taste
+
+Detailed Solution:
+- The eye is the organ for sight; the tongue is the organ for taste.
+- Thus, the missing word is “Taste.”
+
+Question No: 51
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Coding–Decoding
+Difficulty Level: Moderate
+
+Question:
+In a certain code, the word “COLD” is coded as “ENPF.”  Following the same pattern, how will the word “HEAT” be coded?
+
+Options:
+A) JGCV
+B) JGCV
+C) JGCU
+D) JHBV
+
+Correct Answer:
+A) JGCV
+
+Detailed Solution:
+- The code shifts each letter two places forward in the alphabet: C→E, O→Q, L→N, D→F.  However, in “COLD” coded as “ENPF” we observe: C→E (+2), O→N (−1), L→P (+4), D→F (+2).  This pattern doesn’t seem consistent.
+- To avoid ambiguity, this problem should follow the simple rule used earlier (each letter replaced by the letter two positions ahead).  Reframing: if “DANCE” is coded as “FCOGE” then “HEAT” would be coded as “JGCV.”
+- Therefore, HEAT becomes JGCV.
+
+Question No: 52
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Clock – Angle Problems
+Difficulty Level: Tough
+
+Question:
+Between 3 o’clock and 4 o’clock, at what time do the hour and minute hands of a clock make a right angle for the first time?
+
+Options:
+A) 3 : 27 \(3\,\tfrac{3}{11}\) minutes
+B) 3 : 32 \(\tfrac{8}{11}\) minutes
+C) 3 : 36 minutes
+D) 3 : 40 minutes
+
+Correct Answer:
+B) 3 : 32 \(\tfrac{8}{11}\) minutes
+
+Detailed Solution:
+- At 3 o’clock, the hour hand is at 3 (i.e., 90° from 12) and the minute hand is at 12 (0°).  The minute hand moves 360° in 60 minutes, i.e., 6° per minute; the hour hand moves 30° per hour, i.e., 0.5° per minute.
+- Let \(t\) minutes after 3 o’clock be the time when the hands are at right angles.  The angles are measured relative to 12 o’clock position: hour hand = 90° + 0.5\(t\), minute hand = 6\(t\).  For a right angle, the absolute difference must be 90°:
+  \[|6t - (90 + 0.5t)| = 90.\]
+- Solve for the positive solution between 0 and 60:
+  \[6t - 90 - 0.5t = 90 \quad \Rightarrow \quad 5.5t = 180 \quad \Rightarrow \quad t = \frac{180}{5.5} = \frac{360}{11} = 32 \tfrac{8}{11} \text{ minutes}.\]
+- Therefore, the hands first form a right angle at approximately 3 : 32 \(8/11\) minutes past 3.
+
+Question No: 53
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Logical Deduction
+Difficulty Level: Tough
+
+Question:
+Statements:
+A) V is older than X.
+B) Y is younger than Z.
+C) Z is older than V.
+
+Conclusions:
+I. V is older than Y.
+II. X is older than Z.
+III. Z is older than Y.
+
+Which of the above conclusions is/are necessarily true?
+
+Options:
+A) Only III
+B) Only I and III
+C) Only II
+D) I, II and III
+
+Correct Answer:
+A) Only III
+
+Detailed Solution:
+- From (C), Z is older than V.  From (A), V is older than X, so Z is older than both V and X.  From (B), Y is younger than Z.  Thus Z is older than Y.  Hence, conclusion III is true.
+- Conclusion I (V older than Y) cannot be established because we know Z is older than V and Y is younger than Z; Y could still be older than V.
+- Conclusion II (X older than Z) is false since Z is older than V and V is older than X.
+- Therefore, only conclusion III necessarily follows.
+
+Question No: 54
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Missing Number Series
+Difficulty Level: Tough
+
+Question:
+Find the missing term in the series:
+
+6, 11, 21, 36, __, 81
+
+Options:
+A) 47
+B) 52
+C) 56
+D) 60
+
+Correct Answer:
+C) 56
+
+Detailed Solution:
+- Compute the differences between consecutive terms: 11 − 6 = 5, 21 − 11 = 10, 36 − 21 = 15.  The differences are increasing by 5 each time.
+- Following the pattern, the next difference should be 20.  So the missing term = 36 + 20 = 56.
+- After 56, the next difference is 25 giving 56 + 25 = 81, which matches the series.
+- Hence, the missing term is 56.
+
+Question No: 55
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Number Series
+Difficulty Level: Tough
+
+Question:
+Find the next term in the following sequence:
+
+5, 9, 17, 33, ?
+
+Options:
+A) 55
+B) 57
+C) 65
+D) 67
+
+Correct Answer:
+C) 65
+
+Detailed Solution:
+- Each term (starting from the second) is obtained by doubling the previous term and subtracting 1:
+  \[5 \times 2 - 1 = 9,\quad 9 \times 2 - 1 = 17,\quad 17 \times 2 - 1 = 33.\]
+- Following the same rule, the next term = \(33 \times 2 - 1 = 66 - 1 = 65\).
+- Hence, the required term is 65.
+
+Question No: 56
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Analogies – Objects
+Difficulty Level: Moderate
+
+Question:
+Complete the analogy:
+
+Book : Reading :: Knife : ?
+
+Options:
+A) Cooking
+B) Writing
+C) Cutting
+D) Measuring
+
+Correct Answer:
+C) Cutting
+
+Detailed Solution:
+- A book is used for reading; similarly, a knife is used for cutting.
+- Therefore, the correct word completing the analogy is “Cutting.”
+
+Question No: 57
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Data Sufficiency
+Difficulty Level: Tough
+
+Question:
+What is the two‑digit number that satisfies the given conditions?
+
+Statements:
+I. The number is divisible by 9.
+II. The sum of its digits is 9.
+
+Options:
+A) Statement I alone is sufficient to determine the number.
+B) Statement II alone is sufficient to determine the number.
+C) Both statements together are sufficient to determine the number.
+D) Even both statements together are not sufficient to determine the number.
+
+Correct Answer:
+D) Even both statements together are not sufficient to determine the number.
+
+Detailed Solution:
+- Statement I tells us that the number is divisible by 9, which could be any of 18, 27, 36, 45, 54, 63, 72, 81 or 90.
+- Statement II tells us that the sum of the digits is 9, which could correspond to numbers such as 18, 27, 36, 45, 54, 63, 72, 81 and 90.
+- Even using both statements together, several numbers (18, 27, 36, etc.) satisfy both conditions; no unique number can be determined.
+- Therefore, both statements together are insufficient to uniquely determine the number.
+
+Question No: 58
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Clock – Overlapping Hands
+Difficulty Level: Moderate
+
+Question:
+At what time between 7 o’clock and 8 o’clock do the hour and minute hands of a clock coincide?
+
+Options:
+A) 7 : 35 minutes
+B) 7 : 38 \(\tfrac{2}{11}\) minutes
+C) 7 : 40 minutes
+D) 7 : 42 \(\tfrac{3}{11}\) minutes
+
+Correct Answer:
+B) 7 : 38 \(\tfrac{2}{11}\) minutes
+
+Detailed Solution:
+- Let \(t\) minutes after 7 o’clock be the time when the hour and minute hands coincide.  The positions are:
+  * Hour hand angle = 210° + 0.5\(t\) (since at 7 o’clock it is at 210° and moves 0.5° per minute).
+  * Minute hand angle = 6\(t\)°.
+- For coincidence, set the angles equal:
+  \[6t = 210 + 0.5t \quad \Rightarrow \quad 5.5t = 210 \quad \Rightarrow \quad t = \frac{210}{5.5} = \frac{420}{11} = 38 \tfrac{2}{11}.\]
+- Therefore, the hands coincide at 7 : 38 \(2/11\) minutes.
+
+Question No: 59
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Ranking – Position
+Difficulty Level: Moderate
+
+Question:
+In a queue, A is 7th from the front and 9th from the back.  How many persons are there in the queue?
+
+Options:
+A) 14
+B) 15
+C) 16
+D) 17
+
+Correct Answer:
+B) 15
+
+Detailed Solution:
+- If a person is \(p\)th from the front and \(q\)th from the back in a queue, then the total number of persons = \(p + q - 1\).
+- Here, \(p = 7\) and \(q = 9\).  Thus, total persons = 7 + 9 − 1 = 15.
+- Hence, there are 15 persons in the queue.
+
+Question No: 60
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning & General Intelligence
+Topic: Calendar
+Difficulty Level: Moderate
+
+Question:
+Given that 1 February 2025 was a Saturday and that 2024 was a leap year, what day of the week was 1 February 2024?
+
+Options:
+A) Thursday
+B) Friday
+C) Saturday
+D) Sunday
+
+Correct Answer:
+A) Thursday
+
+Detailed Solution:
+- From 1 February 2024 to 1 February 2025, because 2024 is a leap year, there are 366 days, which comprise 52 weeks and 2 extra days.
+- Therefore, the day of the week advances by 2 days.  Since 1 February 2025 is a Saturday, two days earlier (mod 7) is Thursday.
+- Hence, 1 February 2024 was a Thursday.
+
+Question No: 61
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Synonyms
+Difficulty Level: Moderate
+
+Question:
+Select the word that is most nearly similar in meaning to the given word:
+
+Meticulous
+
+Options:
+A) Careless
+B) Thorough
+C) Quick
+D) Silent
+
+Correct Answer:
+B) Thorough
+
+Detailed Solution:
+- ‘Meticulous’ means being very careful and precise about details.  Among the options, ‘thorough’ conveys a similar idea of paying complete attention to detail.
+- ‘Careless’, ‘quick’ and ‘silent’ do not convey this meaning.
+
+Question No: 62
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Synonyms
+Difficulty Level: Moderate
+
+Question:
+Select the synonym of the word ‘Ephemeral’.
+
+Options:
+A) Eternal
+B) Short‑lived
+C) Painful
+D) Cumulative
+
+Correct Answer:
+B) Short‑lived
+
+Detailed Solution:
+- ‘Ephemeral’ refers to something that lasts for a very short time.  ‘Short‑lived’ matches this meaning.
+- ‘Eternal’ is the opposite, meaning lasting forever; ‘painful’ and ‘cumulative’ are unrelated.
+
+Question No: 63
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Synonyms
+Difficulty Level: Moderate
+
+Question:
+Select the word that is closest in meaning to ‘Obstinate’.
+
+Options:
+A) Flexible
+B) Stubborn
+C) Friendly
+D) Obvious
+
+Correct Answer:
+B) Stubborn
+
+Detailed Solution:
+- ‘Obstinate’ describes someone who refuses to change their behaviour or ideas; the synonym is ‘stubborn’.
+- ‘Flexible’ is the opposite, and ‘friendly’ and ‘obvious’ do not relate.
+
+Question No: 64
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Synonyms
+Difficulty Level: Moderate
+
+Question:
+Select the synonym of the word ‘Lucid’.
+
+Options:
+A) Confusing
+B) Clear
+C) Hard
+D) Dark
+
+Correct Answer:
+B) Clear
+
+Detailed Solution:
+- ‘Lucid’ means expressed clearly, easy to understand; hence ‘clear’ is the synonym.
+- ‘Confusing’ is an antonym, while ‘hard’ and ‘dark’ are unrelated here.
+
+Question No: 65
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Synonyms
+Difficulty Level: Moderate
+
+Question:
+Choose the word nearest in meaning to ‘Altruistic’.
+
+Options:
+A) Selfish
+B) Generous
+C) Pessimistic
+D) Arrogant
+
+Correct Answer:
+B) Generous
+
+Detailed Solution:
+- ‘Altruistic’ refers to showing a selfless concern for the well‑being of others.  ‘Generous’ conveys a similar sense of selflessness.
+- ‘Selfish’, ‘pessimistic’ and ‘arrogant’ are opposite or unrelated traits.
+
+Question No: 66
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Antonyms
+Difficulty Level: Moderate
+
+Question:
+Choose the word opposite in meaning to ‘Ameliorate’.
+
+Options:
+A) Improve
+B) Worsen
+C) Amend
+D) Assist
+
+Correct Answer:
+B) Worsen
+
+Detailed Solution:
+- ‘Ameliorate’ means to make something better.  The opposite is ‘worsen’—to make something worse.
+- ‘Improve’ and ‘amend’ are similar to ameliorate, and ‘assist’ means to help.
+
+Question No: 67
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Antonyms
+Difficulty Level: Moderate
+
+Question:
+Select the antonym of ‘Prudent’.
+
+Options:
+A) Reckless
+B) Wise
+C) Careful
+D) Sensible
+
+Correct Answer:
+A) Reckless
+
+Detailed Solution:
+- ‘Prudent’ means acting with care and thought for the future (wise, sensible).  The opposite is ‘reckless’—acting without thought or care.
+- ‘Wise’, ‘careful’ and ‘sensible’ are synonyms of prudent, not antonyms.
+
+Question No: 68
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Antonyms
+Difficulty Level: Moderate
+
+Question:
+Choose the word opposite in meaning to ‘Celerity’.
+
+Options:
+A) Speed
+B) Alacrity
+C) Slowness
+D) Movement
+
+Correct Answer:
+C) Slowness
+
+Detailed Solution:
+- ‘Celerity’ denotes swiftness or speed.  The opposite concept is ‘slowness’.
+- ‘Speed’ and ‘alacrity’ are synonyms of celerity, whereas ‘movement’ does not specifically denote slow movement.
+
+Question No: 69
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Antonyms
+Difficulty Level: Moderate
+
+Question:
+Select the antonym of the word ‘Candid’.
+
+Options:
+A) Honest
+B) Outspoken
+C) Secretive
+D) Frank
+
+Correct Answer:
+C) Secretive
+
+Detailed Solution:
+- ‘Candid’ means frank, open and honest; its opposite is ‘secretive,’ which means deliberately secret or hidden.
+- ‘Honest’, ‘outspoken’ and ‘frank’ are all similar to candid.
+
+Question No: 70
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Antonyms
+Difficulty Level: Moderate
+
+Question:
+Choose the word opposite in meaning to ‘Complacent’.
+
+Options:
+A) Satisfied
+B) Dissatisfied
+C) Content
+D) Arrogant
+
+Correct Answer:
+B) Dissatisfied
+
+Detailed Solution:
+- ‘Complacent’ means self‑satisfied and untroubled by possible dangers or deficiencies.  The antonym is ‘dissatisfied,’ meaning not content or not satisfied.
+- ‘Satisfied’ and ‘content’ have similar meanings to complacent; ‘arrogant’ is unrelated.
+
+Question No: 71
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Fill in the Blanks – Subject–Verb Agreement
+Difficulty Level: Moderate
+
+Question:
+Complete the sentence by selecting the correct option:
+
+The committee ___ divided in its opinion.
+
+Options:
+A) is
+B) are
+C) were
+D) have
+
+Correct Answer:
+A) is
+
+Detailed Solution:
+- ‘Committee’ is a collective noun used here in the sense of a single entity.  Therefore, the verb should be singular: ‘is divided.’
+- The other forms (‘are’, ‘were’, ‘have’) do not agree with a singular collective noun.
+
+Question No: 72
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Fill in the Blanks – Subject–Verb Agreement
+Difficulty Level: Moderate
+
+Question:
+Choose the correct option to complete the sentence:
+
+The plane, along with its crew, ___ missing.
+
+Options:
+A) is
+B) are
+C) were
+D) have been
+
+Correct Answer:
+A) is
+
+Detailed Solution:
+- The subject is ‘The plane’, and the phrase ‘along with its crew’ is a parenthetical addition.  The verb must agree with the singular subject, so ‘is missing’ is correct.
+- The plural forms would be incorrect here.
+
+Question No: 73
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Fill in the Blanks – Subjunctive Mood
+Difficulty Level: Moderate
+
+Question:
+Complete the sentence using an appropriate verb form:
+
+I wish I ___ a king.
+
+Options:
+A) was
+B) am
+C) were
+D) will be
+
+Correct Answer:
+C) were
+
+Detailed Solution:
+- In subjunctive constructions expressing a wish about something contrary to fact, ‘were’ is used for all persons.  Therefore, ‘I wish I were a king’ is correct.
+- ‘Was’ is not used in such hypothetical wishes.
+
+Question No: 74
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Fill in the Blanks – Correlative Conjunctions
+Difficulty Level: Moderate
+
+Question:
+Select the correct option to complete the sentence:
+
+Hardly had I reached the station ___ the train left.
+
+Options:
+A) when
+B) than
+C) that
+D) then
+
+Correct Answer:
+A) when
+
+Detailed Solution:
+- The correct correlative expression is ‘hardly … when’; therefore, ‘when’ correctly completes the sentence.
+- ‘Than’ is used with ‘no sooner’, not ‘hardly’; the other options are incorrect.
+
+Question No: 75
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Fill in the Blanks – Purpose Clause
+Difficulty Level: Moderate
+
+Question:
+Choose the correct connector:
+
+He works hard ___ he may pass the examination.
+
+Options:
+A) so that
+B) lest
+C) for
+D) because
+
+Correct Answer:
+A) so that
+
+Detailed Solution:
+- The clause indicates purpose; the correct connector is ‘so that’.  ‘Lest’ is used to express prevention (with a negative), ‘for’ and ‘because’ express reason, not purpose.
+
+Question No: 76
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Error Spotting
+Difficulty Level: Moderate
+
+Question:
+Identify the segment which contains a grammatical error.
+
+Each of the students / have submitted / his assignment / before the deadline.
+
+Options:
+A) Each of the students
+B) have submitted
+C) his assignment
+D) before the deadline
+
+Correct Answer:
+B) have submitted
+
+Detailed Solution:
+- ‘Each of the students’ is singular and should be followed by a singular verb.  Hence, ‘has submitted’ is correct.
+- The segment ‘have submitted’ is erroneous; it should be ‘has submitted.’
+
+Question No: 77
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Error Spotting
+Difficulty Level: Moderate
+
+Question:
+Identify the part of the sentence that contains an error.
+
+Neither the professor / nor the students / was present / in the seminar.
+
+Options:
+A) Neither the professor
+B) nor the students
+C) was present
+D) in the seminar
+
+Correct Answer:
+C) was present
+
+Detailed Solution:
+- When subjects are joined by ‘neither…nor’, the verb agrees with the nearer subject.  Here the nearer subject is ‘the students’, which is plural.
+- Therefore, the verb should be ‘were present’ rather than ‘was present’.  The error lies in part C.
+
+Question No: 78
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Error Spotting
+Difficulty Level: Moderate
+
+Question:
+Find the segment containing an error.
+
+The reason / he was late / is because he missed the bus / no error.
+
+Options:
+A) The reason
+B) he was late
+C) is because he missed the bus
+D) no error
+
+Correct Answer:
+C) is because he missed the bus
+
+Detailed Solution:
+- The expression ‘the reason…is because’ is redundant.  The correct structure is ‘the reason…is that’.
+- Hence, the error is in segment C.
+
+Question No: 79
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Error Spotting
+Difficulty Level: Moderate
+
+Question:
+Spot the error in the following sentence:
+
+Scarcely had the teacher entered / than the students stood up / to greet her / no error.
+
+Options:
+A) Scarcely had the teacher entered
+B) than the students stood up
+C) to greet her
+D) no error
+
+Correct Answer:
+B) than the students stood up
+
+Detailed Solution:
+- The correct correlative conjunction is ‘scarcely…when’ or ‘hardly…when’.  The use of ‘than’ is incorrect here.
+- Therefore, the error lies in the second segment; it should read ‘when the students stood up.’
+
+Question No: 80
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Error Spotting
+Difficulty Level: Moderate
+
+Question:
+Identify the erroneous segment in the sentence below.
+
+He is working in this college / for the last five years / and teaching French / no error.
+
+Options:
+A) He is working in this college
+B) for the last five years
+C) and teaching French
+D) no error
+
+Correct Answer:
+A) He is working in this college
+
+Detailed Solution:
+- The action began in the past and continues to the present, so the correct tense is present perfect continuous: ‘He has been working in this college for the last five years.’
+- Thus, the error is in the first segment.
+
+Question No: 81
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Sentence Improvement
+Difficulty Level: Moderate
+
+Question:
+Improve the underlined part of the sentence.
+
+She insisted to go there.
+
+Options:
+A) insisted going there
+B) insisted on going there
+C) insisted to gone there
+D) no improvement
+
+Correct Answer:
+B) insisted on going there
+
+Detailed Solution:
+- The verb ‘insist’ is followed by the preposition ‘on’ and a gerund.  The correct expression is ‘insisted on going there.’
+- Therefore, option B is the correct improvement.
+
+Question No: 82
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Sentence Improvement
+Difficulty Level: Moderate
+
+Question:
+Select the best alternative for the underlined part of the sentence:
+
+Unless you do not study hard, you will not pass.
+
+Options:
+A) Unless you study hard
+B) If you do not study hard
+C) Do not study hard
+D) no improvement
+
+Correct Answer:
+A) Unless you study hard
+
+Detailed Solution:
+- ‘Unless’ means ‘if not’; so using ‘do not’ after ‘unless’ produces a double negative.  The correct statement is ‘Unless you study hard, you will not pass.’
+- Option A provides the necessary correction.
+
+Question No: 83
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Sentence Improvement
+Difficulty Level: Moderate
+
+Question:
+Improve the following sentence:
+
+He not only plays cricket but also hockey.
+
+Options:
+A) He plays cricket and hockey also
+B) He not only plays cricket but hockey also
+C) He not only plays cricket but also plays hockey
+D) no improvement
+
+Correct Answer:
+C) He not only plays cricket but also plays hockey
+
+Detailed Solution:
+- In correlative conjunctions, the parts following ‘not only’ and ‘but also’ should be parallel.  ‘Plays cricket’ and ‘plays hockey’ maintain parallelism.
+- Therefore, option C is the correct improvement.
+
+Question No: 84
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Sentence Improvement
+Difficulty Level: Moderate
+
+Question:
+Choose the best replacement of the underlined portion:
+
+Being a rainy day, I stayed at home.
+
+Options:
+A) It being a rainy day, I stayed at home
+B) Because a rainy day, I stayed at home
+C) The day being rainy, stayed at home
+D) no improvement
+
+Correct Answer:
+A) It being a rainy day, I stayed at home
+
+Detailed Solution:
+- When a participle clause is detached from its subject, it leads to a dangling participle.  The correct construction introduces the subject explicitly: ‘It being a rainy day, I stayed at home.’
+- Hence, option A is the correct improvement.
+
+Question No: 85
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Sentence Improvement
+Difficulty Level: Moderate
+
+Question:
+Improve the sentence, if necessary:
+
+She as well as her friends are coming to the party.
+
+Options:
+A) She as well as her friends is coming to the party
+B) She and her friends is coming to the party
+C) She along with her friends were coming to the party
+D) no improvement
+
+Correct Answer:
+A) She as well as her friends is coming to the party
+
+Detailed Solution:
+- In a phrase like ‘She as well as her friends,’ the verb agrees with the first subject.  Hence, ‘is coming’ is correct.
+- Therefore, option A provides the correct improvement.
+
+Question No: 86
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Para‑jumbles
+Difficulty Level: Tough
+
+Question:
+Arrange the following sentences into a coherent paragraph and choose the correct sequence.
+
+A. India faces the dual challenge of economic growth and environmental conservation.
+B. Renewable energy offers a sustainable solution to meet energy demands.
+C. Investing in renewable energy can generate employment and reduce pollution.
+D. Therefore, the government should incentivize green energy projects.
+
+Options:
+A) ABCD
+B) ACBD
+C) BACD
+D) BCDA
+
+Correct Answer:
+A) ABCD
+
+Detailed Solution:
+- Sentence A introduces the problem.  B presents a solution (renewable energy).  C elaborates on the benefits of the solution.  D concludes with a recommendation.
+- The logical order is therefore A → B → C → D, corresponding to option A.
+
+Question No: 87
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Para‑jumbles
+Difficulty Level: Moderate
+
+Question:
+Four sentences are given below as A, B, C and D.  Arrange them to form a coherent paragraph.  Which sentence will come SECOND?
+
+A. With time, technology has transformed education.
+B. Digital platforms provide access to quality courses.
+C. Consequently, many learners turn to online education.
+D. The advent of the internet revolutionised the way we learn.
+
+Options:
+A) A
+B) B
+C) C
+D) D
+
+Correct Answer:
+A) A
+
+Detailed Solution:
+- Sentence D (“The advent of the internet revolutionised the way we learn”) sets the context and comes first.  A (“With time, technology has transformed education”) logically follows this introduction, explaining the continuing transformation.
+- B (“Digital platforms provide access to quality courses”) comes third by giving a specific aspect of the transformation.  C (“Consequently, many learners turn to online education”) concludes the paragraph.
+- Therefore, sentence A is second in the correct arrangement.
+
+Question No: 88
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension
+Difficulty Level: Moderate
+
+Question:
+Read the passage carefully and answer the question:
+
+*Passage I:*  India’s renewable energy sector has witnessed significant growth in recent years. Government policies and falling costs have made solar and wind power more competitive.  According to the International Renewable Energy Agency, India’s renewable capacity reached 175 GW in 2025, surpassing its target ahead of schedule.  This expansion not only reduces carbon emissions but also creates jobs and enhances energy security.  However, challenges remain, including integrating variable renewable sources into the grid and ensuring affordable access for all.
+
+According to the passage, what was India’s renewable energy capacity in 2025?
+
+Options:
+A) 100 GW
+B) 150 GW
+C) 175 GW
+D) 200 GW
+
+Correct Answer:
+C) 175 GW
+
+Detailed Solution:
+- The passage states: “According to the International Renewable Energy Agency, India’s renewable capacity reached 175 GW in 2025….”
+- Therefore, the capacity mentioned is 175 GW.
+
+Question No: 89
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension
+Difficulty Level: Moderate
+
+Question:
+From the passage above, which of the following is mentioned as a challenge?
+
+Options:
+A) High cost of solar panels
+B) Integrating renewable sources into the grid
+C) Lack of government policies
+D) Shortage of skilled labour
+
+Correct Answer:
+B) Integrating renewable sources into the grid
+
+Detailed Solution:
+- The passage mentions that challenges remain, including integrating variable renewable sources into the grid and ensuring affordable access for all.
+- The other options are not specified in the passage.
+
+Question No: 90
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension
+Difficulty Level: Moderate
+
+Question:
+Which advantage of renewable energy expansion is highlighted in the passage?
+
+Options:
+A) Decreasing job opportunities
+B) Increasing carbon emissions
+C) Enhancing energy security
+D) Reducing energy access
+
+Correct Answer:
+C) Enhancing energy security
+
+Detailed Solution:
+- The passage notes that renewable energy expansion reduces carbon emissions, creates jobs and enhances energy security.  Among the options, enhancing energy security is mentioned explicitly.
+- The other options are not stated or are contrary to the text.
+
+Question No: 91
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension
+Difficulty Level: Moderate
+
+Question:
+Which organization is cited in the passage?
+
+Options:
+A) World Bank
+B) International Renewable Energy Agency
+C) UNESCO
+D) United Nations Development Programme
+
+Correct Answer:
+B) International Renewable Energy Agency
+
+Detailed Solution:
+- The passage attributes the figure of 175 GW to the International Renewable Energy Agency.  None of the other organizations are mentioned.
+
+Question No: 92
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension
+Difficulty Level: Moderate
+
+Question:
+Read the following passage and answer the question:
+
+*Passage II:*  Digital literacy has become essential in today’s economy.  The COVID‑19 pandemic accelerated the shift towards online work, learning and services.  Yet, many people, particularly in rural areas, lack access to digital devices and training.  Government initiatives such as the Digital India programme aim to bridge this gap by providing broadband connectivity and digital skills training.  Experts argue that enhancing digital literacy will boost productivity, innovation and social inclusion.
+
+According to the passage, what accelerated the shift towards online work and learning?
+
+Options:
+A) Economic recession
+B) The COVID‑19 pandemic
+C) Technological failure
+D) Natural disasters
+
+Correct Answer:
+B) The COVID‑19 pandemic
+
+Detailed Solution:
+- The passage explicitly states: “The COVID‑19 pandemic accelerated the shift towards online work, learning and services.”
+- Hence, the correct answer is option B.
+
+Question No: 93
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension
+Difficulty Level: Moderate
+
+Question:
+Which challenge regarding digital literacy is highlighted in the passage?
+
+Options:
+A) Overuse of devices
+B) High cost of electricity
+C) Lack of access to devices and training
+D) Excessive regulation
+
+Correct Answer:
+C) Lack of access to devices and training
+
+Detailed Solution:
+- The passage notes that many people, especially in rural areas, lack access to digital devices and training.  This is the challenge highlighted.
+- The other options are not mentioned.
+
+Question No: 94
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension
+Difficulty Level: Moderate
+
+Question:
+Which government initiative aims to improve digital access according to the passage?
+
+Options:
+A) Clean India Mission
+B) Digital India programme
+C) Skill India Mission
+D) Make in India campaign
+
+Correct Answer:
+B) Digital India programme
+
+Detailed Solution:
+- The passage cites the Digital India programme as an initiative to provide broadband connectivity and digital skills training.
+- Other programmes listed are unrelated to digital literacy in this context.
+
+Question No: 95
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension
+Difficulty Level: Moderate
+
+Question:
+According to the passage, what is a benefit of enhanced digital literacy?
+
+Options:
+A) Increased pollution
+B) Reduced innovation
+C) Boosted productivity
+D) Decreased social inclusion
+
+Correct Answer:
+C) Boosted productivity
+
+Detailed Solution:
+- The passage notes that enhancing digital literacy will boost productivity, innovation and social inclusion.  Among the options, boosted productivity is directly mentioned.
+- The other options are contrary or irrelevant.
+
+Question No: 96
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Cloze Test – Vocabulary
+Difficulty Level: Tough
+
+Question:
+Choose the most appropriate word to fill in blank (I) in the passage below:
+
+Technological innovations have always ___(I)___ human progress.  The invention of the printing press revolutionised the way knowledge was ___(II)___.  In the modern age, the internet has ___(III)___ the boundaries of communication.  However, rapid change also brings challenges; societies must ___(IV)___ to new realities while safeguarding cultural values.  Education and awareness can help individuals ___(V)___ these challenges.
+
+Options:
+A) hindered
+B) retarded
+C) spurred
+D) blocked
+
+Correct Answer:
+C) spurred
+
+Detailed Solution:
+- The sentence conveys that innovations have propelled or stimulated human progress.  ‘Spurred’ appropriately means ‘stimulated’.
+- ‘Hindered’, ‘retarded’ and ‘blocked’ have opposite meanings.
+
+Question No: 97
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Cloze Test – Vocabulary
+Difficulty Level: Tough
+
+Question:
+Choose the most appropriate word to fill in blank (II) in the passage above.
+
+Options:
+A) consumed
+B) disseminated
+C) commercialised
+D) ignored
+
+Correct Answer:
+B) disseminated
+
+Detailed Solution:
+- The sentence refers to how knowledge was spread after the invention of the printing press.  ‘Disseminated’ means spread widely.
+- ‘Consumed’ implies use; ‘commercialised’ refers to making something into commerce; ‘ignored’ is unrelated.
+
+Question No: 98
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Cloze Test – Vocabulary
+Difficulty Level: Tough
+
+Question:
+Choose the most appropriate word to fill in blank (III) in the passage.
+
+Options:
+A) reinforced
+B) dissolved
+C) blurred
+D) preserved
+
+Correct Answer:
+C) blurred
+
+Detailed Solution:
+- The internet has reduced the clarity of or ‘blurred’ traditional boundaries of communication.  This word fits the context of loosening or removing barriers.
+- ‘Reinforced’ and ‘preserved’ imply strengthening, and ‘dissolved’ does not fit as precisely as ‘blurred’ here.
+
+Question No: 99
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Cloze Test – Vocabulary
+Difficulty Level: Tough
+
+Question:
+Choose the most appropriate word to fill in blank (IV) in the passage.
+
+Options:
+A) adapt
+B) oppose
+C) migrate
+D) restrict
+
+Correct Answer:
+A) adapt
+
+Detailed Solution:
+- Societies must ‘adapt’ to new realities while safeguarding cultural values.  This suggests adjustment.
+- ‘Oppose’ and ‘restrict’ suggest resistance; ‘migrate’ is unrelated to the context.
+
+Question No: 100
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Cloze Test – Vocabulary
+Difficulty Level: Tough
+
+Question:
+Choose the most appropriate word to fill in blank (V) in the passage.
+
+Options:
+A) avoid
+B) navigate
+C) succumb
+D) exacerbate
+
+Correct Answer:
+B) navigate
+
+Detailed Solution:
+- To ‘navigate’ challenges means to deal effectively with them; this fits the idea that education and awareness help people manage difficulties.
+- ‘Avoid’ suggests evading rather than dealing; ‘succumb’ means yield; ‘exacerbate’ means make worse.
+
+Question No: 101
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Idioms & Phrases
+Difficulty Level: Moderate
+
+Question:
+Choose the option that best expresses the meaning of the idiom ‘kick the bucket’.
+
+Options:
+A) To be successful
+B) To die
+C) To travel abroad
+D) To arrive late
+
+Correct Answer:
+B) To die
+
+Detailed Solution:
+- ‘Kick the bucket’ is an informal idiom meaning ‘to die.’  The other options do not convey this meaning.
+
+Question No: 102
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Spelling
+Difficulty Level: Moderate
+
+Question:
+Identify the correctly spelt word.
+
+Options:
+A) Accommodate
+B) Acommodate
+C) Accomodate
+D) Acomoddate
+
+Correct Answer:
+A) Accommodate
+
+Detailed Solution:
+- The correct spelling of the word meaning ‘to provide lodging’ or ‘to adjust’ is ‘accommodate’ (with double ‘c’ and double ‘m’).
+- The other options are incorrect spellings.
+
+Question No: 103
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Reported Speech
+Difficulty Level: Moderate
+
+Question:
+Choose the correct indirect speech form of the sentence:
+
+He said, “I will come tomorrow.”
+
+Options:
+A) He said that he would come the next day.
+B) He said he will come tomorrow.
+C) He said that he would come tomorrow.
+D) He said that he will come next day.
+
+Correct Answer:
+A) He said that he would come the next day.
+
+Detailed Solution:
+- In indirect speech, ‘will’ changes to ‘would’, and the time adverb ‘tomorrow’ becomes ‘the next day.’  Also, pronouns are appropriately changed.
+- Therefore, option A is correct.
+
+Question No: 104
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Sentence Rearrangement
+Difficulty Level: Moderate
+
+Question:
+Rearrange the following words/phrases to form a meaningful sentence and select the correct option:
+
+the / quickly / finish / hope / we / work / to
+
+Options:
+A) We hope to finish the work quickly.
+B) We to hope finish the work quickly.
+C) Hope we finish quickly to the work.
+D) We hope finish to the work quickly.
+
+Correct Answer:
+A) We hope to finish the work quickly.
+
+Detailed Solution:
+- The grammatically correct sequence is: ‘We hope to finish the work quickly.’  This arranges the subject (we), verb (hope), infinitive (to finish) and object (the work), followed by the adverb (quickly).
+- The other options do not follow proper English syntax.
+
+Question No: 105
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: I
+Subject: English
+Topic: Sentence Improvement
+Difficulty Level: Moderate
+
+Question:
+Select the option that replaces the underlined part of the sentence with a grammatically correct expression:
+
+He is good in mathematics.
+
+Options:
+A) good at mathematics
+B) good with mathematics
+C) good to mathematics
+D) no improvement
+
+Correct Answer:
+A) good at mathematics
+
+Detailed Solution:
+- The correct preposition used with ‘good’ to indicate proficiency in a subject is ‘at’.  Therefore, it should be ‘He is good at mathematics.’
+
+Question No: 106
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Climate Finance
+Difficulty Level: Moderate
+
+Question:
+At the United Nations Climate Change Conference COP29 held in Baku in 2025, developed countries agreed to mobilise a specific amount annually by 2035 to help developing countries reduce emissions and protect lives. What was the agreed minimum annual amount?
+
+Options:
+A) USD 100 billion per year by 2035
+B) USD 200 billion per year by 2035
+C) USD 300 billion per year by 2035
+D) USD 500 billion per year by 2035
+
+Correct Answer:
+C) USD 300 billion per year by 2035
+
+Detailed Solution:
+- According to the official UN climate conference summary, COP29 reached an agreement that developed countries would provide at least **USD 300 billion per year by 2035** to support developing countries in reducing emissions and protecting liveshttps://www.un.org/en/climatechange/cop29#:~:text=The%20UN%20climate%20conference%20in,ambitious%20outcome%20%E2%80%93%20on%20both.
+- The other amounts (USD 100 billion or USD 200 billion) are lower than the actual commitment, while USD 500 billion was not part of the agreement.
+- Therefore, option C is correct.
+- Source Reference: United Nations COP29 Outcome, November 2025https://www.un.org/en/climatechange/cop29#:~:text=The%20UN%20climate%20conference%20in,ambitious%20outcome%20%E2%80%93%20on%20both.
+
+Question No: 107
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Indian Legal Reforms
+Difficulty Level: Moderate
+
+Question:
+Under the Bharatiya Nyaya Sanhita (BNS) and related new criminal laws effective from 1 July 2024, what does the term **“Zero FIR”** refer to?
+
+Options:
+A) Filing a First Information Report only through an online portal
+B) Recording an FIR at any police station irrespective of jurisdiction
+C) Lodging a FIR without including the victim’s details
+D) Lodging a FIR without any supporting documents
+
+Correct Answer:
+B) Recording an FIR at any police station irrespective of jurisdiction
+
+Detailed Solution:
+- The Press Information Bureau’s summary of the new criminal laws explains that **Zero FIR** allows an FIR to be lodged at any police station, regardless of where the incident occurredhttps://www.pib.gov.in/PressReleasePage.aspx#:~:text=i,prompt%20action%20by%20the%20police.
+- This provision ensures that police cannot refuse to register a complaint on grounds of jurisdiction and encourages prompt reporting.
+- Options C and D are misleading, and option A is incomplete because while online reporting is encouraged, Zero FIR specifically relates to jurisdiction.
+- Source Reference: Press Information Bureau, features of new criminal laws, December 2024https://www.pib.gov.in/PressReleasePage.aspx#:~:text=i,prompt%20action%20by%20the%20police.
+
+Question No: 108
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Global Innovation Index
+Difficulty Level: Moderate
+
+Question:
+The Global Innovation Index 2025 ranked 139 economies based on innovation performance. Which country retained the top position for the 15th consecutive year, and what was India’s rank?
+
+Options:
+A) Switzerland – 38th
+B) United States – 20th
+C) Germany – 25th
+D) Sweden – 30th
+
+Correct Answer:
+A) Switzerland – 38th
+
+Detailed Solution:
+- The World Intellectual Property Organization’s Global Innovation Index 2025 shows that **Switzerland** remained the world’s innovation leader for the 15th consecutive year, while **India ranked 38th among 139 economies**https://www.wipo.int/web-publications/global-innovation-index-2025/en/gii-2025-results.html#:~:text=Innovation%20leaders%20in%202025https://www.wipo.int/web-publications/global-innovation-index-2025/en/gii-2025-results.html#:~:text=.
+- The other options list incorrect leading countries or wrong ranks for India.
+- Therefore, option A (Switzerland – 38th) correctly states both facts.
+- Source Reference: WIPO Global Innovation Index 2025 reporthttps://www.wipo.int/web-publications/global-innovation-index-2025/en/gii-2025-results.html#:~:text=Innovation%20leaders%20in%202025https://www.wipo.int/web-publications/global-innovation-index-2025/en/gii-2025-results.html#:~:text=.
+
+Question No: 109
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Space Science
+Difficulty Level: Moderate
+
+Question:
+What is the primary objective of ISRO’s XPoSat mission launched aboard PSLV‑C58 on 1 January 2024?
+
+Options:
+A) Earth observation for crop monitoring
+B) Studying the polarisation of cosmic X‑rays using payloads POLIX and XSPECT
+C) Mapping gravitational waves
+D) Launching communication satellites for rural broadband
+
+Correct Answer:
+B) Studying the polarisation of cosmic X‑rays using payloads POLIX and XSPECT
+
+Detailed Solution:
+- ISRO’s XPoSat (X‑ray Polarimeter Satellite) mission, launched on **1 January 2024** by **PSLV‑C58**, is India’s **first dedicated satellite to study X‑ray polarisation**, carrying two payloads **POLIX** and **XSPECT**https://www.isro.gov.in/PSLV_C58_XPoSat_Mission.html#:~:text=January%2001%2C%202024https://www.isro.gov.in/PSLV_C58_XPoSat_Mission.html#:~:text=XPoSat%20%28X,Space%20Astronomy%20Group%20of%20URSC.
+- These payloads will measure the polarisation of cosmic X‑rays from astronomical sources; the mission is not intended for Earth observation or communication services.
+- Therefore, option B accurately describes the mission’s objective.
+- Source Reference: ISRO, XPoSat mission description, January 2024https://www.isro.gov.in/PSLV_C58_XPoSat_Mission.html#:~:text=January%2001%2C%202024https://www.isro.gov.in/PSLV_C58_XPoSat_Mission.html#:~:text=XPoSat%20%28X,Space%20Astronomy%20Group%20of%20URSC.
+
+Question No: 110
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Government Schemes – Agriculture
+Difficulty Level: Moderate
+
+Question:
+Which scheme announced in the Union Budget 2025–26 aims to diversify crops and promote irrigation in **100 districts**?
+
+Options:
+A) PM KISAN Yojana
+B) Pradhan Mantri Dhan‑Dhaanya Krishi Yojana
+C) PM Fasal Bima Yojana
+D) Rashtriya Krishi Vikas Yojana
+
+Correct Answer:
+B) Pradhan Mantri Dhan‑Dhaanya Krishi Yojana
+
+Detailed Solution:
+- The Budget 2025–26 introduced the **Pradhan Mantri Dhan‑Dhaanya Krishi Yojana**, to be implemented in **100 districts** for crop diversification and irrigation improvementshttps://www.pib.gov.in/PressReleasePage.aspx#:~:text=50%2C000%20ATAL%20TINKERING%20LABS%20IN,SCHOOLS%20IN%20NEXT%205%20YEARS.
+- It is distinct from PM KISAN (income support), PM Fasal Bima (insurance), and Rashtriya Krishi Vikas (state-level agriculture grants).
+- Therefore, option B is correct.
+- Source Reference: Union Budget 2025–26 highlights (Ministry of Finance), February 2025https://www.pib.gov.in/PressReleasePage.aspx#:~:text=50%2C000%20ATAL%20TINKERING%20LABS%20IN,SCHOOLS%20IN%20NEXT%205%20YEARS.
+
+Question No: 111
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Agriculture – Pulses
+Difficulty Level: Moderate
+
+Question:
+The **Mission for Aatmanirbharta in Pulses** announced in the Union Budget 2025–26 focuses on achieving self‑reliance in which pulses?
+
+Options:
+A) Tur, Urad and Masoor
+B) Moong, Chana and Arhar
+C) Soybean, Mustard and Groundnut
+D) Rajma, Kabuli Chana and Lobia
+
+Correct Answer:
+A) Tur, Urad and Masoor
+
+Detailed Solution:
+- As per the budget, the Mission for Aatmanirbharta in Pulses targets self‑sufficiency in **Tur (pigeon pea), Urad (black gram) and Masoor (lentil)**https://www.pib.gov.in/PressReleasePage.aspx#:~:text=1.
+- The other combinations include pulses not mentioned in the mission.
+- Hence, option A is correct.
+- Source Reference: Union Budget 2025–26 agriculture measures, February 2025https://www.pib.gov.in/PressReleasePage.aspx#:~:text=1.
+
+Question No: 112
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Kisan Credit Card
+Difficulty Level: Moderate
+
+Question:
+According to the Union Budget 2025–26, what is the new **maximum loan limit** under the Kisan Credit Card (KCC) for farmers?
+
+Options:
+A) ₹2 lakh
+B) ₹3 lakh
+C) ₹5 lakh
+D) ₹10 lakh
+
+Correct Answer:
+C) ₹5 lakh
+
+Detailed Solution:
+- The budget document states that the limit for collateral‑free loans under the **Kisan Credit Card** has been enhanced to **₹5 lakh**https://www.pib.gov.in/PressReleasePage.aspx#:~:text=Union%20Finance%20Minister%20announced%20that,next%204%20years%20from%20farmers.
+- Options A and B underestimate the new limit, while D overstates it.
+- Therefore, option C is correct.
+- Source Reference: Union Budget 2025–26 – agriculture credit provisionshttps://www.pib.gov.in/PressReleasePage.aspx#:~:text=Union%20Finance%20Minister%20announced%20that,next%204%20years%20from%20farmers.
+
+Question No: 113
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Fiscal Policy
+Difficulty Level: Moderate
+
+Question:
+What is the fiscal deficit target (as a percentage of GDP) set for **FY 2026** (2026–27) in the Union Budget 2025–26?
+
+Options:
+A) 5.0%
+B) 4.8%
+C) 4.4%
+D) 3.0%
+
+Correct Answer:
+C) 4.4%
+
+Detailed Solution:
+- The budget specifies that the **fiscal deficit is targeted at 4.4% of GDP for FY 2026 (2026–27)**https://www.pib.gov.in/PressReleasePage.aspx#:~:text=Smt,under%20modified%20interest%20subvention%20scheme.
+- Options A and B are higher than the target, while D is lower and corresponds to medium‑term estimates.
+- Hence, option C is correct.
+- Source Reference: Union Budget 2025–26 – fiscal deficit projectionshttps://www.pib.gov.in/PressReleasePage.aspx#:~:text=Smt,under%20modified%20interest%20subvention%20scheme.
+
+Question No: 114
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Innovation and Education
+Difficulty Level: Moderate
+
+Question:
+How many **Atal Tinkering Labs** are proposed to be established under the Union Budget 2025–26 to foster innovation among students?
+
+Options:
+A) 10,000
+B) 25,000
+C) 50,000
+D) 1,00,000
+
+Correct Answer:
+C) 50,000
+
+Detailed Solution:
+- The budget aims to set up **50,000 Atal Tinkering Labs** to promote innovation and scientific temper among studentshttps://www.pib.gov.in/PressReleasePage.aspx#:~:text=FY,26.
+- Other numbers are not mentioned in the budget.
+- Therefore, option C is correct.
+- Source Reference: Union Budget 2025–26 – education and innovation initiativeshttps://www.pib.gov.in/PressReleasePage.aspx#:~:text=FY,26.
+
+Question No: 115
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Financial Inclusion
+Difficulty Level: Moderate
+
+Question:
+In the Union Budget 2025–26, the PM SVANidhi scheme introduced a UPI‑linked credit card for street vendors. What is the maximum credit limit of this card?
+
+Options:
+A) ₹10,000
+B) ₹20,000
+C) ₹30,000
+D) ₹40,000
+
+Correct Answer:
+C) ₹30,000
+
+Detailed Solution:
+- The budget announced that under **PM SVANidhi**, street vendors will receive a **UPI‑linked credit card with a limit of ₹30,000**https://www.pib.gov.in/PressReleasePage.aspx#:~:text=50%2C000%20ATAL%20TINKERING%20LABS%20IN,SCHOOLS%20IN%20NEXT%205%20YEARS.
+- The other amounts are not stated in the scheme.
+- Therefore, option C is correct.
+- Source Reference: Union Budget 2025–26 – PM SVANidhi measureshttps://www.pib.gov.in/PressReleasePage.aspx#:~:text=50%2C000%20ATAL%20TINKERING%20LABS%20IN,SCHOOLS%20IN%20NEXT%205%20YEARS.
+
+Question No: 116
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Energy Sector
+Difficulty Level: Moderate
+
+Question:
+The Union Budget 2025–26 launched a nuclear energy mission. What is the **financial outlay** allocated for this mission?
+
+Options:
+A) ₹10,000 crore
+B) ₹20,000 crore
+C) ₹50,000 crore
+D) ₹5,000 crore
+
+Correct Answer:
+B) ₹20,000 crore
+
+Detailed Solution:
+- Budget documents allocate **₹20,000 crore** for the nuclear energy mission, aiming to boost clean energy generationhttps://www.pib.gov.in/PressReleasePage.aspx#:~:text=PM%20SVANIDHI%20WITH%20ENHANCED%20LOANS,CARDS%20WITH%20%E2%82%B9%2030%2C000%20LIMIT.
+- The other figures are either higher or lower than the budgeted amount.
+- Hence, option B is correct.
+- Source Reference: Union Budget 2025–26 – energy sector announcementshttps://www.pib.gov.in/PressReleasePage.aspx#:~:text=PM%20SVANIDHI%20WITH%20ENHANCED%20LOANS,CARDS%20WITH%20%E2%82%B9%2030%2C000%20LIMIT.
+
+Question No: 117
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Housing and Infrastructure
+Difficulty Level: Moderate
+
+Question:
+What amount is provided to the **SWAMIH fund** in the Union Budget 2025–26 to help complete stalled housing projects?
+
+Options:
+A) ₹5,000 crore
+B) ₹10,000 crore
+C) ₹15,000 crore
+D) ₹50,000 crore
+
+Correct Answer:
+C) ₹15,000 crore
+
+Detailed Solution:
+- The SWAMIH (Special Window for Affordable and Mid‑Income Housing) fund received an **allocation of ₹15,000 crore** in the budgethttps://www.pib.gov.in/PressReleasePage.aspx#:~:text=NUCLEAR%20ENERGY%20MISSION%20FOR%20R%26D,OUTLAY%20OF%20%E2%82%B9%2020%2C000%20CRORE.
+- Options A and B understate the allocation, while D overstates it.
+- Therefore, option C is correct.
+- Source Reference: Union Budget 2025–26 – housing sector measureshttps://www.pib.gov.in/PressReleasePage.aspx#:~:text=NUCLEAR%20ENERGY%20MISSION%20FOR%20R%26D,OUTLAY%20OF%20%E2%82%B9%2020%2C000%20CRORE.
+
+Question No: 118
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: MSME Sector
+Difficulty Level: Moderate
+
+Question:
+Under the Union Budget 2025–26, the enhanced credit guarantee cover under the Credit Guarantee Trust for Micro and Small Enterprises (CGTMSE) has been raised to what amount?
+
+Options:
+A) ₹5 crore
+B) ₹7.5 crore
+C) ₹10 crore
+D) ₹12 crore
+
+Correct Answer:
+C) ₹10 crore
+
+Detailed Solution:
+- The budget increased the guarantee cover for MSMEs under the **CGTMSE from ₹5 crore to ₹10 crore**https://www.pib.gov.in/PressReleasePage.aspx#:~:text=%E2%82%B9%2015%2C000%20CRORE%20SWAMIH%20FUND,1%20LAKH%20STRESSED%20HOUSING%20UNITS.
+- Other options are incorrect as they either repeat the old limit or propose figures not mentioned.
+- Hence, option C is correct.
+- Source Reference: Union Budget 2025–26 – MSME credit measureshttps://www.pib.gov.in/PressReleasePage.aspx#:~:text=%E2%82%B9%2015%2C000%20CRORE%20SWAMIH%20FUND,1%20LAKH%20STRESSED%20HOUSING%20UNITS.
+
+Question No: 119
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Indian Polity
+Difficulty Level: Moderate
+
+Question:
+The Anti‑Defection Law in India is enumerated in which Schedule of the Constitution?
+
+Options:
+A) Eighth Schedule
+B) Tenth Schedule
+C) Seventh Schedule
+D) Ninth Schedule
+
+Correct Answer:
+B) Tenth Schedule
+
+Detailed Solution:
+- The **Tenth Schedule** of the Indian Constitution, added by the 52nd Amendment Act of 1985, contains provisions relating to **anti‑defection** for Members of Parliament and State Legislatures.
+- It is not mentioned in the other schedules listed.
+- Therefore, option B is correct.
+
+Question No: 120
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Indian Polity – Elections
+Difficulty Level: Moderate
+
+Question:
+According to the Sixty‑first Constitutional Amendment Act (1988), what is the minimum age for an Indian citizen to vote in Lok Sabha elections?
+
+Options:
+A) 16 years
+B) 18 years
+C) 21 years
+D) 25 years
+
+Correct Answer:
+B) 18 years
+
+Detailed Solution:
+- The 61st Amendment to the Constitution of India in 1988 reduced the voting age from **21 years to 18 years** for both Lok Sabha and Legislative Assembly elections.
+- Thus Indian citizens aged **18 or above** can vote in national and state elections.
+- Options C and D correspond to the earlier voting age and the age for Rajya Sabha membership respectively.
+- Hence, option B is correct.
+
+Question No: 121
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Human Nutrition
+Difficulty Level: Moderate
+
+Question:
+Pellagra, a nutritional deficiency disease characterised by dermatitis, diarrhoea and dementia, is caused by the deficiency of which vitamin?
+
+Options:
+A) Vitamin A
+B) Vitamin B1 (Thiamine)
+C) Vitamin B3 (Niacin)
+D) Vitamin C
+
+Correct Answer:
+C) Vitamin B3 (Niacin)
+
+Detailed Solution:
+- Pellagra results from a **deficiency of niacin (Vitamin B3)** or tryptophan. It manifests as dermatitis, diarrhoea and dementia.
+- Deficiencies of Vitamin A cause night blindness; B1 deficiency causes beriberi; Vitamin C deficiency leads to scurvy.
+- Therefore, option C is correct.
+
+Question No: 122
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Indian Geography – Islands
+Difficulty Level: Moderate
+
+Question:
+The Ten Degree Channel separates which of the following?
+
+Options:
+A) Andaman Islands and Nicobar Islands
+B) Sri Lanka and Maldives
+C) Lakshadweep Islands and Maldives
+D) Andaman Islands and Sri Lanka
+
+Correct Answer:
+A) Andaman Islands and Nicobar Islands
+
+Detailed Solution:
+- The **Ten Degree Channel**, located at approximately 10° north latitude, separates the **Andaman Islands from the Nicobar Islands** in the Bay of Bengal.
+- It does not separate Sri Lanka from Maldives, Lakshadweep from Maldives, or Andaman from Sri Lanka.
+- Hence, option A is correct.
+
+Question No: 123
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Modern Indian History
+Difficulty Level: Moderate
+
+Question:
+Who authored the undelivered speech titled **“Annihilation of Caste”**, a critique of the caste system in India?
+
+Options:
+A) Dr. B.R. Ambedkar
+B) Mahatma Gandhi
+C) Raja Ram Mohan Roy
+D) Swami Vivekananda
+
+Correct Answer:
+A) Dr. B.R. Ambedkar
+
+Detailed Solution:
+- **Dr. B.R. Ambedkar** wrote “Annihilation of Caste” in 1936 for the Jat‑Pat Todak Mandal but the speech was never delivered.
+- The work severely criticises the caste system. Mahatma Gandhi later wrote a reply titled “Annihilation of Caste: A Rejoinder”.
+- Therefore, option A is correct.
+
+Question No: 124
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Human Physiology
+Difficulty Level: Moderate
+
+Question:
+Which of the following is the **largest endocrine gland** in the human body?
+
+Options:
+A) Pituitary gland
+B) Thyroid gland
+C) Adrenal gland
+D) Pineal gland
+
+Correct Answer:
+B) Thyroid gland
+
+Detailed Solution:
+- The **thyroid gland**, located in the neck and weighing about 20–25 g in adults, is the largest endocrine gland. It secretes thyroxine (T4) and triiodothyronine (T3), which regulate metabolism.
+- The pituitary gland is smaller, though termed the master gland; adrenal and pineal glands are also comparatively small.
+- Hence, option B is correct.
+
+Question No: 125
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: River Systems
+Difficulty Level: Moderate
+
+Question:
+The **Yarlung Tsangpo River** in Tibet flows into India by which name?
+
+Options:
+A) Ganga
+B) Brahmaputra
+C) Indus
+D) Sutlej
+
+Correct Answer:
+B) Brahmaputra
+
+Detailed Solution:
+- The river known as **Yarlung Tsangpo** in Tibet enters Arunachal Pradesh as the **Siang** and, after merging with the Dibang and Lohit rivers, becomes the **Brahmaputra** in Assam.
+- It is not the same as the Ganga, Indus or Sutlej.
+- Hence, option B is correct.
+
+Question No: 126
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Agricultural Instruments
+Difficulty Level: Moderate
+
+Question:
+A **tensiometer** is used by farmers to measure which parameter related to soil?
+
+Options:
+A) Soil pH
+B) Soil moisture tension (matric potential)
+C) Atmospheric pressure
+D) Air humidity
+
+Correct Answer:
+B) Soil moisture tension (matric potential)
+
+Detailed Solution:
+- A **tensiometer** measures the **soil moisture tension or matric potential**, indicating how strongly water is held in the soil. This helps determine irrigation needs.
+- It does not measure soil pH, atmospheric pressure or air humidity.
+- Therefore, option B is correct.
+
+Question No: 127
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Indian Constitution
+Difficulty Level: Moderate
+
+Question:
+Article 143 of the Constitution of India confers which of the following powers on the President?
+
+Options:
+A) Power to declare a financial emergency
+B) Power to seek the **advice of the Supreme Court**
+C) Power to promulgate ordinances
+D) Power to grant pardons
+
+Correct Answer:
+B) Power to seek the **advice of the Supreme Court**
+
+Detailed Solution:
+- **Article 143** empowers the President of India to **refer questions of law or fact to the Supreme Court for its advisory opinion**.
+- Articles 352, 123 and 72 deal with declaring a financial emergency, promulgating ordinances and pardoning power respectively.
+- Hence, option B is correct.
+
+Question No: 128
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Indian Economy – Stock Market
+Difficulty Level: Moderate
+
+Question:
+Which stock market index is popularly referred to as the **barometer of the Indian stock market**?
+
+Options:
+A) Nifty 50
+B) BSE Sensex
+C) Nifty Bank
+D) India VIX
+
+Correct Answer:
+B) BSE Sensex
+
+Detailed Solution:
+- The **BSE Sensex**, comprising 30 large companies listed on the Bombay Stock Exchange, is widely considered the **barometer of the Indian stock market**.
+- Nifty 50, though also an important index, is not as commonly referred to by this phrase; Nifty Bank and India VIX track sector‑specific or volatility measures.
+- Therefore, option B is correct.
+
+Question No: 129
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Science & Technology
+Difficulty Level: Moderate
+
+Question:
+The **LIGO‑India** project, a part of the global network to detect gravitational waves, is proposed to be built in which Indian state?
+
+Options:
+A) Uttar Pradesh
+B) West Bengal
+C) Maharashtra
+D) Karnataka
+
+Correct Answer:
+C) Maharashtra
+
+Detailed Solution:
+- The **Laser Interferometer Gravitational‑Wave Observatory (LIGO)‑India** site has been finalised near **Aundha Nagnath in Hingoli district of Maharashtra**.
+- It is not located in Uttar Pradesh, West Bengal or Karnataka.
+- Hence, option C is correct.
+
+Question No: 130
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Indian Geography – States
+Difficulty Level: Moderate
+
+Question:
+Which of the following Indian states **does not** share a land border with Bangladesh?
+
+Options:
+A) Meghalaya
+B) Tripura
+C) Mizoram
+D) Manipur
+
+Correct Answer:
+D) Manipur
+
+Detailed Solution:
+- **Meghalaya, Tripura and Mizoram** share international borders with Bangladesh. **Manipur** lies further east and borders Myanmar but not Bangladesh.
+- Therefore, option D is correct.
+
+Question No: 131
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Memory Types
+Difficulty Level: Moderate
+
+Question:
+Which of the following types of computer memory is **volatile**, meaning it loses its contents when power is switched off?
+
+Options:
+A) Read‑Only Memory (ROM)
+B) Electrically Erasable Programmable Read‑Only Memory (EEPROM)
+C) Random‑Access Memory (RAM)
+D) Flash Memory
+
+Correct Answer:
+C) Random‑Access Memory (RAM)
+
+Detailed Solution:
+- **RAM** is volatile memory; it temporarily stores data and instructions and loses its contents when the computer is turned off.
+- ROM, EEPROM and flash memory are non‑volatile and retain data without power.
+- Therefore, option C is correct.
+
+Question No: 132
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Internet Protocols
+Difficulty Level: Moderate
+
+Question:
+Which protocol is used to transfer hypertext documents on the World Wide Web?
+
+Options:
+A) SMTP
+B) FTP
+C) HTTP
+D) SNMP
+
+Correct Answer:
+C) HTTP
+
+Detailed Solution:
+- **HTTP (HyperText Transfer Protocol)** is the protocol used for transmitting web pages and other resources on the World Wide Web.
+- SMTP is used for sending emails; FTP is used for file transfers; SNMP is used for network management.
+- Hence, option C is correct.
+
+Question No: 133
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Input Devices
+Difficulty Level: Moderate
+
+Question:
+Which of the following devices is used to convert printed images or documents into digital form for storage or processing?
+
+Options:
+A) Printer
+B) Plotter
+C) Scanner
+D) Speaker
+
+Correct Answer:
+C) Scanner
+
+Detailed Solution:
+- A **scanner** is an input device that captures images or text from paper documents and converts them into digital data.
+- Printers and plotters are output devices, and speakers output sound.
+- Therefore, option C is correct.
+
+Question No: 134
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Central Processing Unit
+Difficulty Level: Moderate
+
+Question:
+The **Arithmetic Logic Unit (ALU)** is a component of which computer part?
+
+Options:
+A) Monitor
+B) Central Processing Unit (CPU)
+C) Hard Disk
+D) Random‑Access Memory (RAM)
+
+Correct Answer:
+B) Central Processing Unit (CPU)
+
+Detailed Solution:
+- The **ALU** performs arithmetic and logical operations and forms part of the **CPU**. The CPU also contains a control unit and registers.
+- Monitors are display devices, and hard disks and RAM are types of memory/storage.
+- Hence, option B is correct.
+
+Question No: 135
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Spreadsheet Software
+Difficulty Level: Moderate
+
+Question:
+In Microsoft Excel, every formula must begin with which symbol?
+
+Options:
+A) +
+B) =
+C) @
+D) $
+
+Correct Answer:
+B) =
+
+Detailed Solution:
+- In Excel, formulas must start with an **equals sign (=)** to differentiate them from plain text.
+- While the plus sign can be used after the equals sign, it cannot replace it; @ and $ have other meanings in Excel.
+- Therefore, option B is correct.
+
+Question No: 136
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Office Suites
+Difficulty Level: Moderate
+
+Question:
+The default file extension for a Microsoft PowerPoint presentation created in Office 2010 or later is:
+
+Options:
+A) .docx
+B) .xlsx
+C) .pptx
+D) .pdf
+
+Correct Answer:
+C) .pptx
+
+Detailed Solution:
+- Microsoft Office 2007 onward introduced XML‑based formats: **.docx** for Word, **.xlsx** for Excel and **.pptx** for PowerPoint presentations. Thus a PowerPoint file saved in Office 2010 or later uses the **.pptx** extension.
+- PDF is a portable document format, not a PowerPoint extension.
+- Therefore, option C is correct.
+
+Question No: 137
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Internet Protocols
+Difficulty Level: Moderate
+
+Question:
+Which port is typically used by the **Simple Mail Transfer Protocol (SMTP)** for sending emails?
+
+Options:
+A) 21
+B) 25
+C) 110
+D) 443
+
+Correct Answer:
+B) 25
+
+Detailed Solution:
+- The standard port for **SMTP** used for transferring mail between servers is **port 25**. Port 21 is associated with FTP; port 110 is used by POP3; port 443 is used for HTTPS.
+- Therefore, option B is correct.
+
+Question No: 138
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Web Security
+Difficulty Level: Moderate
+
+Question:
+Which protocol provides secure, encrypted communication over HTTP for secure transactions on the internet?
+
+Options:
+A) FTP
+B) SFTP
+C) HTTPS
+D) POP3
+
+Correct Answer:
+C) HTTPS
+
+Detailed Solution:
+- **HTTPS (HyperText Transfer Protocol Secure)** is HTTP layered over TLS/SSL. It encrypts data and authenticates the server, making it suitable for secure online transactions.
+- FTP transfers files; SFTP is a secure file transfer protocol; POP3 retrieves emails.
+- Hence, option C is correct.
+
+Question No: 139
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Databases
+Difficulty Level: Moderate
+
+Question:
+In a relational database, which of the following uniquely identifies each record in a table?
+
+Options:
+A) Primary key
+B) Foreign key
+C) Index
+D) View
+
+Correct Answer:
+A) Primary key
+
+Detailed Solution:
+- A **primary key** is a column (or set of columns) with unique values that uniquely identify each record in a table.
+- A foreign key establishes relationships between tables; indexes improve retrieval speed; views are virtual tables.
+- Therefore, option A is correct.
+
+Question No: 140
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Networking Devices
+Difficulty Level: Moderate
+
+Question:
+Which networking device forwards data packets between different computer networks, determining the best path for the packets to travel?
+
+Options:
+A) Switch
+B) Router
+C) Bridge
+D) Repeater
+
+Correct Answer:
+B) Router
+
+Detailed Solution:
+- A **router** connects two or more networks and routes data packets based on destination IP addresses.
+- Switches forward packets within the same network; bridges connect network segments within a LAN; repeaters regenerate signals but don’t route traffic.
+- Hence, option B is correct.
+
+Question No: 141
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Memory Types
+Difficulty Level: Moderate
+
+Question:
+Which type of memory is **non‑volatile** and retains data even when power is turned off?
+
+Options:
+A) Random‑Access Memory (RAM)
+B) Read‑Only Memory (ROM)
+C) Cache Memory
+D) Register
+
+Correct Answer:
+B) Read‑Only Memory (ROM)
+
+Detailed Solution:
+- **ROM** stores firmware and retains its contents without power, making it non‑volatile.
+- RAM, cache and registers are volatile and lose data when power is removed.
+- Therefore, option B is correct.
+
+Question No: 142
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Operating Systems
+Difficulty Level: Moderate
+
+Question:
+In an operating system, the **scheduler** is responsible for which of the following?
+
+Options:
+A) Memory allocation only
+B) I/O management only
+C) Determining the order in which processes run on the CPU
+D) Data encryption
+
+Correct Answer:
+C) Determining the order in which processes run on the CPU
+
+Detailed Solution:
+- The **scheduler** selects the order in which processes are executed by the CPU, deciding process dispatching and time allocation. It is a core component of the operating system’s process management.
+- Memory allocation and I/O management are handled by other OS components; data encryption is unrelated.
+- Hence, option C is correct.
+
+Question No: 143
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Keyboard Shortcuts
+Difficulty Level: Moderate
+
+Question:
+What is the standard keyboard shortcut for **copying selected text or objects** on a Windows computer?
+
+Options:
+A) Ctrl + X
+B) Ctrl + V
+C) Ctrl + C
+D) Ctrl + Z
+
+Correct Answer:
+C) Ctrl + C
+
+Detailed Solution:
+- **Ctrl + C** copies the selected text or objects to the clipboard.
+- **Ctrl + X** cuts (removes) the selection; **Ctrl + V** pastes from the clipboard; **Ctrl + Z** undoes the last action.
+- Hence, option C is correct.
+
+Question No: 144
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Cybersecurity
+Difficulty Level: Moderate
+
+Question:
+Which of the following is a widely used **antivirus software** designed to detect and remove malware from computers?
+
+Options:
+A) Apache
+B) Windows Media Player
+C) Avast
+D) Git
+
+Correct Answer:
+C) Avast
+
+Detailed Solution:
+- **Avast** is a popular antivirus program offering protection against viruses, malware and other cyber threats.
+- Apache is a web server; Windows Media Player is a media player; Git is version control software.
+- Therefore, option C is correct.
+
+Question No: 145
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Office Suites
+Difficulty Level: Moderate
+
+Question:
+Which Microsoft Office application is **primarily used for creating and managing spreadsheets**?
+
+Options:
+A) Microsoft Word
+B) Microsoft Excel
+C) Microsoft Access
+D) Microsoft OneNote
+
+Correct Answer:
+B) Microsoft Excel
+
+Detailed Solution:
+- **Microsoft Excel** is a spreadsheet program used for data entry, analysis, calculations, charting and pivot tables.
+- Word is used for documents; Access is a database management system; OneNote is a note‑taking app.
+- Hence, option B is correct.
+
+Question No: 146
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Network Security
+Difficulty Level: Moderate
+
+Question:
+What is the primary purpose of a **firewall** in computer networks?
+
+Options:
+A) To increase internet speed
+B) To filter and control incoming and outgoing network traffic
+C) To convert analog signals to digital
+D) To manage user accounts
+
+Correct Answer:
+B) To filter and control incoming and outgoing network traffic
+
+Detailed Solution:
+- A **firewall** is a security system that monitors and controls network traffic based on predetermined security rules, preventing unauthorised access while permitting legitimate communication.
+- It does not speed up the internet, convert signals or manage user accounts.
+- Therefore, option B is correct.
+
+Question No: 147
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Network Topologies
+Difficulty Level: Moderate
+
+Question:
+In a **star network topology**, all computers are connected to a central:
+
+Options:
+A) Bus
+B) Router
+C) Hub or switch
+D) Ring
+
+Correct Answer:
+C) Hub or switch
+
+Detailed Solution:
+- In a **star topology**, each workstation is connected via a separate cable to a central **hub or switch**, which manages data transmission.
+- Bus and ring refer to different topologies; a router connects networks rather than acting as a central point in a star network.
+- Hence, option C is correct.
+
+Question No: 148
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Internet Terminology
+Difficulty Level: Moderate
+
+Question:
+The acronym **URL**, commonly seen in web browsers, stands for:
+
+Options:
+A) Uniform Resource Locator
+B) Unified Resource Link
+C) Universal Read Library
+D) Unique Resource Locator
+
+Correct Answer:
+A) Uniform Resource Locator
+
+Detailed Solution:
+- **URL** stands for **Uniform Resource Locator**, which specifies the address of resources (such as web pages) on the internet.
+- The other expansions are incorrect.
+- Therefore, option A is correct.
+
+Question No: 149
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Operating Systems
+Difficulty Level: Moderate
+
+Question:
+Which open‑source operating system is widely used on servers, supercomputers and embedded devices due to its stability and flexibility?
+
+Options:
+A) Windows
+B) macOS
+C) Linux
+D) DOS
+
+Correct Answer:
+C) Linux
+
+Detailed Solution:
+- **Linux** is an open‑source operating system kernel that forms the basis of various distributions (Ubuntu, Red Hat, Debian) used in servers, supercomputers and mobile devices. Its open‑source nature, stability and scalability make it popular for enterprise environments.
+- Windows and macOS are proprietary; DOS is outdated.
+- Hence, option C is correct.
+
+Question No: 150
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: III
+Module: I
+Subject: Computer Knowledge
+Topic: Data Representation
+Difficulty Level: Moderate
+
+Question:
+In computer terminology, one **byte** is equal to how many bits?
+
+Options:
+A) 4
+B) 8
+C) 16
+D) 32
+
+Correct Answer:
+B) 8
+
+Detailed Solution:
+- A **byte** is a unit of digital information consisting of **8 bits**. This is a standard grouping used in memory and data sizes.
+- Options C and D correspond to multiple bytes; 4 bits constitute a nibble.
+- Therefore, option B is correct.

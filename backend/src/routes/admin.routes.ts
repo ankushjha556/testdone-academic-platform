@@ -570,6 +570,33 @@ router.get('/tests', async (req: AuthRequest, res, next) => {
     }
 });
 
+// GET /api/v1/admin/tests/:id
+router.get('/tests/:id', async (req: AuthRequest, res, next) => {
+    try {
+        const { id } = req.params;
+        const test = await prisma.mockTest.findUnique({
+            where: { id },
+            include: {
+                exam: { select: { id: true, name: true, slug: true } },
+                testQuestions: {
+                    include: {
+                        question: true
+                    },
+                    orderBy: { questionOrder: 'asc' }
+                }
+            }
+        });
+
+        if (!test) {
+            return res.status(404).json({ success: false, message: 'Test not found' });
+        }
+
+        res.json({ success: true, data: { test } });
+    } catch (error) {
+        next(error);
+    }
+});
+
 // POST /api/v1/admin/tests - Create a new mock test
 router.post('/tests', validate(createTestSchema), async (req: AuthRequest, res, next) => {
     try {

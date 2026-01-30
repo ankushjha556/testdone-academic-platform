@@ -38,6 +38,7 @@ export default function NewExamPage() {
         isFeatured: false,
         status: 'DRAFT',
         categoryId: '',
+        syllabus: {} as any,
     });
 
     useEffect(() => {
@@ -314,6 +315,128 @@ export default function NewExamPage() {
                                         )}
                                     </label>
                                 )}
+                            </div>
+                        </div>
+
+                        {/* Syllabus */}
+                        <div className="bg-gray-900 border border-gray-800 rounded-xl p-6">
+                            <h2 className="text-lg font-semibold text-white mb-4">Syllabus</h2>
+                            <p className="text-sm text-gray-400 mb-4">
+                                Structure: Stage (e.g., Tier-I) &rarr; Sections (e.g., General Intelligence).
+                                Values are updated automatically.
+                            </p>
+                            <div className="space-y-6">
+                                {Object.keys(formData.syllabus || {}).length === 0 && (
+                                    <div className="text-center py-8 border-2 border-dashed border-gray-700 rounded-lg">
+                                        <p className="text-gray-400 mb-2">No syllabus stages added yet</p>
+                                        <p className="text-sm text-gray-500">Add a stage (e.g., "Tier-I") below to begin</p>
+                                    </div>
+                                )}
+                                {Object.entries(formData.syllabus || {}).map(([stage, sections]: [string, any], stageIdx) => (
+                                    <div key={stageIdx} className="border border-gray-700 rounded-lg p-4 bg-gray-800/50">
+                                        <div className="flex justify-between items-center mb-4">
+                                            <h3 className="font-medium text-white">{stage.replace('_', ' ')}</h3>
+                                            <button
+                                                type="button"
+                                                onClick={() => {
+                                                    const newSyllabus = { ...formData.syllabus };
+                                                    delete newSyllabus[stage];
+                                                    setFormData({ ...formData, syllabus: newSyllabus });
+                                                }}
+                                                className="text-red-400 hover:text-red-300 text-sm"
+                                            >
+                                                Remove Stage
+                                            </button>
+                                        </div>
+
+                                        <div className="space-y-3 pl-4 border-l-2 border-gray-700">
+                                            {Array.isArray(sections) && sections.map((section: any, secIdx: number) => (
+                                                <div key={secIdx} className="flex gap-2 items-center">
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Section Name"
+                                                        value={section.section}
+                                                        onChange={(e) => {
+                                                            const newSyllabus = { ...formData.syllabus };
+                                                            newSyllabus[stage][secIdx].section = e.target.value;
+                                                            setFormData({ ...formData, syllabus: newSyllabus });
+                                                        }}
+                                                        className="flex-1 px-3 py-1.5 bg-gray-900 border border-gray-700 rounded text-sm text-white"
+                                                    />
+                                                    <input
+                                                        type="number"
+                                                        placeholder="Qs"
+                                                        value={section.questions}
+                                                        onChange={(e) => {
+                                                            const newSyllabus = { ...formData.syllabus };
+                                                            newSyllabus[stage][secIdx].questions = parseInt(e.target.value) || 0;
+                                                            setFormData({ ...formData, syllabus: newSyllabus });
+                                                        }}
+                                                        className="w-20 px-3 py-1.5 bg-gray-900 border border-gray-700 rounded text-sm text-white"
+                                                    />
+                                                    <input
+                                                        type="number"
+                                                        placeholder="Marks"
+                                                        value={section.marks}
+                                                        onChange={(e) => {
+                                                            const newSyllabus = { ...formData.syllabus };
+                                                            newSyllabus[stage][secIdx].marks = parseInt(e.target.value) || 0;
+                                                            setFormData({ ...formData, syllabus: newSyllabus });
+                                                        }}
+                                                        className="w-20 px-3 py-1.5 bg-gray-900 border border-gray-700 rounded text-sm text-white"
+                                                    />
+                                                    <button
+                                                        type="button"
+                                                        onClick={() => {
+                                                            const newSyllabus = { ...formData.syllabus };
+                                                            newSyllabus[stage] = newSyllabus[stage].filter((_: any, i: number) => i !== secIdx);
+                                                            setFormData({ ...formData, syllabus: newSyllabus });
+                                                        }}
+                                                        className="text-gray-500 hover:text-red-400"
+                                                    >
+                                                        <X className="w-4 h-4" />
+                                                    </button>
+                                                </div>
+                                            ))}
+                                            <button
+                                                type="button"
+                                                onClick={() => {
+                                                    const newSyllabus = { ...formData.syllabus };
+                                                    if (!newSyllabus[stage]) newSyllabus[stage] = [];
+                                                    newSyllabus[stage].push({ section: '', questions: 0, marks: 0 });
+                                                    setFormData({ ...formData, syllabus: newSyllabus });
+                                                }}
+                                                className="text-sm text-primary-400 hover:text-primary-300 flex items-center gap-1"
+                                            >
+                                                + Add Section
+                                            </button>
+                                        </div>
+                                    </div>
+                                ))}
+
+                                <div className="flex gap-2">
+                                    <input
+                                        type="text"
+                                        id="newStageName"
+                                        placeholder="New Stage Name (e.g. Tier-1)"
+                                        className="flex-1 px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white"
+                                    />
+                                    <button
+                                        type="button"
+                                        onClick={() => {
+                                            const input = document.getElementById('newStageName') as HTMLInputElement;
+                                            if (input.value) {
+                                                const newSyllabus = { ...(formData.syllabus || {}) };
+                                                newSyllabus[input.value] = [];
+                                                setFormData({ ...formData, syllabus: newSyllabus });
+                                                input.value = '';
+                                            }
+                                        }}
+                                        className="px-4 py-2 bg-gray-800 hover:bg-gray-700 text-white rounded-lg"
+                                    >
+                                        Add Stage
+                                    </button>
+                                </div>
                             </div>
                         </div>
 

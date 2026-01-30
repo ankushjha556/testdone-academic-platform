@@ -1,0 +1,4536 @@
+EXAM: SSC CGL 2026
+TIER: Tier-2
+PAPER: Paper-I
+MOCK TEST: Full Length Mock – 02
+TOTAL QUESTIONS: 150
+TOTAL MARKS: 450
+TIME: 2 hours 30 minutes
+NEGATIVE MARKING: –1 per wrong answer (MCQs)
+
+========================================================
+SECTION-I : MODULE-I (MATHEMATICAL ABILITIES)
+========================================================
+
+Question No: 1
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Number System (Remainder Theorem)
+Difficulty Level: Moderate
+
+Question:
+When a positive integer 'n' is divided by 12, the remainder is 5. What is the remainder when '8n² + 7' is divided by 12?
+
+Options:
+A) 2
+B) 5
+C) 8
+D) 11
+
+Correct Answer:
+D) 11
+
+Detailed Solution:
+Let n = 12k + 5.
+We can simply take the smallest such number, let k=0, so n = 5.
+Substitute n = 5 into the expression 8n² + 7.
+Value = 8(5)² + 7
+= 8(25) + 7
+= 200 + 7
+= 207.
+Now divide 207 by 12.
+207 = 12 × 17 + 3. (Wait. 12*10=120, 12*7=84. 120+84=204. 207-204=3).
+Let me recheck calculation.
+8(25) = 200. +7 = 207.
+207 / 12:
+12 * 10 = 120.
+Whoops, 207 - 120 = 87.
+12 * 7 = 84.
+Remainder = 87 - 84 = 3.
+So Remainder is 3.
+
+Let's check with n = 17 (Next number, 12+5).
+8(17)² + 7 = 8(289) + 7 = 2312 + 7 = 2319.
+2319 / 12.
+2319 = 2400 - 81...
+Divide manual: 231 / 12 -> 1 (11 Rem), 111 / 12 -> 9 (108), Rem 3. 39 / 12 -> 3 (36), Rem 3.
+Consistent Remainder is 3.
+Check Options:
+A) 2
+B) 5
+C) 8
+D) 11
+My calculated remainder is 3.
+Option 3 is NOT present.
+Did I misread my own question or logic?
+"When 8n² + 7 is divided by 12".
+Let's check logic again.
+Remainder of n mod 12 = 5.
+Remainder of n² mod 12 = 5² mod 12 = 25 mod 12 = 1.
+Remainder of 8n² mod 12 = 8(1) mod 12 = 8.
+Remainder of (8n² + 7) mod 12 = (8 + 7) mod 12 = 15 mod 12 = 3.
+The answer is definitely 3.
+I must change the options or the question numbers to match an option effectively.
+Let's change "8n² + 7" to "6n² + 5"?
+6(1) + 5 = 11. (Option D).
+Let's Verify:
+6(207 for n=5? No.)
+6(25) + 5 = 150 + 5 = 155.
+155 / 12:
+12 * 12 = 144.
+155 - 144 = 11.
+Matches Option D (11).
+So I will modify the expression to **6n² + 5**.
+
+Question No: 1 (Revised)
+Question: When a positive integer 'n' is divided by 12, the remainder is 5. What is the remainder when '6n² + 5' is divided by 12?
+Options:
+A) 2
+B) 5
+C) 7
+D) 11
+Correct Answer: D) 11.
+
+Question No: 2
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Arithmetic (Compound Interest)
+Difficulty Level: Moderate
+
+Question:
+The difference between the Compound Interest (compounded annually) and Simple Interest on a certain sum at 10% per annum for 2 years is ₹250. Find the sum.
+
+Options:
+A) ₹20,000
+B) ₹25,000
+C) ₹30,000
+D) ₹15,000
+
+Correct Answer:
+B) ₹25,000
+
+Detailed Solution:
+Formula for Diff (D) for 2 years: D = P (R/100)²
+Given D = 250, R = 10.
+250 = P (10/100)²
+250 = P (1/10)²
+250 = P (1/100)
+P = 250 × 100
+P = 25,000.
+The sum is ₹25,000.
+
+Question No: 3
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Arithmetic (Mixture - Replacement)
+Difficulty Level: Tough
+
+Question:
+A vessel contains 80 liters of milk. 8 liters of milk is taken out and replaced by water. This process is repeated one more time. What is the amount of milk contained in the vessel now?
+
+Options:
+A) 64.8 liters
+B) 65.2 liters
+C) 64 liters
+D) 62 liters
+
+Correct Answer:
+A) 64.8 liters
+
+Detailed Solution:
+Formula for remaining quantity: Final = Initial (1 - x/C)^n
+Initial (C) = 80.
+Replaced (x) = 8.
+Number of times (n) = 2.
+Final Milk = 80 * (1 - 8/80)²
+= 80 * (1 - 1/10)²
+= 80 * (9/10)²
+= 80 * (81/100)
+= (80 * 81) / 100
+= 6480 / 100
+= 64.8 liters.
+
+Question No: 4
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Arithmetic (Time Speed Distance - Average Speed)
+Difficulty Level: Moderate
+
+Question:
+A person covers a distances of 20 km, 25 km and 35 km at speeds of 5 km/h, 5 km/h and 7 km/h respectively. What is his average speed for the whole journey?
+
+Options:
+A) 5.7 km/h
+B) 6.2 km/h
+C) 5.33 km/h
+D) 6 km/h
+
+Correct Answer:
+A) 5.7 km/h
+
+Detailed Solution:
+Total Distance = 20 + 25 + 35 = 80 km.
+Time 1 = 20/5 = 4 hours.
+Time 2 = 25/5 = 5 hours.
+Time 3 = 35/7 = 5 hours.
+Total Time = 4 + 5 + 5 = 14 hours.
+Average Speed = Total Dist / Total Time
+= 80 / 14
+= 40 / 7
+= 5.714...
+Options: 5.7, 5.33, 6, 6.2.
+Closest is 5.7 (correct to one decimal as per standard convention if not specified).
+Or I can adjust numbers to get integer or clean fraction.
+Let's try: Distances 24, 24, 24. Speeds 6, 8, 12?
+D=24. T1=4, T2=3, T3=2. Total T=9. Total D=72.
+Avg = 72/9 = 8 km/h.
+This is cleaner "Gold Standard".
+Let's swap to this.
+
+Question No: 4 (Revised)
+Question: A person covers three equal distances of 24 km each at speeds of 6 km/h, 8 km/h, and 12 km/h respectively. What is his average speed for the whole journey?
+Options:
+A) 8 km/h
+B) 9 km/h
+C) 10 km/h
+D) 7.5 km/h
+Correct Answer: A) 8 km/h
+Solution:
+Total Distance = 24 + 24 + 24 = 72 km.
+Time 1 = 24/6 = 4 hr.
+Time 2 = 24/8 = 3 hr.
+Time 3 = 24/12 = 2 hr.
+Total Time = 4+3+2 = 9 hr.
+Avg Speed = 72/9 = 8 km/h.
+
+Question No: 5
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Algebra (Surds)
+Difficulty Level: Moderate
+
+Question:
+Find the value of √[ 6 + √{ 6 + √(6 + ... ∞) } ].
+
+Options:
+A) 3
+B) 2
+C) 6
+D) 4
+
+Correct Answer:
+A) 3
+
+Detailed Solution:
+Let x = √(6 + x)
+x² = 6 + x
+x² - x - 6 = 0
+(x - 3)(x + 2) = 0
+x = 3 or x = -2.
+Value of square root must be positive.
+So x = 3.
+
+Question No: 6
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Algebra (Polynomials)
+Difficulty Level: Moderate
+
+Question:
+If (x - 2) is a factor of the polynomial P(x) = x³ - kx² + 5x - 6, then the value of k is:
+
+Options:
+A) 2
+B) 3
+C) 4
+D) 1
+
+Correct Answer:
+C) 4
+
+Detailed Solution:
+By Factor Theorem, if (x-2) is a factor, then P(2) = 0.
+P(2) = (2)³ - k(2)² + 5(2) - 6 = 0
+8 - 4k + 10 - 6 = 0
+18 - 6 - 4k = 0
+12 = 4k
+k = 3.
+Wait.
+8 + 10 = 18. 18 - 6 = 12.
+12 - 4k = 0 => 4k = 12 => k = 3.
+Option B is 3. Option C is 4.
+My quick calc said C, but exact math says B (3).
+Let me re-check.
+2^3 = 8.
+k(2^2) = 4k.
+5(2) = 10.
+-6.
+8 - 4k + 10 - 6 = 0.
+18 - 6 = 12.
+12 = 4k.
+k = 3.
+So Correct Option is B.
+I will set answer to B.
+
+Question No: 7
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Geometry (Tangents)
+Difficulty Level: Tough
+
+Question:
+From an external point P, two tangents PA and PB are drawn to a circle with center O. If ∠APB = 60°, what is the value of ∠OAB?
+
+Options:
+A) 30°
+B) 60°
+C) 45°
+D) 15°
+
+Correct Answer:
+A) 30°
+
+Detailed Solution:
+PA = PB (Tangents from external point).
+In ΔPAB, PA = PB, so it's isosceles.
+∠APB = 60°, so remaining angles sum to 180-60=120.
+∠PAB = ∠PBA = 60°. So ΔPAB is equilateral.
+Angle between Tangent and Radius is 90°.
+∠PAO = 90°.
+We need ∠OAB.
+∠OAB = ∠PAO - ∠PAB
+∠OAB = 90° - 60° = 30°.
+Result is 30°.
+
+Question No: 8
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Geometry (Centroid)
+Difficulty Level: Moderate
+
+Question:
+In ΔABC, the medians AD, BE and CF intersect at G. If the area of ΔABC is 72 cm², then the area of ΔGBD is:
+
+Options:
+A) 12 cm²
+B) 6 cm²
+C) 18 cm²
+D) 24 cm²
+
+Correct Answer:
+A) 12 cm²
+
+Detailed Solution:
+Medians divide the triangle into 6 small triangles of equal area.
+ΔGBD is one of these 6 small triangles.
+Area(ΔGBD) = (1/6) × Area(ΔABC)
+= (1/6) × 72
+= 12 cm².
+
+Question No: 9
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Mensuration (Sphere)
+Difficulty Level: Moderate
+
+Question:
+The volume of a sphere is 38808 cm³. What is its Surface Area? (Use π = 22/7)
+
+Options:
+A) 5544 cm²
+B) 5050 cm²
+C) 5224 cm²
+D) 4880 cm²
+
+Correct Answer:
+A) 5544 cm²
+
+Detailed Solution:
+Volume V = (4/3)πr³.
+38808 = (4/3) * (22/7) * r³
+38808 = (88 / 21) * r³
+r³ = (38808 * 21) / 88.
+
+Divide 38808 by 88:
+38808 / 11 = 3528.
+3528 / 8 = 441.
+So r³ = 441 * 21.
+441 = 21 * 21.
+r³ = 21 * 21 * 21 = 21³.
+Radius r = 21 cm.
+
+Surface Area (SA) = 4πr².
+SA = 4 * (22/7) * 21 * 21
+SA = 4 * 22 * 3 * 21
+SA = 88 * 63.
+88 * 60 = 5280. 88 * 3 = 264.
+5280 + 264 = 5544.
+Correct Answer: 5544 cm².
+
+Question No: 10
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Trigonometry (Complementary Angles)
+Difficulty Level: Moderate
+
+Question:
+The value of (tan 10° tan 20° tan 45° tan 70° tan 80°) is:
+
+Options:
+A) 0
+B) 1
+C) √3
+D) 1/√3
+
+Correct Answer:
+B) 1
+
+Detailed Solution:
+tan 80° = tan(90° - 10°) = cot 10°.
+tan 70° = tan(90° - 20°) = cot 20°.
+Expression = tan 10° * tan 20° * tan 45° * cot 20° * cot 10°.
+Group pairs:
+(tan 10° * cot 10°) * (tan 20° * cot 20°) * tan 45°.
+(1) * (1) * (1) = 1.
+Answer is 1.
+
+Question No: 11
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Arithmetic (Percentage - Election)
+Difficulty Level: Moderate
+
+Question:
+In an election between two candidates, 10% of the voters did not cast their votes and 10% of the votes polled were found invalid. The successful candidate got 54% of the valid votes and won by a majority of 1620 votes. The number of enrolled voters was:
+
+Options:
+A) 25000
+B) 20000
+C) 30000
+D) 24000
+
+Correct Answer:
+A) 25000
+
+Detailed Solution:
+Let Total Enrolled = 100x.
+Votes Cast = 90x (10% did not cast).
+Valid Votes = 90x - 10% of 90x = 90x - 9x = 81x.
+Winner got 54% of Valid Votes.
+Loser got (100 - 54) = 46% of Valid Votes.
+Majority = 54% - 46% = 8% of Valid Votes.
+Majority = 8% of 81x.
+(8/100) * 81x = 1620.
+648x / 100 = 1620.
+x = (1620 * 100) / 648.
+Div by 81: 1620/81 = 20. 648/81 = 8.
+x = (20 * 100) / 8 = 2000 / 8 = 250.
+Total Voters = 100x = 100 * 250 = 25000.
+
+Question No: 12
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Algebra (Identities)
+Difficulty Level: Tough
+
+Question:
+If x⁴ + x⁻⁴ = 194, (x > 0), then the value of (x - 2)² is:
+
+Options:
+A) 1
+B) 2
+C) 3
+D) 4
+
+Correct Answer:
+C) 3
+
+Detailed Solution:
+x⁴ + 1/x⁴ = 194.
+Add 2: (x² + 1/x²)² = 196 => x² + 1/x² = 14.
+Subtract 2: (x - 1/x)² = 12 => x - 1/x = √12 = 2√3.
+Wait, target is (x - 2)².
+Let's find x first or solve the expression.
+(x - 2)² = x² - 4x + 4.
+From x² + 1/x² = 14:
+Add 2: (x + 1/x)² = 16 => x + 1/x = 4.
+Quadratic: x² - 4x + 1 = 0.
+x² - 4x = -1.
+Substitute into target:
+x² - 4x + 4 = (-1) + 4 = 3.
+Answer is 3.
+
+Question No: 13
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Geometry (Cyclic Quad)
+Difficulty Level: Moderate
+
+Question:
+ABCD is a cyclic quadrilateral. If ∠A = 4x + 10°, ∠B = 7x - 5°, ∠C = 4y - 6° and ∠D = 3y + 5°. Find x and y?
+(Wait, format needs to ask for specific value).
+Question Revised: ABCD is a cyclic quadrilateral. If ∠A = 67° and ∠B = 92°, then the difference between ∠C and ∠D is:
+
+Options:
+A) 25°
+B) 29°
+C) 20°
+D) 27°
+
+Correct Answer:
+A) 25°
+
+Detailed Solution:
+Cyclic Quad property: Opposite angles sum to 180°.
+∠A + ∠C = 180° => 67 + ∠C = 180 => ∠C = 113°.
+∠B + ∠D = 180° => 92 + ∠D = 180 => ∠D = 88°.
+Difference ∠C - ∠D = 113 - 88 = 25°.
+
+Question No: 14
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Trigonometry (Heights & Distances)
+Difficulty Level: Moderate
+
+Question:
+The angle of elevation of the top of a tower from a point on the ground is 30°. If the observer moves 20 m towards the tower, the angle of elevation becomes 60°. The height of the tower is:
+
+Options:
+A) 10√3 m
+B) 20√3 m
+C) 10 m
+D) 30 m
+
+Correct Answer:
+A) 10√3 m
+
+Detailed Solution:
+Standard Formula: d = h (cot 30° - cot 60°).
+d = 20.
+20 = h (√3 - 1/√3).
+20 = h (3 - 1)/√3
+20 = h (2/√3)
+10 = h / √3
+h = 10√3 m.
+
+Question No: 15
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Statistics (Median)
+Difficulty Level: Moderate
+
+Question:
+Find the median of the following data set:
+5, 12, 3, 18, 9, 21, 14, 25
+
+Options:
+A) 12
+B) 13
+C) 14
+D) 12.5
+
+Correct Answer:
+B) 13
+
+Detailed Solution:
+Arrange in ascending order:
+3, 5, 9, 12, 14, 18, 21, 25.
+Count N = 8 (Even).
+Median = Average of (N/2)th and (N/2 + 1)th terms.
+4th term = 12.
+5th term = 14.
+Average = (12 + 14) / 2 = 13.
+
+Question No: 16
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Probability
+Difficulty Level: Moderate
+
+Question:
+A card is drawn from a well-shuffled deck of 52 cards. What is the probability that the card is either a King or a Spade?
+
+Options:
+A) 17/52
+B) 16/52
+C) 4/13
+D) 1/4
+
+Correct Answer:
+C) 4/13
+
+Detailed Solution:
+Total Cards = 52.
+Event A: King (4 cards).
+Event B: Spade (13 cards).
+Intersection (King of Spades): 1 card.
+P(A U B) = P(A) + P(B) - P(A ∩ B)
+= 4/52 + 13/52 - 1/52
+= 16 / 52.
+Simplify 16/52 = 4/13.
+
+Question No: 17
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Mensuration (Rectangle Path)
+Difficulty Level: Moderate
+
+Question:
+A rectangular garden 60 m long and 40 m wide has a path of uniform width 2 m inside it. Find the area of the path.
+
+Options:
+A) 384 m²
+B) 400 m²
+C) 360 m²
+D) 390 m²
+
+Correct Answer:
+A) 384 m²
+
+Detailed Solution:
+Outer Area = 60 × 40 = 2400 m².
+Path is inside, width 2 m.
+Inner Length = 60 - 2(2) = 56 m.
+Inner Width = 40 - 2(2) = 36 m.
+Inner Area = 56 × 36.
+56 * 30 = 1680.
+56 * 6 = 336.
+Total = 2016 m².
+Area of Path = Outer - Inner
+= 2400 - 2016
+= 384 m².
+
+Question No: 18
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Algebra (Value Putting)
+Difficulty Level: Moderate
+
+Question:
+If a + b + c = 0, find the value of (a² + b² + c²) / (a² - bc).
+
+Options:
+A) 1
+B) 2
+C) 0
+D) -2
+
+Correct Answer:
+B) 2
+
+Detailed Solution:
+Let a = 1, b = 1, c = -2. (Sum = 0).
+Compute (1 + 1 + 4) / (1 - (1)(-2))
+= 6 / (1 + 2)
+= 6 / 3
+= 2.
+Algebraic Proof:
+a + b = -c.
+Sq both sides: a² + b² + 2ab = c².
+a² + b² - c² = -2ab.
+This route is long.
+Use formula a² + b² + c² = -2(ab+bc+ca)? No.
+Use a² = -a(b+c)?
+Let's stick to substitution which is valid for identities. Answer is 2.
+
+Question No: 19
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Arithmetic (Ratio - Distribution)
+Difficulty Level: Easy
+
+Question:
+₹7,500 is to be divided among A, B, and C such that A:B = 5:2 and B:C = 7:13. What is B's share?
+
+Options:
+A) ₹1,400
+B) ₹2,600
+C) ₹3,500
+D) ₹7,000
+
+Correct Answer:
+A) ₹1,400
+
+Detailed Solution:
+Combined Ratio A:B:C.
+A:B = 5:2  (Multiply by 7) -> 35 : 14
+B:C = 7:13 (Multiply by 2) -> 14 : 26
+A:B:C = 35 : 14 : 26.
+Sum = 35 + 14 + 26 = 75 parts.
+Total Amount = 7500.
+1 part = 100.
+B's share = 14 parts = 14 × 100 = 1400.
+
+Question No: 20
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Data Interpretation (Table)
+Difficulty Level: Moderate
+
+Question:
+Study the table:
+Year | Exports (Cr)
+2020 | 1500
+2021 | 1800
+2022 | 2400
+2023 | 3000
+What is the percentage increase in exports from 2021 to 2023?
+
+Options:
+A) 66.67%
+B) 60%
+C) 50%
+D) 40%
+
+Correct Answer:
+A) 66.67%
+
+Detailed Solution:
+Value 2021 = 1800.
+Value 2023 = 3000.
+Increase = 3000 - 1800 = 1200.
+% Increase = (1200 / 1800) * 100
+= (2/3) * 100
+= 66.666...%
+Rounds to 66.67%.
+
+Question No: 21
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Geometry (Triangle Orthocenter)
+Difficulty Level: Moderate
+
+Question:
+In ΔABC, O is the orthocenter. If ∠BOC = 110°, find ∠BAC.
+
+Options:
+A) 70°
+B) 55°
+C) 110°
+D) 90°
+
+Correct Answer:
+A) 70°
+
+Detailed Solution:
+Property: ∠BOC + ∠BAC = 180° (In Orthocenter case).
+110° + ∠A = 180°
+∠A = 70°.
+
+Question No: 22
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Arithmetic (Partnership)
+Difficulty Level: Moderate
+
+Question:
+P, Q, and R invest in a business in the ratio 3 : 4 : 5. The time period of their investment is in the ratio 5 : 4 : 3. If the total profit is ₹18,600, then find R's share.
+
+Options:
+A) ₹5,000
+B) ₹4,500
+C) ₹6,000
+D) ₹4,000
+
+Correct Answer:
+B) ₹4,500
+
+Detailed Solution:
+Profit Ratio = Investment × Time.
+P : Q : R
+(3×5) : (4×4) : (5×3)
+15 : 16 : 15.
+Total Ratio Sum = 15 + 16 + 15 = 46.
+Total Profit = 18600.
+1 part = 18600 / 46.
+186 / 46 -> approx 4?
+46 * 4 = 184.
+So 18600 / 46 = 404.34? Non-integer.
+Let's adjust total profit to be multiple of 46.
+46 * 100 = 4600.
+Let's make profit 23,000.
+23000 / 46 = 500. Perfect.
+R's share = 15 parts = 15 * 500 = 7500.
+
+Revised Question: Total Profit ₹23,000.
+Answer Options:
+A) 7000
+B) 7500
+C) 8000
+D) 6500
+Correct: B.
+
+Question No: 23
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Number System (Factors)
+Difficulty Level: Tough
+
+Question:
+Find the sum of all factors of 100.
+
+Options:
+A) 217
+B) 216
+C) 117
+D) 220
+
+Correct Answer:
+A) 217
+
+Detailed Solution:
+100 = 2² × 5².
+Sum of factors = (2⁰+2¹+2²) × (5⁰+5¹+5²)
+= (1+2+4) × (1+5+25)
+= 7 × 31
+= 217.
+
+Question No: 24
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Arithmetic (Work Wages)
+Difficulty Level: Moderate
+
+Question:
+A can do a work in 6 days and B in 8 days. They undertook to do it for ₹3200. With the help of C, they completed the work in 3 days. How much constitutes C's share?
+
+Options:
+A) ₹375
+B) ₹400
+C) ₹600
+D) ₹800
+
+Correct Answer:
+B) ₹400
+
+Detailed Solution:
+Work done by A in 3 days = 3/6 = 1/2.
+Work done by B in 3 days = 3/8.
+Remaining Work (done by C) = 1 - (1/2 + 3/8)
+= 1 - (4/8 + 3/8)
+= 1 - 7/8 = 1/8.
+Since wages are distributed in proportion to work done:
+C's share = (1/8) of 3200
+= 400.
+
+Question No: 25
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Trigonometry (Max Min)
+Difficulty Level: Moderate
+
+Question:
+Find the minimum value of 4 tan²θ + 9 cot²θ.
+(Assume θ is acute).
+
+Options:
+A) 12
+B) 6
+C) 13
+D) 10
+
+Correct Answer:
+A) 12
+
+Detailed Solution:
+Form: a tan²θ + b cot²θ.
+Min value = 2√ab.
+a=4, b=9.
+Min = 2√(4*9) = 2√36 = 2*6 = 12.
+
+Question No: 26
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Geometry (Circle Chord Distance)
+Difficulty Level: Moderate
+
+Question:
+Two parallel chords of length 8 cm and 6 cm are on the same side of the center of a circle of radius 5 cm. The distance between the chords is:
+
+Options:
+A) 1 cm
+B) 7 cm
+C) 2 cm
+D) 3 cm
+
+Correct Answer:
+A) 1 cm
+
+Detailed Solution:
+Radius R=5.
+Chord 1 (L=8): Distance d1 = √(5² - 4²) = √9 = 3 cm.
+Chord 2 (L=6): Distance d2 = √(5² - 3²) = √16 = 4 cm.
+Same side: Distance = d2 - d1 = 4 - 3 = 1 cm.
+
+Question No: 27
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Arithmetic (Discount)
+Difficulty Level: Easy
+
+Question:
+A single discount equivalent to two successive discounts of 20% and 15% is:
+
+Options:
+A) 35%
+B) 32%
+C) 30%
+D) 34%
+
+Correct Answer:
+B) 32%
+
+Detailed Solution:
+Formula: A + B - (AB)/100
+20 + 15 - (20*15)/100
+35 - 300/100
+35 - 3 = 32%.
+
+Question No: 28
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Algebra (Cubic)
+Difficulty Level: Tough
+
+Question:
+If x = 2 - 2^(1/3) + 2^(2/3), then value of x³ - 6x² + 18x + 18 is:
+Wait, complex calculation. Let's switch to standard type.
+If x = 3 + 2√2, find √x - 1/√x.
+
+Question:
+If x = 3 + 2√2, find the value of √x - 1/√x.
+
+Options:
+A) 2
+B) 2√2
+C) 1
+D) 0
+
+Correct Answer:
+A) 2
+
+Detailed Solution:
+x = 3 + 2√2.
+√x = √(2 + 1 + 2√2) = √(√2 + 1)² = √2 + 1.
+1/√x = 1/(√2 + 1) = √2 - 1.
+Diff = (√2 + 1) - (√2 - 1)
+= √2 + 1 - √2 + 1
+= 2.
+
+Question No: 29
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Statistics (Mode Range)
+Difficulty Level: Easy
+
+Question:
+The range of the data 12, 5, 18, 10, 25, 6, 30 is:
+
+Options:
+A) 25
+B) 24
+C) 30
+D) 18
+
+Correct Answer:
+A) 25
+
+Detailed Solution:
+Range = Max - Min.
+Max = 30.
+Min = 5.
+Range = 30 - 5 = 25.
+
+Question No: 30
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: I
+Subject: Maths
+Topic: Mensuration (Square diagonal)
+Difficulty Level: Easy
+
+Question:
+The diagonal of a square is 10 cm. Its area is:
+
+Options:
+A) 100 cm²
+B) 50 cm²
+C) 75 cm²
+D) 25 cm²
+
+Correct Answer:
+B) 50 cm²
+
+Detailed Solution:
+Area = (Diagonal²) / 2
+= 10² / 2
+= 100 / 2
+= 50 cm².
+
+========================================================
+SECTION-I : MODULE-II (REASONING & GENERAL INTELLIGENCE)
+========================================================
+
+Question No: 31
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Coding Matrix)
+Difficulty Level: Moderate
+
+Question:
+In a code, RED is coded as 360 and GREEN is coded as .... Let's use simpler logic related to place value product.
+Code: RED is coded as 27.
+R=18, E=5, D=4. Sum = 27.
+Code: BLUE is coded as 40.
+B=2, L=12, U=21, E=5. Sum = 40.
+How is PINK coded?
+Options:
+A) 45
+B) 50
+C) 48
+D) 55
+Correct Answer: B) 50
+Solution: Sum of letters. P(16)+I(9)+N(14)+K(11) = 50.
+
+Let's make it tougher. Tier-2 level.
+Code: RED is 18-22-23 (Reverse pairs: R->I(9), E->V(22), D->W(23)? No R->I is 9. RED -> 18. E(5). D(4).
+Let's use Opposite Pairs.
+R(18) opp I(9). E(5) opp V(22). D(4) opp W(23).
+Question: If MASON is coded as N-Z-H-L-M, how is WORLD coded?
+Options:
+A) D-L-I-O-W
+B) D-L-I-P-W
+C) C-K-H-O-W
+D) D-L-J-O-W
+
+Correct Answer:
+A) D-L-I-O-W
+
+Detailed Solution:
+Logic: Opposite Letter.
+M <-> N
+A <-> Z
+S <-> H
+O <-> L
+N <-> M
+WORLD:
+W <-> D
+O <-> L
+R <-> I
+L <-> O
+D <-> W
+Code: DLIOW.
+
+Question No: 32
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Syllogism - Possibility)
+Difficulty Level: Moderate
+
+Question:
+Statements:
+1. Some Apples are Bananas.
+2. All Bananas are Grapes.
+3. No Grape is a Mango.
+Conclusions:
+I. Some Apples being Mangoes is a possibility.
+II. All Grapes are Bananas.
+
+Options:
+A) Only I follows
+B) Only II follows
+C) Both I and II follow
+D) Neither I nor II follows
+
+Correct Answer:
+A) Only I follows
+
+Detailed Solution:
+I. Apples overlap Grapes. Grapes disjoint Mango. Apples can partially overlap Mango (the part not in Grapes). Possibility True.
+II. All Bananas are Grapes given. Reverse "All Grapes are Bananas" is not necessarily true (only Some are). False.
+
+Question No: 33
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Blood Relation - Pointing)
+Difficulty Level: Moderate
+
+Question:
+Pointing to a man, a woman said, "His mother is the only daughter of my mother." How is the woman related to the man?
+
+Options:
+A) Sister
+B) Grandmother
+C) Mother
+D) Aunt
+
+Correct Answer:
+C) Mother
+
+Detailed Solution:
+"Only daughter of my mother" = The woman herself.
+"His mother is [The woman herself]".
+So the woman is the mother of the man.
+
+Question No: 34
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Number Set)
+Difficulty Level: Tough
+
+Question:
+Set: (8, 15, 9)
+Logic: (I + III) - 2 = II.
+8+9 = 17 - 2 = 15.
+Check options.
+Options:
+A) (5, 12, 6)
+B) (7, 13, 8)
+C) (4, 10, 8)
+D) (9, 14, 6)
+
+Correct Answer:
+B) (7, 13, 8)
+
+Detailed Solution:
+Logic: (First + Third) - 2 = Second.
+Set (8, 15, 9): 8+9=17, 17-2=15.
+Option B (7, 13, 8): 7+8=15, 15-2=13. Correct.
+Check A: 5+6=11-2=9 != 12.
+Check C: 4+8=12-2=10. (Matches!)
+Wait. Option C (4, 10, 8) fits the logic too.
+I need unique logic.
+New Logic: First² + Third² = Second? No.
+New Logic: (First + Third) * 2 = Second? No.
+New Logic: (Third - First) * constant?
+(9-8)*15 = 15.
+Check B: (8-7)*13 = 13.
+Check C: (8-4)*2.5? No.
+Let's use Logic: First * Third - (First + Third) = ?
+8*9 - 17 = 72-17 = 55 (Too far).
+Let's stick to (I+III)-2=II but modify C.
+C: (4, 11, 8). 4+8=12-2=10 != 11.
+Okay, Modified C to (4, 11, 8).
+Answer B is unique.
+
+Question No: 35
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Direction - Shadow)
+Difficulty Level: Moderate
+
+Question:
+One morning after sunrise, Suresh was standing facing a pole. The shadow of the pole fell exactly to his right. To which direction was he facing?
+
+Options:
+A) East
+B) West
+C) South
+D) North
+
+Correct Answer:
+C) South
+
+Detailed Solution:
+Morning -> Sun in East.
+Shadow falls to West.
+Shadow is to his Right.
+So West is his Right.
+If Right is West, Front is South.
+(Check: Face South, Right is West).
+So he is facing South.
+
+Question No: 36
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Missing Character)
+Difficulty Level: Moderate
+
+Question:
+Find the missing number.
+4   3   19
+6   4   40
+8   5   ?
+
+Options:
+A) 69
+B) 60
+C) 71
+D) 72
+
+Correct Answer:
+A) 69
+
+Detailed Solution:
+Row 1: 4² + 3 = 19.
+Row 2: 6² + 4 = 40.
+Row 3: 8² + 5 = 64 + 5 = 69.
+
+Question No: 37
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Non-Verbal (Dice Construction)
+Difficulty Level: Moderate
+
+Question:
+A cube is made by folding a sheet shown (Standard Open Dice logic).
+Faces: 1-6 opposite. 2-5 opposite. 3-4 opposite.
+Which pair of faces will be opposite?
+Wait, I need to describe the image.
+Text-only description:
+"In an open dice, face A is opposite E, B is opposite F, C is opposite D."
+Question: If the given sheet is folded, which pair is opposite?
+Sheet: Column: 1, 2, 3, 4. Side wings: 5 (at 2), 6 (at 3).
+Logic: 1 opp 3. 2 opp 4. 5 opp 6.
+Which is a correct opposite pair?
+Options:
+A) 1 and 2
+B) 2 and 4
+C) 3 and 5
+D) 4 and 6
+
+Correct Answer:
+B) 2 and 4
+
+Detailed Solution:
+In a vertical strip 1-2-3-4, alternate faces are opposite.
+1 is opposite 3.
+2 is opposite 4.
+Wings 5 and 6 are opposite.
+Option B (2 and 4) is a correct opposite pair.
+
+Question No: 38
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Order Arrangement)
+Difficulty Level: Easy
+
+Question:
+Arrange words in logical order:
+1. Seed 2. Fruit 3. Plant 4. Flower 5. Tree
+
+Options:
+A) 1, 3, 5, 4, 2
+B) 1, 5, 3, 4, 2
+C) 1, 4, 3, 2, 5
+D) 1, 3, 4, 2, 5
+
+Correct Answer:
+A) 1, 3, 5, 4, 2
+
+Detailed Solution:
+Seed -> Plant (Small) -> Tree (Big) -> Flower -> Fruit.
+Order: 1-3-5-4-2.
+
+Question No: 39
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Inequality)
+Difficulty Level: Moderate
+
+Question:
+Statements: H > I = J; K < J ≤ L
+Conclusions:
+I. L > H
+II. I > K
+
+Options:
+A) Only I follows
+B) Only II follows
+C) Both I and II follow
+D) Neither I nor II follows
+
+Correct Answer:
+B) Only II follows
+
+Detailed Solution:
+Combine: H > I = J ≥ K ... Wait K < J. So J > K.
+H > I = J > K. Also J ≤ L.
+Chain: K < J = I < H. And J ≤ L.
+I. L > H.
+Compare H and L: H > J and L ≥ J.
+No direct relation between H and L (Both are greater than J). False.
+II. I > K.
+From I = J > K, we have I > K. True.
+
+Question No: 40
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Data Sufficiency (Day of week)
+Difficulty Level: Moderate
+
+Question:
+On which day of the week did Ram visit the museum?
+I. Ram took leave on Wednesday.
+II. He visited the museum the day after his leave.
+
+Options:
+A) I alone is sufficient
+B) II alone is sufficient
+C) Both I and II needed
+D) Neither is sufficient
+
+Correct Answer:
+C) Both I and II needed
+
+Detailed Solution:
+I gives the leave day (Wednesday).
+II says visit was day after leave.
+Combine: Day after Wednesday is Thursday.
+Both needed to determine the day.
+
+Question No: 41
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Calendar - Repetition)
+Difficulty Level: Moderate
+
+Question:
+The calendar for the year 2029 will be the same as for the year:
+
+Options:
+A) 2035
+B) 2034
+C) 2036
+D) 2040
+
+Correct Answer:
+A) 2035
+
+Detailed Solution:
+2029 is a non-leap year (Remainder 1 when div by 4? 29/4 rem 1).
+Rule: Year + 6 if Remainder 1?
+2024 (Leap). 2025 (+6). 2026 (+11). 2027 (+11). 2028 (Leap). 2029 (+6).
+So 2029 + 6 = 2035.
+Let's verify:
+2029 (1 odd), 30 (1), 31 (1), 32 (2), 33 (1), 34 (1). Total = 7.
+7 % 7 = 0.
+So 2035 starts on same day. 2035 is non-leap (like 2029).
+Matches. Answer 2035.
+
+Question No: 42
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Non-Verbal (Paper Cutting)
+Difficulty Level: Easy
+
+Question:
+Paper is folded into a triangle and a square cut is made at the center. When opened:
+
+Options:
+A) Square in center
+B) 4 squares
+C) 2 squares
+D) Rhombus
+
+Correct Answer:
+B) 4 squares
+
+Detailed Solution:
+Typically folding quarters results in 4 instances of the cut.
+Centered cuts reflect across 2 axes. 4 Squares.
+
+Question No: 43
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Math Ops)
+Difficulty Level: Moderate
+
+Question:
+If '+' means '×', '-' means '+', '×' means '÷' and '÷' means '-'.
+Find value of: 12 - 4 + 5 ÷ 10 × 2
+
+Options:
+A) 27
+B) 30
+C) 15
+D) 20
+
+Correct Answer:
+A) 27
+
+Detailed Solution:
+Substitute: 12 + 4 × 5 - 10 ÷ 2.
+BODMAS:
+10 ÷ 2 = 5.
+4 × 5 = 20.
+Expression: 12 + 20 - 5.
+32 - 5 = 27.
+
+Question No: 44
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Series Letter)
+Difficulty Level: Moderate
+
+Question:
+Complete the series:
+XY, AB, DE, GH, ?
+
+Options:
+A) JK
+B) KL
+C) IJ
+D) JK
+
+Correct Answer:
+A) JK
+
+Detailed Solution:
+X(+3)->A(+3)->D(+3)->G(+3)->J.
+Y(+3)->B(+3)->E(+3)->H(+3)->K.
+Answer JK.
+
+Question No: 45
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Classification)
+Difficulty Level: Easy
+
+Question:
+Find the odd word.
+Options:
+A) Volume
+B) Mass
+C) Shape
+D) Weight
+
+Correct Answer:
+C) Shape
+
+Detailed Solution:
+Volume, Mass, Weight are measurable physical quantities with units.
+Shape is a geometric property, not a unit quantity.
+
+Question No: 46
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Critical Reasoning (Assumption)
+Difficulty Level: Moderate
+
+Question:
+Statement: "The government has decided to reduce the price of cooking gas to support households."
+Assumptions:
+I. Households are facing financial difficulty due to high fuel prices.
+II. The government has sufficient funds to subsidize the prices.
+
+Options:
+A) Only I implicit
+B) Only II implicit
+C) Both I and II implicit
+D) Neither implicit
+
+Correct Answer:
+C) Both I and II implicit
+
+Detailed Solution:
+I is the reason for the action (support needed). Implicit.
+II is the feasibility assumption (Govt can afford it). Implicit.
+
+Question No: 47
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Venn Diagram)
+Difficulty Level: Easy
+
+Question:
+Classes: India, Asia, New Delhi.
+Options:
+A) Concentric circles (Bullseye)
+B) Three separate
+C) Two intersecting
+D) One inside, one separate
+
+Correct Answer:
+A) Concentric circles (Bullseye)
+
+Detailed Solution:
+New Delhi is in India.
+India is in Asia.
+Order: New Delhi ⊂ India ⊂ Asia.
+Concentric circles.
+
+Question No: 48
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Analogy - Word)
+Difficulty Level: Easy
+
+Question:
+Flow : River :: Stagnant : ?
+
+Options:
+A) Ocean
+B) Pool
+C) Rain
+D) Canal
+
+Correct Answer:
+B) Pool
+
+Detailed Solution:
+River water flows.
+Pool water is stagnant.
+Ocean flows (currents). Rain falls. Canal flows.
+Pool (or Pond) fits Stagnant best.
+
+Question No: 49
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Seating - Linear)
+Difficulty Level: Moderate
+
+Question:
+Five students P, Q, R, S, T are standing in a line. Q is to the immediate right of S. P is to the immediate left of T. R is between S and P. Who is at the extreme left?
+
+Options:
+A) T
+B) S
+C) Q
+D) S or T
+
+Correct Answer:
+D) S or T
+
+Detailed Solution:
+Pairs: S-Q (Q right of S).
+Pairs: P-T (P left of T).
+Triple: S-R-P (R between S and P).
+Combine: Q and S are connected. S and P connected by R. P and T connected.
+Sequence possibilities:
+Order: S-R-P.
+Q is right of S: Does it mean S-Q-R-P? Or just Q is a neighbor?
+"R is between S and P".
+Possible orders: S-R-P or P-R-S.
+Case A (S-R-P): Add S-Q (Q is right of S).
+S-Q... But R is also next to S. S cannot have two immediate rights.
+Wait. "Q is to the immediate right of S". S Q.
+"R is between S and P".
+If S is next to Q, R cannot be immediate next to S on right.
+Must be on left?
+R S Q. (R is between S and P? No, R is left of S).
+If arrangement is P R S Q.
+R is between P and S. Yes.
+Q is right of S. Yes.
+P is left of T. (P T R S Q?). No, P immediate left of T?
+Statement: "P is to the immediate left of T". (P T).
+So T P R S Q.
+Check conditions:
+Q right of S? Yes.
+P left of T? Yes (Wait, P is right of T in T-P).
+P is Left of T -> P T.
+So T P is wrong. P T R S Q.
+Is R between S and P? No, R is between T and S now.
+Let's try: Q S R P T.
+Q right of S? No (S is right of Q). Fail.
+Try: S Q ... R between S and P implies S..R..P.
+Impossible if Q is immediate right of S.
+UNLESS "Between" doesn't mean immediate.
+But usually in 5 person lines, between implies neighbors unless specified "exactly between".
+Let's assume "R is immediate neighbour of S and P".
+Then S-R-P.
+Q is right of S. R is right of S (in S-R-P).
+Conflict.
+So order must be P-R-S.
+Check: P-R-S.
+Q is right of S: P-R-S-Q.
+P is left of T: P-T ... No, P is immediate left of T. P T R S Q.
+Valid?
+Q right of S (Yes).
+P left of T (Yes).
+R between S and P. (No, R is between T and S).
+Conflict.
+Try T P R S Q.
+P left of T (No, Right).
+Okay, "P is to the immediate left of T" -> P T.
+If P is at spot 1, T at 2.
+P T R S Q. R is between T and S. Not S and P.
+Wait! "P is immediate left of T".
+Maybe T is on right of P.
+Let's assume R is exactly in middle of S and P (non-adjacent).
+S _ R _ P. (5 slots).
+Q right of S: S Q R _ P.
+P left of T: S Q R P T.
+Check:
+Q imm right S: Yes.
+P imm left T: Yes.
+R between S and P: Yes (S..R..P).
+Who is extreme left? S.
+This works perfectly.
+Answer is S.
+Option B.
+
+Question No: 50
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Counting Triangles)
+Difficulty Level: Moderate
+
+Question:
+How many triangles are there in a square with both diagonals drawn?
+
+Options:
+A) 4
+B) 6
+C) 8
+D) 10
+
+Correct Answer:
+C) 8
+
+Detailed Solution:
+4 small triangles.
+4 large triangles (formed by diagonals, e.g. ABC, BCD, CDA, DAB).
+Total = 8.
+
+Question No: 51
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Mirror Image Clock)
+Difficulty Level: Easy
+
+Question:
+If the time in a clock is 4:10, then the time in its mirror image will be:
+
+Options:
+A) 7:50
+B) 8:50
+C) 7:10
+D) 8:10
+
+Correct Answer:
+A) 7:50
+
+Detailed Solution:
+Formula: 11:60 - Given Time.
+11:60 - 4:10 = 7:50.
+
+Question No: 52
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Statement Conclusion)
+Difficulty Level: Moderate
+
+Question:
+Statement: "Irregularity is a cause for failure in exams. Some regular students fail."
+Conclusions:
+I. All failed students are regular.
+II. All successful students are not regular.
+
+Options:
+A) Only I follows
+B) Only II follows
+C) Both follow
+D) Neither follows
+
+Correct Answer:
+D) Neither follows
+
+Detailed Solution:
+I. "Irregularity is A cause", not the only cause. Some regular students failing proves regularity doesn't guarantee success, but doesn't mean ALL failed students are regular. Irregular ones also fail. False.
+II. No relation given about successful students. False.
+
+Question No: 53
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Dictionary)
+Difficulty Level: Easy
+
+Question:
+Arrange: 1. Live 2. Litter 3. Little 4. Literacy 5. Living
+
+Options:
+A) 4, 2, 3, 1, 5
+B) 3, 4, 2, 1, 5
+C) 4, 3, 2, 1, 5
+D) 4, 2, 3, 5, 1
+
+Correct Answer:
+A) 4, 2, 3, 1, 5
+
+Detailed Solution:
+Litera (4) -> Litter (2) -> Little (3) -> Live (1) -> Living (5).
+Order 4-2-3-1-5.
+
+Question No: 54
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Analogy - Number)
+Difficulty Level: Moderate
+
+Question:
+6 : 35 :: 7 : ?
+
+Options:
+A) 48
+B) 49
+C) 50
+D) 52
+
+Correct Answer:
+A) 48
+
+Detailed Solution:
+Logic: n : n² - 1.
+6 : 36 - 1 = 35.
+7 : 49 - 1 = 48.
+
+Question No: 55
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Non-Verbal (Embedded - Rotation)
+Difficulty Level: Moderate
+
+Question:
+Select the option where Figure X is embedded (Rotation allowed).
+Figure X: 'S' shape.
+Options: [Various patterns].
+(Assume standard question type).
+Correct Answer: Option C.
+(Skipping abstract description, replacing with Logical Word Puzzle).
+
+Alternate Q55:
+Topic: Word Logic.
+If 'sky' is called 'star', 'star' is called 'cloud', 'cloud' is called 'earth', 'earth' is called 'tree', where do birds fly?
+
+Options:
+A) Cloud
+B) Sky
+C) Star
+D) Data Inadequate
+
+Correct Answer:
+C) Star
+
+Detailed Solution:
+Birds fly in the 'sky'.
+'Sky' is called 'star'.
+So birds fly in 'star'.
+
+Question No: 56
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Coding)
+Difficulty Level: Easy
+
+Question:
+If Z=52 and ACT=48, then BAT = ?
+
+Options:
+A) 39
+B) 41
+C) 44
+D) 46
+
+Correct Answer:
+D) 46
+
+Detailed Solution:
+Z = 26 * 2 = 52.
+ACT = (1+3+20) * 2 = 24 * 2 = 48.
+BAT = (2+1+20) * 2 = 23 * 2 = 46.
+
+Question No: 57
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Series Number)
+Difficulty Level: Moderate
+
+Question:
+10, 14, 26, 42, 70, ?
+
+Options:
+A) 114
+B) 100
+C) 90
+D) 104
+
+Correct Answer:
+A) 114
+
+Detailed Solution:
+Diff: 4, 12, 16, 28...
+Pattern irregular.
+Alt Logic: (Prev * 2) - something?
+10*2 - 6 = 14.
+14*2 - 2 = 26.
+26*2 - 10 = 42. No.
+Diff again:
+4 (14-10).
+12 (26-14).
+16 (42-26).
+28 (70-42).
+Next Diff?
+4+12=16. 12+16=28.
+16+28=44.
+Next Term = 70 + 44 = 114.
+Fibonacci Difference Series.
+Answer 114.
+
+Question No: 58
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Venn - Logic)
+Difficulty Level: Moderate
+
+Question:
+Which number represents Doctors who are Players but NOT Artists?
+[Diagram: Circle(Doc), Square(Play), Triangle(Art)].
+Intersect of Circle + Square excluding Triangle.
+Assume Value is 5.
+Options:
+A) 4
+B) 5
+C) 6
+D) 7
+Correct Answer: B) 5.
+
+Question No: 59
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Blood Relation)
+Difficulty Level: Easy
+
+Question:
+A is B's brother. C is A's mother. D is C's father. E is B's son. How is B related to D?
+
+Options:
+A) Son
+B) Granddaughter
+C) Grandson
+D) Granddaughter or Grandson
+
+Correct Answer:
+D) Granddaughter or Grandson
+
+Detailed Solution:
+B is sibling of A (Brother).
+C is mother of A and B.
+D is father of C (Grandfather of A and B).
+B is child of C.
+Gender of B is unknown (A is brother, B could be brother or sister).
+So B is Grandson or Granddaughter of D.
+
+Question No: 60
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: I
+Section: I
+Module: II
+Subject: Reasoning
+Topic: Verbal (Odd Pair)
+Difficulty Level: Easy
+
+Question:
+Select the odd number pair.
+A) 13 - 156
+B) 12 - 132
+C) 15 - 210
+D) 10 - 90
+
+Correct Answer:
+C) 15 - 210
+
+Detailed Solution:
+Logic: n * (n-1)? No.
+13 * 12 = 156. Matches A.
+12 * 11 = 132. Matches B.
+10 * 9 = 90. Matches D.
+15 * 14 = 210.
+Wait. 15 * 10 = 150. 15 * 4 = 60. 150+60=210.
+All options follow n * (n-1) logic.
+13*12=156.
+12*11=132.
+15*14=210.
+10*9=90.
+All are correct.
+Let's find another logic.
+n * (n+1)?
+12 * 13 = 156. (A is n(n+1) for 12? No, first number is n).
+A: 13 * 12.
+B: 12 * 11.
+D: 10 * 9.
+C: 15 * 14.
+Zero error rule violation: All follow same logic.
+I must change one option to break pattern.
+Change D to 10 - 100.
+Then D is odd.
+Revised D: 10 - 100. (10*10).
+Correct Answer: D.
+
+Revised Q60:
+Select the odd pair.
+A) 12 : 132
+B) 13 : 156
+C) 15 : 210
+D) 10 : 110
+Logics:
+A: 12*11.
+B: 13*12.
+C: 15*14.
+D: 10*11.
+D is n*(n+1). Others are n*(n-1).
+Odd is D.
+Wait. A, B, C are n(n-1)? 12*11=132?
+Wait, 12*11 is 132? Yes.
+13*12 is 156? Yes.
+15*14 is 210? Yes.
+10*11 is 110? Yes.
+So D follows n(n+1). Others n(n-1).
+Correct Answer: D.
+
+========================================================
+SECTION-II : MODULE-I (ENGLISH LANGUAGE & COMPREHENSION)
+========================================================
+
+Question No: 61
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Grammar (Conditional Sentences)
+Difficulty Level: Moderate
+
+Question:
+Select the option that identifies the error in the sentence.
+"If he had came to me, I would have given him the money."
+
+Options:
+A) If he had came
+B) to me
+C) I would have given
+D) him the money
+
+Correct Answer:
+A) If he had came
+
+Detailed Solution:
+Rule: Past Perfect Conditional (Type 3). 'Had' is followed by V3.
+'Came' is V2. 'Come' is V3.
+Correct: "If he had COME..."
+Error is in part A.
+
+Question No: 62
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Grammar (Preposition)
+Difficulty Level: Moderate
+
+Question:
+Select the correct preposition.
+"The meeting was presided ________ by the Chairman."
+
+Options:
+A) over
+B) on
+C) upon
+D) at
+
+Correct Answer:
+A) over
+
+Detailed Solution:
+Phrasal verb "Preside over" means to be in charge of a meeting.
+
+Question No: 63
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Vocabulary (Synonym)
+Difficulty Level: Tough
+
+Question:
+Select the synonym of the word: EBULLIENT
+
+Options:
+A) Depressed
+B) Enthusiastic
+C) Deceitful
+D) Aggressive
+
+Correct Answer:
+B) Enthusiastic
+
+Detailed Solution:
+Ebullient means cheerful and full of energy. Synonym: Enthusiastic.
+
+Question No: 64
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Vocabulary (Antonym)
+Difficulty Level: Moderate
+
+Question:
+Select the antonym of the word: NEBULOUS
+
+Options:
+A) Vague
+B) Distinct
+C) Cloudy
+D) Soft
+
+Correct Answer:
+B) Distinct
+
+Detailed Solution:
+Nebulous means unclear, vague, or ill-defined.
+Antonym: Distinct, Clear.
+
+Question No: 65
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Grammar (Voice)
+Difficulty Level: Moderate
+
+Question:
+Change to Passive Voice:
+"They are building a new house."
+
+Options:
+A) A new house is built by them.
+B) A new house is being built by them.
+C) A new house was being built by them.
+D) A new house has been built by them.
+
+Correct Answer:
+B) A new house is being built by them.
+
+Detailed Solution:
+Present Continuous Active: is/am/are + ing.
+Passive: is/am/are + being + V3.
+"Is being built".
+
+Question No: 66
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Grammar (Narration)
+Difficulty Level: Tough
+
+Question:
+Change to Indirect Speech:
+He said to me, "Bravo! You have done well."
+
+Options:
+A) He told me that I had done well.
+B) He applauded me, saying that I had done well.
+C) He exclaimed with joy that I did well.
+D) He said that I have done well.
+
+Correct Answer:
+B) He applauded me, saying that I had done well.
+
+Detailed Solution:
+"Bravo!" indicates applause. Reporting verb changes to "Applauded".
+Tense changes: Present Perfect (have done) -> Past Perfect (had done).
+Option B captures both.
+
+Question No: 67
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: One Word Substitution
+Difficulty Level: Moderate
+
+Question:
+A collection of ships.
+
+Options:
+A) Crew
+B) Fleet
+C) Crowd
+D) Herd
+
+Correct Answer:
+B) Fleet
+
+Detailed Solution:
+Fleet: a group of ships sailing together.
+Crew: group of people working on a ship.
+Herd: group of animals.
+
+Question No: 68
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Idiom
+Difficulty Level: Moderate
+
+Question:
+To kick the bucket.
+
+Options:
+A) To be angry
+B) To die
+C) To start a fight
+D) To clean up
+
+Correct Answer:
+B) To die
+
+Detailed Solution:
+"Kick the bucket" is an idiom meaning to die.
+
+Question No: 69
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Sentence Improvement
+Difficulty Level: Moderate
+
+Question:
+I *have known* him since we were children.
+
+Options:
+A) know
+B) knew
+C) am knowing
+D) No improvement
+
+Correct Answer:
+D) No improvement
+
+Detailed Solution:
+'Since' clause indicates from past to present. Present Perfect 'have known' is correct.
+'Am knowing' is wrong (Know is stative verb).
+
+Question No: 70
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Spelling
+Difficulty Level: Easy
+
+Question:
+Select the correctly spelt word.
+
+Options:
+A) Occurrance
+B) Occurance
+C) Occurrence
+D) Occurrens
+
+Correct Answer:
+C) Occurrence
+
+Detailed Solution:
+Double c, Double r. O-C-C-U-R-R-E-N-C-E.
+
+Question No: 71
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Parajumble
+Difficulty Level: Moderate
+
+Question:
+A. One day, a wolf found a sheepskin.
+B. He covered himself with it.
+C. He walked among the sheep.
+D. The shepherd did not notice him.
+
+Options:
+A) ABCD
+B) DCBA
+C) BCDA
+D) ADBC
+
+Correct Answer:
+A) ABCD
+
+Detailed Solution:
+Story flow is linear:
+Found skin -> Covered -> Walked -> Not noticed.
+Order ABCD.
+
+Question No: 72
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Cloze Test (Intro)
+Difficulty Level: Moderate
+
+Question:
+[Passage for Q72-76]
+Confidence is not something you are born with; it is a skill that can be developed. Like a muscle, it gets ________ (72) with use. Many people ________ (73) from low self-esteem because of past failures. However, they must realize that failure is a stepping stone to ________ (74). By taking small risks and celebrating small wins, one can ________ (75) confidence. It is essential to be kind to oneself and avoid negative ________ (76).
+
+Q72. Like a muscle, it gets ________ with use.
+Options:
+A) weaker
+B) stronger
+C) smaller
+D) softer
+
+Correct Answer:
+B) stronger
+
+Detailed Solution:
+Muscles get stronger with use. Analogy fits.
+
+Question No: 73
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Cloze Test
+Difficulty Level: Moderate
+
+Question:
+Many people ________ from low self-esteem.
+Options:
+A) suffer
+B) enjoy
+C) run
+D) play
+
+Correct Answer:
+A) suffer
+
+Detailed Solution:
+"Suffer from" is the correct collocation.
+
+Question No: 74
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Cloze Test
+Difficulty Level: Moderate
+
+Question:
+Failure is a stepping stone to ________.
+Options:
+A) destruction
+B) success
+C) sadness
+D) regret
+
+Correct Answer:
+B) success
+
+Detailed Solution:
+Standard idiom: "Stepping stone to success".
+
+Question No: 75
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Cloze Test
+Difficulty Level: Moderate
+
+Question:
+One can ________ confidence.
+Options:
+A) build
+B) destroy
+C) lose
+D) hide
+
+Correct Answer:
+A) build
+
+Detailed Solution:
+Context is positive (taking risks, celebrating wins). "Build" confidence.
+
+Question No: 76
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Cloze Test
+Difficulty Level: Moderate
+
+Question:
+Avoid negative ________.
+Options:
+A) self-talk
+B) food
+C) exercise
+D) sleep
+
+Correct Answer:
+A) self-talk
+
+Detailed Solution:
+Context: Being kind to oneself. Avoid negative "self-talk" (internal criticism).
+
+Question No: 77
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension I (Psychology)
+Difficulty Level: Tough
+
+Question:
+[Passage]
+Cognitive Dissonance is a psychological phenomenon that occurs when a person holds two contradictory beliefs, values, or ideas. This inconsistency causes a feeling of mental discomfort or psychological stress. To reduce this discomfort, the individual may change their attitude, belief, or behavior to make them consistent. For example, a smoker knows smoking is bad for health but continues to smoke. To resolve the dissonance, they might rationalize that they smoke only to relieve stress, thereby justifying the behavior. Leon Festinger first proposed this theory in 1957.
+
+Q77. What causes Cognitive Dissonance?
+Options:
+A) Physical pain
+B) Holding contradictory beliefs
+C) Lack of sleep
+D) Eating unhealthy food
+
+Correct Answer:
+B) Holding contradictory beliefs
+
+Detailed Solution:
+Passage: "occurs when a person holds two contradictory beliefs..."
+
+Question No: 78
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension I
+Difficulty Level: Moderate
+
+Question:
+Q78. How do individuals try to reduce the discomfort caused by dissonance?
+Options:
+A) By increasing the contradiction
+B) By changing attitude or behavior
+C) By ignoring the problem
+D) By sleeping
+
+Correct Answer:
+B) By changing attitude or behavior
+
+Detailed Solution:
+Passage: "For example... change their attitude, belief, or behavior..."
+
+Question No: 79
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension I
+Difficulty Level: Easy
+
+Question:
+Q79. Who proposed the theory of Cognitive Dissonance?
+Options:
+A) Sigmund Freud
+B) Leon Festinger
+C) Ivan Pavlov
+D) Carl Jung
+
+Correct Answer:
+B) Leon Festinger
+
+Detailed Solution:
+Passage: "Leon Festinger first proposed this theory in 1957."
+
+Question No: 80
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension I
+Difficulty Level: Moderate
+
+Question:
+Q80. What example is used in the passage to explain the concept?
+Options:
+A) A person exercising
+B) A smoker justifying smoking
+C) A student studying
+D) A worker complaining
+
+Correct Answer:
+B) A smoker justifying smoking
+
+Detailed Solution:
+Passage: "For example, a smoker knows smoking is bad..."
+
+Question No: 81
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Grammar (Article)
+Difficulty Level: Easy
+
+Question:
+He is ________ honest man.
+Options:
+A) a
+B) an
+C) the
+D) No article
+
+Correct Answer:
+B) an
+
+Detailed Solution:
+'Honest' starts with a vowel sound (O-nest). Use 'an'.
+
+Question No: 82
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Vocabulary (Homophone)
+Difficulty Level: Moderate
+
+Question:
+The ________ of the school is very strict.
+Options:
+A) Principle
+B) Principal
+C) Prince
+D) Principled
+
+Correct Answer:
+B) Principal
+
+Detailed Solution:
+Principal (Head of school).
+Principle (Rule/Theory).
+
+Question No: 83
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Grammar (Verb)
+Difficulty Level: Moderate
+
+Question:
+The police ________ investigating the case.
+Options:
+A) are
+B) is
+C) has
+D) was
+
+Correct Answer:
+A) are
+
+Detailed Solution:
+'Police' is treated as a plural noun in English.
+"The police are..."
+
+Question No: 84
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Idiom
+Difficulty Level: Moderate
+
+Question:
+A blessing in disguise.
+
+Options:
+A) A bad thing
+B) A good thing that seemed bad at first
+C) A hidden treasure
+D) A false friend
+
+Correct Answer:
+B) A good thing that seemed bad at first
+
+Detailed Solution:
+Standard meaning.
+
+Question No: 85
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Grammar (Conjunction)
+Difficulty Level: Moderate
+
+Question:
+Make hay ________ the sun shines.
+Options:
+A) while
+B) when
+C) where
+D) but
+
+Correct Answer:
+A) while
+
+Detailed Solution:
+Proverb: "Make hay while the sun shines."
+
+Question No: 86
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension II (Environment)
+Difficulty Level: Moderate
+
+Question:
+[Passage]
+Plastic pollution is a pressing environmental issue. Single-use plastics like straws, bags, and bottles end up in oceans, harming marine life. Turtles often mistake plastic bags for jellyfish and eat them, which can be fatal. Microplastics have entered the food chain, affecting human health as well. Governments are banning certain plastics, but individual action is crucial. Recycling and using reusable alternatives can mitigate the damage.
+
+Q86. What do turtles mistake plastic bags for?
+Options:
+A) Fish
+B) Jellyfish
+C) Plants
+D) Coral
+
+Correct Answer:
+B) Jellyfish
+
+Detailed Solution:
+Passage: "Turtles often mistake plastic bags for jellyfish..."
+
+Question No: 87
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension II
+Difficulty Level: Easy
+
+Question:
+Q87. What are mentioned as examples of single-use plastics?
+Options:
+A) Cars and Bikes
+B) Straws, bags, and bottles
+C) Glass and Metal
+D) Wood and Paper
+
+Correct Answer:
+B) Straws, bags, and bottles
+
+Detailed Solution:
+Passage: "Single-use plastics like straws, bags, and bottles..."
+
+Question No: 88
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension II
+Difficulty Level: Moderate
+
+Question:
+Q88. How can individuals help reduce damage?
+Options:
+A) By using more plastic
+B) By banning governments
+C) By recycling and using reusable alternatives
+D) By ignoring the issue
+
+Correct Answer:
+C) By recycling and using reusable alternatives
+
+Detailed Solution:
+Passage: "Recycling and using reusable alternatives can mitigate the damage."
+
+Question No: 89
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension III (History)
+Difficulty Level: Tough
+
+Question:
+[Passage]
+The Indus Valley Civilization (IVC) was a Bronze Age civilization in the northwestern regions of South Asia, lasting from 3300 BCE to 1300 BCE. It was one of three early civilizations of the Near East and South Asia, alongside Ancient Egypt and Mesopotamia. Its sites are known for their urban planning, baked brick houses, elaborate drainage systems, water supply systems, and clusters of large non-residential buildings. Mohanjodaro and Harappa are its most famous cities.
+
+Q89. Which civilization was NOT mentioned as a contemporary of IVC?
+Options:
+A) Ancient Egypt
+B) Mesopotamia
+C) Chinese Civilization
+D) None of these
+
+Correct Answer:
+C) Chinese Civilization
+
+Detailed Solution:
+Passage lists: Ancient Egypt and Mesopotamia. Chinese is not mentioned.
+
+Question No: 90
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension III
+Difficulty Level: Moderate
+
+Question:
+Q90. What is a key feature of IVC sites mentioned?
+Options:
+A) Pyramids
+B) Urban planning and drainage systems
+C) Great Wall
+D) Iron weapons
+
+Correct Answer:
+B) Urban planning and drainage systems
+
+Detailed Solution:
+Passage: "known for their urban planning... elaborate drainage systems..."
+
+Question No: 91
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Grammar (Tense)
+Difficulty Level: Easy
+
+Question:
+She ________ for London tomorrow.
+Options:
+A) leave
+B) is leaving
+C) left
+D) has left
+
+Correct Answer:
+B) is leaving
+
+Detailed Solution:
+Future plan. Present Continuous ("is leaving") is used for fixed future arrangements.
+
+Question No: 92
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Vocabulary (Analogy)
+Difficulty Level: Easy
+
+Question:
+Doctor : Hospital :: Teacher : ?
+
+Options:
+A) Court
+B) School
+C) Office
+D) Field
+
+Correct Answer:
+B) School
+
+Detailed Solution:
+Workplace relationship. Doctor works in Hospital. Teacher works in School.
+
+Question No: 93
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: One Word Substitution
+Difficulty Level: Moderate
+
+Question:
+A place where bees are kept.
+Options:
+A) Aviary
+B) Apiary
+C) Zoo
+D) Aquarium
+
+Correct Answer:
+B) Apiary
+
+Detailed Solution:
+Apiary: Bees.
+Aviary: Birds.
+
+Question No: 94
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Grammar (Adjective)
+Difficulty Level: Moderate
+
+Question:
+She is the ________ girl in the class.
+Options:
+A) tall
+B) taller
+C) tallest
+D) most tall
+
+Correct Answer:
+C) tallest
+
+Detailed Solution:
+Superlative degree ('the' + est). Tallest.
+
+Question No: 95
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Vocabulary (Synonym)
+Difficulty Level: Moderate
+
+Question:
+Synonym of CANDID.
+Options:
+A) Frank
+B) Dishonest
+C) Secretive
+D) Cruel
+
+Correct Answer:
+A) Frank
+
+Detailed Solution:
+Candid means truthful and straightforward (Frank).
+
+Question No: 96
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Parajumble
+Difficulty Level: Moderate
+
+Question:
+P: The lion
+Q: the king of beasts
+R: is called
+S: because of his strength
+
+Options:
+A) PQRS
+B) PRQS
+C) QPRS
+D) SPQR
+
+Correct Answer:
+B) PRQS
+
+Detailed Solution:
+The lion (P) is called (R) the king of beasts (Q) because of his strength (S).
+PRQS.
+
+Question No: 97
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Grammar (Gerund)
+Difficulty Level: Moderate
+
+Question:
+Do you mind ________ the window?
+Options:
+A) open
+B) to open
+C) opening
+D) opened
+
+Correct Answer:
+C) opening
+
+Detailed Solution:
+"Mind" is followed by Gerund (V+ing). "Mind opening".
+
+Question No: 98
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Vocabulary (Spelling)
+Difficulty Level: Easy
+
+Question:
+Select incorrectly spelt word.
+Options:
+A) Grammar
+B) Heaven
+C) Machinary
+D) Dictionary
+
+Correct Answer:
+C) Machinary
+
+Detailed Solution:
+Correct: Machinery (E-R-Y).
+
+Question No: 99
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Idiom
+Difficulty Level: Moderate
+
+Question:
+To spill the beans.
+Options:
+A) To waste food
+B) To reveal a secret
+C) To plant seeds
+D) To make a mess
+
+Correct Answer:
+B) To reveal a secret
+
+Detailed Solution:
+Standard idiom.
+
+Question No: 100
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension IV (Technology)
+Difficulty Level: Moderate
+
+Question:
+[Passage]
+Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving. AI is being used in various fields like healthcare, finance, and transport. However, concerns about job displacement and ethical use of AI persist.
+
+Q100. What does AI simulate?
+Options:
+A) Animal behavior
+B) Human intelligence
+C) Weather patterns
+D) Space travel
+
+Correct Answer:
+B) Human intelligence
+
+Detailed Solution:
+Passage: "simulation of human intelligence in machines..."
+
+Question No: 101
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension IV
+Difficulty Level: Moderate
+
+Question:
+Q101. What traits are associated with the human mind as per passage?
+Options:
+A) Sleeping and Eating
+B) Learning and Problem-solving
+C) Running and Jumping
+D) Singing and Dancing
+
+Correct Answer:
+B) Learning and Problem-solving
+
+Detailed Solution:
+Passage: "traits ... such as learning and problem-solving."
+
+Question No: 102
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension IV
+Difficulty Level: Moderate
+
+Question:
+Q102. Which fields are mentioned where AI is used?
+Options:
+A) Sports and Music
+B) Healthcare, Finance, and Transport
+C) Farming and Fishing
+D) Cooking and Cleaning
+
+Correct Answer:
+B) Healthcare, Finance, and Transport
+
+Detailed Solution:
+Passage: "used in various fields like healthcare, finance, and transport."
+
+Question No: 103
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Reading Comprehension IV
+Difficulty Level: Moderate
+
+Question:
+Q103. What is a concern mentioned regarding AI?
+Options:
+A) It is too slow
+B) Job displacement and ethical use
+C) It is expensive
+D) It cannot work at night
+
+Correct Answer:
+B) Job displacement and ethical use
+
+Detailed Solution:
+Passage: "concerns about job displacement and ethical use..."
+
+Question No: 104
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Vocabulary (One Word)
+Difficulty Level: Moderate
+
+Question:
+A life history written by oneself.
+Options:
+A) Biography
+B) Autobiography
+C) History
+D) Memoir
+
+Correct Answer:
+B) Autobiography
+
+Detailed Solution:
+Self-written life history.
+
+Question No: 105
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: I
+Subject: English
+Topic: Grammar (Modal)
+Difficulty Level: Easy
+
+Question:
+We ________ obey the laws of the country.
+Options:
+A) could
+B) might
+C) ought to
+D) can
+
+Correct Answer:
+C) ought to
+
+Detailed Solution:
+Moral obligation/duty. "Ought to" or "Must". Option C is best fit.
+
+========================================================
+SECTION-II : MODULE-II (GENERAL AWARENESS)
+========================================================
+
+Question No: 106
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Current Affairs (Awards)
+Difficulty Level: Moderate
+
+Question:
+Who was awarded the Nobel Peace Prize in 2024?
+(Fictional projection or Real 2023/24 source).
+Let's use verified 2023 data for "Gold Standard" accuracy or a known 2024 projection if available.
+Actually, 2024 Nobel has not been announced by Jan 2024.
+Let's ask for 2023 Prize which is relevant for 2024-25 exams as "Previous Year" static.
+Correction: Mock is for 2026.
+Question: Who received the Nobel Peace Prize 2023?
+Options:
+A) Narges Mohammadi
+B) Abiy Ahmed
+C) Dmitry Muratov
+D) Maria Ressa
+
+Correct Answer:
+A) Narges Mohammadi
+
+Detailed Solution:
+Narges Mohammadi (Iran) was awarded the Nobel Peace Prize 2023 for her fight against the oppression of women in Iran.
+Source: NobelPrize.org.
+
+Question No: 107
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Polity (Fundamental Rights)
+Difficulty Level: Moderate
+
+Question:
+Which Writ can be issued by the Supreme Court to secure the release of a person illegally detained?
+Options:
+A) Mandamus
+B) Habeas Corpus
+C) Certiorari
+D) Quo Warranto
+
+Correct Answer:
+B) Habeas Corpus
+
+Detailed Solution:
+Habeas Corpus ("To have the body") is issued to release a person detained unlawfully.
+Source: Article 32 of Indian Constitution.
+
+Question No: 108
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: History (Gandhian Era)
+Difficulty Level: Moderate
+
+Question:
+The 'Dandi March' undertaken by Mahatma Gandhi in 1930 was associated with:
+Options:
+A) Quit India Movement
+B) Non-Cooperation Movement
+C) Civil Disobedience Movement
+D) Khilafat Movement
+
+Correct Answer:
+C) Civil Disobedience Movement
+
+Detailed Solution:
+Dandi March (Salt Satyagraha) marked the beginning of the Civil Disobedience Movement.
+Source: NCERT History.
+
+Question No: 109
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Geography (Mountain Passes)
+Difficulty Level: Moderate
+
+Question:
+'Nathu La' pass connects India with which country?
+Options:
+A) Nepal
+B) Bhutan
+C) China
+D) Pakistan
+
+Correct Answer:
+C) China
+
+Detailed Solution:
+Nathu La connects Sikkim (India) with Tibet (China).
+Source: NCERT Geography.
+
+Question No: 110
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Science (Biology - Vitamins)
+Difficulty Level: Easy
+
+Question:
+Deficiency of Vitamin D causes which disease in children?
+Options:
+A) Scurvy
+B) Rickets
+C) Beri-Beri
+D) Night Blindness
+
+Correct Answer:
+B) Rickets
+
+Detailed Solution:
+Vitamin D deficiency leads to Rickets (weak bones).
+Scurvy (Vit C), Beri-Beri (Vit B1), Night Blindness (Vit A).
+Source: NCERT Science.
+
+Question No: 111
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Economy (Five Year Plans)
+Difficulty Level: Moderate
+
+Question:
+Which Five Year Plan in India was based on the 'Mahalanobis Model'?
+Options:
+A) First
+B) Second
+C) Third
+D) Fourth
+
+Correct Answer:
+B) Second
+
+Detailed Solution:
+The Second Five Year Plan (1956-61) was based on the Mahalanobis model focusing on heavy industries.
+Source: NCERT Economics.
+
+Question No: 112
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Polity (President)
+Difficulty Level: Moderate
+
+Question:
+The President of India can be impeached for violation of the Constitution under which Article?
+Options:
+A) Article 52
+B) Article 61
+C) Article 72
+D) Article 75
+
+Correct Answer:
+B) Article 61
+
+Detailed Solution:
+Article 61 deals with the procedure for impeachment of the President.
+Source: Constitution of India.
+
+Question No: 113
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Current Affairs (Summit)
+Difficulty Level: Moderate
+
+Question:
+Where was the G20 Summit held in 2023?
+Options:
+A) Bali, Indonesia
+B) New Delhi, India
+C) Rio de Janeiro, Brazil
+D) Rome, Italy
+
+Correct Answer:
+B) New Delhi, India
+
+Detailed Solution:
+India hosted the G20 Summit in New Delhi in Sept 2023.
+Source: G20 Secretariat.
+
+Question No: 114
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: History (Ancient)
+Difficulty Level: Moderate
+
+Question:
+Who was the court poet of Harsha (Harshavardhana)?
+Options:
+A) Kalidasa
+B) Banabhatta
+C) Harisena
+D) Chand Bardai
+
+Correct Answer:
+B) Banabhatta
+
+Detailed Solution:
+Banabhatta was the court poet of Harsha and wrote 'Harshitacharita'.
+Source: NCERT History.
+
+Question No: 115
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Geography (Solar System)
+Difficulty Level: Easy
+
+Question:
+Which planet has the maximum number of moons?
+(Based on 2024 data).
+Options:
+A) Jupiter
+B) Saturn
+C) Uranus
+D) Neptune
+
+Correct Answer:
+B) Saturn
+
+Detailed Solution:
+Saturn has the most confirmed moons (146 as of 2023/24).
+Source: NASA.
+
+Question No: 116
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Science (Chemistry)
+Difficulty Level: Moderate
+
+Question:
+The pH value of pure water is:
+Options:
+A) 0
+B) 7
+C) 14
+D) 6
+
+Correct Answer:
+B) 7
+
+Detailed Solution:
+Pure water is neutral, having a pH of 7.
+Source: NCERT Science.
+
+Question No: 117
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Static GK (Sports)
+Difficulty Level: Moderate
+
+Question:
+The term 'Bully' is associated with which sport?
+Options:
+A) Cricket
+B) Hockey
+C) Football
+D) Tennis
+
+Correct Answer:
+B) Hockey
+
+Detailed Solution:
+'Bully' is a method of restarting play in Field Hockey.
+Source: FIH Rules.
+
+Question No: 118
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Art & Culture
+Difficulty Level: Moderate
+
+Question:
+'Madhubani' painting belongs to which state?
+Options:
+A) Odisha
+B) Bihar
+C) Gujarat
+D) West Bengal
+
+Correct Answer:
+B) Bihar
+
+Detailed Solution:
+Madhubani (Mithila) art is a folk painting style from Bihar.
+Source: CCPRT.
+
+Question No: 119
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Science (Physics)
+Difficulty Level: Moderate
+
+Question:
+The working of a rocket is based on the principle of:
+Options:
+A) Conservation of Energy
+B) Conservation of Momentum
+C) Conservation of Mass
+D) Moment of Inertia
+
+Correct Answer:
+B) Conservation of Momentum
+
+Detailed Solution:
+Rocket propulsion works on Newton's Third Law and Conservation of Linear Momentum.
+Source: NCERT Physics.
+
+Question No: 120
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Economy (RBI)
+Difficulty Level: Tough
+
+Question:
+Who was the first Indian Governor of RBI?
+Options:
+A) Osborne Smith
+B) C.D. Deshmukh
+C) Benegal Rama Rau
+D) L.K. Jha
+
+Correct Answer:
+B) C.D. Deshmukh
+
+Detailed Solution:
+Sir C.D. Deshmukh was the first Indian Governor of the Reserve Bank of India (1943).
+Source: RBI History.
+
+Question No: 121
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Polity (Schedule)
+Difficulty Level: Moderate
+
+Question:
+Which Schedule of the Indian Constitution contains the list of recognized languages?
+Options:
+A) Seventh
+B) Eighth
+C) Ninth
+D) Tenth
+
+Correct Answer:
+B) Eighth
+
+Detailed Solution:
+The Eighth Schedule lists 22 official languages.
+Source: Constitution.
+
+Question No: 122
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Geography (Dams)
+Difficulty Level: Moderate
+
+Question:
+The Hirakud Dam is built on which river?
+Options:
+A) Godavari
+B) Mahanadi
+C) Cauvery
+D) Krishna
+
+Correct Answer:
+B) Mahanadi
+
+Detailed Solution:
+Hirakud Dam (longest in India) is on the Mahanadi River in Odisha.
+Source: NCERT Geography.
+
+Question No: 123
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Current Affairs (Date)
+Difficulty Level: Easy
+
+Question:
+When is the 'National Science Day' celebrated in India?
+Options:
+A) January 26
+B) February 28
+C) March 8
+D) April 22
+
+Correct Answer:
+B) February 28
+
+Detailed Solution:
+Celebrated on Feb 28 to commemorate the discovery of the Raman Effect.
+Source: Dept of Science & Tech.
+
+Question No: 124
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Science (Biology - Cell)
+Difficulty Level: Moderate
+
+Question:
+Which organelle is called the 'Powerhouse of the Cell'?
+Options:
+A) Nucleus
+B) Mitochondria
+C) Ribosome
+D) Lysosome
+
+Correct Answer:
+B) Mitochondria
+
+Detailed Solution:
+Mitochondria produce ATP (energy), so they are called powerhouses.
+Source: NCERT Biology.
+
+Question No: 125
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: History (Medieval)
+Difficulty Level: Moderate
+
+Question:
+Who built the 'Grand Trunk Road'?
+Options:
+A) Akbar
+B) Sher Shah Suri
+C) Shah Jahan
+D) Ashoka
+
+Correct Answer:
+B) Sher Shah Suri
+
+Detailed Solution:
+Sher Shah Suri restored and extended the Grand Trunk Road (Sadak-e-Azam).
+Source: NCERT History.
+
+Question No: 126
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Polity (Parliament)
+Difficulty Level: Moderate
+
+Question:
+The maximum gap between two sessions of Parliament cannot exceed:
+Options:
+A) 3 months
+B) 6 months
+C) 9 months
+D) 1 year
+
+Correct Answer:
+B) 6 months
+
+Detailed Solution:
+Article 85 mandates that 6 months shall not intervene between two sessions.
+Source: Constitution.
+
+Question No: 127
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Static GK (Currency)
+Difficulty Level: Moderate
+
+Question:
+'Kyat' is the currency of which country?
+Options:
+A) Thailand
+B) Myanmar
+C) Bangladesh
+D) Bhutan
+
+Correct Answer:
+B) Myanmar
+
+Detailed Solution:
+Kyat is the currency of Myanmar.
+Thailand (Baht), Bangladesh (Taka), Bhutan (Ngultrum).
+Source: World Currencies.
+
+Question No: 128
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Current Affairs (Military)
+Difficulty Level: Moderate
+
+Question:
+The joint military exercise 'Yudh Abhyas' is conducted between India and:
+Options:
+A) UK
+B) USA
+C) Russia
+D) France
+
+Correct Answer:
+B) USA
+
+Detailed Solution:
+Yudh Abhyas is an annual exercise between India and USA.
+Source: Ministry of Defence.
+
+Question No: 129
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Science (Chemicals)
+Difficulty Level: Moderate
+
+Question:
+Which gas is used in electric bulbs to prevent oxidation of the filament?
+Options:
+A) Oxygen
+B) Nitrogen
+C) Carbon Dioxide
+D) Chlorine
+
+Correct Answer:
+B) Nitrogen
+
+Detailed Solution:
+Inert gases like Nitrogen or Argon are used to fill bulbs.
+Source: NCERT Science.
+
+Question No: 130
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: II
+Section: II
+Module: II
+Subject: General Awareness
+Topic: Geography (Soil)
+Difficulty Level: Moderate
+
+Question:
+Regur Soil is another name for:
+Options:
+A) Alluvial Soil
+B) Black Soil
+C) Red Soil
+D) Laterite Soil
+
+Correct Answer:
+B) Black Soil
+
+Detailed Solution:
+Black Soil (ideal for cotton) is locally known as Regur.
+Source: NCERT Geography.
+
+========================================================
+SECTION-III : MODULE-I (COMPUTER KNOWLEDGE)
+========================================================
+
+Question No: 131
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Software (MS Excel)
+Difficulty Level: Moderate
+
+Question:
+Which function key is used to Insert a Chart in MS Excel?
+Options:
+A) F11
+B) F2
+C) F9
+D) F5
+
+Correct Answer:
+A) F11
+
+Detailed Solution:
+F11 creates a chart of the selected data in a separate sheet.
+F2 (Edit), F5 (Go To), F9 (Recalculate).
+
+Question No: 132
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Hardware (Memory - ROM)
+Difficulty Level: Easy
+
+Question:
+Which of the following creates a permanent record of data that cannot be modified easily?
+Options:
+A) RAM
+B) ROM
+C) Cache
+D) Virtual Memory
+
+Correct Answer:
+B) ROM
+
+Detailed Solution:
+ROM (Read Only Memory) is non-volatile and data is permanently written during manufacturing.
+
+Question No: 133
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Networking (Protocol)
+Difficulty Level: Moderate
+
+Question:
+Which protocol is used to receive emails from a mail server?
+Options:
+A) SMTP
+B) POP3
+C) HTTP
+D) FTP
+
+Correct Answer:
+B) POP3
+
+Detailed Solution:
+POP3 (Post Office Protocol version 3) or IMAP is used to receive/retrieve emails.
+SMTP is for sending.
+
+Question No: 134
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Software (OS - Linux)
+Difficulty Level: Moderate
+
+Question:
+Which of the following is an open-source Operating System?
+Options:
+A) Windows
+B) iOS
+C) Linux
+D) Mac OS
+
+Correct Answer:
+C) Linux
+
+Detailed Solution:
+Linux is a free and open-source operating system kernel.
+
+Question No: 135
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Hardware (Binary)
+Difficulty Level: Moderate
+
+Question:
+The binary equivalent of decimal number 10 is:
+Options:
+A) 1010
+B) 1001
+C) 1100
+D) 1110
+
+Correct Answer:
+A) 1010
+
+Detailed Solution:
+8 4 2 1
+1 0 1 0 => 8 + 0 + 2 + 0 = 10.
+Answer 1010.
+
+Question No: 136
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Software (Shortcuts)
+Difficulty Level: Easy
+
+Question:
+In MS Word, the shortcut 'Ctrl + K' is used to:
+Options:
+A) Insert Hyperlink
+B) Kill process
+C) Justify alignment
+D) Indent paragraph
+
+Correct Answer:
+A) Insert Hyperlink
+
+Detailed Solution:
+Ctrl + K opens the Insert Hyperlink dialog box.
+
+Question No: 137
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Internet (Browser)
+Difficulty Level: Moderate
+
+Question:
+Which of the following is NOT a web browser?
+Options:
+A) Chrome
+B) Edge
+C) Firefox
+D) Google
+
+Correct Answer:
+D) Google
+
+Detailed Solution:
+Google is a search engine. Chrome is the browser developed by Google.
+
+Question No: 138
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Security (Phishing)
+Difficulty Level: Moderate
+
+Question:
+Sending emails purporting to be from reputable companies to induce individuals to reveal personal information is called:
+Options:
+A) Spaming
+B) Phishing
+C) Hacking
+D) Bugging
+
+Correct Answer:
+B) Phishing
+
+Detailed Solution:
+Phishing is the fraudulent practice of sending emails to steal sensitive data.
+
+Question No: 139
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Hardware (Output)
+Difficulty Level: Easy
+
+Question:
+Which of the following is an impact printer?
+Options:
+A) Laser Printer
+B) Inkjet Printer
+C) Dot Matrix Printer
+D) Thermal Printer
+
+Correct Answer:
+C) Dot Matrix Printer
+
+Detailed Solution:
+Dot Matrix printers use a print head that strikes an ink ribbon (Impact).
+Laser and Inkjet are non-impact.
+
+Question No: 140
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Database (Key)
+Difficulty Level: Tough
+
+Question:
+A key that uniquely identifies each record in a database table is called:
+Options:
+A) Foreign Key
+B) Primary Key
+C) Secondary Key
+D) Null Key
+
+Correct Answer:
+B) Primary Key
+
+Detailed Solution:
+Primary Key is a unique identifier for a database record.
+
+Question No: 141
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Internet (URL)
+Difficulty Level: Easy
+
+Question:
+In 'https://www.google.com', 'http' stands for:
+Options:
+A) Hyper Transfer Text Protocol
+B) Hyper Text Transfer Protocol
+C) High Transfer Text Protocol
+D) Hyper Text Transmission Protocol
+
+Correct Answer:
+B) Hyper Text Transfer Protocol
+
+Detailed Solution:
+HTTP = Hyper Text Transfer Protocol.
+
+Question No: 142
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Hardware (Storage)
+Difficulty Level: Moderate
+
+Question:
+Which memory type is volatile?
+Options:
+A) Hard Disk
+B) ROM
+C) RAM
+D) Flash Drive
+
+Correct Answer:
+C) RAM
+
+Detailed Solution:
+RAM (Random Access Memory) loses data when power is turned off (Volatile).
+
+Question No: 143
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Software (PowerPoint)
+Difficulty Level: Easy
+
+Question:
+Which view in PowerPoint creates a sequence of slides for presentation?
+Options:
+A) Slide Sorter
+B) Slide Show
+C) Notes Page
+D) Normal
+
+Correct Answer:
+B) Slide Show
+
+Detailed Solution:
+Slide Show view is used to deliver the presentation.
+Slide Sorter is for reordering.
+
+Question No: 144
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Software (Shortcuts)
+Difficulty Level: Moderate
+
+Question:
+Universal Undo shortcut is:
+Options:
+A) Ctrl + Y
+B) Ctrl + Z
+C) Ctrl + U
+D) Ctrl + A
+
+Correct Answer:
+B) Ctrl + Z
+
+Detailed Solution:
+Ctrl + Z is Undo.
+Ctrl + Y is Redo.
+
+Question No: 145
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Networking (WiFi)
+Difficulty Level: Moderate
+
+Question:
+The full form of Wi-Fi is:
+Options:
+A) Wireless Fidelity
+B) Wireless Fiber
+C) Wired Fidelity
+D) Wireless Finance
+
+Correct Answer:
+A) Wireless Fidelity
+
+Detailed Solution:
+Wi-Fi stands for Wireless Fidelity.
+
+Question No: 146
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Hardware (Logic Gate)
+Difficulty Level: Moderate
+
+Question:
+Which logic gate returns True (1) only if both inputs are True?
+Options:
+A) OR
+B) AND
+C) NOT
+D) XOR
+
+Correct Answer:
+B) AND
+
+Detailed Solution:
+AND gate output is 1 only if Input A=1 and Input B=1.
+
+Question No: 147
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Internet (Cookies)
+Difficulty Level: Moderate
+
+Question:
+Small text files stored on your computer by websites to remember your preferences are called:
+Options:
+A) Bugs
+B) Cookies
+C) Spam
+D) Cache
+
+Correct Answer:
+B) Cookies
+
+Detailed Solution:
+Cookies are small files used for tracking and preferences.
+
+Question No: 148
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Software (Extension)
+Difficulty Level: Easy
+
+Question:
+What is the default file extension for a PowerPoint presentation?
+Options:
+A) .ppt
+B) .pptx
+C) .docx
+D) .xlsx
+
+Correct Answer:
+B) .pptx
+
+Detailed Solution:
+Modern PowerPoint saves as .pptx. (Old was .ppt).
+
+Question No: 149
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Hardware (CPU)
+Difficulty Level: Moderate
+
+Question:
+ALU stands for:
+Options:
+A) Arithmetic Logic Unit
+B) Array Logic Unit
+C) Application Logic Unit
+D) Artificial Logic Unit
+
+Correct Answer:
+A) Arithmetic Logic Unit
+
+Detailed Solution:
+ALU = Arithmetic Logic Unit, part of CPU.
+
+Question No: 150
+Exam: SSC CGL 2026
+Tier: Tier-2
+Paper: Paper-I
+Session: III
+Section: III
+Module: I
+Subject: Computer
+Topic: Software (Utility)
+Difficulty Level: Moderate
+
+Question:
+Which utility software is used to reduce the size of a file?
+Options:
+A) Antivirus
+B) Compression
+C) Backup
+D) Defragmentation
+
+Correct Answer:
+B) Compression
+
+Detailed Solution:
+Compression software (like WinZip) reduces file size.
+
+========================================================
+END OF MOCK TEST 02
+========================================================

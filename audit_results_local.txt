@@ -1,0 +1,128 @@
+🔍 Auditing Database for Normalization...
+
+📋 Exams Found (34):
+  - "ATOMIC_TEST" (Slug: atomic-test) -> Questions: 0
+  - "Bank" (Slug: bank) -> Questions: 66000
+  - "CDS" (Slug: cds) -> Questions: 3
+  - "Defence Exams" (Slug: defence-exams) -> Questions: 0
+  - "Education &" (Slug: education) -> Questions: 1100
+  - "English" (Slug: english) -> Questions: 1800
+  - "Environment & General" (Slug: environment-general) -> Questions: 9
+  - "General" (Slug: general) -> Questions: 3842
+  - "General Science" (Slug: general-science) -> Questions: 800
+  - "IBPS Clerk" (Slug: ibps-clerk) -> Questions: 38
+  - "IBPS PO" (Slug: ibps-po) -> Questions: 4182
+  - "NDA" (Slug: nda) -> Questions: 5
+  - "RRB ALP" (Slug: rrb-alp) -> Questions: 10
+  - "RRB JE" (Slug: rrb-je) -> Questions: 1500
+  - "RRB NTPC" (Slug: rrb-ntpc) -> Questions: 15034
+  - "Railway ALP" (Slug: railway-alp) -> Questions: 600
+  - "SBI" (Slug: sbi) -> Questions: 3000
+  - "SBI Clerk" (Slug: sbi-clerk) -> Questions: 3
+  - "SBI PO" (Slug: sbi-po) -> Questions: 2
+  - "SSC CGL" (Slug: ssc-cgl) -> Questions: 45350
+  - "SSC CGL Tier-I 2026" (Slug: ssc-cgl-tier-1-2026) -> Questions: 0
+  - "SSC CGL Tier-II 2026" (Slug: ssc-cgl-tier-2-2026) -> Questions: 0
+  - "SSC CGL Tier-II 2026" (Slug: ssc-cgl-tier-2) -> Questions: 1560
+  - "SSC CHSL" (Slug: ssc-chsl) -> Questions: 86
+  - "SSC MTS" (Slug: ssc-mts) -> Questions: 300
+  - "Science &" (Slug: science) -> Questions: 1400
+  - "UGC NET" (Slug: ugc-net) -> Questions: 800
+  - "UGC‑NET" (Slug: ugcnet) -> Questions: 5
+  - "UPSC" (Slug: upsc) -> Questions: 1500
+  - "UPSC CAPF" (Slug: upsc-capf) -> Questions: 0
+  - "UPSC CSE" (Slug: upsc-cse) -> Questions: 3052
+  - "Which Indian festival celebrates the" (Slug: which-indian-festival-celebrates-the) -> Questions: 1
+  - "Which is an example of" (Slug: which-is-an-example-of) -> Questions: 1
+  - "Who discovered the" (Slug: who-discovered-the) -> Questions: 1
+
+📚 Subjects Found (82):
+  - "Algebra" (Slug: algebra) -> Questions: 1
+  - "Aptitude" (Slug: aptitude) -> Questions: 77650
+  - "Art & Architecture" (Slug: art-architecture) -> Questions: 1
+  - "Art & Culture" (Slug: art-culture) -> Questions: 1
+  - "Average" (Slug: average) -> Questions: 1
+  - "Awareness" (Slug: awareness) -> Questions: 9
+  - "Banking" (Slug: banking) -> Questions: 1
+  - "Banking Awareness" (Slug: banking-awareness) -> Questions: 2
+  - "Blood Relations" (Slug: blood-relations) -> Questions: 1
+  - "Boats and Streams" (Slug: boats-and-streams) -> Questions: 1
+  - "Clock Problems" (Slug: clock-problems) -> Questions: 1
+  - "Coding" (Slug: coding) -> Questions: 2
+  - "Computer" (Slug: computer) -> Questions: 400
+  - "Computer Awareness" (Slug: computer-awareness) -> Questions: 1405
+  - "Culture" (Slug: culture) -> Questions: 3
+  - "Data Interpretation" (Slug: data-interpretation) -> Questions: 2
+  - "Data Sufficiency" (Slug: data-sufficiency) -> Questions: 1
+  - "Defence Studies" (Slug: defence-studies) -> Questions: 1
+  - "Digital Literacy" (Slug: digital-literacy) -> Questions: 1
+  - "Direction Sense" (Slug: direction-sense) -> Questions: 1
+  - "Directions" (Slug: directions) -> Questions: 1
+  - "Economics" (Slug: economics) -> Questions: 12
+  - "Education" (Slug: education) -> Questions: 3
+  - "Electrical Engineering" (Slug: electrical-engineering) -> Questions: 1
+  - "English Comprehension" (Slug: english-comprehension) -> Questions: 42
+  - "English Language" (Slug: english) -> Questions: 844
+  - "English Language" (Slug: english-language) -> Questions: 585
+  - "Environment & Ecology" (Slug: environment-ecology) -> Questions: 1310
+  - "Environment & Pedagogy" (Slug: environment-pedagogy) -> Questions: 300
+  - "Ethics" (Slug: ethics) -> Questions: 1
+  - "General Awareness" (Slug: general-awareness) -> Questions: 393
+  - "General Intelligence & Reasoning" (Slug: general-intelligence-reasoning) -> Questions: 50
+  - "General Science" (Slug: general-science) -> Questions: 32
+  - "General Studies" (Slug: general-studies) -> Questions: 1500
+  - "Geography" (Slug: geography) -> Questions: 17
+  - "Geology" (Slug: geology) -> Questions: 1
+  - "Geometry" (Slug: geometry) -> Questions: 1
+  - "Governance" (Slug: governance) -> Questions: 2
+  - "HCF & LCM" (Slug: hcf-lcm) -> Questions: 1
+  - "History" (Slug: history) -> Questions: 11
+  - "IBPS Quant" (Slug: ibps-quant) -> Questions: 3000
+  - "Indian Art" (Slug: indian-art) -> Questions: 2
+  - "Indian Constitution" (Slug: indian-constitution) -> Questions: 1
+  - "Indian Culture" (Slug: indian-culture) -> Questions: 1
+  - "International Organisations" (Slug: international-organisations) -> Questions: 1
+  - "International Politics" (Slug: international-politics) -> Questions: 1
+  - "International Relations" (Slug: international-relations) -> Questions: 3
+  - "Knowledge" (Slug: knowledge) -> Questions: 4476
+  - "Linguistics" (Slug: linguistics) -> Questions: 1
+  - "Literature" (Slug: literature) -> Questions: 3
+  - "Mensuration" (Slug: mensuration) -> Questions: 2
+  - "Mixture & Alligation" (Slug: mixture-alligation) -> Questions: 1
+  - "Mixtures" (Slug: mixtures) -> Questions: 1
+  - "Number Series" (Slug: number-series) -> Questions: 2
+  - "Partnership" (Slug: partnership) -> Questions: 1
+  - "Pedagogy" (Slug: pedagogy) -> Questions: 300
+  - "Percentage" (Slug: percentage) -> Questions: 1
+  - "Percentage Increase/Decrease" (Slug: percentage-increasedecrease) -> Questions: 1
+  - "Percentages" (Slug: percentages) -> Questions: 1
+  - "Permutation & Combination" (Slug: permutation-combination) -> Questions: 1
+  - "Philosophy" (Slug: philosophy) -> Questions: 5
+  - "Polity" (Slug: polity) -> Questions: 7
+  - "Probability" (Slug: probability) -> Questions: 1
+  - "Profit & Loss" (Slug: profit-loss) -> Questions: 3
+  - "Psychology" (Slug: psychology) -> Questions: 1
+  - "Quadratic Equations" (Slug: quadratic-equations) -> Questions: 1
+  - "Quant" (Slug: quant) -> Questions: 8998
+  - "Quantitative Aptitude" (Slug: quantitative-aptitude) -> Questions: 461
+  - "Ratio & Proportion" (Slug: ratio-proportion) -> Questions: 1
+  - "Reasoning Ability" (Slug: reasoning) -> Questions: 46704
+  - "Simple & Compound Interest" (Slug: simple-compound-interest) -> Questions: 1
+  - "Simplification" (Slug: simplification) -> Questions: 3
+  - "Sociology" (Slug: sociology) -> Questions: 2
+  - "Studies" (Slug: studies) -> Questions: 1500
+  - "Syllogism" (Slug: syllogism) -> Questions: 1
+  - "Technology" (Slug: technology) -> Questions: 400
+  - "Time & Work" (Slug: time-work) -> Questions: 1
+  - "Vocabulary" (Slug: vocabulary) -> Questions: 1820
+  - "Work & Time" (Slug: work-time) -> Questions: 1
+  - "X" (Slug: x) -> Questions: 1
+  - "brother" (Slug: brother) -> Questions: 1
+  - "non" (Slug: non) -> Questions: 1
+
+⚠️ Potential Exam Duplicates:
+  - "SSC CGL Tier-II 2026" vs "SSC CGL Tier-II 2026"
+  - "UGC NET" vs "UGC‑NET"
+
+⚠️ Potential Subject Duplicates:
+  - "English Language" vs "English Language"

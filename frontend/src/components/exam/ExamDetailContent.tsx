@@ -48,17 +48,7 @@ interface ExamDetailContentProps {
     tests: Test[];
 }
 
-// Helper function to convert plain text newlines to HTML <br/> tags
-// while preserving any existing HTML content
-const formatTextWithLineBreaks = (text: string | null | undefined): string => {
-    if (!text) return '';
-    // If text already contains HTML tags like <br>, <p>, <ul>, <li>, return as-is
-    if (/<(br|p|ul|ol|li|div)\s*\/?>/i.test(text)) {
-        return text;
-    }
-    // Otherwise, convert newlines to <br/> tags
-    return text.replace(/\n/g, '<br/>');
-};
+
 
 export default function ExamDetailContent({ exam, tests }: ExamDetailContentProps) {
     const [activeTab, setActiveTab] = useState('overview');
@@ -165,10 +155,9 @@ export default function ExamDetailContent({ exam, tests }: ExamDetailContentProp
                                     <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
                                         About {exam.name}
                                     </h2>
-                                    <div
-                                        className="prose dark:prose-invert max-w-none"
-                                        dangerouslySetInnerHTML={{ __html: formatTextWithLineBreaks(exam.description) || 'No description available.' }}
-                                    />
+                                    <div className="prose dark:prose-invert max-w-none whitespace-pre-wrap text-gray-700 dark:text-gray-300">
+                                        {exam.description || 'No description available.'}
+                                    </div>
                                 </div>
 
                                 {/* Eligibility */}
@@ -177,10 +166,9 @@ export default function ExamDetailContent({ exam, tests }: ExamDetailContentProp
                                         <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
                                             Eligibility Criteria
                                         </h2>
-                                        <div
-                                            className="prose dark:prose-invert max-w-none"
-                                            dangerouslySetInnerHTML={{ __html: formatTextWithLineBreaks(exam.eligibility) }}
-                                        />
+                                        <div className="prose dark:prose-invert max-w-none whitespace-pre-wrap text-gray-700 dark:text-gray-300">
+                                            {exam.eligibility}
+                                        </div>
                                     </div>
                                 )}
 
