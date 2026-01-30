@@ -44,6 +44,10 @@ model User {
   createdTests      MockTest[]     @relation("TestCreatedBy")
   blogs             Blog[]
   downloadTickets   DownloadTicket[]
+  
+  // Mistake Intelligence
+  mistakeLogs        UserMistakeLog[]
+  weaknessSnapshots  UserWeaknessSnapshot[]
 
   @@index([email])
   @@index([mobile])
@@ -221,6 +225,7 @@ model Question {
   testQuestions  TestQuestion[]
   attemptAnswers AttemptAnswer[]
   bookmarks      Bookmark[]
+  mistakeLogs    UserMistakeLog[]
 
   @@index([subjectId])
   @@index([topicId])
@@ -355,6 +360,7 @@ model TestAttempt {
   test    MockTest        @relation(fields: [testId], references: [id])
   testId  String
   answers AttemptAnswer[]
+  mistakeLogs UserMistakeLog[]
 
   @@index([userId])
   @@index([testId])
@@ -548,4 +554,84 @@ model DownloadTicket {
 
   @@index([token])
   @@index([userId, bookId])
+}
+
+// ============== MISTAKE INTELLIGENCE ==============
+// These tables power the Mistake Intelligence System
+// All data is append-only and non-destructive
+
+model UserMistakeLog {
+  id               String       @id @default(uuid())
+  userId           String
+  questionId       String
+  attemptId        String?      // Nullable for Smart Practice mode
+  examId           String?      // Exam context
+  subjectId        String
+  topicId          String?      // Optional topic reference
+  difficulty       Difficulty
+  isCorrect        Boolean      // Track both correct and incorrect
+  selectedOption   String?
+  correctOption    String
+  mistakeType      MistakeType?   // Classified error type (only for wrong)
+  sourceType       MistakeSource  @default(MOCK_TEST) // Origin of this data
+  timeSpentSeconds Int?           // Time taken on this question
+  createdAt        DateTime       @default(now())
+
+  // Relations
+  user     User         @relation(fields: [userId], references: [id])
+  question Question     @relation(fields: [questionId], references: [id])
+  attempt  TestAttempt? @relation(fields: [attemptId], references: [id])
+
+  // Indexes for efficient querying
+  @@index([userId])
+  @@index([userId, subjectId])
+  @@index([userId, questionId])
+  @@index([userId, isCorrect])
+  @@index([userId, createdAt])
+  @@index([attemptId])
+}
+
+model UserWeaknessSnapshot {
+  id           String   @id @default(uuid())
+  userId       String
+  snapshotDate DateTime @default(now())
+
+  // Derived analytics (JSON for flexibility)
+  weakSubjects   Json // [{subjectId, name, accuracy, errorCount, trend}]
+  weakTopics     Json? // [{topicId, name, accuracy, errorCount}]
+  weakDifficulty Json? // [{difficulty, accuracy, errorCount}]
+
+  // Summary metrics
+  overallAccuracy Float
+  totalQuestions  Int
+  totalCorrect    Int
+  totalErrors     Int
+
+  // Improvement tracking
+  accuracyTrend    Json? // [{date, accuracy}] - last 30 days
+  improvementScore Float? // Calculated improvement metric
+
+  createdAt DateTime @default(now())
+
+  // Relations
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([userId])
+  @@index([userId, snapshotDate])
+}
+
+enum MistakeType {
+  CONCEPTUAL_ERROR    // Easy question wrong
+  CALCULATION_ERROR   // Medium question wrong with decent time
+  GUESSING_ERROR      // Quick answer on hard question
+  TIME_PRESSURE_ERROR // Too slow or too fast
+  REPEATED_ERROR      // Same question wrong multiple times
+}
+
+// Source of mistake data - used for weighted intelligence
+// Weight: MOCK_TEST=1.0, SMART_PRACTICE=0.8, QUESTION_BANK=0.5
+enum MistakeSource {
+  MOCK_TEST        // Full mock test attempt (highest signal)
+  SMART_PRACTICE   // Targeted practice session (high signal)
+  QUESTION_BANK    // Ad-hoc question practice (lower signal)
 }
