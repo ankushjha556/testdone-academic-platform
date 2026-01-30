@@ -25,12 +25,16 @@ export default function NewTestPage() {
         name: '',
         slug: '',
         description: '',
+        instructions: '',
         examId: '',
-        testType: 'FULL_LENGTH' as const,
+        testType: 'FULL_LENGTH' as string,
+        accessType: 'FREE' as string,
         durationMinutes: 60,
         totalMarks: 100,
         totalQuestions: 50,
         passingPercent: 35,
+        negativeMarking: 0.25,
+        sectionalTiming: false,
         status: 'DRAFT',
     });
 
@@ -126,7 +130,17 @@ export default function NewTestPage() {
                                 <textarea
                                     value={formData.description}
                                     onChange={(e) => setFormData({ ...formData, description: e.target.value })}
-                                    rows={4}
+                                    rows={3}
+                                    className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
+                                />
+                            </div>
+                            <div>
+                                <label className="block text-sm font-medium text-gray-300 mb-2">Instructions</label>
+                                <textarea
+                                    value={formData.instructions}
+                                    onChange={(e) => setFormData({ ...formData, instructions: e.target.value })}
+                                    rows={3}
+                                    placeholder="Instructions for test-takers..."
                                     className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
                                 />
                             </div>
@@ -154,7 +168,7 @@ export default function NewTestPage() {
                                 <label className="block text-sm font-medium text-gray-300 mb-2">Test Type *</label>
                                 <select
                                     value={formData.testType}
-                                    onChange={(e) => setFormData({ ...formData, testType: e.target.value as any })}
+                                    onChange={(e) => setFormData({ ...formData, testType: e.target.value })}
                                     className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
                                     required
                                 >
@@ -163,6 +177,18 @@ export default function NewTestPage() {
                                     <option value="TOPIC">Topic-wise</option>
                                     <option value="PREVIOUS_YEAR">Previous Year</option>
                                     <option value="CHAPTER">Chapter-wise</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label className="block text-sm font-medium text-gray-300 mb-2">Access Type</label>
+                                <select
+                                    value={formData.accessType}
+                                    onChange={(e) => setFormData({ ...formData, accessType: e.target.value })}
+                                    className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
+                                >
+                                    <option value="FREE">Free</option>
+                                    <option value="PREMIUM">Premium</option>
+                                    <option value="SCHEDULED_FREE">Scheduled Free</option>
                                 </select>
                             </div>
                             <div className="grid grid-cols-2 gap-4">
@@ -208,6 +234,17 @@ export default function NewTestPage() {
                                 </div>
                             </div>
                             <div>
+                                <label className="block text-sm font-medium text-gray-300 mb-2">Negative Marking</label>
+                                <input
+                                    type="number"
+                                    step="0.01"
+                                    value={formData.negativeMarking}
+                                    onChange={(e) => setFormData({ ...formData, negativeMarking: parseFloat(e.target.value) || 0 })}
+                                    className="w-full px-4 py-2.5 bg-gray-800 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-primary-500"
+                                    placeholder="e.g., 0.25 for -0.25 per wrong answer"
+                                />
+                            </div>
+                            <div>
                                 <label className="block text-sm font-medium text-gray-300 mb-2">Status</label>
                                 <select
                                     value={formData.status}
@@ -219,6 +256,15 @@ export default function NewTestPage() {
                                     <option value="ARCHIVED">Archived</option>
                                 </select>
                             </div>
+                            <label className="flex items-center gap-3 cursor-pointer">
+                                <input
+                                    type="checkbox"
+                                    checked={formData.sectionalTiming}
+                                    onChange={(e) => setFormData({ ...formData, sectionalTiming: e.target.checked })}
+                                    className="w-5 h-5 rounded border-gray-600 bg-gray-800 text-primary-600 focus:ring-primary-500"
+                                />
+                                <span className="text-gray-300">Sectional Timing</span>
+                            </label>
                         </div>
                     </div>
 
