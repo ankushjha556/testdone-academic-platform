@@ -74,7 +74,7 @@ jobs:
 
       - name: Deploy via Script
         run: |
-          ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} 'bash /home/testdone/testdone/deploy.sh'
+          ssh ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }} 'bash /home/testdone/testdone/deploy/deploy.sh'
 
       - name: Health Check
         run: |
