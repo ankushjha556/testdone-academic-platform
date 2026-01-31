@@ -1,329 +1,315 @@
-# TestDone Academic Platform 🎓
+# TestDone
 
 <div align="center">
 
-![TestDone Logo](https://img.shields.io/badge/TestDone-Academic%20Platform-4F46E5?style=for-the-badge&logo=graduation-cap&logoColor=white)
-
-[![Next.js](https://img.shields.io/badge/Next.js-14.0-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-14.0-000000?style=flat-square&logo=next.js)](https://nextjs.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-20.x-339933?style=flat-square&logo=node.js)](https://nodejs.org/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791?style=flat-square&logo=postgresql)](https://postgresql.org/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791?style=flat-square&logo=postgresql&logoColor=white)](https://postgresql.org/)
 [![Prisma](https://img.shields.io/badge/Prisma-5.x-2D3748?style=flat-square&logo=prisma)](https://prisma.io/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript)](https://typescriptlang.org/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://typescriptlang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 
-**India's #1 Exam Preparation Platform for Banking, SSC, Railway & Government Exams**
+**A production-grade EdTech platform for competitive exam preparation in India**
 
-[Live Demo](https://testdone.in) · [Report Bug](https://github.com/ankushjha556/testdone-academic-platform/issues) · [Request Feature](https://github.com/ankushjha556/testdone-academic-platform/issues)
+[Live Platform](https://testdone.in) · [Documentation](docs/) · [Report Issue](https://github.com/ankushjha556/testdone-academic-platform/issues)
 
 </div>
 
 ---
 
-## 📋 Table of Contents
+## Overview
 
-- [About The Project](#about-the-project)
-- [Tech Stack](#tech-stack)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [API Documentation](#api-documentation)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+TestDone is a full-scale EdTech web platform designed to help Indian competitive exam aspirants prepare smarter, practice better, and track their performance with precision. It provides a complete digital learning ecosystem including mock tests, question banks, performance analytics, books, previous year papers, and exam-specific study tools.
 
----
+### Problem Statement
 
-## 🎯 About The Project
+Competitive exam preparation in India lacks unified platforms that combine practice, analytics, and content in a single production-ready system. Most solutions are either fragmented across multiple apps or lack the engineering rigor required for scale.
 
-TestDone is a comprehensive EdTech platform designed to help aspirants prepare for competitive examinations in India. The platform offers mock tests, study materials, performance analytics, and a robust admin panel for content management.
+### Target Users
 
-### Key Highlights
+- **Students & Aspirants**: Banking (IBPS, SBI), SSC (CGL, CHSL), Railways (RRB NTPC), and other government exam candidates
+- **Content Administrators**: Educators managing exams, questions, and study materials
+- **Institutions**: Coaching centers requiring white-label test platforms
 
-- 🎯 **10,000+ Practice Questions** across multiple subjects
-- 📊 **Real-time Analytics** with detailed performance insights
-- 📚 **Comprehensive Study Materials** including PDFs and e-books
-- 🏆 **Leaderboards** to track your ranking among peers
-- 📱 **Responsive Design** optimized for all devices
-- 🔐 **Secure Authentication** with JWT & refresh tokens
+### Philosophy
+
+Practice-first learning with immediate feedback. Every interaction is designed to reinforce concepts through active recall and spaced repetition principles.
 
 ---
 
-## 🛠 Tech Stack
+## System Architecture
 
-### Frontend
-| Technology | Purpose |
-|------------|---------|
-| Next.js 14 | React framework with App Router |
-| TypeScript | Type-safe JavaScript |
-| Tailwind CSS | Utility-first styling |
-| Lucide React | Modern icon library |
-| Axios | HTTP client |
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                              NGINX (Reverse Proxy)                           │
+│                         SSL Termination · Rate Limiting                      │
+└─────────────────────────────┬───────────────────────────┬───────────────────┘
+                              │                           │
+                    ┌─────────▼─────────┐       ┌─────────▼─────────┐
+                    │   Frontend (3000) │       │   Backend (5000)  │
+                    │                   │       │                   │
+                    │   Next.js 14      │       │   Express.js      │
+                    │   React 18        │◄─────►│   Prisma ORM      │
+                    │   TypeScript      │  API  │   JWT Auth        │
+                    │   Tailwind CSS    │       │   Zod Validation  │
+                    └───────────────────┘       └─────────┬─────────┘
+                                                          │
+                                                ┌─────────▼─────────┐
+                                                │   PostgreSQL 16   │
+                                                │                   │
+                                                │   17+ Models      │
+                                                │   Full-text Search│
+                                                │   Indexed Queries │
+                                                └───────────────────┘
+```
 
-### Backend
-| Technology | Purpose |
-|------------|---------|
-| Node.js | JavaScript runtime |
-| Express.js | Web framework |
-| Prisma | ORM for database |
-| PostgreSQL | Relational database |
-| JWT | Authentication tokens |
-| Zod | Schema validation |
+### Data Flow
 
-### Infrastructure
-| Technology | Purpose |
-|------------|---------|
-| Nginx | Reverse proxy |
-| PM2 | Process manager |
-| Let's Encrypt | SSL certificates |
-| Cloudinary | Media storage |
+1. **User Request** → NGINX terminates SSL and routes to appropriate service
+2. **Frontend** → Server-side rendering with Next.js App Router
+3. **API Calls** → RESTful endpoints with JWT authentication
+4. **Database** → Prisma ORM with PostgreSQL, optimized indexes for query performance
+
+For detailed architecture documentation, see [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ---
 
-## ✨ Features
+## Tech Stack
+
+| Layer | Technology | Purpose |
+|-------|------------|---------|
+| **Frontend** | Next.js 14, React 18, TypeScript | SSR/SSG with App Router |
+| **Styling** | Tailwind CSS, shadcn/ui | Component-based design system |
+| **Backend** | Node.js, Express.js | RESTful API server |
+| **ORM** | Prisma 5.x | Type-safe database access |
+| **Database** | PostgreSQL 16 | ACID-compliant relational storage |
+| **Auth** | JWT (Access + Refresh tokens) | Stateless authentication |
+| **Validation** | Zod | Runtime schema validation |
+| **Process Manager** | PM2 | Production process management |
+| **Reverse Proxy** | NGINX | Load balancing, SSL termination |
+| **SSL** | Let's Encrypt (Certbot) | HTTPS certificates |
+| **Media** | Cloudinary | Image and file storage |
+
+---
+
+## Key Features
 
 ### For Students
-- ✅ Browse exams by category (Banking, SSC, Railway, etc.)
-- ✅ Take timed mock tests with instant results
-- ✅ View detailed solutions and explanations
-- ✅ Track progress with performance analytics
-- ✅ Download study materials and e-books
-- ✅ Bookmark questions for later review
-- ✅ Compete on leaderboards
+- Exam-wise mock tests with real-time scoring
+- Question bank with 10,000+ practice questions
+- Performance analytics with accuracy trends
+- Bookmarking and revision tools
+- Leaderboard rankings
+- PDF study materials and e-books
 
 ### For Administrators
-- ✅ Manage exams, subjects, and sections
-- ✅ Create and edit questions with rich formatting
-- ✅ Upload and manage study materials
-- ✅ Monitor user activity and analytics
-- ✅ Manage user subscriptions
-- ✅ Content moderation tools
+- Full CRUD for exams, subjects, and questions
+- Bulk question import
+- User management and role-based access
+- Subscription and payment tracking
+- Content moderation workflow
+
+### Technical Capabilities
+- JWT-based stateless authentication with refresh token rotation
+- Role-based access control (SUPER_ADMIN, ADMIN, CONTENT_MANAGER, MODERATOR, PREMIUM_USER, FREE_USER)
+- RESTful API with consistent error handling
+- Paginated responses for large datasets
+- Database-level indexing for query optimization
+- CI/CD pipeline with GitHub Actions
 
 ---
 
-## 🚀 Getting Started
+## Local Development
 
 ### Prerequisites
 
-- Node.js 20.x or higher
+- Node.js 20.x
 - PostgreSQL 14+
 - npm or yarn
 - Git
 
-### Installation
+### Setup
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/ankushjha556/testdone-academic-platform.git
-   cd testdone-academic-platform
-   ```
+```bash
+# Clone repository
+git clone https://github.com/ankushjha556/testdone-academic-platform.git
+cd testdone-academic-platform
 
-2. **Install Backend Dependencies**
-   ```bash
-   cd backend
-   npm install
-   ```
+# Backend setup
+cd backend
+npm install
+cp .env.example .env
+# Configure DATABASE_URL and JWT secrets in .env
 
-3. **Configure Backend Environment**
-   ```bash
-   cp .env.example .env
-   # Edit .env with your database credentials and API keys
-   ```
+# Database initialization
+npx prisma generate
+npx prisma db push
+npm run db:seed
 
-4. **Setup Database**
-   ```bash
-   npx prisma generate
-   npx prisma migrate dev
-   npx prisma db seed
-   ```
+# Frontend setup
+cd ../frontend
+npm install
+cp .env.example .env.local
+# Set NEXT_PUBLIC_API_URL=http://localhost:5000/api/v1
 
-5. **Install Frontend Dependencies**
-   ```bash
-   cd ../frontend
-   npm install
-   ```
+# Start development servers
+# Terminal 1: Backend
+cd backend && npm run dev
 
-6. **Configure Frontend Environment**
-   ```bash
-   cp .env.example .env.local
-   # Set NEXT_PUBLIC_API_URL=http://localhost:5000/api/v1
-   ```
+# Terminal 2: Frontend
+cd frontend && npm run dev
+```
 
-7. **Start Development Servers**
-   ```bash
-   # Terminal 1 - Backend
-   cd backend && npm run dev
-   
-   # Terminal 2 - Frontend
-   cd frontend && npm run dev
-   ```
-
-8. **Access the Application**
-   - Frontend: http://localhost:3000
-   - Backend API: http://localhost:5000/api/v1
-   - Admin Panel: http://localhost:3000/admin
+**Access Points**
+- Frontend: `http://localhost:3000`
+- Backend API: `http://localhost:5000/api/v1`
+- Admin Panel: `http://localhost:3000/admin`
 
 ---
 
-## 📁 Project Structure
+## Production Deployment
+
+TestDone runs on a VPS with the following stack:
+
+| Component | Technology |
+|-----------|------------|
+| Server | Ubuntu 22.04 LTS |
+| Reverse Proxy | NGINX with SSL |
+| Process Manager | PM2 |
+| SSL | Let's Encrypt (Certbot) |
+| CI/CD | GitHub Actions |
+
+Deployment is automated via GitHub Actions. Pushes to `main` trigger:
+1. Build and test verification
+2. SSH deployment to VPS
+3. PM2 process restart
+4. Health check validation
+
+For detailed deployment instructions, see [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
+
+---
+
+## Security Considerations
+
+| Aspect | Implementation |
+|--------|----------------|
+| **Authentication** | JWT with short-lived access tokens (15min) and refresh token rotation |
+| **Password Storage** | bcrypt hashing with salt rounds |
+| **Input Validation** | Zod schemas on all API endpoints |
+| **Environment Variables** | Validated at startup, never committed |
+| **SQL Injection** | Prevented via Prisma ORM parameterized queries |
+| **XSS Protection** | React's built-in escaping, CSP headers |
+
+**Known Limitations**
+- OTP-based authentication not yet implemented
+- Rate limiting configured at NGINX level only
+
+For complete security documentation, see [docs/SECURITY.md](docs/SECURITY.md).
+
+---
+
+## API Reference
+
+### Authentication
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/v1/auth/register` | POST | User registration |
+| `/api/v1/auth/login` | POST | User login |
+| `/api/v1/auth/refresh` | POST | Token refresh |
+| `/api/v1/auth/logout` | POST | Session termination |
+
+### Exams & Tests
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/v1/exams` | GET | List all exams |
+| `/api/v1/exams/:slug` | GET | Exam details |
+| `/api/v1/tests` | GET | List mock tests |
+| `/api/v1/tests/:id/start` | POST | Start test attempt |
+| `/api/v1/tests/:id/submit` | POST | Submit answers |
+
+### Questions
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/v1/questions` | GET | Paginated question list |
+| `/api/v1/questions/:id` | GET | Question details |
+| `/api/v1/questions/random` | GET | Random practice questions |
+
+For complete API documentation, see [docs/API.md](docs/API.md).
+
+---
+
+## Project Structure
 
 ```
 testdone-academic-platform/
-├── backend/                    # Express.js API Server
+├── backend/
 │   ├── prisma/
-│   │   ├── schema.prisma      # Database schema
-│   │   └── seed.ts            # Database seeding
+│   │   ├── schema.prisma      # Database schema (17+ models)
+│   │   └── seed.ts            # Initial data seeding
 │   ├── src/
 │   │   ├── routes/            # API route handlers
-│   │   ├── middleware/        # Express middleware
-│   │   ├── validators/        # Zod validation schemas
-│   │   ├── lib/               # Utility libraries
-│   │   └── index.ts           # Application entry
+│   │   ├── middleware/        # Auth, validation, error handling
+│   │   ├── validators/        # Zod schemas
+│   │   └── lib/               # Utilities (Prisma client, helpers)
 │   └── package.json
-│
-├── frontend/                   # Next.js Application
+├── frontend/
 │   ├── src/
-│   │   ├── app/               # App Router pages
-│   │   │   ├── admin/         # Admin panel pages
-│   │   │   ├── exams/         # Exam pages
-│   │   │   ├── tests/         # Test taking pages
-│   │   │   └── books/         # Study materials
-│   │   ├── components/        # Reusable components
-│   │   ├── contexts/          # React contexts
-│   │   └── lib/               # Utilities & API client
+│   │   ├── app/               # Next.js App Router pages
+│   │   ├── components/        # Reusable UI components
+│   │   ├── contexts/          # React context providers
+│   │   └── lib/               # API client, utilities
 │   └── package.json
-│
-├── docs/                       # Documentation
-├── .github/                    # GitHub templates
+├── docs/
+│   ├── ARCHITECTURE.md
+│   ├── DEPLOYMENT.md
+│   ├── SECURITY.md
+│   └── API.md
+├── .github/
+│   ├── workflows/             # CI/CD pipelines
+│   └── ISSUE_TEMPLATE/
+├── deploy/
+│   ├── deploy.sh
+│   └── rollback.sh
+├── CONTRIBUTING.md
+├── LICENSE
 └── README.md
 ```
 
 ---
 
-## 📚 API Documentation
+## Roadmap
 
-### Authentication
-
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/v1/auth/register` | POST | Register new user |
-| `/api/v1/auth/login` | POST | User login |
-| `/api/v1/auth/refresh` | POST | Refresh access token |
-| `/api/v1/auth/logout` | POST | User logout |
-
-### Exams & Tests
-
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/v1/exams` | GET | List all exams |
-| `/api/v1/exams/:slug` | GET | Get exam details |
-| `/api/v1/tests` | GET | List mock tests |
-| `/api/v1/tests/:id/start` | POST | Start a test |
-| `/api/v1/tests/:id/submit` | POST | Submit test answers |
-
-### Questions
-
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/v1/questions` | GET | List questions (paginated) |
-| `/api/v1/questions/:id` | GET | Get question details |
-| `/api/v1/questions/random` | GET | Get random questions |
-
-### Books & Materials
-
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/v1/books` | GET | List study materials |
-| `/api/v1/books/:id` | GET | Get book details |
-| `/api/v1/books/:id/download-ticket` | POST | Generate download ticket |
+| Priority | Feature | Status |
+|----------|---------|--------|
+| High | Payment integration (Razorpay) | Planned |
+| High | Subscription management | Planned |
+| Medium | Advanced analytics dashboard | Planned |
+| Medium | Mobile application (React Native) | Planned |
+| Low | Multi-tenancy support | Under consideration |
 
 ---
 
-## 🌐 Deployment
+## Contributing
 
-### Production Deployment (Ubuntu/VPS)
-
-1. **Server Requirements**
-   - Ubuntu 22.04+ / 24.04 LTS
-   - 2GB RAM minimum
-   - Node.js 20.x
-   - PostgreSQL 14+
-   - Nginx
-
-2. **Deploy Backend**
-   ```bash
-   cd backend
-   npm install
-   npm run build
-   pm2 start dist/index.js --name testdone-backend
-   ```
-
-3. **Deploy Frontend**
-   ```bash
-   cd frontend
-   npm install
-   npm run build
-   pm2 start npm --name testdone-frontend -- start
-   ```
-
-4. **Configure Nginx**
-   ```nginx
-   server {
-       listen 80;
-       server_name yourdomain.com;
-       
-       location / {
-           proxy_pass http://127.0.0.1:3000;
-       }
-       
-       location /api/ {
-           proxy_pass http://127.0.0.1:5000;
-       }
-   }
-   ```
-
-5. **Setup SSL**
-   ```bash
-   certbot --nginx -d yourdomain.com
-   ```
+Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
+- Code style and conventions
+- Pull request process
+- Issue reporting
 
 ---
 
-## 🤝 Contributing
+## License
 
-Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting a pull request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
-## 📄 License
+## Author
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👨‍💻 Author
-
-**Ankush Jha**
+**Ankush Jha**  
+B.Tech, IIT Patna
 
 - GitHub: [@ankushjha556](https://github.com/ankushjha556)
-- Website: [testdone.in](https://testdone.in)
+- Platform: [testdone.in](https://testdone.in)
 
----
-
-<div align="center">
-
-Made with ❤️ for Indian Exam Aspirants
-
-⭐ Star this repo if you find it helpful!
-
-</div>
-#   C I / C D   T e s t  
- #   F i n a l   C I / C D   t e s t  
- #   V e r i f y   S S H   K e y   T e s t  
- #   S S H   K e y   A d d e d  
- 
+This project was built as both an academic endeavor and a production learning experience, demonstrating full-stack engineering principles at scale.

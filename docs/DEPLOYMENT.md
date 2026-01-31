@@ -1,154 +1,158 @@
-# TestDone Deployment Guide
+# Deployment Guide
 
 ## Prerequisites
 
-- Node.js 18+
-- PostgreSQL 15+
-- npm or yarn
+| Requirement | Version |
+|-------------|---------|
+| Node.js | 20.x LTS |
+| PostgreSQL | 14+ |
+| npm | 9+ |
+| Git | 2.x |
+
+---
 
 ## Local Development
 
 ### 1. Clone and Install
 
 ```bash
-cd testdone-app
-npm run install:all
+git clone https://github.com/ankushjha556/testdone-academic-platform.git
+cd testdone-academic-platform
 ```
 
-### 2. Environment Setup
+### 2. Backend Setup
 
 ```bash
+cd backend
+npm install
 cp .env.example .env
 ```
 
-Edit `.env` with your database credentials:
-```
+Configure `.env`:
+```env
 DATABASE_URL="postgresql://user:password@localhost:5432/testdone"
-JWT_ACCESS_SECRET="your-secure-secret-key"
-JWT_REFRESH_SECRET="another-secure-secret-key"
+JWT_ACCESS_SECRET="generate-with-openssl-rand-base64-32"
+JWT_REFRESH_SECRET="another-secure-secret"
+NODE_ENV=development
+PORT=5000
 ```
 
-### 3. Database Setup
+### 3. Database Initialization
 
 ```bash
-# Push schema to database
-cd backend
+npx prisma generate
 npx prisma db push
-
-# Seed sample data
 npm run db:seed
 ```
 
-### 4. Start Development Servers
+### 4. Frontend Setup
 
 ```bash
-# From root directory
-npm run dev
+cd ../frontend
+npm install
+cp .env.example .env.local
 ```
 
-This starts:
+Configure `.env.local`:
+```env
+NEXT_PUBLIC_API_URL=http://localhost:5000/api/v1
+```
+
+### 5. Start Development
+
+```bash
+# Terminal 1 - Backend
+cd backend && npm run dev
+
+# Terminal 2 - Frontend
+cd frontend && npm run dev
+```
+
+**Access Points**
 - Frontend: http://localhost:3000
 - Backend: http://localhost:5000
+- Admin: http://localhost:3000/admin
+
+---
 
 ## Production Deployment
 
-### Option 1: Traditional VPS
+### Server Requirements
 
-#### Backend (Node.js)
+| Component | Specification |
+|-----------|---------------|
+| OS | Ubuntu 22.04 LTS |
+| RAM | 2GB minimum |
+| Storage | 20GB SSD |
+| CPU | 2 vCPUs |
 
-```bash
-cd backend
-npm install
-npm run build
-npm start
+### Stack Overview
+
+```
+Internet → NGINX (443) → PM2 → Frontend (3000) / Backend (5000) → PostgreSQL
 ```
 
-Use PM2 for process management:
+### 1. Server Preparation
+
 ```bash
+# Update system
+sudo apt update && sudo apt upgrade -y
+
+# Install Node.js 20
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt install -y nodejs
+
+# Install PM2
 npm install -g pm2
-pm2 start dist/index.js --name testdone-api
+
+# Install PostgreSQL
+sudo apt install -y postgresql postgresql-contrib
 ```
 
-#### Frontend (Next.js)
+### 2. Application Deployment
 
 ```bash
-cd frontend
-npm install
+# Clone repository
+git clone https://github.com/ankushjha556/testdone-academic-platform.git
+cd testdone-academic-platform
+
+# Backend
+cd backend
+npm ci --production
 npm run build
-npm start
+pm2 start dist/index.js --name testdone-backend
+
+# Frontend
+cd ../frontend
+npm ci
+npm run build
+pm2 start npm --name testdone-frontend -- start
+
+# Save PM2 configuration
+pm2 save
+pm2 startup
 ```
 
-### Option 2: Docker
-
-Create `docker-compose.yml`:
-```yaml
-version: '3.8'
-services:
-  postgres:
-    image: postgres:15
-    environment:
-      POSTGRES_DB: testdone
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: password
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-    ports:
-      - "5432:5432"
-
-  backend:
-    build: ./backend
-    environment:
-      - DATABASE_URL=postgresql://postgres:password@postgres:5432/testdone
-    ports:
-      - "5000:5000"
-    depends_on:
-      - postgres
-
-  frontend:
-    build: ./frontend
-    environment:
-      - NEXT_PUBLIC_API_URL=http://backend:5000/api/v1
-    ports:
-      - "3000:3000"
-    depends_on:
-      - backend
-
-volumes:
-  postgres_data:
-```
-
-### Option 3: Vercel + Railway
-
-1. **Frontend on Vercel:**
-   - Connect GitHub repo
-   - Set root directory to `frontend`
-   - Add environment variables
-
-2. **Backend on Railway:**
-   - Connect GitHub repo
-   - Add PostgreSQL database
-   - Set environment variables
-   - Deploy backend folder
-
-## Nginx Configuration
+### 3. NGINX Configuration
 
 ```nginx
 server {
     listen 80;
-    server_name testdone.in;
+    server_name yourdomain.com;
     return 301 https://$server_name$request_uri;
 }
 
 server {
     listen 443 ssl http2;
-    server_name testdone.in;
+    server_name yourdomain.com;
 
-    ssl_certificate /path/to/cert.pem;
-    ssl_certificate_key /path/to/key.pem;
+    ssl_certificate /etc/letsencrypt/live/yourdomain.com/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/yourdomain.com/privkey.pem;
+    ssl_protocols TLSv1.2 TLSv1.3;
 
     # Frontend
     location / {
-        proxy_pass http://localhost:3000;
+        proxy_pass http://127.0.0.1:3000;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection 'upgrade';
@@ -158,55 +162,132 @@ server {
 
     # API
     location /api {
-        proxy_pass http://localhost:5000;
+        proxy_pass http://127.0.0.1:5000;
         proxy_http_version 1.1;
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     }
 }
 ```
 
+### 4. SSL Certificate
+
+```bash
+sudo apt install certbot python3-certbot-nginx
+sudo certbot --nginx -d yourdomain.com -d www.yourdomain.com
+```
+
+---
+
+## CI/CD Pipeline
+
+TestDone uses GitHub Actions for automated deployment.
+
+### Workflow Triggers
+
+| Event | Action |
+|-------|--------|
+| Push to `main` | Build, test, deploy |
+| Pull request | Build and test only |
+
+### Deployment Flow
+
+```
+Push → Build → Test → SSH to VPS → deploy.sh → Health check
+```
+
+### Required Secrets
+
+| Secret | Description |
+|--------|-------------|
+| `SSH_HOST` | VPS IP address |
+| `SSH_USER` | SSH username |
+| `SSH_PRIVATE_KEY` | ED25519 private key |
+
+---
+
 ## Environment Variables (Production)
 
-```bash
-# Database
-DATABASE_URL="postgresql://user:pass@host:5432/testdone"
+### Backend `.env`
 
-# App
+```env
+DATABASE_URL="postgresql://..."
+JWT_ACCESS_SECRET="..."
+JWT_REFRESH_SECRET="..."
 NODE_ENV=production
 PORT=5000
-NEXT_PUBLIC_API_URL=https://api.testdone.in/api/v1
-NEXT_PUBLIC_APP_URL=https://testdone.in
-
-# Security (use strong random values)
-JWT_ACCESS_SECRET="generate-with-openssl-rand-base64-32"
-JWT_REFRESH_SECRET="another-random-secret"
-
-# Optional
-SMTP_HOST=smtp.gmail.com
-RAZORPAY_KEY_ID=your_key
+CORS_ORIGIN=https://yourdomain.com
 ```
 
-## SSL Certificate
+### Frontend `.env`
 
-Use Let's Encrypt:
-```bash
-sudo certbot --nginx -d testdone.in -d www.testdone.in
+```env
+NEXT_PUBLIC_API_URL=https://yourdomain.com/api/v1
+NEXT_PUBLIC_APP_URL=https://yourdomain.com
 ```
+
+---
 
 ## Monitoring
 
-- Use PM2 for process management
-- Setup Sentry for error tracking
-- Use Datadog or New Relic for APM
-- Enable CloudWatch for AWS
-
-## Backup
+### PM2 Commands
 
 ```bash
-# Database backup
-pg_dump testdone > backup_$(date +%Y%m%d).sql
-
-# Restore
-psql testdone < backup_20250101.sql
+pm2 status          # Process status
+pm2 logs            # View logs
+pm2 monit           # Real-time monitor
+pm2 restart all     # Restart all processes
 ```
+
+### Health Checks
+
+```bash
+curl https://yourdomain.com           # Frontend check
+curl https://yourdomain.com/api/v1    # Backend check
+```
+
+---
+
+## Backup Strategy
+
+### Database Backup
+
+```bash
+# Manual backup
+pg_dump -U postgres testdone > backup_$(date +%Y%m%d_%H%M%S).sql
+
+# Automated (cron)
+0 2 * * * pg_dump -U postgres testdone > /backups/testdone_$(date +\%Y\%m\%d).sql
+```
+
+### Restore
+
+```bash
+psql -U postgres testdone < backup_20260131.sql
+```
+
+---
+
+## Rollback Procedure
+
+```bash
+# Execute rollback script
+./deploy/rollback.sh
+
+# Manual rollback
+git log --oneline -5        # Find previous commit
+git reset --hard <commit>   # Reset to commit
+pm2 restart all             # Restart services
+```
+
+---
+
+## Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| 502 Bad Gateway | Check if PM2 processes are running |
+| Database connection failed | Verify DATABASE_URL and PostgreSQL status |
+| SSL certificate error | Run `sudo certbot renew` |
+| Memory exhaustion | Increase swap or upgrade VPS |

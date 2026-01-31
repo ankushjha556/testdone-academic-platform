@@ -110,3 +110,27 @@ ecosystem.config.js.backup
 testdone_backup.sql
 testdone_app.tar.gz
 *.tar.gz
+
+# Development artifacts (exclude from public release)
+*.tar
+*.zip
+*.sql
+*.exe
+deploy_*.py
+check_*.py
+verify_*.py
+test_*.py
+*_debug.txt
+*_dump.log
+paramiko.log
+ingest_debug.txt
+nginx_config_backup
+raw_mock_test*.txt
+batch*_questions.txt
+exam_data.json
+exam_page.html
+stats_local.txt
+tests_list_remote.json
+temp_key.pem
+pscp.exe
+
