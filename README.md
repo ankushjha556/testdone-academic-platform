@@ -307,7 +307,7 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 ## Author
 
 **Ankush Jha**  
-B.Tech, IIT Patna
+BS, IIT Patna
 
 - GitHub: [@ankushjha556](https://github.com/ankushjha556)
 - Platform: [testdone.in](https://testdone.in)
